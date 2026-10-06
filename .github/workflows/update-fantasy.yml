@@ -16,67 +16,175 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download Sleeper data
+      - name: Download and process Sleeper data
+        env:
+          LEAGUE_ID: "1394662729981120512"
         run: |
-          LEAGUE_ID="1394662729981120512"
-
-          # Current NFL state
-          curl -sSf "https://api.sleeper.app/v1/state/nfl" > state.json
-
-          WEEK=$(python3 -c "import json; print(json.load(open('state.json'))['week'])")
-
-          echo "Current NFL week: $WEEK"
-
-          # League information
-          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID" > league.json
-
-          # League users
-          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID/users" > users.json
-
-          # All rosters
-          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID/rosters" > rosters.json
-
-          # Current week's matchups
-          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID/matchups/$WEEK" > matchups.json
-
-          # Current week's transactions
-          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID/transactions/$WEEK" > transactions.json
-
-          # Combine everything into one file
           python3 <<'PY'
           import json
+          import os
+          import urllib.request
           from datetime import datetime, timezone
 
-          def load(name):
-              with open(name) as f:
-                  return json.load(f)
+          BASE = "https://api.sleeper.app/v1"
+          LEAGUE_ID = os.environ["LEAGUE_ID"]
 
-          state = load("state.json")
+          def get(path):
+              request = urllib.request.Request(
+                  BASE + path,
+                  headers={"User-Agent": "Hyrum-Sleeper-Fantasy/1.0"}
+              )
+              with urllib.request.urlopen(request, timeout=120) as response:
+                  return json.load(response)
 
-          data = {
-              "updated_at": datetime.now(timezone.utc).isoformat(),
-              "current_week": state.get("week"),
+          print("Getting current NFL state...")
+          state = get("/state/nfl")
+          week = int(state.get("week") or 1)
+
+          print(f"Current week: {week}")
+
+          print("Getting league data...")
+          league = get(f"/league/{LEAGUE_ID}")
+          users = get(f"/league/{LEAGUE_ID}/users")
+          rosters = get(f"/league/{LEAGUE_ID}/rosters")
+          matchups = get(f"/league/{LEAGUE_ID}/matchups/{week}")
+          transactions = get(f"/league/{LEAGUE_ID}/transactions/{week}")
+
+          updated_at = datetime.now(timezone.utc).isoformat()
+
+          fantasy = {
+              "updated_at": updated_at,
+              "league_id": LEAGUE_ID,
+              "current_week": week,
               "season": state.get("season"),
               "season_type": state.get("season_type"),
-              "league": load("league.json"),
-              "users": load("users.json"),
-              "rosters": load("rosters.json"),
-              "matchups": load("matchups.json"),
-              "transactions": load("transactions.json")
+              "nfl_state": state,
+              "league": league,
+              "users": users,
+              "rosters": rosters,
+              "matchups": matchups,
+              "transactions": transactions
           }
 
-          with open("fantasy.json", "w") as f:
-              json.dump(data, f, indent=2)
-          PY
+          with open("fantasy.json", "w", encoding="utf-8") as f:
+              json.dump(fantasy, f, ensure_ascii=False, indent=2)
 
-          rm state.json league.json users.json rosters.json matchups.json transactions.json
+          print("Getting Sleeper NFL player database...")
+          players = get("/players/nfl")
+
+          # Every player currently belonging to a fantasy roster
+          rostered = set()
+
+          for roster in rosters:
+              for key in ("players", "starters", "reserve", "taxi"):
+                  for player_id in roster.get(key) or []:
+                      if player_id:
+                          rostered.add(str(player_id))
+
+          fantasy_positions = {"QB", "RB", "WR", "TE", "K", "DEF"}
+
+          fields = (
+              "full_name",
+              "first_name",
+              "last_name",
+              "position",
+              "fantasy_positions",
+              "team",
+              "status",
+              "active",
+              "injury_status",
+              "injury_notes",
+              "depth_chart_position",
+              "depth_chart_order",
+              "years_exp",
+              "age",
+              "number",
+              "search_rank"
+          )
+
+          available = []
+
+          for player_id, player in players.items():
+
+              # Already owned by someone in the league
+              if str(player_id) in rostered:
+                  continue
+
+              position = player.get("position")
+              positions = set(player.get("fantasy_positions") or [])
+
+              # Only fantasy-relevant positions
+              if (
+                  position not in fantasy_positions
+                  and not positions.intersection(fantasy_positions)
+              ):
+                  continue
+
+              # Remove obviously inactive historical players
+              if (
+                  player.get("active") is False
+                  and not player.get("team")
+                  and not player.get("injury_status")
+              ):
+                  continue
+
+              item = {
+                  "player_id": str(player_id)
+              }
+
+              for field in fields:
+                  item[field] = player.get(field)
+
+              available.append(item)
+
+          # Sleeper search rank gives us a useful initial ordering.
+          def sort_key(player):
+              rank = player.get("search_rank")
+
+              if not isinstance(rank, (int, float)):
+                  rank = 999999
+
+              return (
+                  rank,
+                  player.get("full_name") or ""
+              )
+
+          available.sort(key=sort_key)
+
+          available_data = {
+              "updated_at": updated_at,
+              "league_id": LEAGUE_ID,
+              "current_week": week,
+              "available_player_count": len(available),
+              "players": available
+          }
+
+          with open(
+              "available_players.json",
+              "w",
+              encoding="utf-8"
+          ) as f:
+              json.dump(
+                  available_data,
+                  f,
+                  ensure_ascii=False,
+                  indent=2
+              )
+
+          print(
+              f"Created available_players.json "
+              f"with {len(available)} available players."
+          )
+
+          print("Done.")
+          PY
 
       - name: Commit updated data
         run: |
           git config user.name "Sleeper Fantasy Bot"
           git config user.email "actions@github.com"
 
-          git add fantasy.json
+          git add fantasy.json available_players.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit"
