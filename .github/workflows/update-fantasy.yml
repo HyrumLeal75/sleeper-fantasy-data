@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: sleeper-fantasy-update
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -16,152 +20,425 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download and process Sleeper data
+      - name: Build fantasy database
         env:
           LEAGUE_ID: "1394662729981120512"
+          MY_USER_ID: "1399245104983650304"
+
         run: |
           python3 <<'PY'
           import json
           import os
           import urllib.request
-          from datetime import datetime, timezone
+          import hashlib
+          from datetime import datetime, timezone, timedelta
+
+          # ============================================================
+          # CONFIG
+          # ============================================================
+
+          SCHEMA_VERSION = 4
 
           BASE = "https://api.sleeper.app/v1"
-          LEAGUE_ID = os.environ["LEAGUE_ID"]
 
-          def get(path):
+          LEAGUE_ID = os.environ["LEAGUE_ID"]
+          MY_USER_ID = os.environ["MY_USER_ID"]
+
+          POSITIONS = [
+              "QB",
+              "RB",
+              "WR",
+              "TE",
+              "K",
+              "DEF"
+          ]
+
+          MAX_AVAILABLE = 50
+
+          CACHE_FILE = ".players_cache.json"
+
+          # ============================================================
+          # BASIC HELPERS
+          # ============================================================
+
+          def now():
+              return datetime.now(timezone.utc)
+
+          def now_iso():
+              return now().isoformat()
+
+          def api_get(path):
+              url = BASE + path
+
               request = urllib.request.Request(
-                  BASE + path,
-                  headers={"User-Agent": "Hyrum-Sleeper-Fantasy/1.0"}
+                  url,
+                  headers={
+                      "User-Agent":
+                          "Hyrum-Sleeper-Fantasy/4.0"
+                  }
               )
 
-              with urllib.request.urlopen(
-                  request,
-                  timeout=120
-              ) as response:
-                  return json.load(response)
+              try:
+                  with urllib.request.urlopen(
+                      request,
+                      timeout=120
+                  ) as response:
 
-          # -----------------------------------
-          # DOWNLOAD SLEEPER DATA
-          # -----------------------------------
+                      if response.status != 200:
+                          raise RuntimeError(
+                              f"HTTP {response.status}"
+                          )
 
-          print("Getting NFL state...")
+                      return json.load(response)
 
-          state = get("/state/nfl")
-          week = int(state.get("week") or 1)
+              except Exception as error:
+                  raise RuntimeError(
+                      f"Sleeper request failed "
+                      f"for {path}: {error}"
+                  )
 
-          print(f"Current week: {week}")
+          def atomic_save(filename, data):
+              temp = filename + ".tmp"
 
-          print("Getting league data...")
+              with open(
+                  temp,
+                  "w",
+                  encoding="utf-8"
+              ) as f:
 
-          league = get(
+                  json.dump(
+                      data,
+                      f,
+                      ensure_ascii=False,
+                      indent=2
+                  )
+
+              os.replace(
+                  temp,
+                  filename
+              )
+
+          # ============================================================
+          # CORE SLEEPER DATA
+          # ============================================================
+
+          print("Downloading Sleeper league data...")
+
+          state = api_get(
+              "/state/nfl"
+          )
+
+          league = api_get(
               f"/league/{LEAGUE_ID}"
           )
 
-          users = get(
+          users = api_get(
               f"/league/{LEAGUE_ID}/users"
           )
 
-          rosters = get(
+          rosters = api_get(
               f"/league/{LEAGUE_ID}/rosters"
           )
 
-          matchups = get(
-              f"/league/{LEAGUE_ID}/matchups/{week}"
+          # ============================================================
+          # VALIDATION BEFORE TOUCHING OUTPUT FILES
+          # ============================================================
+
+          if not isinstance(state, dict):
+              raise RuntimeError(
+                  "Invalid NFL state"
+              )
+
+          if not isinstance(league, dict):
+              raise RuntimeError(
+                  "Invalid league"
+              )
+
+          if str(
+              league.get("league_id")
+          ) != LEAGUE_ID:
+              raise RuntimeError(
+                  "League ID mismatch"
+              )
+
+          if not isinstance(users, list):
+              raise RuntimeError(
+                  "Invalid users"
+              )
+
+          if not isinstance(rosters, list):
+              raise RuntimeError(
+                  "Invalid rosters"
+              )
+
+          if len(rosters) == 0:
+              raise RuntimeError(
+                  "Sleeper returned no rosters"
+              )
+
+          season = state.get("season")
+
+          current_week = int(
+              state.get("week") or 1
           )
 
-          transactions = get(
-              f"/league/{LEAGUE_ID}/transactions/{week}"
-          )
+          # ============================================================
+          # PLAYER DATABASE CACHE
+          #
+          # Sleeper's /players/nfl response is large.
+          # Refresh once every 24 hours instead of every 6 hours.
+          # ============================================================
 
-          print("Getting NFL player database...")
+          players = None
+          use_cache = False
 
-          players = get("/players/nfl")
+          if os.path.exists(CACHE_FILE):
 
-          updated_at = datetime.now(
-              timezone.utc
-          ).isoformat()
+              try:
+                  with open(
+                      CACHE_FILE,
+                      "r",
+                      encoding="utf-8"
+                  ) as f:
 
-          # -----------------------------------
-          # PLAYER FUNCTIONS
-          # -----------------------------------
+                      cache = json.load(f)
+
+                  cache_time = datetime.fromisoformat(
+                      cache["updated_at"]
+                  )
+
+                  if (
+                      now() - cache_time
+                      <
+                      timedelta(hours=24)
+                  ):
+                      players = cache[
+                          "players"
+                      ]
+
+                      use_cache = True
+
+              except Exception:
+                  players = None
+
+          if players is None:
+
+              print(
+                  "Refreshing Sleeper player database..."
+              )
+
+              players = api_get(
+                  "/players/nfl"
+              )
+
+              if not isinstance(
+                  players,
+                  dict
+              ):
+                  raise RuntimeError(
+                      "Invalid player database"
+                  )
+
+              atomic_save(
+                  CACHE_FILE,
+                  {
+                      "updated_at":
+                          now_iso(),
+
+                      "players":
+                          players
+                  }
+              )
+
+          else:
+              print(
+                  "Using cached player database."
+              )
+
+          # ============================================================
+          # PLAYER HELPERS
+          # ============================================================
 
           def player_info(player_id):
 
-              if not player_id:
+              if player_id is None:
                   return None
 
-              player_id = str(player_id)
+              pid = str(player_id)
 
-              player = players.get(
-                  player_id,
+              p = players.get(
+                  pid,
                   {}
               )
 
               return {
-                  "player_id": player_id,
+                  "player_id":
+                      pid,
 
                   "name":
-                      player.get("full_name")
-                      or player.get("last_name")
-                      or player_id,
+                      p.get("full_name")
+                      or p.get("last_name")
+                      or pid,
 
                   "position":
-                      player.get("position"),
+                      p.get("position"),
 
                   "team":
-                      player.get("team"),
+                      p.get("team"),
 
                   "status":
-                      player.get("status"),
+                      p.get("status"),
 
                   "active":
-                      player.get("active"),
+                      p.get("active"),
 
                   "injury_status":
-                      player.get("injury_status"),
+                      p.get(
+                          "injury_status"
+                      ),
 
                   "injury_notes":
-                      player.get("injury_notes"),
+                      p.get(
+                          "injury_notes"
+                      ),
 
                   "depth_chart_position":
-                      player.get(
+                      p.get(
                           "depth_chart_position"
                       ),
 
                   "depth_chart_order":
-                      player.get(
+                      p.get(
                           "depth_chart_order"
+                      ),
+
+                  "search_rank":
+                      p.get(
+                          "search_rank"
                       )
               }
 
-          def convert_players(player_ids):
+          def convert(ids):
 
               return [
-                  player_info(player_id)
-                  for player_id in (player_ids or [])
-                  if player_id
+                  player_info(pid)
+                  for pid in (ids or [])
+                  if pid is not None
               ]
 
-          # -----------------------------------
-          # USER LOOKUP
-          # -----------------------------------
+          # ============================================================
+          # USERS
+          # ============================================================
 
           users_by_id = {
-              str(user["user_id"]): user
+              str(user.get("user_id")):
+                  user
+
               for user in users
+
+              if user.get(
+                  "user_id"
+              ) is not None
           }
 
-          # -----------------------------------
-          # BUILD HUMAN-READABLE TEAMS
-          # -----------------------------------
+          if MY_USER_ID not in users_by_id:
+              raise RuntimeError(
+                  "My user ID was not found"
+              )
+
+          # ============================================================
+          # LINEUP SLOTS
+          # ============================================================
+
+          roster_positions = (
+              league.get(
+                  "roster_positions"
+              )
+              or []
+          )
+
+          starter_slots = [
+              slot
+              for slot in roster_positions
+              if slot not in (
+                  "BN",
+                  "IR",
+                  "TAXI"
+              )
+          ]
+
+          def lineup_with_slots(ids):
+
+              ids = ids or []
+
+              counts = {}
+              totals = {}
+
+              for slot in starter_slots:
+                  totals[slot] = (
+                      totals.get(
+                          slot,
+                          0
+                      ) + 1
+                  )
+
+              lineup = []
+
+              for index, pid in enumerate(
+                  ids
+              ):
+
+                  if index < len(
+                      starter_slots
+                  ):
+                      base = starter_slots[
+                          index
+                      ]
+                  else:
+                      base = "STARTER"
+
+                  counts[base] = (
+                      counts.get(
+                          base,
+                          0
+                      ) + 1
+                  )
+
+                  if totals.get(
+                      base,
+                      1
+                  ) > 1:
+
+                      slot = (
+                          f"{base}"
+                          f"{counts[base]}"
+                      )
+
+                  else:
+                      slot = base
+
+                  lineup.append({
+                      "slot":
+                          slot,
+
+                      "player":
+                          player_info(pid)
+                  })
+
+              return lineup
+
+          # ============================================================
+          # BUILD TEAMS
+          # ============================================================
 
           teams = []
 
           for roster in rosters:
 
               owner_id = str(
-                  roster.get("owner_id")
+                  roster.get(
+                      "owner_id"
+                  )
               )
 
               user = users_by_id.get(
@@ -169,251 +446,990 @@ jobs:
                   {}
               )
 
-              metadata = user.get(
-                  "metadata"
-              ) or {}
-
-              starter_ids = set(
-                  str(x)
-                  for x in (
-                      roster.get("starters")
-                      or []
+              metadata = (
+                  user.get(
+                      "metadata"
                   )
-                  if x
+                  or {}
               )
 
-              reserve_ids = set(
-                  str(x)
-                  for x in (
-                      roster.get("reserve")
-                      or []
+              settings = (
+                  roster.get(
+                      "settings"
                   )
-                  if x
+                  or {}
               )
 
-              taxi_ids = set(
+              all_ids = [
                   str(x)
                   for x in (
-                      roster.get("taxi")
+                      roster.get(
+                          "players"
+                      )
                       or []
                   )
-                  if x
-              )
-
-              all_player_ids = [
-                  str(x)
-                  for x in (
-                      roster.get("players")
-                      or []
-                  )
-                  if x
+                  if x is not None
               ]
+
+              starter_ids = {
+                  str(x)
+                  for x in (
+                      roster.get(
+                          "starters"
+                      )
+                      or []
+                  )
+                  if x is not None
+              }
+
+              reserve_ids = {
+                  str(x)
+                  for x in (
+                      roster.get(
+                          "reserve"
+                      )
+                      or []
+                  )
+                  if x is not None
+              }
+
+              taxi_ids = {
+                  str(x)
+                  for x in (
+                      roster.get(
+                          "taxi"
+                      )
+                      or []
+                  )
+                  if x is not None
+              }
 
               bench_ids = [
-                  player_id
-                  for player_id in all_player_ids
+                  pid
+                  for pid in all_ids
                   if (
-                      player_id not in starter_ids
+                      pid not in starter_ids
                       and
-                      player_id not in reserve_ids
+                      pid not in reserve_ids
                       and
-                      player_id not in taxi_ids
+                      pid not in taxi_ids
                   )
               ]
+
+              fpts = (
+                  settings.get(
+                      "fpts",
+                      0
+                  )
+                  +
+                  settings.get(
+                      "fpts_decimal",
+                      0
+                  ) / 100
+              )
+
+              fpts_against = (
+                  settings.get(
+                      "fpts_against",
+                      0
+                  )
+                  +
+                  settings.get(
+                      "fpts_against_decimal",
+                      0
+                  ) / 100
+              )
 
               team = {
                   "roster_id":
-                      roster.get("roster_id"),
+                      roster.get(
+                          "roster_id"
+                      ),
 
                   "owner_id":
                       owner_id,
 
-                  "owner_username":
-                      user.get("display_name"),
+                  "username":
+                      user.get(
+                          "display_name"
+                      ),
 
                   "team_name":
-                      metadata.get("team_name")
-                      or user.get("display_name"),
+                      metadata.get(
+                          "team_name"
+                      )
+                      or user.get(
+                          "display_name"
+                      ),
 
                   "record": {
                       "wins":
-                          roster.get(
-                              "settings",
-                              {}
-                          ).get("wins"),
+                          settings.get(
+                              "wins",
+                              0
+                          ),
 
                       "losses":
-                          roster.get(
-                              "settings",
-                              {}
-                          ).get("losses"),
+                          settings.get(
+                              "losses",
+                              0
+                          ),
 
                       "ties":
-                          roster.get(
-                              "settings",
-                              {}
-                          ).get("ties"),
+                          settings.get(
+                              "ties",
+                              0
+                          ),
 
                       "points_for":
-                          roster.get(
-                              "settings",
-                              {}
-                          ).get("fpts"),
+                          round(
+                              fpts,
+                              2
+                          ),
 
                       "points_against":
-                          roster.get(
-                              "settings",
-                              {}
-                          ).get("fpts_against")
+                          round(
+                              fpts_against,
+                              2
+                          )
                   },
 
-                  "starters":
-                      convert_players(
-                          roster.get("starters")
+                  "waiver_position":
+                      settings.get(
+                          "waiver_position"
+                      ),
+
+                  "lineup":
+                      lineup_with_slots(
+                          roster.get(
+                              "starters"
+                          )
                       ),
 
                   "bench":
-                      convert_players(
+                      convert(
                           bench_ids
                       ),
 
                   "reserve":
-                      convert_players(
-                          roster.get("reserve")
+                      convert(
+                          roster.get(
+                              "reserve"
+                          )
                       ),
 
                   "taxi":
-                      convert_players(
-                          roster.get("taxi")
+                      convert(
+                          roster.get(
+                              "taxi"
+                          )
                       ),
 
                   "all_players":
-                      convert_players(
-                          roster.get("players")
+                      convert(
+                          all_ids
                       )
               }
 
-              teams.append(team)
+              teams.append(
+                  team
+              )
 
-          # -----------------------------------
-          # ADD NAMES TO CURRENT MATCHUPS
-          # -----------------------------------
+          teams_by_roster = {
+              team["roster_id"]:
+                  team
 
-          team_lookup = {
-              team["roster_id"]: team
               for team in teams
           }
 
-          readable_matchups = []
+          # ============================================================
+          # MY TEAM
+          # ============================================================
 
-          for matchup in matchups:
+          my_team = next(
+              (
+                  team
+                  for team in teams
+                  if team[
+                      "owner_id"
+                  ] == MY_USER_ID
+              ),
+              None
+          )
 
-              roster_id = matchup.get(
+          if my_team is None:
+              raise RuntimeError(
+                  "Could not identify my team"
+              )
+
+          MY_ROSTER_ID = (
+              my_team[
                   "roster_id"
+              ]
+          )
+
+          # ============================================================
+          # ROSTER CAPACITY
+          # ============================================================
+
+          bench_capacity = (
+              roster_positions.count(
+                  "BN"
               )
+          )
 
-              team = team_lookup.get(
-                  roster_id,
-                  {}
+          reserve_capacity = int(
+              (
+                  league.get(
+                      "settings"
+                  )
+                  or {}
+              ).get(
+                  "reserve_slots",
+                  0
               )
+          )
 
-              readable_matchups.append({
-                  "matchup_id":
-                      matchup.get("matchup_id"),
+          active_roster_count = (
+              len(
+                  my_team[
+                      "lineup"
+                  ]
+              )
+              +
+              len(
+                  my_team[
+                      "bench"
+                  ]
+              )
+          )
 
-                  "roster_id":
-                      roster_id,
+          active_capacity = (
+              len(
+                  starter_slots
+              )
+              +
+              bench_capacity
+          )
 
-                  "team_name":
-                      team.get("team_name"),
+          roster_capacity = {
+              "active_players":
+                  active_roster_count,
 
-                  "owner_username":
-                      team.get("owner_username"),
+              "active_capacity":
+                  active_capacity,
 
-                  "points":
-                      matchup.get("points"),
+              "open_active_slots":
+                  max(
+                      active_capacity
+                      -
+                      active_roster_count,
+                      0
+                  ),
 
-                  "starters":
-                      convert_players(
-                          matchup.get("starters")
+              "reserve_used":
+                  len(
+                      my_team[
+                          "reserve"
+                      ]
+                  ),
+
+              "reserve_capacity":
+                  reserve_capacity,
+
+              "reserve_available":
+                  max(
+                      reserve_capacity
+                      -
+                      len(
+                          my_team[
+                              "reserve"
+                          ]
                       ),
-
-                  "starters_points":
-                      matchup.get(
-                          "starters_points"
-                      ),
-
-                  "players":
-                      convert_players(
-                          matchup.get("players")
-                      )
-              })
-
-          # -----------------------------------
-          # FANTASY.JSON
-          # -----------------------------------
-
-          fantasy = {
-              "updated_at":
-                  updated_at,
-
-              "league_id":
-                  LEAGUE_ID,
-
-              "current_week":
-                  week,
-
-              "season":
-                  state.get("season"),
-
-              "season_type":
-                  state.get("season_type"),
-
-              "nfl_state":
-                  state,
-
-              "league":
-                  league,
-
-              # Easy-to-read version
-              "teams":
-                  teams,
-
-              "current_matchups":
-                  readable_matchups,
-
-              # Original Sleeper data
-              "raw": {
-                  "users":
-                      users,
-
-                  "rosters":
-                      rosters,
-
-                  "matchups":
-                      matchups,
-
-                  "transactions":
-                      transactions
-              }
+                      0
+                  )
           }
 
-          with open(
-              "fantasy.json",
-              "w",
-              encoding="utf-8"
-          ) as f:
+          # ============================================================
+          # STANDINGS
+          # ============================================================
 
-              json.dump(
-                  fantasy,
-                  f,
-                  ensure_ascii=False,
-                  indent=2
+          ordered_teams = sorted(
+              teams,
+              key=lambda team: (
+                  -team[
+                      "record"
+                  ][
+                      "wins"
+                  ],
+
+                  -team[
+                      "record"
+                  ][
+                      "points_for"
+                  ]
+              )
+          )
+
+          standings = []
+
+          for rank, team in enumerate(
+              ordered_teams,
+              start=1
+          ):
+
+              standings.append({
+                  "rank":
+                      rank,
+
+                  "roster_id":
+                      team[
+                          "roster_id"
+                      ],
+
+                  "team_name":
+                      team[
+                          "team_name"
+                      ],
+
+                  "username":
+                      team[
+                          "username"
+                      ],
+
+                  **team["record"],
+
+                  "waiver_position":
+                      team[
+                          "waiver_position"
+                      ]
+              })
+
+          my_standing = next(
+              (
+                  row
+                  for row in standings
+                  if row[
+                      "roster_id"
+                  ]
+                  == MY_ROSTER_ID
+              ),
+              None
+          )
+
+          # ============================================================
+          # WAIVER ORDER
+          # ============================================================
+
+          waiver_order = sorted(
+              [
+                  {
+                      "waiver_position":
+                          team[
+                              "waiver_position"
+                          ],
+
+                      "roster_id":
+                          team[
+                              "roster_id"
+                          ],
+
+                      "team_name":
+                          team[
+                              "team_name"
+                          ]
+                  }
+
+                  for team in teams
+
+                  if team[
+                      "waiver_position"
+                  ] is not None
+              ],
+
+              key=lambda x:
+                  x[
+                      "waiver_position"
+                  ]
+          )
+
+          # ============================================================
+          # HISTORY + TRANSACTIONS
+          # ============================================================
+
+          history = []
+          all_transactions = []
+          current_matchups = []
+
+          for week in range(
+              1,
+              current_week + 1
+          ):
+
+              print(
+                  f"Processing Week {week}..."
               )
 
-          # -----------------------------------
-          # FIND ROSTERED PLAYERS
-          # -----------------------------------
+              matchups = api_get(
+                  f"/league/"
+                  f"{LEAGUE_ID}/"
+                  f"matchups/{week}"
+              )
+
+              transactions = api_get(
+                  f"/league/"
+                  f"{LEAGUE_ID}/"
+                  f"transactions/{week}"
+              )
+
+              if not isinstance(
+                  matchups,
+                  list
+              ):
+                  raise RuntimeError(
+                      f"Invalid Week {week} "
+                      f"matchups"
+                  )
+
+              if not isinstance(
+                  transactions,
+                  list
+              ):
+                  raise RuntimeError(
+                      f"Invalid Week {week} "
+                      f"transactions"
+                  )
+
+              if week == current_week:
+                  current_matchups = (
+                      matchups
+                  )
+
+              # --------------------------------------------------------
+              # MATCHUPS
+              # --------------------------------------------------------
+
+              groups = {}
+
+              for entry in matchups:
+
+                  matchup_id = (
+                      entry.get(
+                          "matchup_id"
+                      )
+                  )
+
+                  if matchup_id is None:
+                      continue
+
+                  groups.setdefault(
+                      matchup_id,
+                      []
+                  ).append(
+                      entry
+                  )
+
+              games = []
+              my_week = None
+
+              for matchup_id, entries in (
+                  groups.items()
+              ):
+
+                  game_teams = []
+
+                  for entry in entries:
+
+                      rid = entry.get(
+                          "roster_id"
+                      )
+
+                      team = (
+                          teams_by_roster.get(
+                              rid,
+                              {}
+                          )
+                      )
+
+                      starter_ids = (
+                          entry.get(
+                              "starters"
+                          )
+                          or []
+                      )
+
+                      starter_points = (
+                          entry.get(
+                              "starters_points"
+                          )
+                          or []
+                      )
+
+                      lineup = []
+
+                      for i, pid in enumerate(
+                          starter_ids
+                      ):
+
+                          slot = (
+                              starter_slots[i]
+                              if i
+                              < len(
+                                  starter_slots
+                              )
+                              else "STARTER"
+                          )
+
+                          points = (
+                              starter_points[i]
+                              if i
+                              < len(
+                                  starter_points
+                              )
+                              else None
+                          )
+
+                          lineup.append({
+                              "slot":
+                                  slot,
+
+                              "player":
+                                  player_info(
+                                      pid
+                                  ),
+
+                              "points":
+                                  points
+                          })
+
+                      player_points = (
+                          entry.get(
+                              "players_points"
+                          )
+                          or {}
+                      )
+
+                      starters_set = {
+                          str(x)
+                          for x
+                          in starter_ids
+                          if x is not None
+                      }
+
+                      bench = []
+
+                      for pid in (
+                          entry.get(
+                              "players"
+                          )
+                          or []
+                      ):
+
+                          if (
+                              str(pid)
+                              in starters_set
+                          ):
+                              continue
+
+                          bench.append({
+                              "player":
+                                  player_info(
+                                      pid
+                                  ),
+
+                              "points":
+                                  player_points.get(
+                                      str(pid)
+                                  )
+                          })
+
+                      game_team = {
+                          "roster_id":
+                              rid,
+
+                          "team_name":
+                              team.get(
+                                  "team_name"
+                              ),
+
+                          "username":
+                              team.get(
+                                  "username"
+                              ),
+
+                          "points":
+                              entry.get(
+                                  "points"
+                              ),
+
+                          "lineup":
+                              lineup,
+
+                          "bench":
+                              bench
+                      }
+
+                      game_teams.append(
+                          game_team
+                      )
+
+                  game = {
+                      "matchup_id":
+                          matchup_id,
+
+                      "teams":
+                          game_teams
+                  }
+
+                  games.append(
+                      game
+                  )
+
+                  mine = next(
+                      (
+                          team
+                          for team
+                          in game_teams
+                          if team[
+                              "roster_id"
+                          ]
+                          == MY_ROSTER_ID
+                      ),
+                      None
+                  )
+
+                  opponent = next(
+                      (
+                          team
+                          for team
+                          in game_teams
+                          if team[
+                              "roster_id"
+                          ]
+                          != MY_ROSTER_ID
+                      ),
+                      None
+                  )
+
+                  if mine:
+
+                      result = None
+
+                      if (
+                          opponent
+                          and
+                          mine["points"]
+                          is not None
+                          and
+                          opponent[
+                              "points"
+                          ] is not None
+                      ):
+
+                          if (
+                              mine["points"]
+                              >
+                              opponent[
+                                  "points"
+                              ]
+                          ):
+                              result = "W"
+
+                          elif (
+                              mine["points"]
+                              <
+                              opponent[
+                                  "points"
+                              ]
+                          ):
+                              result = "L"
+
+                          else:
+                              result = "T"
+
+                      my_week = {
+                          "week":
+                              week,
+
+                          "result":
+                              result,
+
+                          "points":
+                              mine[
+                                  "points"
+                              ],
+
+                          "lineup":
+                              mine[
+                                  "lineup"
+                              ],
+
+                          "bench":
+                              mine[
+                                  "bench"
+                              ],
+
+                          "opponent":
+                              opponent
+                      }
+
+              # --------------------------------------------------------
+              # TRANSACTIONS
+              # --------------------------------------------------------
+
+              readable_transactions = []
+
+              for tx in transactions:
+
+                  tx_settings = (
+                      tx.get(
+                          "settings"
+                      )
+                      or {}
+                  )
+
+                  adds = []
+
+                  for pid, rid in (
+                      tx.get(
+                          "adds"
+                      )
+                      or {}
+                  ).items():
+
+                      adds.append({
+                          "player":
+                              player_info(
+                                  pid
+                              ),
+
+                          "roster_id":
+                              rid,
+
+                          "team_name":
+                              teams_by_roster.get(
+                                  rid,
+                                  {}
+                              ).get(
+                                  "team_name"
+                              )
+                      })
+
+                  drops = []
+
+                  for pid, rid in (
+                      tx.get(
+                          "drops"
+                      )
+                      or {}
+                  ).items():
+
+                      drops.append({
+                          "player":
+                              player_info(
+                                  pid
+                              ),
+
+                          "roster_id":
+                              rid,
+
+                          "team_name":
+                              teams_by_roster.get(
+                                  rid,
+                                  {}
+                              ).get(
+                                  "team_name"
+                              )
+                      })
+
+                  readable = {
+                      "transaction_id":
+                          tx.get(
+                              "transaction_id"
+                          ),
+
+                      "week":
+                          week,
+
+                      "type":
+                          tx.get(
+                              "type"
+                          ),
+
+                      "status":
+                          tx.get(
+                              "status"
+                          ),
+
+                      "created":
+                          tx.get(
+                              "created"
+                          ),
+
+                      "roster_ids":
+                          tx.get(
+                              "roster_ids"
+                          )
+                          or [],
+
+                      "adds":
+                          adds,
+
+                      "drops":
+                          drops,
+
+                      "waiver_bid":
+                          tx_settings.get(
+                              "waiver_bid"
+                          )
+                  }
+
+                  readable_transactions.append(
+                      readable
+                  )
+
+                  all_transactions.append(
+                      readable
+                  )
+
+              history.append({
+                  "week":
+                      week,
+
+                  "my_result":
+                      my_week,
+
+                  "matchups":
+                      games,
+
+                  "transactions":
+                      readable_transactions
+              })
+
+          # ============================================================
+          # CURRENT MATCHUP
+          # ============================================================
+
+          current_matchup = None
+
+          my_entry = next(
+              (
+                  entry
+                  for entry
+                  in current_matchups
+                  if entry.get(
+                      "roster_id"
+                  )
+                  == MY_ROSTER_ID
+              ),
+              None
+          )
+
+          if my_entry:
+
+              matchup_id = (
+                  my_entry.get(
+                      "matchup_id"
+                  )
+              )
+
+              opponent_entry = next(
+                  (
+                      entry
+                      for entry
+                      in current_matchups
+                      if (
+                          entry.get(
+                              "matchup_id"
+                          )
+                          == matchup_id
+                          and
+                          entry.get(
+                              "roster_id"
+                          )
+                          != MY_ROSTER_ID
+                      )
+                  ),
+                  None
+              )
+
+              opponent_team = {}
+
+              if opponent_entry:
+
+                  opponent_team = (
+                      teams_by_roster.get(
+                          opponent_entry.get(
+                              "roster_id"
+                          ),
+                          {}
+                      )
+                  )
+
+              current_matchup = {
+                  "week":
+                      current_week,
+
+                  "matchup_id":
+                      matchup_id,
+
+                  "my_points":
+                      my_entry.get(
+                          "points"
+                      ),
+
+                  "my_lineup":
+                      lineup_with_slots(
+                          my_entry.get(
+                              "starters"
+                          )
+                      ),
+
+                  "opponent": {
+                      "roster_id":
+                          (
+                              opponent_entry.get(
+                                  "roster_id"
+                              )
+                              if opponent_entry
+                              else None
+                          ),
+
+                      "team_name":
+                          opponent_team.get(
+                              "team_name"
+                          ),
+
+                      "username":
+                          opponent_team.get(
+                              "username"
+                          ),
+
+                      "points":
+                          (
+                              opponent_entry.get(
+                                  "points"
+                              )
+                              if opponent_entry
+                              else None
+                          ),
+
+                      "lineup":
+                          (
+                              lineup_with_slots(
+                                  opponent_entry.get(
+                                      "starters"
+                                  )
+                              )
+                              if opponent_entry
+                              else []
+                          )
+                  }
+              }
+
+          # ============================================================
+          # AVAILABLE PLAYERS
+          # ============================================================
 
           rostered = set()
 
@@ -426,114 +1442,60 @@ jobs:
                   "taxi"
               ):
 
-                  for player_id in (
-                      roster.get(key) or []
+                  for pid in (
+                      roster.get(
+                          key
+                      )
+                      or []
                   ):
 
-                      if player_id:
+                      if pid is not None:
                           rostered.add(
-                              str(player_id)
+                              str(pid)
                           )
 
-          # -----------------------------------
-          # AVAILABLE PLAYERS
-          # -----------------------------------
-
-          positions = [
-              "QB",
-              "RB",
-              "WR",
-              "TE",
-              "K",
-              "DEF"
-          ]
-
-          available_by_position = {
+          available = {
               position: []
-              for position in positions
+              for position in POSITIONS
           }
 
-          for player_id, player in players.items():
+          for pid, player in (
+              players.items()
+          ):
 
-              player_id = str(player_id)
+              pid = str(pid)
 
-              if player_id in rostered:
+              if pid in rostered:
                   continue
 
               position = player.get(
                   "position"
               )
 
-              if position not in positions:
+              if position not in POSITIONS:
                   continue
 
-              # Ignore old inactive players
-              # that no longer have an NFL team.
+              # Prevent historical players
+              # without a current NFL team
+              # from polluting waivers.
               if (
-                  player.get("active") is False
+                  position != "DEF"
                   and
-                  not player.get("team")
-                  and
-                  not player.get("injury_status")
+                  not player.get(
+                      "team"
+                  )
               ):
                   continue
 
-              item = {
-                  "player_id":
-                      player_id,
-
-                  "name":
-                      player.get("full_name")
-                      or player.get("last_name")
-                      or player_id,
-
-                  "position":
-                      position,
-
-                  "team":
-                      player.get("team"),
-
-                  "status":
-                      player.get("status"),
-
-                  "active":
-                      player.get("active"),
-
-                  "injury_status":
-                      player.get(
-                          "injury_status"
-                      ),
-
-                  "injury_notes":
-                      player.get(
-                          "injury_notes"
-                      ),
-
-                  "depth_chart_position":
-                      player.get(
-                          "depth_chart_position"
-                      ),
-
-                  "depth_chart_order":
-                      player.get(
-                          "depth_chart_order"
-                      ),
-
-                  "search_rank":
-                      player.get(
-                          "search_rank"
-                      )
-              }
-
-              available_by_position[
+              available[
                   position
-              ].append(item)
+              ].append(
+                  player_info(pid)
+              )
 
-          # -----------------------------------
-          # SORT AVAILABLE PLAYERS
-          # -----------------------------------
-
-          def sort_key(player):
+          def free_agent_sort(
+              player
+          ):
 
               rank = player.get(
                   "search_rank"
@@ -545,103 +1507,479 @@ jobs:
               ):
                   rank = 999999
 
-              return (
-                  rank,
-                  player.get("name") or ""
+              active_penalty = (
+                  0
+                  if player.get(
+                      "active"
+                  )
+                  else 1
               )
 
-          final_available = {}
+              return (
+                  active_penalty,
+                  rank,
+                  player.get(
+                      "name"
+                  )
+                  or ""
+              )
 
-          for position in positions:
+          for position in POSITIONS:
 
-              pool = available_by_position[
+              available[
                   position
+              ].sort(
+                  key=free_agent_sort
+              )
+
+              available[
+                  position
+              ] = available[
+                  position
+              ][:MAX_AVAILABLE]
+
+          # ============================================================
+          # SEASON SUMMARY
+          # ============================================================
+
+          completed = [
+              week[
+                  "my_result"
               ]
 
-              pool.sort(
-                  key=sort_key
+              for week in history
+
+              if (
+                  week.get(
+                      "my_result"
+                  )
+                  and
+                  week[
+                      "my_result"
+                  ].get(
+                      "result"
+                  )
+                  in (
+                      "W",
+                      "L",
+                      "T"
+                  )
               )
+          ]
 
-              final_available[
-                  position
-              ] = pool[:50]
+          scores = [
+              result["points"]
+              for result in completed
+              if result.get(
+                  "points"
+              ) is not None
+          ]
 
-          # -----------------------------------
-          # AVAILABLE_PLAYERS.JSON
-          # -----------------------------------
+          season_summary = {
+              "wins":
+                  sum(
+                      1
+                      for result
+                      in completed
+                      if result[
+                          "result"
+                      ] == "W"
+                  ),
 
-          available_data = {
-              "updated_at":
-                  updated_at,
+              "losses":
+                  sum(
+                      1
+                      for result
+                      in completed
+                      if result[
+                          "result"
+                      ] == "L"
+                  ),
+
+              "ties":
+                  sum(
+                      1
+                      for result
+                      in completed
+                      if result[
+                          "result"
+                      ] == "T"
+                  ),
+
+              "average_points":
+                  (
+                      round(
+                          sum(scores)
+                          /
+                          len(scores),
+                          2
+                      )
+                      if scores
+                      else None
+                  ),
+
+              "highest_score":
+                  (
+                      max(scores)
+                      if scores
+                      else None
+                  ),
+
+              "lowest_score":
+                  (
+                      min(scores)
+                      if scores
+                      else None
+                  )
+          }
+
+          # ============================================================
+          # MY TRANSACTIONS
+          # ============================================================
+
+          my_transactions = [
+              tx
+              for tx in all_transactions
+              if MY_ROSTER_ID
+              in (
+                  tx.get(
+                      "roster_ids"
+                  )
+                  or []
+              )
+          ]
+
+          recent_transactions = sorted(
+              my_transactions,
+              key=lambda tx:
+                  tx.get(
+                      "created"
+                  )
+                  or 0,
+              reverse=True
+          )[:10]
+
+          # ============================================================
+          # COMMON METADATA
+          # ============================================================
+
+          common = {
+              "schema_version":
+                  SCHEMA_VERSION,
 
               "league_id":
                   LEAGUE_ID,
 
-              "current_week":
-                  week,
+              "season":
+                  season,
 
-              "limits": {
-                  "per_position": 50
+              "current_week":
+                  current_week
+          }
+
+          # ============================================================
+          # DASHBOARD.JSON
+          # ============================================================
+
+          dashboard = {
+              **common,
+
+              "team_name":
+                  my_team[
+                      "team_name"
+                  ],
+
+              "username":
+                  my_team[
+                      "username"
+                  ],
+
+              "roster_id":
+                  MY_ROSTER_ID,
+
+              "standing":
+                  my_standing,
+
+              "season_summary":
+                  season_summary,
+
+              "waiver_position":
+                  my_team[
+                      "waiver_position"
+                  ],
+
+              "roster_capacity":
+                  roster_capacity,
+
+              "lineup":
+                  my_team[
+                      "lineup"
+                  ],
+
+              "bench":
+                  my_team[
+                      "bench"
+                  ],
+
+              "reserve":
+                  my_team[
+                      "reserve"
+                  ],
+
+              "current_matchup":
+                  current_matchup,
+
+              "recent_transactions":
+                  recent_transactions,
+
+              "available_preview": {
+                  position:
+                      available[
+                          position
+                      ][:10]
+
+                  for position
+                  in POSITIONS
+              }
+          }
+
+          # ============================================================
+          # MY_TEAM.JSON
+          # ============================================================
+
+          my_team_file = {
+              **common,
+
+              "league_name":
+                  league.get(
+                      "name"
+                  ),
+
+              "team":
+                  my_team,
+
+              "standing":
+                  my_standing,
+
+              "season_summary":
+                  season_summary,
+
+              "roster_capacity":
+                  roster_capacity,
+
+              "current_matchup":
+                  current_matchup,
+
+              "season_results": [
+                  week[
+                      "my_result"
+                  ]
+
+                  for week in history
+
+                  if week.get(
+                      "my_result"
+                  )
+              ],
+
+              "transactions":
+                  my_transactions
+          }
+
+          # ============================================================
+          # AVAILABLE_PLAYERS.JSON
+          # ============================================================
+
+          available_file = {
+              **common,
+
+              "methodology": {
+                  "availability":
+                      (
+                          "Player does not appear "
+                          "on any current roster."
+                      ),
+
+                  "ranking_warning":
+                      (
+                          "Sleeper search_rank is "
+                          "used only for compact "
+                          "ordering and is not a "
+                          "weekly projection."
+                      ),
+
+                  "max_per_position":
+                      MAX_AVAILABLE
               },
 
               "counts": {
                   position:
                       len(
-                          final_available[
+                          available[
                               position
                           ]
                       )
-                  for position in positions
+
+                  for position
+                  in POSITIONS
               },
 
               "players":
-                  final_available
+                  available
           }
 
-          with open(
+          # ============================================================
+          # FANTASY.JSON
+          # ============================================================
+
+          fantasy_file = {
+              **common,
+
+              "league": {
+                  "name":
+                      league.get(
+                          "name"
+                      ),
+
+                  "status":
+                      league.get(
+                          "status"
+                      ),
+
+                  "total_rosters":
+                      league.get(
+                          "total_rosters"
+                      ),
+
+                  "roster_positions":
+                      roster_positions,
+
+                  "settings":
+                      league.get(
+                          "settings"
+                      ),
+
+                  "scoring_settings":
+                      league.get(
+                          "scoring_settings"
+                      )
+              },
+
+              "standings":
+                  standings,
+
+              "waiver_order":
+                  waiver_order,
+
+              "teams":
+                  teams,
+
+              "history":
+                  history
+          }
+
+          # ============================================================
+          # FINAL VALIDATION
+          # ============================================================
+
+          if len(teams) != len(
+              rosters
+          ):
+              raise RuntimeError(
+                  "Team count validation failed"
+              )
+
+          if dashboard[
+              "roster_id"
+          ] != MY_ROSTER_ID:
+              raise RuntimeError(
+                  "Dashboard roster validation "
+                  "failed"
+              )
+
+          if not dashboard[
+              "team_name"
+          ]:
+              raise RuntimeError(
+                  "Dashboard team name missing"
+              )
+
+          # ============================================================
+          # SAVE ONLY AFTER EVERYTHING SUCCEEDED
+          # ============================================================
+
+          atomic_save(
+              "dashboard.json",
+              dashboard
+          )
+
+          atomic_save(
+              "my_team.json",
+              my_team_file
+          )
+
+          atomic_save(
               "available_players.json",
-              "w",
-              encoding="utf-8"
-          ) as f:
+              available_file
+          )
 
-              json.dump(
-                  available_data,
-                  f,
-                  ensure_ascii=False,
-                  indent=2
+          atomic_save(
+              "fantasy.json",
+              fantasy_file
+          )
+
+          print("")
+          print("============================")
+          print("SUCCESS")
+          print("============================")
+          print(
+              "Team:",
+              my_team[
+                  "team_name"
+              ]
+          )
+          print(
+              "Week:",
+              current_week
+          )
+          print(
+              "Waiver:",
+              my_team[
+                  "waiver_position"
+              ]
+          )
+          print(
+              "Open roster slots:",
+              roster_capacity[
+                  "open_active_slots"
+              ]
+          )
+          print(
+              "Player DB cache:",
+              (
+                  "cached"
+                  if use_cache
+                  else "refreshed"
               )
-
-          print("Files generated successfully.")
-
-          for team in teams:
-              print(
-                  f"{team['roster_id']}: "
-                  f"{team['team_name']}"
-              )
-
-          print("Available players:")
-
-          for position in positions:
-              print(
-                  position,
-                  len(
-                      final_available[
-                          position
-                      ]
-                  )
-              )
+          )
 
           PY
 
-      - name: Commit updated data
+      - name: Commit meaningful fantasy changes
         run: |
           git config user.name "Sleeper Fantasy Bot"
           git config user.email "actions@github.com"
 
-          git add fantasy.json available_players.json
+          git add \
+            dashboard.json \
+            my_team.json \
+            fantasy.json \
+            available_players.json \
+            .players_cache.json
 
           if git diff --cached --quiet; then
-            echo "No changes to commit"
+            echo "No Sleeper data changed."
+            echo "No commit necessary."
           else
             git commit -m "Update Sleeper fantasy data"
             git push
