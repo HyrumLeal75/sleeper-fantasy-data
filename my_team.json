@@ -459,10 +459,10 @@
   "season_summary": {
     "wins": 2,
     "losses": 2,
-    "ties": 1,
-    "average_points": 110.06,
+    "ties": 0,
+    "average_points": 137.58,
     "highest_score": 177.42,
-    "lowest_score": 0.0
+    "lowest_score": 110.12
   },
   "roster_capacity": {
     "active_players": 14,
