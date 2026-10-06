@@ -1,0 +1,86 @@
+name: Update Sleeper Fantasy Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download Sleeper data
+        run: |
+          LEAGUE_ID="1394662729981120512"
+
+          # Current NFL state
+          curl -sSf "https://api.sleeper.app/v1/state/nfl" > state.json
+
+          WEEK=$(python3 -c "import json; print(json.load(open('state.json'))['week'])")
+
+          echo "Current NFL week: $WEEK"
+
+          # League information
+          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID" > league.json
+
+          # League users
+          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID/users" > users.json
+
+          # All rosters
+          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID/rosters" > rosters.json
+
+          # Current week's matchups
+          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID/matchups/$WEEK" > matchups.json
+
+          # Current week's transactions
+          curl -sSf "https://api.sleeper.app/v1/league/$LEAGUE_ID/transactions/$WEEK" > transactions.json
+
+          # Combine everything into one file
+          python3 <<'PY'
+          import json
+          from datetime import datetime, timezone
+
+          def load(name):
+              with open(name) as f:
+                  return json.load(f)
+
+          state = load("state.json")
+
+          data = {
+              "updated_at": datetime.now(timezone.utc).isoformat(),
+              "current_week": state.get("week"),
+              "season": state.get("season"),
+              "season_type": state.get("season_type"),
+              "league": load("league.json"),
+              "users": load("users.json"),
+              "rosters": load("rosters.json"),
+              "matchups": load("matchups.json"),
+              "transactions": load("transactions.json")
+          }
+
+          with open("fantasy.json", "w") as f:
+              json.dump(data, f, indent=2)
+          PY
+
+          rm state.json league.json users.json rosters.json matchups.json transactions.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name "Sleeper Fantasy Bot"
+          git config user.email "actions@github.com"
+
+          git add fantasy.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update Sleeper fantasy data"
+            git push
+          fi
