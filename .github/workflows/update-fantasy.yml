@@ -1540,7 +1540,24 @@ jobs:
 
           # ============================================================
           # SEASON SUMMARY
+          #
+          # Only weeks officially scored by Sleeper are included.
+          # This prevents the current week (usually 0-0 before games)
+          # from being incorrectly counted as a tie.
           # ============================================================
+
+          last_scored_week = int(
+              (
+                  league.get(
+                      "settings"
+                  )
+                  or {}
+              ).get(
+                  "last_scored_leg",
+                  0
+              )
+              or 0
+          )
 
           completed = [
               week[
@@ -1551,9 +1568,19 @@ jobs:
 
               if (
                   week.get(
+                      "week",
+                      0
+                  )
+                  <= last_scored_week
+
+                  and
+
+                  week.get(
                       "my_result"
                   )
+
                   and
+
                   week[
                       "my_result"
                   ].get(
