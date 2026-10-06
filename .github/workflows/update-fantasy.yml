@@ -34,62 +34,376 @@ jobs:
                   BASE + path,
                   headers={"User-Agent": "Hyrum-Sleeper-Fantasy/1.0"}
               )
-              with urllib.request.urlopen(request, timeout=120) as response:
+
+              with urllib.request.urlopen(
+                  request,
+                  timeout=120
+              ) as response:
                   return json.load(response)
 
+          # -----------------------------------
+          # DOWNLOAD SLEEPER DATA
+          # -----------------------------------
+
           print("Getting NFL state...")
+
           state = get("/state/nfl")
           week = int(state.get("week") or 1)
 
           print(f"Current week: {week}")
 
           print("Getting league data...")
-          league = get(f"/league/{LEAGUE_ID}")
-          users = get(f"/league/{LEAGUE_ID}/users")
-          rosters = get(f"/league/{LEAGUE_ID}/rosters")
-          matchups = get(f"/league/{LEAGUE_ID}/matchups/{week}")
-          transactions = get(f"/league/{LEAGUE_ID}/transactions/{week}")
+
+          league = get(
+              f"/league/{LEAGUE_ID}"
+          )
+
+          users = get(
+              f"/league/{LEAGUE_ID}/users"
+          )
+
+          rosters = get(
+              f"/league/{LEAGUE_ID}/rosters"
+          )
+
+          matchups = get(
+              f"/league/{LEAGUE_ID}/matchups/{week}"
+          )
+
+          transactions = get(
+              f"/league/{LEAGUE_ID}/transactions/{week}"
+          )
 
           print("Getting NFL player database...")
+
           players = get("/players/nfl")
 
-          updated_at = datetime.now(timezone.utc).isoformat()
+          updated_at = datetime.now(
+              timezone.utc
+          ).isoformat()
 
-          # -----------------------------
-          # PLAYER LOOKUP
-          # -----------------------------
+          # -----------------------------------
+          # PLAYER FUNCTIONS
+          # -----------------------------------
 
-          def player_name(player_id):
+          def player_info(player_id):
+
               if not player_id:
                   return None
 
-              player = players.get(str(player_id), {})
+              player_id = str(player_id)
 
-              return (
-                  player.get("full_name")
-                  or player.get("last_name")
-                  or str(player_id)
+              player = players.get(
+                  player_id,
+                  {}
               )
 
-          # -----------------------------
-          # FANTASY.JSON
-          # -----------------------------
+              return {
+                  "player_id": player_id,
 
-          fantasy = {
-              "updated_at": updated_at,
-              "league_id": LEAGUE_ID,
-              "current_week": week,
-              "season": state.get("season"),
-              "season_type": state.get("season_type"),
-              "nfl_state": state,
-              "league": league,
-              "users": users,
-              "rosters": rosters,
-              "matchups": matchups,
-              "transactions": transactions
+                  "name":
+                      player.get("full_name")
+                      or player.get("last_name")
+                      or player_id,
+
+                  "position":
+                      player.get("position"),
+
+                  "team":
+                      player.get("team"),
+
+                  "status":
+                      player.get("status"),
+
+                  "active":
+                      player.get("active"),
+
+                  "injury_status":
+                      player.get("injury_status"),
+
+                  "injury_notes":
+                      player.get("injury_notes"),
+
+                  "depth_chart_position":
+                      player.get(
+                          "depth_chart_position"
+                      ),
+
+                  "depth_chart_order":
+                      player.get(
+                          "depth_chart_order"
+                      )
+              }
+
+          def convert_players(player_ids):
+
+              return [
+                  player_info(player_id)
+                  for player_id in (player_ids or [])
+                  if player_id
+              ]
+
+          # -----------------------------------
+          # USER LOOKUP
+          # -----------------------------------
+
+          users_by_id = {
+              str(user["user_id"]): user
+              for user in users
           }
 
-          with open("fantasy.json", "w", encoding="utf-8") as f:
+          # -----------------------------------
+          # BUILD HUMAN-READABLE TEAMS
+          # -----------------------------------
+
+          teams = []
+
+          for roster in rosters:
+
+              owner_id = str(
+                  roster.get("owner_id")
+              )
+
+              user = users_by_id.get(
+                  owner_id,
+                  {}
+              )
+
+              metadata = user.get(
+                  "metadata"
+              ) or {}
+
+              starter_ids = set(
+                  str(x)
+                  for x in (
+                      roster.get("starters")
+                      or []
+                  )
+                  if x
+              )
+
+              reserve_ids = set(
+                  str(x)
+                  for x in (
+                      roster.get("reserve")
+                      or []
+                  )
+                  if x
+              )
+
+              taxi_ids = set(
+                  str(x)
+                  for x in (
+                      roster.get("taxi")
+                      or []
+                  )
+                  if x
+              )
+
+              all_player_ids = [
+                  str(x)
+                  for x in (
+                      roster.get("players")
+                      or []
+                  )
+                  if x
+              ]
+
+              bench_ids = [
+                  player_id
+                  for player_id in all_player_ids
+                  if (
+                      player_id not in starter_ids
+                      and
+                      player_id not in reserve_ids
+                      and
+                      player_id not in taxi_ids
+                  )
+              ]
+
+              team = {
+                  "roster_id":
+                      roster.get("roster_id"),
+
+                  "owner_id":
+                      owner_id,
+
+                  "owner_username":
+                      user.get("display_name"),
+
+                  "team_name":
+                      metadata.get("team_name")
+                      or user.get("display_name"),
+
+                  "record": {
+                      "wins":
+                          roster.get(
+                              "settings",
+                              {}
+                          ).get("wins"),
+
+                      "losses":
+                          roster.get(
+                              "settings",
+                              {}
+                          ).get("losses"),
+
+                      "ties":
+                          roster.get(
+                              "settings",
+                              {}
+                          ).get("ties"),
+
+                      "points_for":
+                          roster.get(
+                              "settings",
+                              {}
+                          ).get("fpts"),
+
+                      "points_against":
+                          roster.get(
+                              "settings",
+                              {}
+                          ).get("fpts_against")
+                  },
+
+                  "starters":
+                      convert_players(
+                          roster.get("starters")
+                      ),
+
+                  "bench":
+                      convert_players(
+                          bench_ids
+                      ),
+
+                  "reserve":
+                      convert_players(
+                          roster.get("reserve")
+                      ),
+
+                  "taxi":
+                      convert_players(
+                          roster.get("taxi")
+                      ),
+
+                  "all_players":
+                      convert_players(
+                          roster.get("players")
+                      )
+              }
+
+              teams.append(team)
+
+          # -----------------------------------
+          # ADD NAMES TO CURRENT MATCHUPS
+          # -----------------------------------
+
+          team_lookup = {
+              team["roster_id"]: team
+              for team in teams
+          }
+
+          readable_matchups = []
+
+          for matchup in matchups:
+
+              roster_id = matchup.get(
+                  "roster_id"
+              )
+
+              team = team_lookup.get(
+                  roster_id,
+                  {}
+              )
+
+              readable_matchups.append({
+                  "matchup_id":
+                      matchup.get("matchup_id"),
+
+                  "roster_id":
+                      roster_id,
+
+                  "team_name":
+                      team.get("team_name"),
+
+                  "owner_username":
+                      team.get("owner_username"),
+
+                  "points":
+                      matchup.get("points"),
+
+                  "starters":
+                      convert_players(
+                          matchup.get("starters")
+                      ),
+
+                  "starters_points":
+                      matchup.get(
+                          "starters_points"
+                      ),
+
+                  "players":
+                      convert_players(
+                          matchup.get("players")
+                      )
+              })
+
+          # -----------------------------------
+          # FANTASY.JSON
+          # -----------------------------------
+
+          fantasy = {
+              "updated_at":
+                  updated_at,
+
+              "league_id":
+                  LEAGUE_ID,
+
+              "current_week":
+                  week,
+
+              "season":
+                  state.get("season"),
+
+              "season_type":
+                  state.get("season_type"),
+
+              "nfl_state":
+                  state,
+
+              "league":
+                  league,
+
+              # Easy-to-read version
+              "teams":
+                  teams,
+
+              "current_matchups":
+                  readable_matchups,
+
+              # Original Sleeper data
+              "raw": {
+                  "users":
+                      users,
+
+                  "rosters":
+                      rosters,
+
+                  "matchups":
+                      matchups,
+
+                  "transactions":
+                      transactions
+              }
+          }
+
+          with open(
+              "fantasy.json",
+              "w",
+              encoding="utf-8"
+          ) as f:
+
               json.dump(
                   fantasy,
                   f,
@@ -97,114 +411,191 @@ jobs:
                   indent=2
               )
 
-          # -----------------------------
-          # FIND ALL ROSTERED PLAYERS
-          # -----------------------------
+          # -----------------------------------
+          # FIND ROSTERED PLAYERS
+          # -----------------------------------
 
           rostered = set()
 
           for roster in rosters:
-              for key in ("players", "starters", "reserve", "taxi"):
-                  for player_id in roster.get(key) or []:
+
+              for key in (
+                  "players",
+                  "starters",
+                  "reserve",
+                  "taxi"
+              ):
+
+                  for player_id in (
+                      roster.get(key) or []
+                  ):
+
                       if player_id:
-                          rostered.add(str(player_id))
+                          rostered.add(
+                              str(player_id)
+                          )
 
-          # -----------------------------
+          # -----------------------------------
           # AVAILABLE PLAYERS
-          # -----------------------------
+          # -----------------------------------
 
-          positions = ["QB", "RB", "WR", "TE", "K", "DEF"]
+          positions = [
+              "QB",
+              "RB",
+              "WR",
+              "TE",
+              "K",
+              "DEF"
+          ]
 
           available_by_position = {
               position: []
               for position in positions
           }
 
-          fields = (
-              "full_name",
-              "first_name",
-              "last_name",
-              "position",
-              "fantasy_positions",
-              "team",
-              "status",
-              "active",
-              "injury_status",
-              "injury_notes",
-              "depth_chart_position",
-              "depth_chart_order",
-              "years_exp",
-              "age",
-              "number",
-              "search_rank"
-          )
-
           for player_id, player in players.items():
 
               player_id = str(player_id)
 
-              # Player already belongs to a fantasy team
               if player_id in rostered:
                   continue
 
-              position = player.get("position")
+              position = player.get(
+                  "position"
+              )
 
               if position not in positions:
                   continue
 
-              # Remove historical/inactive players with no team
+              # Ignore old inactive players
+              # that no longer have an NFL team.
               if (
                   player.get("active") is False
-                  and not player.get("team")
-                  and not player.get("injury_status")
+                  and
+                  not player.get("team")
+                  and
+                  not player.get("injury_status")
               ):
                   continue
 
               item = {
-                  "player_id": player_id
+                  "player_id":
+                      player_id,
+
+                  "name":
+                      player.get("full_name")
+                      or player.get("last_name")
+                      or player_id,
+
+                  "position":
+                      position,
+
+                  "team":
+                      player.get("team"),
+
+                  "status":
+                      player.get("status"),
+
+                  "active":
+                      player.get("active"),
+
+                  "injury_status":
+                      player.get(
+                          "injury_status"
+                      ),
+
+                  "injury_notes":
+                      player.get(
+                          "injury_notes"
+                      ),
+
+                  "depth_chart_position":
+                      player.get(
+                          "depth_chart_position"
+                      ),
+
+                  "depth_chart_order":
+                      player.get(
+                          "depth_chart_order"
+                      ),
+
+                  "search_rank":
+                      player.get(
+                          "search_rank"
+                      )
               }
 
-              for field in fields:
-                  item[field] = player.get(field)
+              available_by_position[
+                  position
+              ].append(item)
 
-              available_by_position[position].append(item)
-
-          # -----------------------------
-          # SORT + LIMIT EACH POSITION
-          # -----------------------------
+          # -----------------------------------
+          # SORT AVAILABLE PLAYERS
+          # -----------------------------------
 
           def sort_key(player):
-              rank = player.get("search_rank")
 
-              if not isinstance(rank, (int, float)):
+              rank = player.get(
+                  "search_rank"
+              )
+
+              if not isinstance(
+                  rank,
+                  (int, float)
+              ):
                   rank = 999999
 
               return (
                   rank,
-                  player.get("full_name") or ""
+                  player.get("name") or ""
               )
 
           final_available = {}
 
           for position in positions:
-              pool = available_by_position[position]
-              pool.sort(key=sort_key)
 
-              # Keep only the top 50 at each position
-              final_available[position] = pool[:50]
+              pool = available_by_position[
+                  position
+              ]
+
+              pool.sort(
+                  key=sort_key
+              )
+
+              final_available[
+                  position
+              ] = pool[:50]
+
+          # -----------------------------------
+          # AVAILABLE_PLAYERS.JSON
+          # -----------------------------------
 
           available_data = {
-              "updated_at": updated_at,
-              "league_id": LEAGUE_ID,
-              "current_week": week,
+              "updated_at":
+                  updated_at,
+
+              "league_id":
+                  LEAGUE_ID,
+
+              "current_week":
+                  week,
+
               "limits": {
                   "per_position": 50
               },
+
               "counts": {
-                  position: len(final_available[position])
+                  position:
+                      len(
+                          final_available[
+                              position
+                          ]
+                      )
                   for position in positions
               },
-              "players": final_available
+
+              "players":
+                  final_available
           }
 
           with open(
@@ -212,6 +603,7 @@ jobs:
               "w",
               encoding="utf-8"
           ) as f:
+
               json.dump(
                   available_data,
                   f,
@@ -219,14 +611,26 @@ jobs:
                   indent=2
               )
 
-          print("Available players saved:")
+          print("Files generated successfully.")
+
+          for team in teams:
+              print(
+                  f"{team['roster_id']}: "
+                  f"{team['team_name']}"
+              )
+
+          print("Available players:")
+
           for position in positions:
               print(
                   position,
-                  len(final_available[position])
+                  len(
+                      final_available[
+                          position
+                      ]
+                  )
               )
 
-          print("Finished.")
           PY
 
       - name: Commit updated data
