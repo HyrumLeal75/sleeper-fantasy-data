@@ -135,17 +135,17 @@
     {
       "slot": "FLEX",
       "player": {
-        "player_id": "13346",
-        "name": "Denzel Boston",
+        "player_id": "11620",
+        "name": "Rome Odunze",
         "position": "WR",
-        "team": "CLE",
+        "team": "CHI",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "LWR",
-        "depth_chart_order": 1,
-        "search_rank": 153
+        "depth_chart_order": 2,
+        "search_rank": 65
       }
     },
     {
@@ -196,17 +196,17 @@
       "search_rank": 176
     },
     {
-      "player_id": "11620",
-      "name": "Rome Odunze",
+      "player_id": "13346",
+      "name": "Denzel Boston",
       "position": "WR",
-      "team": "CHI",
+      "team": "CLE",
       "status": "Active",
       "active": true,
       "injury_status": null,
       "injury_notes": null,
       "depth_chart_position": "LWR",
-      "depth_chart_order": 2,
-      "search_rank": 65
+      "depth_chart_order": 1,
+      "search_rank": 153
     },
     {
       "player_id": "8132",
@@ -367,17 +367,17 @@
       {
         "slot": "FLEX",
         "player": {
-          "player_id": "13346",
-          "name": "Denzel Boston",
+          "player_id": "11620",
+          "name": "Rome Odunze",
           "position": "WR",
-          "team": "CLE",
+          "team": "CHI",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "LWR",
-          "depth_chart_order": 1,
-          "search_rank": 153
+          "depth_chart_order": 2,
+          "search_rank": 65
         }
       },
       {
