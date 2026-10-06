@@ -26,7 +26,7 @@
     ],
     "settings": {
       "best_ball": 0,
-      "last_report": 3,
+      "last_report": 4,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -894,37 +894,21 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "10229",
-            "name": "Rashee Rice",
+            "player_id": "5872",
+            "name": "Deebo Samuel",
             "position": "WR",
-            "team": "KC",
-            "status": "Active",
-            "active": true,
-            "injury_status": "Questionable",
-            "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 1,
-            "search_rank": 30
-          }
-        },
-        {
-          "slot": "TE",
-          "player": {
-            "player_id": "1466",
-            "name": "Travis Kelce",
-            "position": "TE",
-            "team": "KC",
+            "team": "SF",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 90
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 2,
+            "search_rank": 130
           }
         },
         {
-          "slot": "FLEX",
+          "slot": "TE",
           "player": {
             "player_id": "10236",
             "name": "Dalton Kincaid",
@@ -937,6 +921,22 @@
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
             "search_rank": 81
+          }
+        },
+        {
+          "slot": "FLEX",
+          "player": {
+            "player_id": "11435",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "RB",
+            "depth_chart_order": 1,
+            "search_rank": 161
           }
         },
         {
@@ -974,17 +974,17 @@
       ],
       "bench": [
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
+          "player_id": "10229",
+          "name": "Rashee Rice",
+          "position": "WR",
+          "team": "KC",
           "status": "Active",
           "active": true,
-          "injury_status": null,
+          "injury_status": "Questionable",
           "injury_notes": null,
-          "depth_chart_position": "RB",
+          "depth_chart_position": "SWR",
           "depth_chart_order": 1,
-          "search_rank": 161
+          "search_rank": 30
         },
         {
           "player_id": "11586",
@@ -1013,17 +1013,17 @@
           "search_rank": 39
         },
         {
-          "player_id": "5872",
-          "name": "Deebo Samuel",
-          "position": "WR",
-          "team": "SF",
+          "player_id": "1466",
+          "name": "Travis Kelce",
+          "position": "TE",
+          "team": "KC",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 2,
-          "search_rank": 130
+          "depth_chart_position": "TE",
+          "depth_chart_order": 1,
+          "search_rank": 90
         },
         {
           "player_id": "7567",
@@ -27361,39 +27361,22 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "10229",
-                    "name": "Rashee Rice",
+                    "player_id": "5872",
+                    "name": "Deebo Samuel",
                     "position": "WR",
-                    "team": "KC",
+                    "team": "SF",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
+                    "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "SWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 30
+                    "depth_chart_order": 2,
+                    "search_rank": 130
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "TE",
-                  "player": {
-                    "player_id": "1466",
-                    "name": "Travis Kelce",
-                    "position": "TE",
-                    "team": "KC",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 90
-                  },
-                  "points": 0.0
-                },
-                {
-                  "slot": "FLEX",
                   "player": {
                     "player_id": "10236",
                     "name": "Dalton Kincaid",
@@ -27406,6 +27389,23 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 81
+                  },
+                  "points": 0.0
+                },
+                {
+                  "slot": "FLEX",
+                  "player": {
+                    "player_id": "11435",
+                    "name": "Emanuel Wilson",
+                    "position": "RB",
+                    "team": "SEA",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 161
                   },
                   "points": 0.0
                 },
@@ -27447,17 +27447,17 @@
               "bench": [
                 {
                   "player": {
-                    "player_id": "11435",
-                    "name": "Emanuel Wilson",
-                    "position": "RB",
-                    "team": "SEA",
+                    "player_id": "10229",
+                    "name": "Rashee Rice",
+                    "position": "WR",
+                    "team": "KC",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
+                    "depth_chart_position": "SWR",
                     "depth_chart_order": 1,
-                    "search_rank": 161
+                    "search_rank": 30
                   },
                   "points": 0.0
                 },
@@ -27495,17 +27495,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "5872",
-                    "name": "Deebo Samuel",
-                    "position": "WR",
-                    "team": "SF",
+                    "player_id": "1466",
+                    "name": "Travis Kelce",
+                    "position": "TE",
+                    "team": "KC",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 130
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 1,
+                    "search_rank": 90
                   },
                   "points": 0.0
                 },
