@@ -37,7 +37,7 @@ jobs:
               with urllib.request.urlopen(request, timeout=120) as response:
                   return json.load(response)
 
-          print("Getting current NFL state...")
+          print("Getting NFL state...")
           state = get("/state/nfl")
           week = int(state.get("week") or 1)
 
@@ -50,7 +50,30 @@ jobs:
           matchups = get(f"/league/{LEAGUE_ID}/matchups/{week}")
           transactions = get(f"/league/{LEAGUE_ID}/transactions/{week}")
 
+          print("Getting NFL player database...")
+          players = get("/players/nfl")
+
           updated_at = datetime.now(timezone.utc).isoformat()
+
+          # -----------------------------
+          # PLAYER LOOKUP
+          # -----------------------------
+
+          def player_name(player_id):
+              if not player_id:
+                  return None
+
+              player = players.get(str(player_id), {})
+
+              return (
+                  player.get("full_name")
+                  or player.get("last_name")
+                  or str(player_id)
+              )
+
+          # -----------------------------
+          # FANTASY.JSON
+          # -----------------------------
 
           fantasy = {
               "updated_at": updated_at,
@@ -67,12 +90,17 @@ jobs:
           }
 
           with open("fantasy.json", "w", encoding="utf-8") as f:
-              json.dump(fantasy, f, ensure_ascii=False, indent=2)
+              json.dump(
+                  fantasy,
+                  f,
+                  ensure_ascii=False,
+                  indent=2
+              )
 
-          print("Getting Sleeper NFL player database...")
-          players = get("/players/nfl")
+          # -----------------------------
+          # FIND ALL ROSTERED PLAYERS
+          # -----------------------------
 
-          # Every player currently belonging to a fantasy roster
           rostered = set()
 
           for roster in rosters:
@@ -81,7 +109,16 @@ jobs:
                       if player_id:
                           rostered.add(str(player_id))
 
-          fantasy_positions = {"QB", "RB", "WR", "TE", "K", "DEF"}
+          # -----------------------------
+          # AVAILABLE PLAYERS
+          # -----------------------------
+
+          positions = ["QB", "RB", "WR", "TE", "K", "DEF"]
+
+          available_by_position = {
+              position: []
+              for position in positions
+          }
 
           fields = (
               "full_name",
@@ -102,25 +139,20 @@ jobs:
               "search_rank"
           )
 
-          available = []
-
           for player_id, player in players.items():
 
-              # Already owned by someone in the league
-              if str(player_id) in rostered:
+              player_id = str(player_id)
+
+              # Player already belongs to a fantasy team
+              if player_id in rostered:
                   continue
 
               position = player.get("position")
-              positions = set(player.get("fantasy_positions") or [])
 
-              # Only fantasy-relevant positions
-              if (
-                  position not in fantasy_positions
-                  and not positions.intersection(fantasy_positions)
-              ):
+              if position not in positions:
                   continue
 
-              # Remove obviously inactive historical players
+              # Remove historical/inactive players with no team
               if (
                   player.get("active") is False
                   and not player.get("team")
@@ -129,15 +161,18 @@ jobs:
                   continue
 
               item = {
-                  "player_id": str(player_id)
+                  "player_id": player_id
               }
 
               for field in fields:
                   item[field] = player.get(field)
 
-              available.append(item)
+              available_by_position[position].append(item)
 
-          # Sleeper search rank gives us a useful initial ordering.
+          # -----------------------------
+          # SORT + LIMIT EACH POSITION
+          # -----------------------------
+
           def sort_key(player):
               rank = player.get("search_rank")
 
@@ -149,14 +184,27 @@ jobs:
                   player.get("full_name") or ""
               )
 
-          available.sort(key=sort_key)
+          final_available = {}
+
+          for position in positions:
+              pool = available_by_position[position]
+              pool.sort(key=sort_key)
+
+              # Keep only the top 50 at each position
+              final_available[position] = pool[:50]
 
           available_data = {
               "updated_at": updated_at,
               "league_id": LEAGUE_ID,
               "current_week": week,
-              "available_player_count": len(available),
-              "players": available
+              "limits": {
+                  "per_position": 50
+              },
+              "counts": {
+                  position: len(final_available[position])
+                  for position in positions
+              },
+              "players": final_available
           }
 
           with open(
@@ -171,12 +219,14 @@ jobs:
                   indent=2
               )
 
-          print(
-              f"Created available_players.json "
-              f"with {len(available)} available players."
-          )
+          print("Available players saved:")
+          for position in positions:
+              print(
+                  position,
+                  len(final_available[position])
+              )
 
-          print("Done.")
+          print("Finished.")
           PY
 
       - name: Commit updated data
