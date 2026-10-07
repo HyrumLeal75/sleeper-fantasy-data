@@ -16,7 +16,7 @@
       "points_for": 550.32,
       "points_against": 539.62
     },
-    "waiver_position": 7,
+    "waiver_position": 8,
     "lineup": [
       {
         "slot": "QB",
@@ -178,6 +178,19 @@
         "search_rank": 177
       },
       {
+        "player_id": "13298",
+        "name": "KC Concepcion",
+        "position": "WR",
+        "team": "CLE",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "SWR",
+        "depth_chart_order": 2,
+        "search_rank": 110
+      },
+      {
         "player_id": "13346",
         "name": "Denzel Boston",
         "position": "WR",
@@ -326,6 +339,19 @@
         "search_rank": 12
       },
       {
+        "player_id": "13298",
+        "name": "KC Concepcion",
+        "position": "WR",
+        "team": "CLE",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "SWR",
+        "depth_chart_order": 2,
+        "search_rank": 110
+      },
+      {
         "player_id": "13346",
         "name": "Denzel Boston",
         "position": "WR",
@@ -454,7 +480,7 @@
     "ties": 0,
     "points_for": 550.32,
     "points_against": 539.62,
-    "waiver_position": 7
+    "waiver_position": 8
   },
   "season_summary": {
     "wins": 2,
@@ -465,9 +491,9 @@
     "lowest_score": 110.12
   },
   "roster_capacity": {
-    "active_players": 14,
+    "active_players": 15,
     "active_capacity": 15,
-    "open_active_slots": 1,
+    "open_active_slots": 0,
     "reserve_used": 1,
     "reserve_capacity": 2,
     "reserve_available": 1
@@ -2827,6 +2853,22 @@
           },
           {
             "player": {
+              "player_id": "4018",
+              "name": "Joe Mixon",
+              "position": "RB",
+              "team": null,
+              "status": "Active",
+              "active": true,
+              "injury_status": "",
+              "injury_notes": null,
+              "depth_chart_position": null,
+              "depth_chart_order": null,
+              "search_rank": 164
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
               "player_id": "5846",
               "name": "DK Metcalf",
               "position": "WR",
@@ -3065,6 +3107,22 @@
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
             "search_rank": 177
+          },
+          "points": 0.0
+        },
+        {
+          "player": {
+            "player_id": "13298",
+            "name": "KC Concepcion",
+            "position": "WR",
+            "team": "CLE",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 2,
+            "search_rank": 110
           },
           "points": 0.0
         },
@@ -3360,6 +3418,22 @@
           },
           {
             "player": {
+              "player_id": "13264",
+              "name": "Dohnte Meyers",
+              "position": "WR",
+              "team": "CIN",
+              "status": "Active",
+              "active": true,
+              "injury_status": null,
+              "injury_notes": null,
+              "depth_chart_position": "SWR",
+              "depth_chart_order": 3,
+              "search_rank": 628
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
               "player_id": "13281",
               "name": "Jordyn Tyson",
               "position": "WR",
@@ -3371,22 +3445,6 @@
               "depth_chart_position": "LWR",
               "depth_chart_order": 11,
               "search_rank": 62
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
-              "player_id": "3271",
-              "name": "Tyler Higbee",
-              "position": "TE",
-              "team": "LAR",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "TE",
-              "depth_chart_order": 1,
-              "search_rank": 652
             },
             "points": 0.0
           },
@@ -3765,6 +3823,99 @@
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
             "search_rank": 135
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "drops": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1413378292156792832",
+      "week": 4,
+      "type": "waiver",
+      "status": "failed",
+      "created": 1791338153451,
+      "roster_ids": [
+        10
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13337",
+            "name": "Emmett Johnson",
+            "position": "RB",
+            "team": "KC",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "RB",
+            "depth_chart_order": 2,
+            "search_rank": 113
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "drops": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1413378042339852288",
+      "week": 4,
+      "type": "waiver",
+      "status": "complete",
+      "created": 1791338093889,
+      "roster_ids": [
+        10
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "13298",
+            "name": "KC Concepcion",
+            "position": "WR",
+            "team": "CLE",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 2,
+            "search_rank": 110
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "drops": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1413065647889387520",
+      "week": 4,
+      "type": "waiver",
+      "status": "failed",
+      "created": 1791263613248,
+      "roster_ids": [
+        10
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "8121",
+            "name": "Romeo Doubs",
+            "position": "WR",
+            "team": "NE",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 1,
+            "search_rank": 117
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
