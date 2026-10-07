@@ -830,17 +830,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
-            "status": null,
-            "active": null,
+            "player_id": "1373",
+            "name": "Geno Smith",
+            "position": "QB",
+            "team": "NYJ",
+            "status": "Active",
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": null,
-            "depth_chart_order": null,
-            "search_rank": null
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 210
           }
         },
         {
@@ -958,12 +958,12 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
+            "player_id": "HOU",
+            "name": "Texans",
+            "position": "DEF",
+            "team": "HOU",
             "status": null,
-            "active": null,
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": null,
@@ -1026,19 +1026,6 @@
           "search_rank": 39
         },
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
-          "position": "QB",
-          "team": "NYJ",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 210
-        },
-        {
           "player_id": "1466",
           "name": "Travis Kelce",
           "position": "TE",
@@ -1063,19 +1050,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 148
-        },
-        {
-          "player_id": "HOU",
-          "name": "Texans",
-          "position": "DEF",
-          "team": "HOU",
-          "status": null,
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": null
         }
       ],
       "reserve": [
@@ -1322,33 +1296,33 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "4046",
-            "name": "Patrick Mahomes",
+            "player_id": "4943",
+            "name": "Sam Darnold",
             "position": "QB",
-            "team": "KC",
+            "team": "SEA",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 39
+            "search_rank": 92
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "8151",
-            "name": "Kenneth Walker",
+            "player_id": "12481",
+            "name": "Cam Skattebo",
             "position": "RB",
-            "team": "KC",
+            "team": "NYG",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 18
+            "search_rank": 35
           }
         },
         {
@@ -1418,42 +1392,42 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "12481",
-            "name": "Cam Skattebo",
-            "position": "RB",
+            "player_id": "11632",
+            "name": "Malik Nabers",
+            "position": "WR",
             "team": "NYG",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
+            "depth_chart_position": "LWR",
             "depth_chart_order": 1,
-            "search_rank": 35
+            "search_rank": 27
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "5189",
-            "name": "Eddy Pineiro",
+            "player_id": "11786",
+            "name": "Cam Little",
             "position": "K",
-            "team": "SF",
+            "team": "JAX",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 175
+            "search_rank": 133
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "GB",
-            "name": "Packers",
+            "player_id": "DEN",
+            "name": "Broncos",
             "position": "DEF",
-            "team": "GB",
+            "team": "DEN",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -1466,30 +1440,17 @@
       ],
       "bench": [
         {
-          "player_id": "11632",
-          "name": "Malik Nabers",
-          "position": "WR",
-          "team": "NYG",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 1,
-          "search_rank": 27
-        },
-        {
-          "player_id": "4943",
-          "name": "Sam Darnold",
+          "player_id": "4046",
+          "name": "Patrick Mahomes",
           "position": "QB",
-          "team": "SEA",
+          "team": "KC",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 92
+          "search_rank": 39
         },
         {
           "player_id": "5001",
@@ -1529,6 +1490,19 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 2,
           "search_rank": 53
+        },
+        {
+          "player_id": "8151",
+          "name": "Kenneth Walker",
+          "position": "RB",
+          "team": "KC",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 18
         },
         {
           "player_id": "9753",
@@ -1586,6 +1560,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 27
+        },
+        {
+          "player_id": "11786",
+          "name": "Cam Little",
+          "position": "K",
+          "team": "JAX",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 133
         },
         {
           "player_id": "12481",
@@ -1664,19 +1651,6 @@
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
           "search_rank": 98
-        },
-        {
-          "player_id": "5189",
-          "name": "Eddy Pineiro",
-          "position": "K",
-          "team": "SF",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "K",
-          "depth_chart_order": 1,
-          "search_rank": 175
         },
         {
           "player_id": "7564",
@@ -1783,10 +1757,10 @@
           "search_rank": 101
         },
         {
-          "player_id": "GB",
-          "name": "Packers",
+          "player_id": "DEN",
+          "name": "Broncos",
           "position": "DEF",
-          "team": "GB",
+          "team": "DEN",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -28077,17 +28051,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "0",
-                    "name": "0",
-                    "position": null,
-                    "team": null,
-                    "status": null,
-                    "active": null,
+                    "player_id": "1373",
+                    "name": "Geno Smith",
+                    "position": "QB",
+                    "team": "NYJ",
+                    "status": "Active",
+                    "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 210
                   },
                   "points": 0.0
                 },
@@ -28213,12 +28187,12 @@
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "0",
-                    "name": "0",
-                    "position": null,
-                    "team": null,
+                    "player_id": "HOU",
+                    "name": "Texans",
+                    "position": "DEF",
+                    "team": "HOU",
                     "status": null,
-                    "active": null,
+                    "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": null,
@@ -28295,22 +28269,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "1373",
-                    "name": "Geno Smith",
-                    "position": "QB",
-                    "team": "NYJ",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 210
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "1466",
                     "name": "Travis Kelce",
                     "position": "TE",
@@ -28354,22 +28312,6 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 2,
                     "search_rank": 148
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "HOU",
-                    "name": "Texans",
-                    "position": "DEF",
-                    "team": "HOU",
-                    "status": null,
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
                   },
                   "points": 0.0
                 }
@@ -28664,34 +28606,34 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "4046",
-                    "name": "Patrick Mahomes",
+                    "player_id": "4943",
+                    "name": "Sam Darnold",
                     "position": "QB",
-                    "team": "KC",
+                    "team": "SEA",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 39
+                    "search_rank": 92
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "8151",
-                    "name": "Kenneth Walker",
+                    "player_id": "12481",
+                    "name": "Cam Skattebo",
                     "position": "RB",
-                    "team": "KC",
+                    "team": "NYG",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 18
+                    "search_rank": 35
                   },
                   "points": 0.0
                 },
@@ -28766,58 +28708,6 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "12481",
-                    "name": "Cam Skattebo",
-                    "position": "RB",
-                    "team": "NYG",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 35
-                  },
-                  "points": 0.0
-                },
-                {
-                  "slot": "K",
-                  "player": {
-                    "player_id": "5189",
-                    "name": "Eddy Pineiro",
-                    "position": "K",
-                    "team": "SF",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "K",
-                    "depth_chart_order": 1,
-                    "search_rank": 175
-                  },
-                  "points": 0.0
-                },
-                {
-                  "slot": "DEF",
-                  "player": {
-                    "player_id": "GB",
-                    "name": "Packers",
-                    "position": "DEF",
-                    "team": "GB",
-                    "status": null,
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
-                  },
-                  "points": 0.0
-                }
-              ],
-              "bench": [
-                {
-                  "player": {
                     "player_id": "11632",
                     "name": "Malik Nabers",
                     "position": "WR",
@@ -28832,6 +28722,42 @@
                   },
                   "points": 0.0
                 },
+                {
+                  "slot": "K",
+                  "player": {
+                    "player_id": "11786",
+                    "name": "Cam Little",
+                    "position": "K",
+                    "team": "JAX",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "K",
+                    "depth_chart_order": 1,
+                    "search_rank": 133
+                  },
+                  "points": 0.0
+                },
+                {
+                  "slot": "DEF",
+                  "player": {
+                    "player_id": "DEN",
+                    "name": "Broncos",
+                    "position": "DEF",
+                    "team": "DEN",
+                    "status": null,
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": null,
+                    "depth_chart_order": null,
+                    "search_rank": null
+                  },
+                  "points": 0.0
+                }
+              ],
+              "bench": [
                 {
                   "player": {
                     "player_id": "13417",
@@ -28850,17 +28776,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "4943",
-                    "name": "Sam Darnold",
+                    "player_id": "4046",
+                    "name": "Patrick Mahomes",
                     "position": "QB",
-                    "team": "SEA",
+                    "team": "KC",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 92
+                    "search_rank": 39
                   },
                   "points": 0.0
                 },
@@ -28909,6 +28835,22 @@
                     "depth_chart_position": "RWR",
                     "depth_chart_order": 2,
                     "search_rank": 53
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "8151",
+                    "name": "Kenneth Walker",
+                    "position": "RB",
+                    "team": "KC",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 18
                   },
                   "points": 0.0
                 },
@@ -30858,6 +30800,104 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1413559176994500608",
+          "week": 5,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1791381279756,
+          "roster_ids": [
+            3
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "DEN",
+                "name": "Broncos",
+                "position": "DEF",
+                "team": "DEN",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "GB",
+                "name": "Packers",
+                "position": "DEF",
+                "team": "GB",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1413553017512345600",
+          "week": 5,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1791379811222,
+          "roster_ids": [
+            3
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11786",
+                "name": "Cam Little",
+                "position": "K",
+                "team": "JAX",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 133
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "5189",
+                "name": "Eddy Pineiro",
+                "position": "K",
+                "team": "SF",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 175
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1413532792368771072",
           "week": 5,

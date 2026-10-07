@@ -2640,19 +2640,6 @@
         "search_rank": 124
       },
       {
-        "player_id": "11786",
-        "name": "Cam Little",
-        "position": "K",
-        "team": "JAX",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 133
-      },
-      {
         "player_id": "12015",
         "name": "Harrison Mevis",
         "position": "K",
@@ -2690,6 +2677,19 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 157
+      },
+      {
+        "player_id": "5189",
+        "name": "Eddy Pineiro",
+        "position": "K",
+        "team": "SF",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 175
       },
       {
         "player_id": "3678",
@@ -2980,19 +2980,6 @@
         "search_rank": null
       },
       {
-        "player_id": "DEN",
-        "name": "Broncos",
-        "position": "DEF",
-        "team": "DEN",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
         "player_id": "TB",
         "name": "Buccaneers",
         "position": "DEF",
@@ -3153,6 +3140,19 @@
         "name": "Lions",
         "position": "DEF",
         "team": "DET",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
+        "player_id": "GB",
+        "name": "Packers",
+        "position": "DEF",
+        "team": "GB",
         "status": null,
         "active": true,
         "injury_status": null,
