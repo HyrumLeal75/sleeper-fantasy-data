@@ -58,19 +58,6 @@
         "search_rank": 42
       },
       {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "position": "QB",
-        "team": "DEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 44
-      },
-      {
         "player_id": "4892",
         "name": "Baker Mayfield",
         "position": "QB",
@@ -186,6 +173,19 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
         "search_rank": 187
+      },
+      {
+        "player_id": "1373",
+        "name": "Geno Smith",
+        "position": "QB",
+        "team": "NYJ",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 210
       },
       {
         "player_id": "11565",
@@ -670,19 +670,6 @@
       }
     ],
     "RB": [
-      {
-        "player_id": "7567",
-        "name": "Kenny Gainwell",
-        "position": "RB",
-        "team": "TB",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 86
-      },
       {
         "player_id": "4137",
         "name": "James Conner",
@@ -1319,6 +1306,19 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
         "search_rank": 518
+      },
+      {
+        "player_id": "7087",
+        "name": "Jonathan Ward",
+        "position": "RB",
+        "team": "BAL",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 524
       }
     ],
     "WR": [
@@ -2547,19 +2547,6 @@
         "search_rank": 439
       },
       {
-        "player_id": "4993",
-        "name": "Mike Gesicki",
-        "position": "TE",
-        "team": "CIN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 1,
-        "search_rank": 448
-      },
-      {
         "player_id": "13319",
         "name": "Oscar Delp",
         "position": "TE",
@@ -2623,6 +2610,19 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
         "search_rank": 463
+      },
+      {
+        "player_id": "13308",
+        "name": "Bauer Sharp",
+        "position": "TE",
+        "team": "TB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "TE",
+        "depth_chart_order": 3,
+        "search_rank": 472
       }
     ],
     "K": [

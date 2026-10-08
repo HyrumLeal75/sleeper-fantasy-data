@@ -149,7 +149,7 @@
       "ties": 0,
       "points_for": 592.26,
       "points_against": 413.74,
-      "waiver_position": 5
+      "waiver_position": 4
     },
     {
       "rank": 2,
@@ -161,7 +161,7 @@
       "ties": 0,
       "points_for": 591.34,
       "points_against": 491.64,
-      "waiver_position": 12
+      "waiver_position": 11
     },
     {
       "rank": 3,
@@ -173,7 +173,7 @@
       "ties": 0,
       "points_for": 521.1,
       "points_against": 441.06,
-      "waiver_position": 11
+      "waiver_position": 10
     },
     {
       "rank": 4,
@@ -185,7 +185,7 @@
       "ties": 0,
       "points_for": 476.04,
       "points_against": 463.04,
-      "waiver_position": 6
+      "waiver_position": 5
     },
     {
       "rank": 5,
@@ -197,7 +197,7 @@
       "ties": 0,
       "points_for": 550.32,
       "points_against": 539.62,
-      "waiver_position": 8
+      "waiver_position": 7
     },
     {
       "rank": 6,
@@ -209,7 +209,7 @@
       "ties": 0,
       "points_for": 520.6,
       "points_against": 534.54,
-      "waiver_position": 7
+      "waiver_position": 6
     },
     {
       "rank": 7,
@@ -221,7 +221,7 @@
       "ties": 0,
       "points_for": 516.58,
       "points_against": 503.9,
-      "waiver_position": 4
+      "waiver_position": 3
     },
     {
       "rank": 8,
@@ -233,7 +233,7 @@
       "ties": 0,
       "points_for": 491.4,
       "points_against": 514.18,
-      "waiver_position": 10
+      "waiver_position": 9
     },
     {
       "rank": 9,
@@ -245,7 +245,7 @@
       "ties": 0,
       "points_for": 574.18,
       "points_against": 592.18,
-      "waiver_position": 3
+      "waiver_position": 2
     },
     {
       "rank": 10,
@@ -257,7 +257,7 @@
       "ties": 0,
       "points_for": 530.18,
       "points_against": 618.08,
-      "waiver_position": 2
+      "waiver_position": 1
     },
     {
       "rank": 11,
@@ -269,7 +269,7 @@
       "ties": 0,
       "points_for": 373.44,
       "points_against": 499.28,
-      "waiver_position": 9
+      "waiver_position": 8
     },
     {
       "rank": 12,
@@ -281,69 +281,69 @@
       "ties": 0,
       "points_for": 468.08,
       "points_against": 594.26,
-      "waiver_position": 1
+      "waiver_position": 12
     }
   ],
   "waiver_order": [
     {
       "waiver_position": 1,
-      "roster_id": 8,
-      "team_name": "This Is Our Year"
-    },
-    {
-      "waiver_position": 2,
       "roster_id": 12,
       "team_name": "Los Mapachitos"
     },
     {
-      "waiver_position": 3,
+      "waiver_position": 2,
       "roster_id": 3,
       "team_name": "Acaríciame El Lombardi"
     },
     {
-      "waiver_position": 4,
+      "waiver_position": 3,
       "roster_id": 1,
       "team_name": "El Guajolote Macias"
     },
     {
-      "waiver_position": 5,
+      "waiver_position": 4,
       "roster_id": 11,
       "team_name": "Makeroth"
     },
     {
-      "waiver_position": 6,
+      "waiver_position": 5,
       "roster_id": 7,
       "team_name": "Don Bitij"
     },
     {
-      "waiver_position": 7,
+      "waiver_position": 6,
       "roster_id": 5,
       "team_name": "Burros Negros"
     },
     {
-      "waiver_position": 8,
+      "waiver_position": 7,
       "roster_id": 10,
       "team_name": "FearNando Mendoza"
     },
     {
-      "waiver_position": 9,
+      "waiver_position": 8,
       "roster_id": 6,
       "team_name": "ivasol"
     },
     {
-      "waiver_position": 10,
+      "waiver_position": 9,
       "roster_id": 9,
       "team_name": "Jsgzz18"
     },
     {
-      "waiver_position": 11,
+      "waiver_position": 10,
       "roster_id": 4,
       "team_name": "ManuBro"
     },
     {
-      "waiver_position": 12,
+      "waiver_position": 11,
       "roster_id": 2,
       "team_name": "Horsepower"
+    },
+    {
+      "waiver_position": 12,
+      "roster_id": 8,
+      "team_name": "This Is Our Year"
     }
   ],
   "teams": [
@@ -359,7 +359,7 @@
         "points_for": 516.58,
         "points_against": 503.9
       },
-      "waiver_position": 4,
+      "waiver_position": 3,
       "lineup": [
         {
           "slot": "QB",
@@ -825,22 +825,22 @@
         "points_for": 591.34,
         "points_against": 491.64
       },
-      "waiver_position": 12,
+      "waiver_position": 11,
       "lineup": [
         {
           "slot": "QB",
           "player": {
-            "player_id": "1373",
-            "name": "Geno Smith",
+            "player_id": "11563",
+            "name": "Bo Nix",
             "position": "QB",
-            "team": "NYJ",
+            "team": "DEN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 210
+            "search_rank": 44
           }
         },
         {
@@ -910,17 +910,17 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "10236",
-            "name": "Dalton Kincaid",
+            "player_id": "4993",
+            "name": "Mike Gesicki",
             "position": "TE",
-            "team": "BUF",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 81
+            "search_rank": 448
           }
         },
         {
@@ -987,17 +987,17 @@
           "search_rank": 30
         },
         {
-          "player_id": "11577",
-          "name": "Will Shipley",
-          "position": "RB",
-          "team": "PHI",
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "RB",
+          "depth_chart_position": "TE",
           "depth_chart_order": 1,
-          "search_rank": 686
+          "search_rank": 81
         },
         {
           "player_id": "11586",
@@ -1109,17 +1109,17 @@
           "search_rank": 161
         },
         {
-          "player_id": "11577",
-          "name": "Will Shipley",
-          "position": "RB",
-          "team": "PHI",
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "RB",
+          "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 686
+          "search_rank": 44
         },
         {
           "player_id": "11586",
@@ -1148,19 +1148,6 @@
           "search_rank": 39
         },
         {
-          "player_id": "1373",
-          "name": "Geno Smith",
-          "position": "QB",
-          "team": "NYJ",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 210
-        },
-        {
           "player_id": "1466",
           "name": "Travis Kelce",
           "position": "TE",
@@ -1185,6 +1172,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 85
+        },
+        {
+          "player_id": "4993",
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "TE",
+          "depth_chart_order": 1,
+          "search_rank": 448
         },
         {
           "player_id": "5872",
@@ -1291,7 +1291,7 @@
         "points_for": 574.18,
         "points_against": 592.18
       },
-      "waiver_position": 3,
+      "waiver_position": 2,
       "lineup": [
         {
           "slot": "QB",
@@ -1783,7 +1783,7 @@
         "points_for": 521.1,
         "points_against": 441.06
       },
-      "waiver_position": 11,
+      "waiver_position": 10,
       "lineup": [
         {
           "slot": "QB",
@@ -2249,7 +2249,7 @@
         "points_for": 520.6,
         "points_against": 534.54
       },
-      "waiver_position": 7,
+      "waiver_position": 6,
       "lineup": [
         {
           "slot": "QB",
@@ -2689,7 +2689,7 @@
         "points_for": 373.44,
         "points_against": 499.28
       },
-      "waiver_position": 9,
+      "waiver_position": 8,
       "lineup": [
         {
           "slot": "QB",
@@ -3181,7 +3181,7 @@
         "points_for": 476.04,
         "points_against": 463.04
       },
-      "waiver_position": 6,
+      "waiver_position": 5,
       "lineup": [
         {
           "slot": "QB",
@@ -3620,7 +3620,7 @@
         "points_for": 468.08,
         "points_against": 594.26
       },
-      "waiver_position": 1,
+      "waiver_position": 12,
       "lineup": [
         {
           "slot": "QB",
@@ -3641,17 +3641,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "4663",
-            "name": "Austin Ekeler",
-            "position": "RB",
-            "team": "WAS",
-            "status": "Active",
-            "active": true,
+            "player_id": "0",
+            "name": "0",
+            "position": null,
+            "team": null,
+            "status": null,
+            "active": null,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 3,
-            "search_rank": 632
+            "depth_chart_position": null,
+            "depth_chart_order": null,
+            "search_rank": null
           }
         },
         {
@@ -3821,6 +3821,19 @@
           "search_rank": 33
         },
         {
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 86
+        },
+        {
           "player_id": "7594",
           "name": "Chuba Hubbard",
           "position": "RB",
@@ -3904,19 +3917,6 @@
           "search_rank": 65
         },
         {
-          "player_id": "4663",
-          "name": "Austin Ekeler",
-          "position": "RB",
-          "team": "WAS",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 3,
-          "search_rank": 632
-        },
-        {
           "player_id": "4866",
           "name": "Saquon Barkley",
           "position": "RB",
@@ -3980,6 +3980,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 4,
           "search_rank": 33
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 86
         },
         {
           "player_id": "7594",
@@ -4060,7 +4073,7 @@
         "points_for": 491.4,
         "points_against": 514.18
       },
-      "waiver_position": 10,
+      "waiver_position": 9,
       "lineup": [
         {
           "slot": "QB",
@@ -4512,7 +4525,7 @@
         "points_for": 550.32,
         "points_against": 539.62
       },
-      "waiver_position": 8,
+      "waiver_position": 7,
       "lineup": [
         {
           "slot": "QB",
@@ -4978,7 +4991,7 @@
         "points_for": 592.26,
         "points_against": 413.74
       },
-      "waiver_position": 5,
+      "waiver_position": 4,
       "lineup": [
         {
           "slot": "QB",
@@ -5444,7 +5457,7 @@
         "points_for": 530.18,
         "points_against": 618.08
       },
-      "waiver_position": 2,
+      "waiver_position": 1,
       "lineup": [
         {
           "slot": "QB",
@@ -28052,17 +28065,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "1373",
-                    "name": "Geno Smith",
+                    "player_id": "11563",
+                    "name": "Bo Nix",
                     "position": "QB",
-                    "team": "NYJ",
+                    "team": "DEN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 210
+                    "search_rank": 44
                   },
                   "points": 0.0
                 },
@@ -28137,17 +28150,17 @@
                 {
                   "slot": "TE",
                   "player": {
-                    "player_id": "10236",
-                    "name": "Dalton Kincaid",
+                    "player_id": "4993",
+                    "name": "Mike Gesicki",
                     "position": "TE",
-                    "team": "BUF",
+                    "team": "CIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 81
+                    "search_rank": 448
                   },
                   "points": 0.0
                 },
@@ -28222,17 +28235,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "11577",
-                    "name": "Will Shipley",
-                    "position": "RB",
-                    "team": "PHI",
+                    "player_id": "10236",
+                    "name": "Dalton Kincaid",
+                    "position": "TE",
+                    "team": "BUF",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
+                    "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 686
+                    "search_rank": 81
                   },
                   "points": 0.0
                 },
@@ -29750,17 +29763,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "4663",
-                    "name": "Austin Ekeler",
-                    "position": "RB",
-                    "team": "WAS",
-                    "status": "Active",
-                    "active": true,
+                    "player_id": "0",
+                    "name": "0",
+                    "position": null,
+                    "team": null,
+                    "status": null,
+                    "active": null,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 3,
-                    "search_rank": 632
+                    "depth_chart_position": null,
+                    "depth_chart_order": null,
+                    "search_rank": null
                   },
                   "points": 0.0
                 },
@@ -29946,6 +29959,22 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 4,
                     "search_rank": 33
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "7567",
+                    "name": "Kenny Gainwell",
+                    "position": "RB",
+                    "team": "TB",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 86
                   },
                   "points": 0.0
                 },
@@ -30802,6 +30831,104 @@
       ],
       "transactions": [
         {
+          "transaction_id": "1413818255306473472",
+          "week": 5,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1791443048840,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "4993",
+                "name": "Mike Gesicki",
+                "position": "TE",
+                "team": "CIN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 1,
+                "search_rank": 448
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "11577",
+                "name": "Will Shipley",
+                "position": "RB",
+                "team": "PHI",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 1,
+                "search_rank": 686
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1413809823715225600",
+          "week": 5,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1791441038592,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11563",
+                "name": "Bo Nix",
+                "position": "QB",
+                "team": "DEN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 1,
+                "search_rank": 44
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "1373",
+                "name": "Geno Smith",
+                "position": "QB",
+                "team": "NYJ",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 1,
+                "search_rank": 210
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
           "transaction_id": "1413747719679291399",
           "week": 5,
           "type": "free_agent",
@@ -30843,6 +30970,55 @@
                 "depth_chart_position": null,
                 "depth_chart_order": null,
                 "search_rank": null
+              },
+              "roster_id": 8,
+              "team_name": "This Is Our Year"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1413747564582281216",
+          "week": 5,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1791426194858,
+          "roster_ids": [
+            8
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "7567",
+                "name": "Kenny Gainwell",
+                "position": "RB",
+                "team": "TB",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 86
+              },
+              "roster_id": 8,
+              "team_name": "This Is Our Year"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "4663",
+                "name": "Austin Ekeler",
+                "position": "RB",
+                "team": "WAS",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 3,
+                "search_rank": 632
               },
               "roster_id": 8,
               "team_name": "This Is Our Year"
@@ -30946,6 +31122,37 @@
               "team_name": "Burros Negros"
             }
           ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1413564810003554304",
+          "week": 5,
+          "type": "waiver",
+          "status": "failed",
+          "created": 1791382622771,
+          "roster_ids": [
+            6
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "7567",
+                "name": "Kenny Gainwell",
+                "position": "RB",
+                "team": "TB",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 86
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "drops": [],
           "waiver_bid": null
         },
         {

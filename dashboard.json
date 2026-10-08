@@ -16,7 +16,7 @@
     "ties": 0,
     "points_for": 550.32,
     "points_against": 539.62,
-    "waiver_position": 8
+    "waiver_position": 7
   },
   "season_summary": {
     "wins": 2,
@@ -26,7 +26,7 @@
     "highest_score": 177.42,
     "lowest_score": 110.12
   },
-  "waiver_position": 8,
+  "waiver_position": 7,
   "roster_capacity": {
     "active_players": 15,
     "active_capacity": 15,
@@ -933,19 +933,6 @@
         "search_rank": 42
       },
       {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "position": "QB",
-        "team": "DEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 44
-      },
-      {
         "player_id": "4892",
         "name": "Baker Mayfield",
         "position": "QB",
@@ -1022,22 +1009,22 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
         "search_rank": 131
-      }
-    ],
-    "RB": [
+      },
       {
-        "player_id": "7567",
-        "name": "Kenny Gainwell",
-        "position": "RB",
-        "team": "TB",
+        "player_id": "9228",
+        "name": "Bryce Young",
+        "position": "QB",
+        "team": "CAR",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 86
-      },
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 134
+      }
+    ],
+    "RB": [
       {
         "player_id": "4137",
         "name": "James Conner",
@@ -1154,6 +1141,19 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 4,
         "search_rank": 157
+      },
+      {
+        "player_id": "13414",
+        "name": "Kaelon Black",
+        "position": "RB",
+        "team": "SF",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Questionable",
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 161
       }
     ],
     "WR": [
