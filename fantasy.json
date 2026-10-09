@@ -460,17 +460,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "12512",
-            "name": "Quinshon Judkins",
-            "position": "RB",
-            "team": "CLE",
+            "player_id": "8112",
+            "name": "Drake London",
+            "position": "WR",
+            "team": "ATL",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
+            "depth_chart_position": "LWR",
             "depth_chart_order": 1,
-            "search_rank": 45
+            "search_rank": 19
           }
         },
         {
@@ -534,6 +534,19 @@
           "search_rank": 206
         },
         {
+          "player_id": "12512",
+          "name": "Quinshon Judkins",
+          "position": "RB",
+          "team": "CLE",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 45
+        },
+        {
           "player_id": "12533",
           "name": "Jacory Croskey-Merritt",
           "position": "RB",
@@ -571,19 +584,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 65
-        },
-        {
-          "player_id": "8112",
-          "name": "Drake London",
-          "position": "WR",
-          "team": "ATL",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 1,
-          "search_rank": 19
         }
       ],
       "reserve": [
@@ -3641,17 +3641,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
-            "status": null,
-            "active": null,
+            "player_id": "7528",
+            "name": "Najee Harris",
+            "position": "RB",
+            "team": "NYG",
+            "status": "Active",
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": null,
-            "depth_chart_order": null,
-            "search_rank": null
+            "depth_chart_position": "RB",
+            "depth_chart_order": 2,
+            "search_rank": 170
           }
         },
         {
@@ -3980,6 +3980,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 4,
           "search_rank": 33
+        },
+        {
+          "player_id": "7528",
+          "name": "Najee Harris",
+          "position": "RB",
+          "team": "NYG",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 170
         },
         {
           "player_id": "7567",
@@ -27615,17 +27628,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "12512",
-                    "name": "Quinshon Judkins",
-                    "position": "RB",
-                    "team": "CLE",
+                    "player_id": "8112",
+                    "name": "Drake London",
+                    "position": "WR",
+                    "team": "ATL",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
+                    "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
-                    "search_rank": 45
+                    "search_rank": 19
                   },
                   "points": 0.0
                 },
@@ -27699,6 +27712,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "12512",
+                    "name": "Quinshon Judkins",
+                    "position": "RB",
+                    "team": "CLE",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 45
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "12533",
                     "name": "Jacory Croskey-Merritt",
                     "position": "RB",
@@ -27758,22 +27787,6 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 2,
                     "search_rank": 65
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8112",
-                    "name": "Drake London",
-                    "position": "WR",
-                    "team": "ATL",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 19
                   },
                   "points": 0.0
                 }
@@ -29750,17 +29763,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "0",
-                    "name": "0",
-                    "position": null,
-                    "team": null,
-                    "status": null,
-                    "active": null,
+                    "player_id": "7528",
+                    "name": "Najee Harris",
+                    "position": "RB",
+                    "team": "NYG",
+                    "status": "Active",
+                    "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 170
                   },
                   "points": 0.0
                 },
@@ -30801,6 +30814,37 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1414258682467766272",
+          "week": 5,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1791548054857,
+          "roster_ids": [
+            8
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "7528",
+                "name": "Najee Harris",
+                "position": "RB",
+                "team": "NYG",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 170
+              },
+              "roster_id": 8,
+              "team_name": "This Is Our Year"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1413818255306473472",
           "week": 5,

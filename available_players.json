@@ -827,19 +827,6 @@
         "search_rank": 167
       },
       {
-        "player_id": "7528",
-        "name": "Najee Harris",
-        "position": "RB",
-        "team": "NYG",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 170
-      },
-      {
         "player_id": "12504",
         "name": "Kaleb Johnson",
         "position": "RB",
@@ -1319,6 +1306,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 524
+      },
+      {
+        "player_id": "13419",
+        "name": "Jaydn Ott",
+        "position": "RB",
+        "team": "KC",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 527
       }
     ],
     "WR": [
