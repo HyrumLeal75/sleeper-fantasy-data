@@ -228,19 +228,6 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
         "search_rank": 80
-      },
-      {
-        "player_id": "8155",
-        "name": "Breece Hall",
-        "position": "RB",
-        "team": "NYJ",
-        "status": "Active",
-        "active": true,
-        "injury_status": "Doubtful",
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 3,
-        "search_rank": 27
       }
     ],
     "reserve": [
@@ -256,6 +243,19 @@
         "depth_chart_position": null,
         "depth_chart_order": 6,
         "search_rank": 99
+      },
+      {
+        "player_id": "8155",
+        "name": "Breece Hall",
+        "position": "RB",
+        "team": "NYJ",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Doubtful",
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 3,
+        "search_rank": 27
       }
     ],
     "taxi": [],
@@ -491,12 +491,12 @@
     "lowest_score": 110.12
   },
   "roster_capacity": {
-    "active_players": 15,
+    "active_players": 14,
     "active_capacity": 15,
-    "open_active_slots": 0,
-    "reserve_used": 1,
+    "open_active_slots": 1,
+    "reserve_used": 2,
     "reserve_capacity": 2,
-    "reserve_available": 1
+    "reserve_available": 0
   },
   "current_matchup": {
     "week": 5,
