@@ -31,7 +31,7 @@
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 26
+          "search_rank": 27
         }
       },
       {
@@ -63,7 +63,7 @@
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 466
+          "search_rank": 460
         }
       },
       {
@@ -75,7 +75,7 @@
           "team": "DAL",
           "status": "Active",
           "active": true,
-          "injury_status": null,
+          "injury_status": "Questionable",
           "injury_notes": null,
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
@@ -85,17 +85,17 @@
       {
         "slot": "WR2",
         "player": {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "11610",
+          "name": "Malik Washington",
           "position": "WR",
-          "team": "CIN",
+          "team": "MIA",
           "status": "Active",
           "active": true,
-          "injury_status": "Questionable",
+          "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "RWR",
+          "depth_chart_position": "SWR",
           "depth_chart_order": 1,
-          "search_rank": 36
+          "search_rank": 177
         }
       },
       {
@@ -165,19 +165,6 @@
     ],
     "bench": [
       {
-        "player_id": "11610",
-        "name": "Malik Washington",
-        "position": "WR",
-        "team": "MIA",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "SWR",
-        "depth_chart_order": 1,
-        "search_rank": 177
-      },
-      {
         "player_id": "13298",
         "name": "KC Concepcion",
         "position": "WR",
@@ -202,6 +189,19 @@
         "depth_chart_position": "LWR",
         "depth_chart_order": 1,
         "search_rank": 153
+      },
+      {
+        "player_id": "6801",
+        "name": "Tee Higgins",
+        "position": "WR",
+        "team": "CIN",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Questionable",
+        "injury_notes": null,
+        "depth_chart_position": "RWR",
+        "depth_chart_order": 2,
+        "search_rank": 36
       },
       {
         "player_id": "8132",
@@ -310,7 +310,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 466
+        "search_rank": 460
       },
       {
         "player_id": "12506",
@@ -384,7 +384,7 @@
         "team": "DAL",
         "status": "Active",
         "active": true,
-        "injury_status": null,
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "LWR",
         "depth_chart_order": 1,
@@ -400,7 +400,7 @@
         "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "RWR",
-        "depth_chart_order": 1,
+        "depth_chart_order": 2,
         "search_rank": 36
       },
       {
@@ -414,7 +414,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 26
+        "search_rank": 27
       },
       {
         "player_id": "8132",
@@ -501,7 +501,7 @@
   "current_matchup": {
     "week": 5,
     "matchup_id": 1,
-    "my_points": 0.0,
+    "my_points": 2.9,
     "my_lineup": [
       {
         "slot": "QB",
@@ -516,7 +516,7 @@
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 26
+          "search_rank": 27
         }
       },
       {
@@ -548,7 +548,7 @@
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 466
+          "search_rank": 460
         }
       },
       {
@@ -560,7 +560,7 @@
           "team": "DAL",
           "status": "Active",
           "active": true,
-          "injury_status": null,
+          "injury_status": "Questionable",
           "injury_notes": null,
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
@@ -570,17 +570,17 @@
       {
         "slot": "WR2",
         "player": {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "11610",
+          "name": "Malik Washington",
           "position": "WR",
-          "team": "CIN",
+          "team": "MIA",
           "status": "Active",
           "active": true,
-          "injury_status": "Questionable",
+          "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "RWR",
+          "depth_chart_position": "SWR",
           "depth_chart_order": 1,
-          "search_rank": 36
+          "search_rank": 177
         }
       },
       {
@@ -779,7 +779,7 @@
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 118
+            "search_rank": 119
           }
         },
         {
@@ -820,7 +820,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 26
+            "search_rank": 27
           },
           "points": 37.72
         },
@@ -867,7 +867,7 @@
             "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
@@ -887,7 +887,7 @@
             "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
+            "depth_chart_order": 2,
             "search_rank": 36
           },
           "points": 8.9
@@ -1078,7 +1078,7 @@
               "injury_notes": "Strain",
               "depth_chart_position": "QB",
               "depth_chart_order": 2,
-              "search_rank": 22
+              "search_rank": 20
             },
             "points": 43.26
           },
@@ -1280,7 +1280,7 @@
               "injury_notes": null,
               "depth_chart_position": "SWR",
               "depth_chart_order": 3,
-              "search_rank": 197
+              "search_rank": 195
             },
             "points": 5.5
           },
@@ -1337,7 +1337,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 26
+            "search_rank": 27
           },
           "points": 22.16
         },
@@ -1384,7 +1384,7 @@
             "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
@@ -1404,7 +1404,7 @@
             "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
+            "depth_chart_order": 2,
             "search_rank": 36
           },
           "points": 14.5
@@ -1714,7 +1714,7 @@
               "injury_notes": null,
               "depth_chart_position": "K",
               "depth_chart_order": 1,
-              "search_rank": 131
+              "search_rank": 133
             },
             "points": 7.0
           },
@@ -1745,11 +1745,11 @@
               "team": "LV",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "TE",
               "depth_chart_order": 1,
-              "search_rank": 23
+              "search_rank": 22
             },
             "points": 0.0
           },
@@ -1797,7 +1797,7 @@
               "injury_notes": "Dislocated",
               "depth_chart_position": "QB",
               "depth_chart_order": 2,
-              "search_rank": 74
+              "search_rank": 75
             },
             "points": 17.18
           },
@@ -1813,7 +1813,7 @@
               "injury_notes": "Surgery",
               "depth_chart_position": "RB",
               "depth_chart_order": 5,
-              "search_rank": 92
+              "search_rank": 91
             },
             "points": 0.0
           },
@@ -1854,7 +1854,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 26
+            "search_rank": 27
           },
           "points": 13.62
         },
@@ -1901,7 +1901,7 @@
             "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
@@ -1921,7 +1921,7 @@
             "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
+            "depth_chart_order": 2,
             "search_rank": 36
           },
           "points": 21.0
@@ -2142,7 +2142,7 @@
               "team": "LV",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Questionable",
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
@@ -2278,7 +2278,7 @@
               "team": "TEN",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Questionable",
               "injury_notes": null,
               "depth_chart_position": "LWR",
               "depth_chart_order": 1,
@@ -2310,10 +2310,10 @@
               "team": "PIT",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "RWR",
-              "depth_chart_order": 3,
+              "depth_chart_order": 6,
               "search_rank": 107
             },
             "points": 3.6
@@ -2346,7 +2346,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 41
+              "search_rank": 42
             },
             "points": 26.78
           },
@@ -2378,7 +2378,7 @@
               "injury_notes": null,
               "depth_chart_position": "TE",
               "depth_chart_order": 2,
-              "search_rank": 469
+              "search_rank": 467
             },
             "points": 12.2
           }
@@ -2403,7 +2403,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 26
+            "search_rank": 27
           },
           "points": 17.52
         },
@@ -2437,7 +2437,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 466
+            "search_rank": 460
           },
           "points": 22.0
         },
@@ -2450,7 +2450,7 @@
             "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
@@ -2470,7 +2470,7 @@
             "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
+            "depth_chart_order": 2,
             "search_rank": 36
           },
           "points": 28.7
@@ -2661,7 +2661,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 55
+              "search_rank": 56
             },
             "points": 32.62
           },
@@ -2920,8 +2920,8 @@
     },
     {
       "week": 5,
-      "result": "T",
-      "points": 0.0,
+      "result": "W",
+      "points": 2.9,
       "lineup": [
         {
           "slot": "QB",
@@ -2936,7 +2936,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 26
+            "search_rank": 27
           },
           "points": 0.0
         },
@@ -2970,7 +2970,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 466
+            "search_rank": 460
           },
           "points": 0.0
         },
@@ -2983,28 +2983,28 @@
             "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
             "search_rank": 10
           },
-          "points": 0.0
+          "points": 2.9
         },
         {
           "slot": "WR",
           "player": {
-            "player_id": "6801",
-            "name": "Tee Higgins",
+            "player_id": "11610",
+            "name": "Malik Washington",
             "position": "WR",
-            "team": "CIN",
+            "team": "MIA",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RWR",
+            "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 36
+            "search_rank": 177
           },
           "points": 0.0
         },
@@ -3096,22 +3096,6 @@
         },
         {
           "player": {
-            "player_id": "11610",
-            "name": "Malik Washington",
-            "position": "WR",
-            "team": "MIA",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 1,
-            "search_rank": 177
-          },
-          "points": 0.0
-        },
-        {
-          "player": {
             "player_id": "13298",
             "name": "KC Concepcion",
             "position": "WR",
@@ -3139,6 +3123,22 @@
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
             "search_rank": 153
+          },
+          "points": 0.0
+        },
+        {
+          "player": {
+            "player_id": "6801",
+            "name": "Tee Higgins",
+            "position": "WR",
+            "team": "CIN",
+            "status": "Active",
+            "active": true,
+            "injury_status": "Questionable",
+            "injury_notes": null,
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 2,
+            "search_rank": 36
           },
           "points": 0.0
         },
@@ -3329,7 +3329,7 @@
               "injury_notes": null,
               "depth_chart_position": "K",
               "depth_chart_order": 1,
-              "search_rank": 118
+              "search_rank": 119
             },
             "points": 0.0
           },
@@ -3392,7 +3392,7 @@
               "team": "MIA",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Questionable",
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 2,
@@ -3760,7 +3760,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 466
+            "search_rank": 460
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -3791,7 +3791,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 466
+            "search_rank": 460
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
