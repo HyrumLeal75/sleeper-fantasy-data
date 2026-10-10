@@ -113,7 +113,7 @@
         "injury_notes": null,
         "depth_chart_position": "SWR",
         "depth_chart_order": 1,
-        "search_rank": 177
+        "search_rank": 176
       }
     },
     {
@@ -145,7 +145,7 @@
         "injury_notes": null,
         "depth_chart_position": "LWR",
         "depth_chart_order": 2,
-        "search_rank": 65
+        "search_rank": 63
       }
     },
     {
@@ -282,10 +282,10 @@
       "team": "NYJ",
       "status": "Active",
       "active": true,
-      "injury_status": "Doubtful",
+      "injury_status": "Out",
       "injury_notes": null,
       "depth_chart_position": "RB",
-      "depth_chart_order": 3,
+      "depth_chart_order": 5,
       "search_rank": 27
     }
   ],
@@ -371,7 +371,7 @@
           "injury_notes": null,
           "depth_chart_position": "SWR",
           "depth_chart_order": 1,
-          "search_rank": 177
+          "search_rank": 176
         }
       },
       {
@@ -403,7 +403,7 @@
           "injury_notes": null,
           "depth_chart_position": "LWR",
           "depth_chart_order": 2,
-          "search_rank": 65
+          "search_rank": 63
         }
       },
       {
@@ -486,10 +486,10 @@
             "team": "CHI",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
-            "injury_notes": null,
+            "injury_status": "Out",
+            "injury_notes": "Sprain",
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
+            "depth_chart_order": 6,
             "search_rank": 61
           }
         },
@@ -913,11 +913,11 @@
         "team": "CHI",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": "Strain",
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 20
+        "search_rank": 22
       },
       {
         "player_id": "12508",
@@ -995,7 +995,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 119
+        "search_rank": 120
       },
       {
         "player_id": "5870",
@@ -1146,13 +1146,13 @@
         "player_id": "13405",
         "name": "Kaytron Allen",
         "position": "RB",
-        "team": "WAS",
+        "team": "MIA",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 7,
         "search_rank": 157
       },
       {
@@ -1233,7 +1233,7 @@
         "injury_notes": "Surgery",
         "depth_chart_position": "RWR",
         "depth_chart_order": 9,
-        "search_rank": 147
+        "search_rank": 148
       },
       {
         "player_id": "8676",
@@ -1271,7 +1271,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "LWR",
-        "depth_chart_order": 3,
+        "depth_chart_order": 2,
         "search_rank": 156
       },
       {
@@ -1294,10 +1294,10 @@
         "team": "NYJ",
         "status": "Active",
         "active": true,
-        "injury_status": "Doubtful",
+        "injury_status": "Out",
         "injury_notes": null,
         "depth_chart_position": "RWR",
-        "depth_chart_order": 3,
+        "depth_chart_order": 7,
         "search_rank": 162
       }
     ],
@@ -1374,8 +1374,8 @@
         "team": "LAR",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
-        "injury_notes": "Sprain",
+        "injury_status": null,
+        "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 2,
         "search_rank": 136
@@ -1387,7 +1387,7 @@
         "team": "WAS",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
