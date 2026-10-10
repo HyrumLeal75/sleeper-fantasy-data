@@ -149,19 +149,6 @@
         "search_rank": 176
       },
       {
-        "player_id": "96",
-        "name": "Aaron Rodgers",
-        "position": "QB",
-        "team": "PIT",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 187
-      },
-      {
         "player_id": "1373",
         "name": "Geno Smith",
         "position": "QB",
@@ -667,6 +654,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 577
+      },
+      {
+        "player_id": "6037",
+        "name": "Brett Rypien",
+        "position": "QB",
+        "team": "TB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 591
       }
     ],
     "RB": [

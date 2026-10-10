@@ -5658,19 +5658,6 @@
           "search_rank": 109
         },
         {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 2,
-          "search_rank": 691
-        },
-        {
           "player_id": "5967",
           "name": "Tony Pollard",
           "position": "RB",
@@ -5708,6 +5695,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 4,
           "search_rank": 147
+        },
+        {
+          "player_id": "96",
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 187
         }
       ],
       "reserve": [],
@@ -5790,19 +5790,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 7
-        },
-        {
-          "player_id": "5854",
-          "name": "Drew Lock",
-          "position": "QB",
-          "team": "SEA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 2,
-          "search_rank": 691
         },
         {
           "player_id": "5967",
@@ -5894,6 +5881,19 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 1,
           "search_rank": 206
+        },
+        {
+          "player_id": "96",
+          "name": "Aaron Rodgers",
+          "position": "QB",
+          "team": "PIT",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 187
         },
         {
           "player_id": "BAL",
@@ -30804,22 +30804,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "5854",
-                    "name": "Drew Lock",
-                    "position": "QB",
-                    "team": "SEA",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 2,
-                    "search_rank": 691
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "5967",
                     "name": "Tony Pollard",
                     "position": "RB",
@@ -30865,6 +30849,22 @@
                     "search_rank": 147
                   },
                   "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "96",
+                    "name": "Aaron Rodgers",
+                    "position": "QB",
+                    "team": "PIT",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 187
+                  },
+                  "points": 0.0
                 }
               ]
             }
@@ -30872,6 +30872,55 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1414697010648322048",
+          "week": 5,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1791652560439,
+          "roster_ids": [
+            12
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "96",
+                "name": "Aaron Rodgers",
+                "position": "QB",
+                "team": "PIT",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 1,
+                "search_rank": 187
+              },
+              "roster_id": 12,
+              "team_name": "Los Mapachitos"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "5854",
+                "name": "Drew Lock",
+                "position": "QB",
+                "team": "SEA",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 2,
+                "search_rank": 691
+              },
+              "roster_id": 12,
+              "team_name": "Los Mapachitos"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1414470206377467904",
           "week": 5,
