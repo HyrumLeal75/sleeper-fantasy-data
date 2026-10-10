@@ -32,19 +32,6 @@
         "search_rank": 20
       },
       {
-        "player_id": "11566",
-        "name": "Jayden Daniels",
-        "position": "QB",
-        "team": "WAS",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 21
-      },
-      {
         "player_id": "12508",
         "name": "Jaxson Dart",
         "position": "QB",
@@ -667,6 +654,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 570
+      },
+      {
+        "player_id": "13428",
+        "name": "Joey Aguilar",
+        "position": "QB",
+        "team": "JAX",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 577
       }
     ],
     "RB": [

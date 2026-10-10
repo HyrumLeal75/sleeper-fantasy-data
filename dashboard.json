@@ -28,9 +28,9 @@
   },
   "waiver_position": 7,
   "roster_capacity": {
-    "active_players": 14,
+    "active_players": 15,
     "active_capacity": 15,
-    "open_active_slots": 1,
+    "open_active_slots": 0,
     "reserve_used": 2,
     "reserve_capacity": 2,
     "reserve_available": 0
@@ -39,17 +39,17 @@
     {
       "slot": "QB",
       "player": {
-        "player_id": "6904",
-        "name": "Jalen Hurts",
+        "player_id": "11566",
+        "name": "Jayden Daniels",
         "position": "QB",
-        "team": "PHI",
+        "team": "WAS",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 27
+        "search_rank": 21
       }
     },
     {
@@ -222,6 +222,19 @@
       "search_rank": 36
     },
     {
+      "player_id": "6904",
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "injury_notes": null,
+      "depth_chart_position": "QB",
+      "depth_chart_order": 1,
+      "search_rank": 27
+    },
+    {
       "player_id": "8132",
       "name": "Tyler Allgeier",
       "position": "RB",
@@ -284,17 +297,17 @@
       {
         "slot": "QB",
         "player": {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
+          "player_id": "11566",
+          "name": "Jayden Daniels",
           "position": "QB",
-          "team": "PHI",
+          "team": "WAS",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 27
+          "search_rank": 21
         }
       },
       {
@@ -581,6 +594,37 @@
   },
   "recent_transactions": [
     {
+      "transaction_id": "1414470206377467904",
+      "week": 5,
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1791598486088,
+      "roster_ids": [
+        10
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11566",
+            "name": "Jayden Daniels",
+            "position": "QB",
+            "team": "WAS",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 21
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "drops": [],
+      "waiver_bid": null
+    },
+    {
       "transaction_id": "1413378292156792832",
       "week": 4,
       "type": "waiver",
@@ -858,37 +902,6 @@
       ],
       "drops": [],
       "waiver_bid": null
-    },
-    {
-      "transaction_id": "1410838733749501952",
-      "week": 3,
-      "type": "waiver",
-      "status": "complete",
-      "created": 1790732675544,
-      "roster_ids": [
-        10
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "12495",
-            "name": "Ollie Gordon",
-            "position": "RB",
-            "team": "MIA",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 460
-          },
-          "roster_id": 10,
-          "team_name": "FearNando Mendoza"
-        }
-      ],
-      "drops": [],
-      "waiver_bid": null
     }
   ],
   "available_preview": {
@@ -905,19 +918,6 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
         "search_rank": 20
-      },
-      {
-        "player_id": "11566",
-        "name": "Jayden Daniels",
-        "position": "QB",
-        "team": "WAS",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 21
       },
       {
         "player_id": "12508",
@@ -1022,6 +1022,19 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
         "search_rank": 133
+      },
+      {
+        "player_id": "138",
+        "name": "Ben Roethlisberger",
+        "position": "QB",
+        "team": "PIT",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 176
       }
     ],
     "RB": [

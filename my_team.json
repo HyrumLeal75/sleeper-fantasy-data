@@ -21,17 +21,17 @@
       {
         "slot": "QB",
         "player": {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
+          "player_id": "11566",
+          "name": "Jayden Daniels",
           "position": "QB",
-          "team": "PHI",
+          "team": "WAS",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 27
+          "search_rank": 21
         }
       },
       {
@@ -204,6 +204,19 @@
         "search_rank": 36
       },
       {
+        "player_id": "6904",
+        "name": "Jalen Hurts",
+        "position": "QB",
+        "team": "PHI",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 27
+      },
+      {
         "player_id": "8132",
         "name": "Tyler Allgeier",
         "position": "RB",
@@ -272,6 +285,19 @@
         "depth_chart_position": null,
         "depth_chart_order": 6,
         "search_rank": 99
+      },
+      {
+        "player_id": "11566",
+        "name": "Jayden Daniels",
+        "position": "QB",
+        "team": "WAS",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 21
       },
       {
         "player_id": "11610",
@@ -491,9 +517,9 @@
     "lowest_score": 110.12
   },
   "roster_capacity": {
-    "active_players": 14,
+    "active_players": 15,
     "active_capacity": 15,
-    "open_active_slots": 1,
+    "open_active_slots": 0,
     "reserve_used": 2,
     "reserve_capacity": 2,
     "reserve_available": 0
@@ -506,17 +532,17 @@
       {
         "slot": "QB",
         "player": {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
+          "player_id": "11566",
+          "name": "Jayden Daniels",
           "position": "QB",
-          "team": "PHI",
+          "team": "WAS",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 27
+          "search_rank": 21
         }
       },
       {
@@ -2926,17 +2952,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "6904",
-            "name": "Jalen Hurts",
+            "player_id": "11566",
+            "name": "Jayden Daniels",
             "position": "QB",
-            "team": "PHI",
+            "team": "WAS",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 27
+            "search_rank": 21
           },
           "points": 0.0
         },
@@ -3139,6 +3165,22 @@
             "depth_chart_position": "RWR",
             "depth_chart_order": 2,
             "search_rank": 36
+          },
+          "points": 0.0
+        },
+        {
+          "player": {
+            "player_id": "6904",
+            "name": "Jalen Hurts",
+            "position": "QB",
+            "team": "PHI",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 27
           },
           "points": 0.0
         },
@@ -3953,6 +3995,37 @@
           "team_name": "FearNando Mendoza"
         }
       ],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1414470206377467904",
+      "week": 5,
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1791598486088,
+      "roster_ids": [
+        10
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11566",
+            "name": "Jayden Daniels",
+            "position": "QB",
+            "team": "WAS",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 21
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "drops": [],
       "waiver_bid": null
     }
   ]
