@@ -145,7 +145,7 @@
         "injury_notes": null,
         "depth_chart_position": "LWR",
         "depth_chart_order": 2,
-        "search_rank": 63
+        "search_rank": 65
       }
     },
     {
@@ -403,7 +403,7 @@
           "injury_notes": null,
           "depth_chart_position": "LWR",
           "depth_chart_order": 2,
-          "search_rank": 63
+          "search_rank": 65
         }
       },
       {
@@ -1021,7 +1021,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 133
+        "search_rank": 134
       },
       {
         "player_id": "138",
@@ -1152,7 +1152,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 7,
+        "depth_chart_order": 4,
         "search_rank": 157
       },
       {
@@ -1219,7 +1219,7 @@
         "injury_status": "IR",
         "injury_notes": "Surgery",
         "depth_chart_position": null,
-        "depth_chart_order": 9,
+        "depth_chart_order": 8,
         "search_rank": 126
       },
       {
@@ -1258,7 +1258,7 @@
         "injury_status": "IR",
         "injury_notes": "Sprain",
         "depth_chart_position": "SWR",
-        "depth_chart_order": 10,
+        "depth_chart_order": 9,
         "search_rank": 151
       },
       {
