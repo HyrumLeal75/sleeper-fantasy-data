@@ -1836,17 +1836,17 @@
         {
           "slot": "WR1",
           "player": {
-            "player_id": "9487",
-            "name": "Parker Washington",
+            "player_id": "9997",
+            "name": "Zay Flowers",
             "position": "WR",
-            "team": "JAX",
+            "team": "BAL",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 69
+            "search_rank": 40
           }
         },
         {
@@ -1884,17 +1884,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "9997",
-            "name": "Zay Flowers",
-            "position": "WR",
-            "team": "BAL",
+            "player_id": "11576",
+            "name": "Braelon Allen",
+            "position": "RB",
+            "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
+            "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 40
+            "search_rank": 135
           }
         },
         {
@@ -1931,19 +1931,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11576",
-          "name": "Braelon Allen",
-          "position": "RB",
-          "team": "NYJ",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 135
-        },
         {
           "player_id": "11581",
           "name": "MarShawn Lloyd",
@@ -2008,6 +1995,19 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 1,
           "search_rank": 117
+        },
+        {
+          "player_id": "9487",
+          "name": "Parker Washington",
+          "position": "WR",
+          "team": "JAX",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 1,
+          "search_rank": 69
         }
       ],
       "reserve": [
@@ -2726,17 +2726,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "12534",
-            "name": "Kyle Monangai",
+            "player_id": "10235",
+            "name": "Roschon Johnson",
             "position": "RB",
             "team": "CHI",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
-            "injury_notes": "Sprain",
+            "injury_status": null,
+            "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 6,
-            "search_rank": 61
+            "depth_chart_order": 2,
+            "search_rank": 681
           }
         },
         {
@@ -2890,17 +2890,17 @@
           "search_rank": 132
         },
         {
-          "player_id": "13264",
-          "name": "Dohnte Meyers",
-          "position": "WR",
-          "team": "CIN",
+          "player_id": "12534",
+          "name": "Kyle Monangai",
+          "position": "RB",
+          "team": "CHI",
           "status": "Active",
           "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 3,
-          "search_rank": 628
+          "injury_status": "Out",
+          "injury_notes": "Sprain",
+          "depth_chart_position": "RB",
+          "depth_chart_order": 6,
+          "search_rank": 61
         },
         {
           "player_id": "5850",
@@ -2958,6 +2958,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 184
+        },
+        {
+          "player_id": "10235",
+          "name": "Roschon Johnson",
+          "position": "RB",
+          "team": "CHI",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 681
         },
         {
           "player_id": "11628",
@@ -3023,19 +3036,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 6,
           "search_rank": 61
-        },
-        {
-          "player_id": "13264",
-          "name": "Dohnte Meyers",
-          "position": "WR",
-          "team": "CIN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 3,
-          "search_rank": 628
         },
         {
           "player_id": "13281",
@@ -27306,17 +27306,17 @@
             {
               "slot": "RB",
               "player": {
-                "player_id": "12534",
-                "name": "Kyle Monangai",
+                "player_id": "10235",
+                "name": "Roschon Johnson",
                 "position": "RB",
                 "team": "CHI",
                 "status": "Active",
                 "active": true,
-                "injury_status": "Out",
-                "injury_notes": "Sprain",
+                "injury_status": null,
+                "injury_notes": null,
                 "depth_chart_position": "RB",
-                "depth_chart_order": 6,
-                "search_rank": 61
+                "depth_chart_order": 2,
+                "search_rank": 681
               },
               "points": 0.0
             },
@@ -27490,17 +27490,17 @@
             },
             {
               "player": {
-                "player_id": "13264",
-                "name": "Dohnte Meyers",
-                "position": "WR",
-                "team": "CIN",
+                "player_id": "12534",
+                "name": "Kyle Monangai",
+                "position": "RB",
+                "team": "CHI",
                 "status": "Active",
                 "active": true,
-                "injury_status": null,
-                "injury_notes": null,
-                "depth_chart_position": "SWR",
-                "depth_chart_order": 3,
-                "search_rank": 628
+                "injury_status": "Out",
+                "injury_notes": "Sprain",
+                "depth_chart_position": "RB",
+                "depth_chart_order": 6,
+                "search_rank": 61
               },
               "points": 0.0
             },
@@ -28433,17 +28433,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "9487",
-                    "name": "Parker Washington",
+                    "player_id": "9997",
+                    "name": "Zay Flowers",
                     "position": "WR",
-                    "team": "JAX",
+                    "team": "BAL",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 1,
-                    "search_rank": 69
+                    "search_rank": 40
                   },
                   "points": 0.0
                 },
@@ -28484,17 +28484,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "9997",
-                    "name": "Zay Flowers",
-                    "position": "WR",
-                    "team": "BAL",
+                    "player_id": "11576",
+                    "name": "Braelon Allen",
+                    "position": "RB",
+                    "team": "NYJ",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
+                    "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
+                    "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 40
+                    "search_rank": 135
                   },
                   "points": 0.0
                 },
@@ -28534,22 +28534,6 @@
                 }
               ],
               "bench": [
-                {
-                  "player": {
-                    "player_id": "11576",
-                    "name": "Braelon Allen",
-                    "position": "RB",
-                    "team": "NYJ",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 135
-                  },
-                  "points": 0.0
-                },
                 {
                   "player": {
                     "player_id": "11581",
@@ -28643,6 +28627,22 @@
                     "depth_chart_position": "RWR",
                     "depth_chart_order": 1,
                     "search_rank": 117
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "9487",
+                    "name": "Parker Washington",
+                    "position": "WR",
+                    "team": "JAX",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 69
                   },
                   "points": 0.0
                 }
@@ -29251,17 +29251,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "12534",
-                    "name": "Kyle Monangai",
+                    "player_id": "10235",
+                    "name": "Roschon Johnson",
                     "position": "RB",
                     "team": "CHI",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Out",
-                    "injury_notes": "Sprain",
+                    "injury_status": null,
+                    "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 6,
-                    "search_rank": 61
+                    "depth_chart_order": 2,
+                    "search_rank": 681
                   },
                   "points": 0.0
                 },
@@ -29435,17 +29435,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "13264",
-                    "name": "Dohnte Meyers",
-                    "position": "WR",
-                    "team": "CIN",
+                    "player_id": "12534",
+                    "name": "Kyle Monangai",
+                    "position": "RB",
+                    "team": "CHI",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 3,
-                    "search_rank": 628
+                    "injury_status": "Out",
+                    "injury_notes": "Sprain",
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 6,
+                    "search_rank": 61
                   },
                   "points": 0.0
                 },
@@ -30872,6 +30872,55 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1414870841467920384",
+          "week": 5,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1791694004937,
+          "roster_ids": [
+            6
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "10235",
+                "name": "Roschon Johnson",
+                "position": "RB",
+                "team": "CHI",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 681
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "13264",
+                "name": "Dohnte Meyers",
+                "position": "WR",
+                "team": "CIN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 3,
+                "search_rank": 628
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1414697010648322048",
           "week": 5,

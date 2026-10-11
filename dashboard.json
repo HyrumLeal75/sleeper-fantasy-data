@@ -480,17 +480,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "12534",
-            "name": "Kyle Monangai",
+            "player_id": "10235",
+            "name": "Roschon Johnson",
             "position": "RB",
             "team": "CHI",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
-            "injury_notes": "Sprain",
+            "injury_status": null,
+            "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 6,
-            "search_rank": 61
+            "depth_chart_order": 2,
+            "search_rank": 681
           }
         },
         {
