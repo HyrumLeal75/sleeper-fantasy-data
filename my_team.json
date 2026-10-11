@@ -527,7 +527,7 @@
   "current_matchup": {
     "week": 5,
     "matchup_id": 1,
-    "my_points": 2.9,
+    "my_points": 95.46,
     "my_lineup": [
       {
         "slot": "QB",
@@ -678,7 +678,7 @@
       "roster_id": 6,
       "team_name": "ivasol",
       "username": "ivasol",
-      "points": 0.0,
+      "points": 87.0,
       "lineup": [
         {
           "slot": "QB",
@@ -2947,7 +2947,7 @@
     {
       "week": 5,
       "result": "W",
-      "points": 2.9,
+      "points": 95.46,
       "lineup": [
         {
           "slot": "QB",
@@ -2964,7 +2964,7 @@
             "depth_chart_order": 1,
             "search_rank": 21
           },
-          "points": 0.0
+          "points": 34.26
         },
         {
           "slot": "RB",
@@ -2981,7 +2981,7 @@
             "depth_chart_order": 1,
             "search_rank": 12
           },
-          "points": 0.0
+          "points": 4.0
         },
         {
           "slot": "RB",
@@ -2998,7 +2998,7 @@
             "depth_chart_order": 1,
             "search_rank": 460
           },
-          "points": 0.0
+          "points": 14.8
         },
         {
           "slot": "WR",
@@ -3032,7 +3032,7 @@
             "depth_chart_order": 1,
             "search_rank": 176
           },
-          "points": 0.0
+          "points": 12.1
         },
         {
           "slot": "TE",
@@ -3049,7 +3049,7 @@
             "depth_chart_order": 1,
             "search_rank": 63
           },
-          "points": 0.0
+          "points": 1.4
         },
         {
           "slot": "FLEX",
@@ -3066,7 +3066,7 @@
             "depth_chart_order": 2,
             "search_rank": 65
           },
-          "points": 0.0
+          "points": 5.0
         },
         {
           "slot": "K",
@@ -3083,7 +3083,7 @@
             "depth_chart_order": 1,
             "search_rank": 128
           },
-          "points": 0.0
+          "points": 17.0
         },
         {
           "slot": "DEF",
@@ -3100,7 +3100,7 @@
             "depth_chart_order": null,
             "search_rank": null
           },
-          "points": 0.0
+          "points": 4.0
         }
       ],
       "bench": [
@@ -3134,7 +3134,7 @@
             "depth_chart_order": 2,
             "search_rank": 111
           },
-          "points": 0.0
+          "points": 1.5
         },
         {
           "player": {
@@ -3150,7 +3150,7 @@
             "depth_chart_order": 1,
             "search_rank": 153
           },
-          "points": 0.0
+          "points": 13.6
         },
         {
           "player": {
@@ -3166,7 +3166,7 @@
             "depth_chart_order": 2,
             "search_rank": 36
           },
-          "points": 0.0
+          "points": 4.2
         },
         {
           "player": {
@@ -3182,7 +3182,7 @@
             "depth_chart_order": 1,
             "search_rank": 27
           },
-          "points": 0.0
+          "points": 24.0
         },
         {
           "player": {
@@ -3198,7 +3198,7 @@
             "depth_chart_order": 2,
             "search_rank": 89
           },
-          "points": 0.0
+          "points": 0.2
         },
         {
           "player": {
@@ -3237,7 +3237,7 @@
         "roster_id": 6,
         "team_name": "ivasol",
         "username": "ivasol",
-        "points": 0.0,
+        "points": 87.0,
         "lineup": [
           {
             "slot": "QB",
@@ -3254,7 +3254,7 @@
               "depth_chart_order": 1,
               "search_rank": 16
             },
-            "points": 0.0
+            "points": 37.6
           },
           {
             "slot": "RB",
@@ -3271,7 +3271,7 @@
               "depth_chart_order": 1,
               "search_rank": 42
             },
-            "points": 0.0
+            "points": 1.1
           },
           {
             "slot": "RB",
@@ -3288,7 +3288,7 @@
               "depth_chart_order": 2,
               "search_rank": 681
             },
-            "points": 0.0
+            "points": 9.0
           },
           {
             "slot": "WR",
@@ -3356,7 +3356,7 @@
               "depth_chart_order": 2,
               "search_rank": 118
             },
-            "points": 0.0
+            "points": 22.3
           },
           {
             "slot": "K",
@@ -3373,7 +3373,7 @@
               "depth_chart_order": 1,
               "search_rank": 119
             },
-            "points": 0.0
+            "points": 4.0
           },
           {
             "slot": "DEF",
@@ -3390,7 +3390,7 @@
               "depth_chart_order": null,
               "search_rank": null
             },
-            "points": 0.0
+            "points": 13.0
           }
         ],
         "bench": [
@@ -3408,7 +3408,7 @@
               "depth_chart_order": 1,
               "search_rank": 184
             },
-            "points": 0.0
+            "points": 7.5
           },
           {
             "player": {
@@ -3440,7 +3440,7 @@
               "depth_chart_order": 2,
               "search_rank": 174
             },
-            "points": 0.0
+            "points": 1.1
           },
           {
             "player": {
