@@ -527,7 +527,7 @@
   "current_matchup": {
     "week": 5,
     "matchup_id": 1,
-    "my_points": 95.46,
+    "my_points": 101.36,
     "my_lineup": [
       {
         "slot": "QB",
@@ -678,7 +678,7 @@
       "roster_id": 6,
       "team_name": "ivasol",
       "username": "ivasol",
-      "points": 87.0,
+      "points": 104.2,
       "lineup": [
         {
           "slot": "QB",
@@ -2946,8 +2946,8 @@
     },
     {
       "week": 5,
-      "result": "W",
-      "points": 95.46,
+      "result": "L",
+      "points": 101.36,
       "lineup": [
         {
           "slot": "QB",
@@ -2981,7 +2981,7 @@
             "depth_chart_order": 1,
             "search_rank": 12
           },
-          "points": 4.0
+          "points": 4.9
         },
         {
           "slot": "RB",
@@ -3100,7 +3100,7 @@
             "depth_chart_order": null,
             "search_rank": null
           },
-          "points": 4.0
+          "points": 9.0
         }
       ],
       "bench": [
@@ -3198,7 +3198,7 @@
             "depth_chart_order": 2,
             "search_rank": 89
           },
-          "points": 0.2
+          "points": 3.6
         },
         {
           "player": {
@@ -3214,7 +3214,7 @@
             "depth_chart_order": 2,
             "search_rank": 80
           },
-          "points": 0.0
+          "points": 1.6
         },
         {
           "player": {
@@ -3237,7 +3237,7 @@
         "roster_id": 6,
         "team_name": "ivasol",
         "username": "ivasol",
-        "points": 87.0,
+        "points": 104.2,
         "lineup": [
           {
             "slot": "QB",
@@ -3339,7 +3339,7 @@
               "depth_chart_order": 1,
               "search_rank": 67
             },
-            "points": 0.0
+            "points": 15.2
           },
           {
             "slot": "FLEX",
@@ -3373,7 +3373,7 @@
               "depth_chart_order": 1,
               "search_rank": 119
             },
-            "points": 4.0
+            "points": 6.0
           },
           {
             "slot": "DEF",
