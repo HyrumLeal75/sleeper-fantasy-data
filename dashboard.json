@@ -2,29 +2,29 @@
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
-  "current_week": 5,
+  "current_week": 6,
   "team_name": "FearNando Mendoza",
   "username": "Hyrum75",
   "roster_id": 10,
   "standing": {
-    "rank": 5,
+    "rank": 8,
     "roster_id": 10,
     "team_name": "FearNando Mendoza",
     "username": "Hyrum75",
     "wins": 2,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "points_for": 550.32,
-    "points_against": 539.62,
+    "points_for": 651.68,
+    "points_against": 683.52,
     "waiver_position": 7
   },
   "season_summary": {
     "wins": 2,
-    "losses": 2,
+    "losses": 3,
     "ties": 0,
-    "average_points": 137.58,
+    "average_points": 130.34,
     "highest_score": 177.42,
-    "lowest_score": 110.12
+    "lowest_score": 101.36
   },
   "waiver_position": 7,
   "roster_capacity": {
@@ -290,9 +290,9 @@
     }
   ],
   "current_matchup": {
-    "week": 5,
-    "matchup_id": 1,
-    "my_points": 101.36,
+    "week": 6,
+    "matchup_id": 2,
+    "my_points": 0.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -440,146 +440,146 @@
       }
     ],
     "opponent": {
-      "roster_id": 6,
-      "team_name": "ivasol",
-      "username": "ivasol",
-      "points": 110.7,
+      "roster_id": 12,
+      "team_name": "Los Mapachitos",
+      "username": "Juanpmv",
+      "points": 0.0,
       "lineup": [
         {
           "slot": "QB",
           "player": {
-            "player_id": "6770",
-            "name": "Joe Burrow",
+            "player_id": "6804",
+            "name": "Jordan Love",
             "position": "QB",
-            "team": "CIN",
+            "team": "GB",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 16
+            "search_rank": 69
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "5892",
-            "name": "David Montgomery",
+            "player_id": "3198",
+            "name": "Derrick Henry",
             "position": "RB",
-            "team": "HOU",
+            "team": "BAL",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 41
+            "search_rank": 7
           }
         },
         {
           "slot": "RB2",
           "player": {
-            "player_id": "10235",
-            "name": "Roschon Johnson",
+            "player_id": "12490",
+            "name": "Bhayshul Tuten",
             "position": "RB",
-            "team": "CHI",
+            "team": "JAX",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 681
+            "depth_chart_order": 1,
+            "search_rank": 44
           }
         },
         {
           "slot": "WR1",
           "player": {
-            "player_id": "9493",
-            "name": "Puka Nacua",
+            "player_id": "7547",
+            "name": "Amon-Ra St. Brown",
             "position": "WR",
-            "team": "LAR",
+            "team": "DET",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 1,
+            "search_rank": 7
+          }
+        },
+        {
+          "slot": "WR2",
+          "player": {
+            "player_id": "9486",
+            "name": "Dontayvion Wicks",
+            "position": "WR",
+            "team": "PHI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RWR",
             "depth_chart_order": 1,
-            "search_rank": 4
-          }
-        },
-        {
-          "slot": "WR2",
-          "player": {
-            "player_id": "9756",
-            "name": "Jordan Addison",
-            "position": "WR",
-            "team": "MIN",
-            "status": "Active",
-            "active": true,
-            "injury_status": "Out",
-            "injury_notes": "Soreness",
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 6,
-            "search_rank": 99
+            "search_rank": 203
           }
         },
         {
           "slot": "TE",
           "player": {
-            "player_id": "7553",
-            "name": "Kyle Pitts",
+            "player_id": "12518",
+            "name": "Tyler Warren",
             "position": "TE",
-            "team": "ATL",
+            "team": "IND",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 68
+            "search_rank": 48
           }
         },
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "12501",
-            "name": "Matthew Golden",
-            "position": "WR",
-            "team": "GB",
+            "player_id": "8110",
+            "name": "Jake Ferguson",
+            "position": "TE",
+            "team": "DAL",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 2,
-            "search_rank": 118
+            "depth_chart_position": "TE",
+            "depth_chart_order": 1,
+            "search_rank": 97
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "8259",
-            "name": "Cameron Dicker",
+            "player_id": "11539",
+            "name": "Jake Bates",
             "position": "K",
-            "team": "LAC",
+            "team": "DET",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 119
+            "search_rank": 148
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "CLE",
-            "name": "Browns",
+            "player_id": "BAL",
+            "name": "Ravens",
             "position": "DEF",
-            "team": "CLE",
+            "team": "BAL",
             "status": null,
             "active": true,
             "injury_status": null,
