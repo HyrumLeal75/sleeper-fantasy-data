@@ -27267,7 +27267,7 @@
           "roster_id": 6,
           "team_name": "ivasol",
           "username": "ivasol",
-          "points": 104.2,
+          "points": 110.7,
           "lineup": [
             {
               "slot": "QB",
@@ -27335,7 +27335,7 @@
                 "depth_chart_order": 1,
                 "search_rank": 4
               },
-              "points": 0.0
+              "points": 6.5
             },
             {
               "slot": "WR",
@@ -27563,7 +27563,7 @@
               "roster_id": 1,
               "team_name": "El Guajolote Macias",
               "username": "JerrysaurusRex",
-              "points": 115.64,
+              "points": 115.94,
               "lineup": [
                 {
                   "slot": "QB",
@@ -27597,7 +27597,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 5
                   },
-                  "points": 0.0
+                  "points": 0.3
                 },
                 {
                   "slot": "RB",
@@ -28102,7 +28102,7 @@
               "roster_id": 2,
               "team_name": "Horsepower",
               "username": "MD1AZ",
-              "points": 101.52,
+              "points": 104.12,
               "lineup": [
                 {
                   "slot": "QB",
@@ -28136,7 +28136,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 13
                   },
-                  "points": 0.0
+                  "points": 2.6
                 },
                 {
                   "slot": "RB",
@@ -28305,7 +28305,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 68
                   },
-                  "points": 0.0
+                  "points": 0.2
                 },
                 {
                   "player": {
@@ -29212,7 +29212,7 @@
               "roster_id": 6,
               "team_name": "ivasol",
               "username": "ivasol",
-              "points": 104.2,
+              "points": 110.7,
               "lineup": [
                 {
                   "slot": "QB",
@@ -29280,7 +29280,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 4
                   },
-                  "points": 0.0
+                  "points": 6.5
                 },
                 {
                   "slot": "WR",
@@ -29799,7 +29799,7 @@
               "roster_id": 8,
               "team_name": "This Is Our Year",
               "username": "juandelagarza",
-              "points": 46.3,
+              "points": 47.78,
               "lineup": [
                 {
                   "slot": "QB",
@@ -29816,7 +29816,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 65
                   },
-                  "points": 0.0
+                  "points": 1.48
                 },
                 {
                   "slot": "RB",

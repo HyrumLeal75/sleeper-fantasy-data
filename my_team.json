@@ -678,7 +678,7 @@
       "roster_id": 6,
       "team_name": "ivasol",
       "username": "ivasol",
-      "points": 104.2,
+      "points": 110.7,
       "lineup": [
         {
           "slot": "QB",
@@ -3237,7 +3237,7 @@
         "roster_id": 6,
         "team_name": "ivasol",
         "username": "ivasol",
-        "points": 104.2,
+        "points": 110.7,
         "lineup": [
           {
             "slot": "QB",
@@ -3305,7 +3305,7 @@
               "depth_chart_order": 1,
               "search_rank": 4
             },
-            "points": 0.0
+            "points": 6.5
           },
           {
             "slot": "WR",
