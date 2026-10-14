@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:45:55.393319+00:00",
+  "generated_at": "2026-10-14T17:06:13.917883+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -1407,17 +1407,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "8136",
-            "name": "Rachaad White",
-            "position": "RB",
-            "team": "WAS",
+            "player_id": "9480",
+            "name": "Brenton Strange",
+            "position": "TE",
+            "team": "JAX",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 125
+            "depth_chart_position": "TE",
+            "depth_chart_order": 1,
+            "search_rank": 104
           }
         },
         {
@@ -1468,6 +1468,19 @@
           "search_rank": 3
         },
         {
+          "player_id": "8136",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 125
+        },
+        {
           "player_id": "8148",
           "name": "Jameson Williams",
           "position": "WR",
@@ -1492,19 +1505,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 14
-        },
-        {
-          "player_id": "9480",
-          "name": "Brenton Strange",
-          "position": "TE",
-          "team": "JAX",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 104
         },
         {
           "player_id": "9753",
@@ -2397,10 +2397,10 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "MIN",
-            "name": "Vikings",
+            "player_id": "KC",
+            "name": "Chiefs",
             "position": "DEF",
-            "team": "MIN",
+            "team": "KC",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -2465,10 +2465,10 @@
           "search_rank": 103
         },
         {
-          "player_id": "KC",
-          "name": "Chiefs",
+          "player_id": "MIN",
+          "name": "Vikings",
           "position": "DEF",
-          "team": "KC",
+          "team": "MIN",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -34299,17 +34299,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "8136",
-                    "name": "Rachaad White",
-                    "position": "RB",
-                    "team": "WAS",
+                    "player_id": "9480",
+                    "name": "Brenton Strange",
+                    "position": "TE",
+                    "team": "JAX",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 125
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 1,
+                    "search_rank": 104
                   },
                   "points": 0.0
                 },
@@ -34383,6 +34383,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "8136",
+                    "name": "Rachaad White",
+                    "position": "RB",
+                    "team": "WAS",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 125
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "8148",
                     "name": "Jameson Williams",
                     "position": "WR",
@@ -34426,22 +34442,6 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
                     "search_rank": 14
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9480",
-                    "name": "Brenton Strange",
-                    "position": "TE",
-                    "team": "JAX",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 104
                   },
                   "points": 0.0
                 },
@@ -35211,10 +35211,10 @@
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "MIN",
-                    "name": "Vikings",
+                    "player_id": "KC",
+                    "name": "Chiefs",
                     "position": "DEF",
-                    "team": "MIN",
+                    "team": "KC",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -35325,10 +35325,10 @@
                 },
                 {
                   "player": {
-                    "player_id": "KC",
-                    "name": "Chiefs",
+                    "player_id": "MIN",
+                    "name": "Vikings",
                     "position": "DEF",
-                    "team": "KC",
+                    "team": "MIN",
                     "status": null,
                     "active": true,
                     "injury_status": null,
