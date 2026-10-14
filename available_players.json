@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:06:13.917883+00:00",
+  "generated_at": "2026-10-14T21:37:51.784362+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -673,6 +673,19 @@
     ],
     "RB": [
       {
+        "player_id": "7567",
+        "name": "Kenny Gainwell",
+        "position": "RB",
+        "team": "TB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 86
+      },
+      {
         "player_id": "4137",
         "name": "James Conner",
         "position": "RB",
@@ -1308,19 +1321,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 528
-      },
-      {
-        "player_id": "13418",
-        "name": "Robert Henry",
-        "position": "RB",
-        "team": "SEA",
-        "status": "Active",
-        "active": true,
-        "injury_status": "Out",
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 9,
-        "search_rank": 534
       }
     ],
     "WR": [
@@ -2642,6 +2642,19 @@
         "search_rank": 125
       },
       {
+        "player_id": "11539",
+        "name": "Jake Bates",
+        "position": "K",
+        "team": "DET",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 148
+      },
+      {
         "player_id": "12015",
         "name": "Harrison Mevis",
         "position": "K",
@@ -2770,19 +2783,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 242
-      },
-      {
-        "player_id": "650",
-        "name": "Nick Folk",
-        "position": "K",
-        "team": "ATL",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 249
       },
       {
         "player_id": "7933",
