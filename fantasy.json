@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T03:48:27.411611+00:00",
+  "generated_at": "2026-10-14T04:47:43.919921+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -2272,22 +2272,6 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "9221",
-            "name": "Jahmyr Gibbs",
-            "position": "RB",
-            "team": "DET",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 1
-          }
-        },
-        {
-          "slot": "RB2",
-          "player": {
             "player_id": "4035",
             "name": "Alvin Kamara",
             "position": "RB",
@@ -2299,6 +2283,22 @@
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
             "search_rank": 119
+          }
+        },
+        {
+          "slot": "RB2",
+          "player": {
+            "player_id": "9508",
+            "name": "Tyjae Spears",
+            "position": "RB",
+            "team": "TEN",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "RB",
+            "depth_chart_order": 2,
+            "search_rank": 122
           }
         },
         {
@@ -2426,17 +2426,17 @@
           "search_rank": 33
         },
         {
-          "player_id": "9508",
-          "name": "Tyjae Spears",
+          "player_id": "9221",
+          "name": "Jahmyr Gibbs",
           "position": "RB",
-          "team": "TEN",
+          "team": "DET",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 122
+          "depth_chart_order": 1,
+          "search_rank": 1
         },
         {
           "player_id": "9754",
@@ -4564,17 +4564,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "12495",
-            "name": "Ollie Gordon",
+            "player_id": "8132",
+            "name": "Tyler Allgeier",
             "position": "RB",
-            "team": "MIA",
+            "team": "ARI",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 465
+            "depth_chart_order": 2,
+            "search_rank": 89
           }
         },
         {
@@ -4596,17 +4596,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "11610",
-            "name": "Malik Washington",
+            "player_id": "13346",
+            "name": "Denzel Boston",
             "position": "WR",
-            "team": "MIA",
+            "team": "CLE",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
+            "depth_chart_position": "LWR",
             "depth_chart_order": 1,
-            "search_rank": 176
+            "search_rank": 153
           }
         },
         {
@@ -4676,17 +4676,30 @@
       ],
       "bench": [
         {
-          "player_id": "13346",
-          "name": "Denzel Boston",
+          "player_id": "11610",
+          "name": "Malik Washington",
           "position": "WR",
-          "team": "CLE",
+          "team": "MIA",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "LWR",
+          "depth_chart_position": "SWR",
           "depth_chart_order": 1,
-          "search_rank": 153
+          "search_rank": 176
+        },
+        {
+          "player_id": "12495",
+          "name": "Ollie Gordon",
+          "position": "RB",
+          "team": "MIA",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Questionable",
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 465
         },
         {
           "player_id": "6801",
@@ -4713,19 +4726,6 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
           "search_rank": 27
-        },
-        {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 89
         },
         {
           "player_id": "8154",
@@ -31655,17 +31655,17 @@
           {
             "slot": "RB",
             "player": {
-              "player_id": "12495",
-              "name": "Ollie Gordon",
+              "player_id": "8132",
+              "name": "Tyler Allgeier",
               "position": "RB",
-              "team": "MIA",
+              "team": "ARI",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RB",
-              "depth_chart_order": 1,
-              "search_rank": 465
+              "depth_chart_order": 2,
+              "search_rank": 89
             },
             "points": 0.0
           },
@@ -31689,17 +31689,17 @@
           {
             "slot": "WR",
             "player": {
-              "player_id": "11610",
-              "name": "Malik Washington",
+              "player_id": "13346",
+              "name": "Denzel Boston",
               "position": "WR",
-              "team": "MIA",
+              "team": "CLE",
               "status": "Active",
               "active": true,
               "injury_status": null,
               "injury_notes": null,
-              "depth_chart_position": "SWR",
+              "depth_chart_position": "LWR",
               "depth_chart_order": 1,
-              "search_rank": 176
+              "search_rank": 153
             },
             "points": 0.0
           },
@@ -31775,6 +31775,38 @@
         "bench": [
           {
             "player": {
+              "player_id": "11610",
+              "name": "Malik Washington",
+              "position": "WR",
+              "team": "MIA",
+              "status": "Active",
+              "active": true,
+              "injury_status": null,
+              "injury_notes": null,
+              "depth_chart_position": "SWR",
+              "depth_chart_order": 1,
+              "search_rank": 176
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
+              "player_id": "12495",
+              "name": "Ollie Gordon",
+              "position": "RB",
+              "team": "MIA",
+              "status": "Active",
+              "active": true,
+              "injury_status": "Questionable",
+              "injury_notes": null,
+              "depth_chart_position": "RB",
+              "depth_chart_order": 1,
+              "search_rank": 465
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
               "player_id": "13298",
               "name": "KC Concepcion",
               "position": "WR",
@@ -31786,22 +31818,6 @@
               "depth_chart_position": "SWR",
               "depth_chart_order": 2,
               "search_rank": 111
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
-              "player_id": "13346",
-              "name": "Denzel Boston",
-              "position": "WR",
-              "team": "CLE",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "LWR",
-              "depth_chart_order": 1,
-              "search_rank": 153
             },
             "points": 0.0
           },
@@ -31834,22 +31850,6 @@
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
               "search_rank": 27
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "RB",
-              "depth_chart_order": 2,
-              "search_rank": 89
             },
             "points": 0.0
           },
@@ -34132,23 +34132,6 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "9221",
-                    "name": "Jahmyr Gibbs",
-                    "position": "RB",
-                    "team": "DET",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 1
-                  },
-                  "points": 0.0
-                },
-                {
-                  "slot": "RB",
-                  "player": {
                     "player_id": "4035",
                     "name": "Alvin Kamara",
                     "position": "RB",
@@ -34160,6 +34143,23 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
                     "search_rank": 119
+                  },
+                  "points": 0.0
+                },
+                {
+                  "slot": "RB",
+                  "player": {
+                    "player_id": "9508",
+                    "name": "Tyjae Spears",
+                    "position": "RB",
+                    "team": "TEN",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 122
                   },
                   "points": 0.0
                 },
@@ -34333,17 +34333,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "9508",
-                    "name": "Tyjae Spears",
+                    "player_id": "9221",
+                    "name": "Jahmyr Gibbs",
                     "position": "RB",
-                    "team": "TEN",
+                    "team": "DET",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 122
+                    "depth_chart_order": 1,
+                    "search_rank": 1
                   },
                   "points": 0.0
                 },
@@ -34952,17 +34952,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "12495",
-                    "name": "Ollie Gordon",
+                    "player_id": "8132",
+                    "name": "Tyler Allgeier",
                     "position": "RB",
-                    "team": "MIA",
+                    "team": "ARI",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
+                    "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 465
+                    "depth_chart_order": 2,
+                    "search_rank": 89
                   },
                   "points": 0.0
                 },
@@ -34986,17 +34986,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "11610",
-                    "name": "Malik Washington",
+                    "player_id": "13346",
+                    "name": "Denzel Boston",
                     "position": "WR",
-                    "team": "MIA",
+                    "team": "CLE",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
+                    "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
-                    "search_rank": 176
+                    "search_rank": 153
                   },
                   "points": 0.0
                 },
@@ -35072,6 +35072,38 @@
               "bench": [
                 {
                   "player": {
+                    "player_id": "11610",
+                    "name": "Malik Washington",
+                    "position": "WR",
+                    "team": "MIA",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 176
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "12495",
+                    "name": "Ollie Gordon",
+                    "position": "RB",
+                    "team": "MIA",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Questionable",
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 465
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "13298",
                     "name": "KC Concepcion",
                     "position": "WR",
@@ -35083,22 +35115,6 @@
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 2,
                     "search_rank": 111
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "13346",
-                    "name": "Denzel Boston",
-                    "position": "WR",
-                    "team": "CLE",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 153
                   },
                   "points": 0.0
                 },
@@ -35131,22 +35147,6 @@
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
                     "search_rank": 27
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8132",
-                    "name": "Tyler Allgeier",
-                    "position": "RB",
-                    "team": "ARI",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 89
                   },
                   "points": 0.0
                 },
