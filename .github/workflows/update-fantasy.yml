@@ -1691,6 +1691,12 @@ jobs:
           # ============================================================
 
           common = {
+              "generated_at":
+                  now_iso(),
+
+              "player_database_source":
+                  ("cache" if use_cache else "sleeper_api"),
+
               "schema_version":
                   SCHEMA_VERSION,
 
