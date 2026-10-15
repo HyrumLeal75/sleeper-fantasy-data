@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:21:45.028319+00:00",
+  "generated_at": "2026-10-15T16:55:34.367708+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -3227,17 +3227,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "3163",
-            "name": "Jared Goff",
+            "player_id": "11560",
+            "name": "Caleb Williams",
             "position": "QB",
-            "team": "DET",
+            "team": "CHI",
             "status": "Active",
             "active": true,
-            "injury_status": null,
-            "injury_notes": null,
+            "injury_status": "Questionable",
+            "injury_notes": "Strain",
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 61
+            "search_rank": 22
           }
         },
         {
@@ -3384,19 +3384,6 @@
           "search_rank": 127
         },
         {
-          "player_id": "11560",
-          "name": "Caleb Williams",
-          "position": "QB",
-          "team": "CHI",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": "Strain",
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 22
-        },
-        {
           "player_id": "1479",
           "name": "Keenan Allen",
           "position": "WR",
@@ -3421,6 +3408,19 @@
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
           "search_rank": 358
+        },
+        {
+          "player_id": "3163",
+          "name": "Jared Goff",
+          "position": "QB",
+          "team": "DET",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 61
         },
         {
           "player_id": "6806",
@@ -3682,17 +3682,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "7528",
-            "name": "Najee Harris",
+            "player_id": "7594",
+            "name": "Chuba Hubbard",
             "position": "RB",
-            "team": "NYG",
+            "team": "CAR",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 170
+            "depth_chart_order": 1,
+            "search_rank": 66
           }
         },
         {
@@ -3762,33 +3762,33 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "5947",
-            "name": "Jakobi Meyers",
-            "position": "WR",
-            "team": "JAX",
+            "player_id": "5022",
+            "name": "Dallas Goedert",
+            "position": "TE",
+            "team": "PHI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 2,
-            "search_rank": 77
+            "depth_chart_position": "TE",
+            "depth_chart_order": 1,
+            "search_rank": 94
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "11792",
-            "name": "Will Reichard",
+            "player_id": "13545",
+            "name": "Trey Smack",
             "position": "K",
-            "team": "MIN",
+            "team": "GB",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 171
+            "search_rank": 194
           }
         },
         {
@@ -3810,17 +3810,17 @@
       ],
       "bench": [
         {
-          "player_id": "13545",
-          "name": "Trey Smack",
+          "player_id": "11792",
+          "name": "Will Reichard",
           "position": "K",
-          "team": "GB",
+          "team": "MIN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "K",
           "depth_chart_order": 1,
-          "search_rank": 194
+          "search_rank": 171
         },
         {
           "player_id": "4866",
@@ -3849,17 +3849,17 @@
           "search_rank": 10
         },
         {
-          "player_id": "5022",
-          "name": "Dallas Goedert",
-          "position": "TE",
-          "team": "PHI",
+          "player_id": "5947",
+          "name": "Jakobi Meyers",
+          "position": "WR",
+          "team": "JAX",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 94
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 2,
+          "search_rank": 77
         },
         {
           "player_id": "7525",
@@ -3875,17 +3875,17 @@
           "search_rank": 34
         },
         {
-          "player_id": "7594",
-          "name": "Chuba Hubbard",
+          "player_id": "7528",
+          "name": "Najee Harris",
           "position": "RB",
-          "team": "CAR",
+          "team": "NYG",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 66
+          "depth_chart_order": 2,
+          "search_rank": 170
         }
       ],
       "reserve": [
@@ -33875,17 +33875,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "3163",
-                    "name": "Jared Goff",
+                    "player_id": "11560",
+                    "name": "Caleb Williams",
                     "position": "QB",
-                    "team": "DET",
+                    "team": "CHI",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
+                    "injury_status": "Questionable",
+                    "injury_notes": "Strain",
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 61
+                    "search_rank": 22
                   },
                   "points": 0.0
                 },
@@ -34045,22 +34045,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "11560",
-                    "name": "Caleb Williams",
-                    "position": "QB",
-                    "team": "CHI",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": "Strain",
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 22
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "1479",
                     "name": "Keenan Allen",
                     "position": "WR",
@@ -34088,6 +34072,22 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 358
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "3163",
+                    "name": "Jared Goff",
+                    "position": "QB",
+                    "team": "DET",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 61
                   },
                   "points": 0.0
                 },
@@ -35314,17 +35314,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "7528",
-                    "name": "Najee Harris",
+                    "player_id": "7594",
+                    "name": "Chuba Hubbard",
                     "position": "RB",
-                    "team": "NYG",
+                    "team": "CAR",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 170
+                    "depth_chart_order": 1,
+                    "search_rank": 66
                   },
                   "points": 0.0
                 },
@@ -35399,34 +35399,34 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "5947",
-                    "name": "Jakobi Meyers",
-                    "position": "WR",
-                    "team": "JAX",
+                    "player_id": "5022",
+                    "name": "Dallas Goedert",
+                    "position": "TE",
+                    "team": "PHI",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 77
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 1,
+                    "search_rank": 94
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "K",
                   "player": {
-                    "player_id": "11792",
-                    "name": "Will Reichard",
+                    "player_id": "13545",
+                    "name": "Trey Smack",
                     "position": "K",
-                    "team": "MIN",
+                    "team": "GB",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "K",
                     "depth_chart_order": 1,
-                    "search_rank": 171
+                    "search_rank": 194
                   },
                   "points": 0.0
                 },
@@ -35451,17 +35451,17 @@
               "bench": [
                 {
                   "player": {
-                    "player_id": "13545",
-                    "name": "Trey Smack",
+                    "player_id": "11792",
+                    "name": "Will Reichard",
                     "position": "K",
-                    "team": "GB",
+                    "team": "MIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "K",
                     "depth_chart_order": 1,
-                    "search_rank": 194
+                    "search_rank": 171
                   },
                   "points": 0.0
                 },
@@ -35499,17 +35499,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "5022",
-                    "name": "Dallas Goedert",
-                    "position": "TE",
-                    "team": "PHI",
+                    "player_id": "5947",
+                    "name": "Jakobi Meyers",
+                    "position": "WR",
+                    "team": "JAX",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 94
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 77
                   },
                   "points": 0.0
                 },
@@ -35531,17 +35531,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "7594",
-                    "name": "Chuba Hubbard",
+                    "player_id": "7528",
+                    "name": "Najee Harris",
                     "position": "RB",
-                    "team": "CAR",
+                    "team": "NYG",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 66
+                    "depth_chart_order": 2,
+                    "search_rank": 170
                   },
                   "points": 0.0
                 },
