@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T04:31:38.998975+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-15T11:21:45.028319+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -15,7 +15,7 @@
     "RB": 50,
     "WR": 50,
     "TE": 50,
-    "K": 24,
+    "K": 23,
     "DEF": 19
   },
   "players": {
@@ -2705,19 +2705,6 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 190
-      },
-      {
-        "player_id": "13545",
-        "name": "Trey Smack",
-        "position": "K",
-        "team": "GB",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 194
       },
       {
         "player_id": "6650",

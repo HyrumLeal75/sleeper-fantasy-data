@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T04:31:38.998975+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-15T11:21:45.028319+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -151,7 +151,7 @@
       "ties": 0,
       "points_for": 694.64,
       "points_against": 506.36,
-      "waiver_position": 12
+      "waiver_position": 11
     },
     {
       "rank": 2,
@@ -175,7 +175,7 @@
       "ties": 0,
       "points_for": 617.88,
       "points_against": 580.34,
-      "waiver_position": 6
+      "waiver_position": 5
     },
     {
       "rank": 4,
@@ -187,7 +187,7 @@
       "ties": 0,
       "points_for": 712.46,
       "points_against": 677.48,
-      "waiver_position": 10
+      "waiver_position": 9
     },
     {
       "rank": 5,
@@ -199,7 +199,7 @@
       "ties": 0,
       "points_for": 687.98,
       "points_against": 674.98,
-      "waiver_position": 7
+      "waiver_position": 6
     },
     {
       "rank": 6,
@@ -223,7 +223,7 @@
       "ties": 0,
       "points_for": 657.02,
       "points_against": 671.28,
-      "waiver_position": 5
+      "waiver_position": 4
     },
     {
       "rank": 8,
@@ -235,7 +235,7 @@
       "ties": 0,
       "points_for": 651.68,
       "points_against": 683.52,
-      "waiver_position": 8
+      "waiver_position": 7
     },
     {
       "rank": 9,
@@ -247,7 +247,7 @@
       "ties": 0,
       "points_for": 517.34,
       "points_against": 600.64,
-      "waiver_position": 9
+      "waiver_position": 8
     },
     {
       "rank": 10,
@@ -259,7 +259,7 @@
       "ties": 0,
       "points_for": 691.48,
       "points_against": 734.02,
-      "waiver_position": 11
+      "waiver_position": 10
     },
     {
       "rank": 11,
@@ -283,7 +283,7 @@
       "ties": 0,
       "points_for": 560.7,
       "points_against": 696.64,
-      "waiver_position": 4
+      "waiver_position": 12
     }
   ],
   "waiver_order": [
@@ -304,48 +304,48 @@
     },
     {
       "waiver_position": 4,
-      "roster_id": 8,
-      "team_name": "This Is Our Year"
-    },
-    {
-      "waiver_position": 5,
       "roster_id": 1,
       "team_name": "El Guajolote Macias"
     },
     {
-      "waiver_position": 6,
+      "waiver_position": 5,
       "roster_id": 7,
       "team_name": "Don Bitij"
     },
     {
-      "waiver_position": 7,
+      "waiver_position": 6,
       "roster_id": 5,
       "team_name": "Burros Negros"
     },
     {
-      "waiver_position": 8,
+      "waiver_position": 7,
       "roster_id": 10,
       "team_name": "FearNando Mendoza"
     },
     {
-      "waiver_position": 9,
+      "waiver_position": 8,
       "roster_id": 6,
       "team_name": "ivasol"
     },
     {
-      "waiver_position": 10,
+      "waiver_position": 9,
       "roster_id": 2,
       "team_name": "Horsepower"
     },
     {
-      "waiver_position": 11,
+      "waiver_position": 10,
       "roster_id": 3,
       "team_name": "Acaríciame El Lombardi"
     },
     {
-      "waiver_position": 12,
+      "waiver_position": 11,
       "roster_id": 11,
       "team_name": "Makeroth"
+    },
+    {
+      "waiver_position": 12,
+      "roster_id": 8,
+      "team_name": "This Is Our Year"
     }
   ],
   "teams": [
@@ -361,7 +361,7 @@
         "points_for": 657.02,
         "points_against": 671.28
       },
-      "waiver_position": 5,
+      "waiver_position": 4,
       "lineup": [
         {
           "slot": "QB",
@@ -827,7 +827,7 @@
         "points_for": 712.46,
         "points_against": 677.48
       },
-      "waiver_position": 10,
+      "waiver_position": 9,
       "lineup": [
         {
           "slot": "QB",
@@ -1293,7 +1293,7 @@
         "points_for": 691.48,
         "points_against": 734.02
       },
-      "waiver_position": 11,
+      "waiver_position": 10,
       "lineup": [
         {
           "slot": "QB",
@@ -2251,7 +2251,7 @@
         "points_for": 687.98,
         "points_against": 674.98
       },
-      "waiver_position": 7,
+      "waiver_position": 6,
       "lineup": [
         {
           "slot": "QB",
@@ -2717,7 +2717,7 @@
         "points_for": 517.34,
         "points_against": 600.64
       },
-      "waiver_position": 9,
+      "waiver_position": 8,
       "lineup": [
         {
           "slot": "QB",
@@ -3222,7 +3222,7 @@
         "points_for": 617.88,
         "points_against": 580.34
       },
-      "waiver_position": 6,
+      "waiver_position": 5,
       "lineup": [
         {
           "slot": "QB",
@@ -3661,7 +3661,7 @@
         "points_for": 560.7,
         "points_against": 696.64
       },
-      "waiver_position": 4,
+      "waiver_position": 12,
       "lineup": [
         {
           "slot": "QB",
@@ -3810,6 +3810,19 @@
       ],
       "bench": [
         {
+          "player_id": "13545",
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 194
+        },
+        {
           "player_id": "4866",
           "name": "Saquon Barkley",
           "position": "RB",
@@ -3930,6 +3943,19 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 1,
           "search_rank": 40
+        },
+        {
+          "player_id": "13545",
+          "name": "Trey Smack",
+          "position": "K",
+          "team": "GB",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 194
         },
         {
           "player_id": "421",
@@ -4540,7 +4566,7 @@
         "points_for": 651.68,
         "points_against": 683.52
       },
-      "waiver_position": 8,
+      "waiver_position": 7,
       "lineup": [
         {
           "slot": "QB",
@@ -5032,7 +5058,7 @@
         "points_for": 694.64,
         "points_against": 506.36
       },
-      "waiver_position": 12,
+      "waiver_position": 11,
       "lineup": [
         {
           "slot": "QB",
@@ -35425,6 +35451,22 @@
               "bench": [
                 {
                   "player": {
+                    "player_id": "13545",
+                    "name": "Trey Smack",
+                    "position": "K",
+                    "team": "GB",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "K",
+                    "depth_chart_order": 1,
+                    "search_rank": 194
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "4866",
                     "name": "Saquon Barkley",
                     "position": "RB",
@@ -36435,6 +36477,37 @@
               "team_name": "Los Mapachitos"
             }
           ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1416185452431527936",
+          "week": 6,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1792007432614,
+          "roster_ids": [
+            8
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "13545",
+                "name": "Trey Smack",
+                "position": "K",
+                "team": "GB",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 194
+              },
+              "roster_id": 8,
+              "team_name": "This Is Our Year"
+            }
+          ],
+          "drops": [],
           "waiver_bid": null
         },
         {
