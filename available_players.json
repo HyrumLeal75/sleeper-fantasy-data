@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T16:55:34.367708+00:00",
+  "generated_at": "2026-10-15T21:19:10.246818+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -201,19 +201,6 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
         "search_rank": 227
-      },
-      {
-        "player_id": "11559",
-        "name": "Michael Penix",
-        "position": "QB",
-        "team": "ATL",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 228
       },
       {
         "player_id": "6768",
@@ -669,6 +656,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 591
+      },
+      {
+        "player_id": "10983",
+        "name": "Sean Clifford",
+        "position": "QB",
+        "team": "CIN",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 600
       }
     ],
     "RB": [
@@ -840,6 +840,19 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 3,
         "search_rank": 173
+      },
+      {
+        "player_id": "11643",
+        "name": "Jaylen Wright",
+        "position": "RB",
+        "team": "MIA",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 174
       },
       {
         "player_id": "13347",
@@ -1307,19 +1320,6 @@
         "injury_notes": null,
         "depth_chart_position": null,
         "depth_chart_order": null,
-        "search_rank": 527
-      },
-      {
-        "player_id": "11729",
-        "name": "Sione Vaki",
-        "position": "RB",
-        "team": "DET",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
         "search_rank": 527
       }
     ],
@@ -1990,19 +1990,6 @@
         "search_rank": 68
       },
       {
-        "player_id": "10236",
-        "name": "Dalton Kincaid",
-        "position": "TE",
-        "team": "BUF",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 1,
-        "search_rank": 81
-      },
-      {
         "player_id": "12493",
         "name": "Oronde Gadsden",
         "position": "TE",
@@ -2625,6 +2612,19 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 4,
         "search_rank": 459
+      },
+      {
+        "player_id": "4066",
+        "name": "Evan Engram",
+        "position": "TE",
+        "team": "DEN",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "TE",
+        "depth_chart_order": 1,
+        "search_rank": 461
       }
     ],
     "K": [
@@ -2956,6 +2956,19 @@
         "search_rank": null
       },
       {
+        "player_id": "CLE",
+        "name": "Browns",
+        "position": "DEF",
+        "team": "CLE",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
         "player_id": "TB",
         "name": "Buccaneers",
         "position": "DEF",
@@ -3090,19 +3103,6 @@
         "name": "Packers",
         "position": "DEF",
         "team": "GB",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
-        "player_id": "CAR",
-        "name": "Panthers",
-        "position": "DEF",
-        "team": "CAR",
         "status": null,
         "active": true,
         "injury_status": null,
