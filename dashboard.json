@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:19:10.246818+00:00",
+  "generated_at": "2026-10-16T04:25:20.008233+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -33,9 +33,9 @@
     "active_players": 15,
     "active_capacity": 15,
     "open_active_slots": 0,
-    "reserve_used": 2,
+    "reserve_used": 0,
     "reserve_capacity": 2,
-    "reserve_available": 0
+    "reserve_available": 2
   },
   "lineup": [
     {
@@ -185,19 +185,6 @@
   ],
   "bench": [
     {
-      "player_id": "11610",
-      "name": "Malik Washington",
-      "position": "WR",
-      "team": "MIA",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "injury_notes": null,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 1,
-      "search_rank": 176
-    },
-    {
       "player_id": "11655",
       "name": "Tyrone Tracy",
       "position": "RB",
@@ -222,6 +209,19 @@
       "depth_chart_position": "RB",
       "depth_chart_order": 1,
       "search_rank": 463
+    },
+    {
+      "player_id": "13298",
+      "name": "KC Concepcion",
+      "position": "WR",
+      "team": "CLE",
+      "status": "Active",
+      "active": true,
+      "injury_status": "Questionable",
+      "injury_notes": null,
+      "depth_chart_position": "SWR",
+      "depth_chart_order": 2,
+      "search_rank": 110
     },
     {
       "player_id": "6801",
@@ -250,34 +250,6 @@
       "search_rank": 28
     },
     {
-      "player_id": "8154",
-      "name": "Brian Robinson",
-      "position": "RB",
-      "team": "ATL",
-      "status": "Active",
-      "active": true,
-      "injury_status": null,
-      "injury_notes": null,
-      "depth_chart_position": "RB",
-      "depth_chart_order": 2,
-      "search_rank": 80
-    }
-  ],
-  "reserve": [
-    {
-      "player_id": "13298",
-      "name": "KC Concepcion",
-      "position": "WR",
-      "team": "CLE",
-      "status": "Active",
-      "active": true,
-      "injury_status": "Questionable",
-      "injury_notes": null,
-      "depth_chart_position": "SWR",
-      "depth_chart_order": 2,
-      "search_rank": 110
-    },
-    {
       "player_id": "8155",
       "name": "Breece Hall",
       "position": "RB",
@@ -291,10 +263,11 @@
       "search_rank": 27
     }
   ],
+  "reserve": [],
   "current_matchup": {
     "week": 6,
     "matchup_id": 2,
-    "my_points": 0.0,
+    "my_points": 3.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -596,6 +569,68 @@
   },
   "recent_transactions": [
     {
+      "transaction_id": "1416647861549940736",
+      "week": 6,
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792117679539,
+      "roster_ids": [
+        10
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "8154",
+            "name": "Brian Robinson",
+            "position": "RB",
+            "team": "ATL",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "RB",
+            "depth_chart_order": 2,
+            "search_rank": 80
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1416647194408161280",
+      "week": 6,
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792117520481,
+      "roster_ids": [
+        10
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "11610",
+            "name": "Malik Washington",
+            "position": "WR",
+            "team": "MIA",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 1,
+            "search_rank": 176
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "waiver_bid": null
+    },
+    {
       "transaction_id": "1415944824997105664",
       "week": 5,
       "type": "waiver",
@@ -842,68 +877,6 @@
       ],
       "drops": [],
       "waiver_bid": null
-    },
-    {
-      "transaction_id": "1411050385661042688",
-      "week": 4,
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1790783137291,
-      "roster_ids": [
-        10
-      ],
-      "adds": [],
-      "drops": [
-        {
-          "player": {
-            "player_id": "13298",
-            "name": "KC Concepcion",
-            "position": "WR",
-            "team": "CLE",
-            "status": "Active",
-            "active": true,
-            "injury_status": "Questionable",
-            "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 2,
-            "search_rank": 110
-          },
-          "roster_id": 10,
-          "team_name": "FearNando Mendoza"
-        }
-      ],
-      "waiver_bid": null
-    },
-    {
-      "transaction_id": "1410839735500353536",
-      "week": 3,
-      "type": "waiver",
-      "status": "failed",
-      "created": 1790732914380,
-      "roster_ids": [
-        10
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "8126",
-            "name": "Wan'Dale Robinson",
-            "position": "WR",
-            "team": "TEN",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 2,
-            "search_rank": 105
-          },
-          "roster_id": 10,
-          "team_name": "FearNando Mendoza"
-        }
-      ],
-      "drops": [],
-      "waiver_bid": null
     }
   ],
   "available_preview": {
@@ -1041,6 +1014,19 @@
     ],
     "RB": [
       {
+        "player_id": "8154",
+        "name": "Brian Robinson",
+        "position": "RB",
+        "team": "ATL",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 80
+      },
+      {
         "player_id": "7567",
         "name": "Kenny Gainwell",
         "position": "RB",
@@ -1156,19 +1142,6 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
         "search_rank": 161
-      },
-      {
-        "player_id": "13288",
-        "name": "Nicholas Singleton",
-        "position": "RB",
-        "team": "TEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 3,
-        "search_rank": 167
       }
     ],
     "WR": [

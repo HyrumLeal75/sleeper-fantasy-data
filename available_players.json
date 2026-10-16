@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:19:10.246818+00:00",
+  "generated_at": "2026-10-16T04:25:20.008233+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -15,7 +15,7 @@
     "RB": 50,
     "WR": 50,
     "TE": 50,
-    "K": 23,
+    "K": 22,
     "DEF": 19
   },
   "players": {
@@ -673,6 +673,19 @@
     ],
     "RB": [
       {
+        "player_id": "8154",
+        "name": "Brian Robinson",
+        "position": "RB",
+        "team": "ATL",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 80
+      },
+      {
         "player_id": "7567",
         "name": "Kenny Gainwell",
         "position": "RB",
@@ -1308,19 +1321,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 524
-      },
-      {
-        "player_id": "13419",
-        "name": "Jaydn Ott",
-        "position": "RB",
-        "team": "KC",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 527
       }
     ],
     "WR": [
@@ -1559,6 +1559,19 @@
         "search_rank": 175
       },
       {
+        "player_id": "11610",
+        "name": "Malik Washington",
+        "position": "WR",
+        "team": "MIA",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "SWR",
+        "depth_chart_order": 1,
+        "search_rank": 176
+      },
+      {
         "player_id": "6803",
         "name": "Brandon Aiyuk",
         "position": "WR",
@@ -1713,6 +1726,19 @@
         "depth_chart_position": "LWR",
         "depth_chart_order": 2,
         "search_rank": 194
+      },
+      {
+        "player_id": "4039",
+        "name": "Cooper Kupp",
+        "position": "WR",
+        "team": "SEA",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "SWR",
+        "depth_chart_order": 3,
+        "search_rank": 195
       },
       {
         "player_id": "12547",
@@ -1947,32 +1973,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 285
-      },
-      {
-        "player_id": "12475",
-        "name": "Ricky White",
-        "position": "WR",
-        "team": "SEA",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 287
-      },
-      {
-        "player_id": "12884",
-        "name": "Quincy Skinner",
-        "position": "WR",
-        "team": "GB",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 355
       }
     ],
     "TE": [
@@ -2770,19 +2770,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 277
-      },
-      {
-        "player_id": "7042",
-        "name": "Tyler Bass",
-        "position": "K",
-        "team": "BUF",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 288
       },
       {
         "player_id": "11261",

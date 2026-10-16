@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T21:19:10.246818+00:00",
+  "generated_at": "2026-10-16T04:25:20.008233+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -944,17 +944,17 @@
         {
           "slot": "K",
           "player": {
-            "player_id": "7839",
-            "name": "Evan McPherson",
+            "player_id": "7042",
+            "name": "Tyler Bass",
             "position": "K",
-            "team": "CIN",
+            "team": "BUF",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 155
+            "search_rank": 288
           }
         },
         {
@@ -1015,19 +1015,6 @@
           "search_rank": 68
         },
         {
-          "player_id": "4039",
-          "name": "Cooper Kupp",
-          "position": "WR",
-          "team": "SEA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 3,
-          "search_rank": 195
-        },
-        {
           "player_id": "4199",
           "name": "Aaron Jones",
           "position": "RB",
@@ -1039,6 +1026,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 85
+        },
+        {
+          "player_id": "7839",
+          "name": "Evan McPherson",
+          "position": "K",
+          "team": "CIN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 155
         },
         {
           "player_id": "9511",
@@ -1150,19 +1150,6 @@
           "search_rank": 89
         },
         {
-          "player_id": "4039",
-          "name": "Cooper Kupp",
-          "position": "WR",
-          "team": "SEA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 3,
-          "search_rank": 195
-        },
-        {
           "player_id": "4199",
           "name": "Aaron Jones",
           "position": "RB",
@@ -1174,6 +1161,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 85
+        },
+        {
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 288
         },
         {
           "player_id": "7543",
@@ -4183,17 +4183,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "6794",
-            "name": "Justin Jefferson",
+            "player_id": "2133",
+            "name": "Davante Adams",
             "position": "WR",
-            "team": "MIN",
+            "team": "LAR",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 12
+            "depth_chart_order": 2,
+            "search_rank": 46
           }
         },
         {
@@ -4215,17 +4215,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "2133",
-            "name": "Davante Adams",
+            "player_id": "5846",
+            "name": "DK Metcalf",
             "position": "WR",
-            "team": "LAR",
+            "team": "PIT",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "LWR",
-            "depth_chart_order": 2,
-            "search_rank": 46
+            "depth_chart_order": 1,
+            "search_rank": 73
           }
         },
         {
@@ -4315,17 +4315,17 @@
           "search_rank": 164
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
+          "player_id": "6794",
+          "name": "Justin Jefferson",
           "position": "WR",
-          "team": "PIT",
+          "team": "MIN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
-          "search_rank": 73
+          "search_rank": 12
         },
         {
           "player_id": "8183",
@@ -4702,19 +4702,6 @@
       ],
       "bench": [
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 1,
-          "search_rank": 176
-        },
-        {
           "player_id": "11655",
           "name": "Tyrone Tracy",
           "position": "RB",
@@ -4739,6 +4726,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 463
+        },
+        {
+          "player_id": "13298",
+          "name": "KC Concepcion",
+          "position": "WR",
+          "team": "CLE",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Questionable",
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 2,
+          "search_rank": 110
         },
         {
           "player_id": "6801",
@@ -4767,34 +4767,6 @@
           "search_rank": 28
         },
         {
-          "player_id": "8154",
-          "name": "Brian Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 80
-        }
-      ],
-      "reserve": [
-        {
-          "player_id": "13298",
-          "name": "KC Concepcion",
-          "position": "WR",
-          "team": "CLE",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 2,
-          "search_rank": 110
-        },
-        {
           "player_id": "8155",
           "name": "Breece Hall",
           "position": "RB",
@@ -4808,6 +4780,7 @@
           "search_rank": 27
         }
       ],
+      "reserve": [],
       "taxi": [],
       "all_players": [
         {
@@ -4822,19 +4795,6 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
           "search_rank": 23
-        },
-        {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 1,
-          "search_rank": 176
         },
         {
           "player_id": "11620",
@@ -4991,19 +4951,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 89
-        },
-        {
-          "player_id": "8154",
-          "name": "Brian Robinson",
-          "position": "RB",
-          "team": "ATL",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 80
         },
         {
           "player_id": "8155",
@@ -32456,8 +32403,8 @@
       "week": 6,
       "my_result": {
         "week": 6,
-        "result": "T",
-        "points": 0.0,
+        "result": "W",
+        "points": 3.0,
         "lineup": [
           {
             "slot": "QB",
@@ -32610,26 +32557,10 @@
               "depth_chart_order": null,
               "search_rank": null
             },
-            "points": 0.0
+            "points": 3.0
           }
         ],
         "bench": [
-          {
-            "player": {
-              "player_id": "11610",
-              "name": "Malik Washington",
-              "position": "WR",
-              "team": "MIA",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "SWR",
-              "depth_chart_order": 1,
-              "search_rank": 176
-            },
-            "points": 0.0
-          },
           {
             "player": {
               "player_id": "11655",
@@ -32707,22 +32638,6 @@
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
               "search_rank": 28
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
-              "player_id": "8154",
-              "name": "Brian Robinson",
-              "position": "RB",
-              "team": "ATL",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "RB",
-              "depth_chart_order": 2,
-              "search_rank": 80
             },
             "points": 0.0
           },
@@ -33582,7 +33497,7 @@
               "roster_id": 2,
               "team_name": "Horsepower",
               "username": "MD1AZ",
-              "points": 0.0,
+              "points": 32.6,
               "lineup": [
                 {
                   "slot": "QB",
@@ -33633,7 +33548,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 161
                   },
-                  "points": 0.0
+                  "points": 5.2
                 },
                 {
                   "slot": "WR",
@@ -33650,7 +33565,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 6
                   },
-                  "points": 0.0
+                  "points": 27.4
                 },
                 {
                   "slot": "WR",
@@ -33706,17 +33621,17 @@
                 {
                   "slot": "K",
                   "player": {
-                    "player_id": "7839",
-                    "name": "Evan McPherson",
+                    "player_id": "7042",
+                    "name": "Tyler Bass",
                     "position": "K",
-                    "team": "CIN",
+                    "team": "BUF",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "K",
                     "depth_chart_order": 1,
-                    "search_rank": 155
+                    "search_rank": 288
                   },
                   "points": 0.0
                 },
@@ -33789,22 +33704,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "4039",
-                    "name": "Cooper Kupp",
-                    "position": "WR",
-                    "team": "SEA",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 3,
-                    "search_rank": 195
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "4199",
                     "name": "Aaron Jones",
                     "position": "RB",
@@ -33832,6 +33731,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 4,
                     "search_rank": 34
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "7839",
+                    "name": "Evan McPherson",
+                    "position": "K",
+                    "team": "CIN",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "K",
+                    "depth_chart_order": 1,
+                    "search_rank": 155
                   },
                   "points": 0.0
                 },
@@ -34092,7 +34007,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 68
                   },
-                  "points": 0.0
+                  "points": 13.6
                 },
                 {
                   "player": {
@@ -34121,7 +34036,7 @@
               "roster_id": 3,
               "team_name": "Acaríciame El Lombardi",
               "username": "FCD123",
-              "points": 0.0,
+              "points": 14.0,
               "lineup": [
                 {
                   "slot": "QB",
@@ -34274,7 +34189,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 0.0
+                  "points": 14.0
                 }
               ],
               "bench": [
@@ -34983,7 +34898,7 @@
               "roster_id": 5,
               "team_name": "Burros Negros",
               "username": "Duarfo02",
-              "points": 0.0,
+              "points": 6.4,
               "lineup": [
                 {
                   "slot": "QB",
@@ -35068,7 +34983,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 42
                   },
-                  "points": 0.0
+                  "points": 6.4
                 },
                 {
                   "slot": "TE",
@@ -35263,7 +35178,7 @@
               "roster_id": 8,
               "team_name": "This Is Our Year",
               "username": "juandelagarza",
-              "points": 0.0,
+              "points": 14.6,
               "lineup": [
                 {
                   "slot": "QB",
@@ -35314,7 +35229,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 56
                   },
-                  "points": 0.0
+                  "points": 14.6
                 },
                 {
                   "slot": "WR",
@@ -35611,17 +35526,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "6794",
-                    "name": "Justin Jefferson",
+                    "player_id": "2133",
+                    "name": "Davante Adams",
                     "position": "WR",
-                    "team": "MIN",
+                    "team": "LAR",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 12
+                    "depth_chart_order": 2,
+                    "search_rank": 46
                   },
                   "points": 0.0
                 },
@@ -35645,17 +35560,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "2133",
-                    "name": "Davante Adams",
+                    "player_id": "5846",
+                    "name": "DK Metcalf",
                     "position": "WR",
-                    "team": "LAR",
+                    "team": "PIT",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "LWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 46
+                    "depth_chart_order": 1,
+                    "search_rank": 73
                   },
                   "points": 0.0
                 },
@@ -35761,17 +35676,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "5846",
-                    "name": "DK Metcalf",
+                    "player_id": "6794",
+                    "name": "Justin Jefferson",
                     "position": "WR",
-                    "team": "PIT",
+                    "team": "MIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
-                    "search_rank": 73
+                    "search_rank": 12
                   },
                   "points": 0.0
                 },
@@ -35802,7 +35717,7 @@
               "roster_id": 10,
               "team_name": "FearNando Mendoza",
               "username": "Hyrum75",
-              "points": 0.0,
+              "points": 3.0,
               "lineup": [
                 {
                   "slot": "QB",
@@ -35955,26 +35870,10 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 0.0
+                  "points": 3.0
                 }
               ],
               "bench": [
-                {
-                  "player": {
-                    "player_id": "11610",
-                    "name": "Malik Washington",
-                    "position": "WR",
-                    "team": "MIA",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 176
-                  },
-                  "points": 0.0
-                },
                 {
                   "player": {
                     "player_id": "11655",
@@ -36052,22 +35951,6 @@
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
                     "search_rank": 28
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8154",
-                    "name": "Brian Robinson",
-                    "position": "RB",
-                    "team": "ATL",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 80
                   },
                   "points": 0.0
                 },
@@ -36352,6 +36235,117 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1416647861549940736",
+          "week": 6,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792117679539,
+          "roster_ids": [
+            10
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "8154",
+                "name": "Brian Robinson",
+                "position": "RB",
+                "team": "ATL",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 80
+              },
+              "roster_id": 10,
+              "team_name": "FearNando Mendoza"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1416647194408161280",
+          "week": 6,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792117520481,
+          "roster_ids": [
+            10
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "11610",
+                "name": "Malik Washington",
+                "position": "WR",
+                "team": "MIA",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 1,
+                "search_rank": 176
+              },
+              "roster_id": 10,
+              "team_name": "FearNando Mendoza"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1416584523554082816",
+          "week": 6,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792102578584,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "7042",
+                "name": "Tyler Bass",
+                "position": "K",
+                "team": "BUF",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 288
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "4039",
+                "name": "Cooper Kupp",
+                "position": "WR",
+                "team": "SEA",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 3,
+                "search_rank": 195
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1416570065775509504",
           "week": 6,
