@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T11:16:18.876064+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-16T16:34:34.045231+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -696,17 +696,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "9486",
-            "name": "Dontayvion Wicks",
+            "player_id": "13150",
+            "name": "Darius Cooper",
             "position": "WR",
             "team": "PHI",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
-            "search_rank": 203
+            "depth_chart_order": 2,
+            "search_rank": 658
           }
         },
         {
@@ -3808,17 +3808,17 @@
           {
             "slot": "WR",
             "player": {
-              "player_id": "9486",
-              "name": "Dontayvion Wicks",
+              "player_id": "13150",
+              "name": "Darius Cooper",
               "position": "WR",
               "team": "PHI",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RWR",
-              "depth_chart_order": 1,
-              "search_rank": 203
+              "depth_chart_order": 2,
+              "search_rank": 658
             },
             "points": 0.0
           },
@@ -3894,22 +3894,6 @@
         "bench": [
           {
             "player": {
-              "player_id": "13150",
-              "name": "Darius Cooper",
-              "position": "WR",
-              "team": "PHI",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "RWR",
-              "depth_chart_order": 2,
-              "search_rank": 658
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
               "player_id": "13330",
               "name": "Kenyon Sadiq",
               "position": "TE",
@@ -3969,6 +3953,22 @@
               "depth_chart_position": "RB",
               "depth_chart_order": 4,
               "search_rank": 147
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
+              "player_id": "9486",
+              "name": "Dontayvion Wicks",
+              "position": "WR",
+              "team": "PHI",
+              "status": "Active",
+              "active": true,
+              "injury_status": "Questionable",
+              "injury_notes": null,
+              "depth_chart_position": "RWR",
+              "depth_chart_order": 1,
+              "search_rank": 203
             },
             "points": 0.0
           },
