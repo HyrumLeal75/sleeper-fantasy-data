@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T15:28:54.402840+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-17T20:32:03.312963+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -30,12 +30,12 @@
   },
   "waiver_position": 7,
   "roster_capacity": {
-    "active_players": 15,
+    "active_players": 14,
     "active_capacity": 15,
-    "open_active_slots": 0,
-    "reserve_used": 0,
+    "open_active_slots": 1,
+    "reserve_used": 1,
     "reserve_capacity": 2,
-    "reserve_available": 2
+    "reserve_available": 1
   },
   "lineup": [
     {
@@ -248,7 +248,9 @@
       "depth_chart_position": "QB",
       "depth_chart_order": 2,
       "search_rank": 28
-    },
+    }
+  ],
+  "reserve": [
     {
       "player_id": "8155",
       "name": "Breece Hall",
@@ -263,7 +265,6 @@
       "search_rank": 27
     }
   ],
-  "reserve": [],
   "current_matchup": {
     "week": 6,
     "matchup_id": 2,

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-17T15:28:54.402840+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-17T20:32:03.312963+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -4765,7 +4765,9 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 2,
           "search_rank": 28
-        },
+        }
+      ],
+      "reserve": [
         {
           "player_id": "8155",
           "name": "Breece Hall",
@@ -4780,7 +4782,6 @@
           "search_rank": 27
         }
       ],
-      "reserve": [],
       "taxi": [],
       "all_players": [
         {
