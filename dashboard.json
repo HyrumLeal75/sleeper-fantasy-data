@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T15:48:41.254068+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-18T20:36:39.959251+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -268,7 +268,7 @@
   "current_matchup": {
     "week": 6,
     "matchup_id": 2,
-    "my_points": 9.0,
+    "my_points": 25.6,
     "my_lineup": [
       {
         "slot": "QB",
@@ -419,7 +419,7 @@
       "roster_id": 12,
       "team_name": "Los Mapachitos",
       "username": "Juanpmv",
-      "points": 19.3,
+      "points": 49.2,
       "lineup": [
         {
           "slot": "QB",
@@ -504,17 +504,17 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "12518",
-            "name": "Tyler Warren",
+            "player_id": "8110",
+            "name": "Jake Ferguson",
             "position": "TE",
-            "team": "IND",
+            "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 48
+            "search_rank": 97
           }
         },
         {

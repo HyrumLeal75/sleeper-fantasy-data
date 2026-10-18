@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T15:48:41.254068+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-18T20:36:39.959251+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -477,7 +477,7 @@
   "current_matchup": {
     "week": 6,
     "matchup_id": 2,
-    "my_points": 9.0,
+    "my_points": 25.6,
     "my_lineup": [
       {
         "slot": "QB",
@@ -628,7 +628,7 @@
       "roster_id": 12,
       "team_name": "Los Mapachitos",
       "username": "Juanpmv",
-      "points": 19.3,
+      "points": 49.2,
       "lineup": [
         {
           "slot": "QB",
@@ -713,17 +713,17 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "12518",
-            "name": "Tyler Warren",
+            "player_id": "8110",
+            "name": "Jake Ferguson",
             "position": "TE",
-            "team": "IND",
+            "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 48
+            "search_rank": 97
           }
         },
         {
@@ -3478,7 +3478,7 @@
     {
       "week": 6,
       "result": "L",
-      "points": 9.0,
+      "points": 25.6,
       "lineup": [
         {
           "slot": "QB",
@@ -3512,7 +3512,7 @@
             "depth_chart_order": 1,
             "search_rank": 12
           },
-          "points": 0.0
+          "points": -0.1
         },
         {
           "slot": "RB",
@@ -3529,7 +3529,7 @@
             "depth_chart_order": 1,
             "search_rank": 89
           },
-          "points": 0.0
+          "points": 0.4
         },
         {
           "slot": "WR",
@@ -3563,7 +3563,7 @@
             "depth_chart_order": 1,
             "search_rank": 153
           },
-          "points": 0.0
+          "points": 2.5
         },
         {
           "slot": "TE",
@@ -3580,7 +3580,7 @@
             "depth_chart_order": 1,
             "search_rank": 63
           },
-          "points": 0.0
+          "points": 1.9
         },
         {
           "slot": "FLEX",
@@ -3597,7 +3597,7 @@
             "depth_chart_order": 2,
             "search_rank": 64
           },
-          "points": 0.0
+          "points": 6.9
         },
         {
           "slot": "K",
@@ -3614,7 +3614,7 @@
             "depth_chart_order": 1,
             "search_rank": 128
           },
-          "points": 6.0
+          "points": 11.0
         },
         {
           "slot": "DEF",
@@ -3649,7 +3649,7 @@
             "depth_chart_order": 3,
             "search_rank": 110
           },
-          "points": 0.0
+          "points": 18.5
         },
         {
           "player": {
@@ -3681,7 +3681,7 @@
             "depth_chart_order": 2,
             "search_rank": 110
           },
-          "points": 0.0
+          "points": 7.9
         },
         {
           "player": {
@@ -3736,7 +3736,7 @@
         "roster_id": 12,
         "team_name": "Los Mapachitos",
         "username": "Juanpmv",
-        "points": 19.3,
+        "points": 49.2,
         "lineup": [
           {
             "slot": "QB",
@@ -3770,7 +3770,7 @@
               "depth_chart_order": 1,
               "search_rank": 7
             },
-            "points": 0.0
+            "points": 5.0
           },
           {
             "slot": "RB",
@@ -3787,7 +3787,7 @@
               "depth_chart_order": 1,
               "search_rank": 44
             },
-            "points": 19.3
+            "points": 24.7
           },
           {
             "slot": "WR",
@@ -3821,22 +3821,22 @@
               "depth_chart_order": 3,
               "search_rank": 658
             },
-            "points": 0.0
+            "points": 1.9
           },
           {
             "slot": "TE",
             "player": {
-              "player_id": "12518",
-              "name": "Tyler Warren",
+              "player_id": "8110",
+              "name": "Jake Ferguson",
               "position": "TE",
-              "team": "IND",
+              "team": "DAL",
               "status": "Active",
               "active": true,
-              "injury_status": "Out",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "TE",
               "depth_chart_order": 1,
-              "search_rank": 48
+              "search_rank": 97
             },
             "points": 0.0
           },
@@ -3855,7 +3855,7 @@
               "depth_chart_order": 1,
               "search_rank": 63
             },
-            "points": 0.0
+            "points": 7.6
           },
           {
             "slot": "K",
@@ -3872,7 +3872,7 @@
               "depth_chart_order": 1,
               "search_rank": 249
             },
-            "points": 0.0
+            "points": 1.0
           },
           {
             "slot": "DEF",
@@ -3889,10 +3889,26 @@
               "depth_chart_order": null,
               "search_rank": null
             },
-            "points": 0.0
+            "points": 9.0
           }
         ],
         "bench": [
+          {
+            "player": {
+              "player_id": "12518",
+              "name": "Tyler Warren",
+              "position": "TE",
+              "team": "IND",
+              "status": "Active",
+              "active": true,
+              "injury_status": "Out",
+              "injury_notes": null,
+              "depth_chart_position": "TE",
+              "depth_chart_order": 1,
+              "search_rank": 48
+            },
+            "points": 0.0
+          },
           {
             "player": {
               "player_id": "13330",
@@ -3907,7 +3923,7 @@
               "depth_chart_order": 1,
               "search_rank": 109
             },
-            "points": 0.0
+            "points": 2.2
           },
           {
             "player": {
@@ -3922,22 +3938,6 @@
               "depth_chart_position": "SWR",
               "depth_chart_order": 1,
               "search_rank": 7
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
-              "player_id": "8110",
-              "name": "Jake Ferguson",
-              "position": "TE",
-              "team": "DAL",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "TE",
-              "depth_chart_order": 1,
-              "search_rank": 97
             },
             "points": 0.0
           },
@@ -3971,7 +3971,7 @@
               "depth_chart_order": 2,
               "search_rank": 204
             },
-            "points": 0.0
+            "points": 4.4
           },
           {
             "player": {
@@ -3987,7 +3987,7 @@
               "depth_chart_order": 1,
               "search_rank": 187
             },
-            "points": 0.0
+            "points": 21.3
           }
         ]
       }
