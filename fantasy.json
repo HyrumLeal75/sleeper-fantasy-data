@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T04:24:56.391445+00:00",
+  "generated_at": "2026-10-18T10:58:36.354681+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -1394,17 +1394,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "9480",
-            "name": "Brenton Strange",
-            "position": "TE",
-            "team": "JAX",
+            "player_id": "8136",
+            "name": "Rachaad White",
+            "position": "RB",
+            "team": "WAS",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 104
+            "depth_chart_position": "RB",
+            "depth_chart_order": 2,
+            "search_rank": 125
           }
         },
         {
@@ -1455,19 +1455,6 @@
           "search_rank": 3
         },
         {
-          "player_id": "8136",
-          "name": "Rachaad White",
-          "position": "RB",
-          "team": "WAS",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 125
-        },
-        {
           "player_id": "8148",
           "name": "Jameson Williams",
           "position": "WR",
@@ -1492,6 +1479,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 14
+        },
+        {
+          "player_id": "9480",
+          "name": "Brenton Strange",
+          "position": "TE",
+          "team": "JAX",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "TE",
+          "depth_chart_order": 1,
+          "search_rank": 104
         },
         {
           "player_id": "9753",
@@ -34144,17 +34144,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "9480",
-                    "name": "Brenton Strange",
-                    "position": "TE",
-                    "team": "JAX",
+                    "player_id": "8136",
+                    "name": "Rachaad White",
+                    "position": "RB",
+                    "team": "WAS",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 104
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 125
                   },
                   "points": 0.0
                 },
@@ -34228,22 +34228,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "8136",
-                    "name": "Rachaad White",
-                    "position": "RB",
-                    "team": "WAS",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 125
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "8148",
                     "name": "Jameson Williams",
                     "position": "WR",
@@ -34287,6 +34271,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
                     "search_rank": 14
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "9480",
+                    "name": "Brenton Strange",
+                    "position": "TE",
+                    "team": "JAX",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 1,
+                    "search_rank": 104
                   },
                   "points": 0.0
                 },
