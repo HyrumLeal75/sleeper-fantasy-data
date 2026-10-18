@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T10:58:36.354681+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-10-18T15:48:41.254068+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -208,7 +208,7 @@
       "injury_notes": null,
       "depth_chart_position": "RB",
       "depth_chart_order": 1,
-      "search_rank": 462
+      "search_rank": 460
     },
     {
       "player_id": "13298",
@@ -241,13 +241,13 @@
       "name": "Jalen Hurts",
       "position": "QB",
       "team": "PHI",
-      "status": "Active",
+      "status": "Inactive",
       "active": true,
-      "injury_status": "Out",
+      "injury_status": "IR",
       "injury_notes": null,
       "depth_chart_position": "QB",
       "depth_chart_order": 2,
-      "search_rank": 28
+      "search_rank": 27
     }
   ],
   "reserve": [
@@ -268,7 +268,7 @@
   "current_matchup": {
     "week": 6,
     "matchup_id": 2,
-    "my_points": 3.0,
+    "my_points": 9.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -419,7 +419,7 @@
       "roster_id": 12,
       "team_name": "Los Mapachitos",
       "username": "Juanpmv",
-      "points": 0.0,
+      "points": 19.3,
       "lineup": [
         {
           "slot": "QB",
@@ -497,7 +497,7 @@
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 2,
+            "depth_chart_order": 3,
             "search_rank": 658
           }
         },
@@ -510,7 +510,7 @@
             "team": "IND",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
@@ -746,7 +746,7 @@
             "injury_status": "IR",
             "injury_notes": "Surgery",
             "depth_chart_position": null,
-            "depth_chart_order": 6,
+            "depth_chart_order": 7,
             "search_rank": 99
           },
           "roster_id": 10,
@@ -869,7 +869,7 @@
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
+            "depth_chart_order": 2,
             "search_rank": 117
           },
           "roster_id": 10,
@@ -919,7 +919,7 @@
         "injury_notes": "Dislocated",
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 74
+        "search_rank": 75
       },
       {
         "player_id": "5849",
@@ -932,7 +932,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 87
+        "search_rank": 88
       },
       {
         "player_id": "4943",
@@ -958,7 +958,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 102
+        "search_rank": 101
       },
       {
         "player_id": "13269",
@@ -971,7 +971,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
-        "search_rank": 110
+        "search_rank": 109
       },
       {
         "player_id": "12522",
@@ -984,7 +984,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 116
+        "search_rank": 115
       },
       {
         "player_id": "8161",
@@ -1182,6 +1182,19 @@
         "injury_status": "IR",
         "injury_notes": "Surgery",
         "depth_chart_position": null,
+        "depth_chart_order": 7,
+        "search_rank": 99
+      },
+      {
+        "player_id": "9756",
+        "name": "Jordan Addison",
+        "position": "WR",
+        "team": "MIN",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Out",
+        "injury_notes": "Soreness",
+        "depth_chart_position": "RWR",
         "depth_chart_order": 6,
         "search_rank": 99
       },
@@ -1229,12 +1242,12 @@
         "name": "Ja'Kobi Lane",
         "position": "WR",
         "team": "BAL",
-        "status": "Inactive",
+        "status": "Active",
         "active": true,
-        "injury_status": "IR",
-        "injury_notes": "Surgery",
+        "injury_status": null,
+        "injury_notes": null,
         "depth_chart_position": "RWR",
-        "depth_chart_order": 8,
+        "depth_chart_order": 3,
         "search_rank": 147
       },
       {
@@ -1255,26 +1268,13 @@
         "name": "Omar Cooper",
         "position": "WR",
         "team": "NYJ",
-        "status": "Inactive",
-        "active": true,
-        "injury_status": "IR",
-        "injury_notes": "Sprain",
-        "depth_chart_position": "SWR",
-        "depth_chart_order": 9,
-        "search_rank": 151
-      },
-      {
-        "player_id": "13301",
-        "name": "Antonio Williams",
-        "position": "WR",
-        "team": "WAS",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": "LWR",
-        "depth_chart_order": 3,
-        "search_rank": 156
+        "depth_chart_position": "SWR",
+        "depth_chart_order": 4,
+        "search_rank": 151
       }
     ],
     "TE": [
@@ -1289,7 +1289,7 @@
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
-        "search_rank": 68
+        "search_rank": 67
       },
       {
         "player_id": "12493",

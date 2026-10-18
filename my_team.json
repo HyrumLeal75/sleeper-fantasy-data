@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T10:58:36.354681+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-10-18T15:48:41.254068+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -190,7 +190,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 462
+        "search_rank": 460
       },
       {
         "player_id": "13298",
@@ -223,13 +223,13 @@
         "name": "Jalen Hurts",
         "position": "QB",
         "team": "PHI",
-        "status": "Active",
+        "status": "Inactive",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 28
+        "search_rank": 27
       }
     ],
     "reserve": [
@@ -299,7 +299,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 462
+        "search_rank": 460
       },
       {
         "player_id": "12506",
@@ -397,13 +397,13 @@
         "name": "Jalen Hurts",
         "position": "QB",
         "team": "PHI",
-        "status": "Active",
+        "status": "Inactive",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 28
+        "search_rank": 27
       },
       {
         "player_id": "8132",
@@ -477,7 +477,7 @@
   "current_matchup": {
     "week": 6,
     "matchup_id": 2,
-    "my_points": 3.0,
+    "my_points": 9.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -628,7 +628,7 @@
       "roster_id": 12,
       "team_name": "Los Mapachitos",
       "username": "Juanpmv",
-      "points": 0.0,
+      "points": 19.3,
       "lineup": [
         {
           "slot": "QB",
@@ -706,7 +706,7 @@
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 2,
+            "depth_chart_order": 3,
             "search_rank": 658
           }
         },
@@ -719,7 +719,7 @@
             "team": "IND",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
@@ -790,13 +790,13 @@
             "name": "Jalen Hurts",
             "position": "QB",
             "team": "PHI",
-            "status": "Active",
+            "status": "Inactive",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": "IR",
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 28
+            "search_rank": 27
           },
           "points": 37.72
         },
@@ -950,7 +950,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 2,
-            "search_rank": 125
+            "search_rank": 127
           },
           "points": 2.3
         },
@@ -965,7 +965,7 @@
             "injury_status": "IR",
             "injury_notes": "Surgery",
             "depth_chart_position": null,
-            "depth_chart_order": 6,
+            "depth_chart_order": 7,
             "search_rank": 99
           },
           "points": 5.0
@@ -1156,7 +1156,7 @@
               "injury_notes": null,
               "depth_chart_position": "LWR",
               "depth_chart_order": 1,
-              "search_rank": 39
+              "search_rank": 38
             },
             "points": 11.3
           },
@@ -1173,7 +1173,7 @@
               "injury_notes": null,
               "depth_chart_position": "K",
               "depth_chart_order": 1,
-              "search_rank": 153
+              "search_rank": 155
             },
             "points": 19.0
           },
@@ -1224,7 +1224,7 @@
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
-              "search_rank": 98
+              "search_rank": 99
             },
             "points": 3.7
           },
@@ -1307,13 +1307,13 @@
             "name": "Jalen Hurts",
             "position": "QB",
             "team": "PHI",
-            "status": "Active",
+            "status": "Inactive",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": "IR",
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 28
+            "search_rank": 27
           },
           "points": 22.16
         },
@@ -1467,7 +1467,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 2,
-            "search_rank": 125
+            "search_rank": 127
           },
           "points": 1.3
         },
@@ -1482,7 +1482,7 @@
             "injury_status": "IR",
             "injury_notes": "Surgery",
             "depth_chart_position": null,
-            "depth_chart_order": 6,
+            "depth_chart_order": 7,
             "search_rank": 99
           },
           "points": 1.4
@@ -1737,7 +1737,7 @@
               "team": "NO",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
@@ -1773,7 +1773,7 @@
               "injury_notes": "Dislocated",
               "depth_chart_position": "QB",
               "depth_chart_order": 2,
-              "search_rank": 74
+              "search_rank": 75
             },
             "points": 17.18
           },
@@ -1824,13 +1824,13 @@
             "name": "Jalen Hurts",
             "position": "QB",
             "team": "PHI",
-            "status": "Active",
+            "status": "Inactive",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": "IR",
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 28
+            "search_rank": 27
           },
           "points": 13.62
         },
@@ -1983,7 +1983,7 @@
             "injury_status": "IR",
             "injury_notes": "Surgery",
             "depth_chart_position": null,
-            "depth_chart_order": 6,
+            "depth_chart_order": 7,
             "search_rank": 99
           },
           "points": 0.0
@@ -2152,7 +2152,7 @@
               "team": "WAS",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "LWR",
               "depth_chart_order": 1,
@@ -2186,8 +2186,8 @@
               "team": "NE",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
-              "injury_notes": "Sprain",
+              "injury_status": null,
+              "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 2,
               "search_rank": 39
@@ -2288,9 +2288,9 @@
               "active": true,
               "injury_status": "IR",
               "injury_notes": "Plantar Fasciitis",
-              "depth_chart_position": "RWR",
-              "depth_chart_order": 4,
-              "search_rank": 106
+              "depth_chart_position": null,
+              "depth_chart_order": 6,
+              "search_rank": 107
             },
             "points": 3.6
           },
@@ -2305,7 +2305,7 @@
               "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "RB",
-              "depth_chart_order": 2,
+              "depth_chart_order": 3,
               "search_rank": 688
             },
             "points": 2.4
@@ -2322,7 +2322,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 41
+              "search_rank": 42
             },
             "points": 26.78
           },
@@ -2373,13 +2373,13 @@
             "name": "Jalen Hurts",
             "position": "QB",
             "team": "PHI",
-            "status": "Active",
+            "status": "Inactive",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": "IR",
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 28
+            "search_rank": 27
           },
           "points": 17.52
         },
@@ -2413,7 +2413,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 462
+            "search_rank": 460
           },
           "points": 22.0
         },
@@ -2532,7 +2532,7 @@
             "injury_status": "IR",
             "injury_notes": "Surgery",
             "depth_chart_position": null,
-            "depth_chart_order": 6,
+            "depth_chart_order": 7,
             "search_rank": 99
           },
           "points": 0.0
@@ -2637,7 +2637,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 56
+              "search_rank": 55
             },
             "points": 32.62
           },
@@ -2791,7 +2791,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 11
+              "search_rank": 10
             },
             "points": 33.16
           },
@@ -2823,7 +2823,7 @@
               "injury_notes": null,
               "depth_chart_position": "SWR",
               "depth_chart_order": 2,
-              "search_rank": 105
+              "search_rank": 104
             },
             "points": 8.5
           },
@@ -2851,7 +2851,7 @@
               "team": "PIT",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "LWR",
               "depth_chart_order": 1,
@@ -2946,7 +2946,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 462
+            "search_rank": 460
           },
           "points": 14.8
         },
@@ -3065,7 +3065,7 @@
             "injury_status": "IR",
             "injury_notes": "Surgery",
             "depth_chart_position": null,
-            "depth_chart_order": 6,
+            "depth_chart_order": 7,
             "search_rank": 99
           },
           "points": 0.0
@@ -3124,13 +3124,13 @@
             "name": "Jalen Hurts",
             "position": "QB",
             "team": "PHI",
-            "status": "Active",
+            "status": "Inactive",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": "IR",
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 28
+            "search_rank": 27
           },
           "points": 24.0
         },
@@ -3218,8 +3218,8 @@
               "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "RB",
-              "depth_chart_order": 3,
-              "search_rank": 41
+              "depth_chart_order": 4,
+              "search_rank": 43
             },
             "points": 1.1
           },
@@ -3287,7 +3287,7 @@
               "injury_notes": null,
               "depth_chart_position": "TE",
               "depth_chart_order": 1,
-              "search_rank": 68
+              "search_rank": 67
             },
             "points": 15.2
           },
@@ -3464,10 +3464,10 @@
               "team": "NE",
               "status": "Active",
               "active": true,
-              "injury_status": "IR",
-              "injury_notes": "Sprain",
+              "injury_status": null,
+              "injury_notes": null,
               "depth_chart_position": "LWR",
-              "depth_chart_order": 6,
+              "depth_chart_order": 1,
               "search_rank": 18
             },
             "points": 0.0
@@ -3477,8 +3477,8 @@
     },
     {
       "week": 6,
-      "result": "W",
-      "points": 3.0,
+      "result": "L",
+      "points": 9.0,
       "lineup": [
         {
           "slot": "QB",
@@ -3614,7 +3614,7 @@
             "depth_chart_order": 1,
             "search_rank": 128
           },
-          "points": 0.0
+          "points": 6.0
         },
         {
           "slot": "DEF",
@@ -3663,7 +3663,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 462
+            "search_rank": 460
           },
           "points": 0.0
         },
@@ -3705,13 +3705,13 @@
             "name": "Jalen Hurts",
             "position": "QB",
             "team": "PHI",
-            "status": "Active",
+            "status": "Inactive",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": "IR",
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 28
+            "search_rank": 27
           },
           "points": 0.0
         },
@@ -3736,7 +3736,7 @@
         "roster_id": 12,
         "team_name": "Los Mapachitos",
         "username": "Juanpmv",
-        "points": 0.0,
+        "points": 19.3,
         "lineup": [
           {
             "slot": "QB",
@@ -3787,7 +3787,7 @@
               "depth_chart_order": 1,
               "search_rank": 44
             },
-            "points": 0.0
+            "points": 19.3
           },
           {
             "slot": "WR",
@@ -3818,7 +3818,7 @@
               "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RWR",
-              "depth_chart_order": 2,
+              "depth_chart_order": 3,
               "search_rank": 658
             },
             "points": 0.0
@@ -3832,7 +3832,7 @@
               "team": "IND",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "TE",
               "depth_chart_order": 1,
@@ -3901,7 +3901,7 @@
               "team": "NYJ",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "TE",
               "depth_chart_order": 1,
@@ -3952,7 +3952,7 @@
               "injury_status": "IR",
               "injury_notes": "Surgery",
               "depth_chart_position": "RB",
-              "depth_chart_order": 4,
+              "depth_chart_order": 5,
               "search_rank": 147
             },
             "points": 0.0
@@ -3968,8 +3968,8 @@
               "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RWR",
-              "depth_chart_order": 1,
-              "search_rank": 203
+              "depth_chart_order": 2,
+              "search_rank": 204
             },
             "points": 0.0
           },
@@ -4066,7 +4066,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 2,
-            "search_rank": 125
+            "search_rank": 127
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -4269,7 +4269,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 462
+            "search_rank": 460
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -4300,7 +4300,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 462
+            "search_rank": 460
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -4423,7 +4423,7 @@
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
+            "depth_chart_order": 2,
             "search_rank": 117
           },
           "roster_id": 10,
@@ -4579,7 +4579,7 @@
             "injury_status": "IR",
             "injury_notes": "Surgery",
             "depth_chart_position": null,
-            "depth_chart_order": 6,
+            "depth_chart_order": 7,
             "search_rank": 99
           },
           "roster_id": 10,
