@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:29:32.065691+00:00",
+  "generated_at": "2026-10-20T16:57:42.779746+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -39,17 +39,17 @@
       {
         "slot": "RB1",
         "player": {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
+          "player_id": "12495",
+          "name": "Ollie Gordon",
           "position": "RB",
-          "team": "LAC",
+          "team": "MIA",
           "status": "Active",
           "active": true,
-          "injury_status": null,
+          "injury_status": "Questionable",
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 12
+          "search_rank": 458
         }
       },
       {
@@ -87,17 +87,17 @@
       {
         "slot": "WR2",
         "player": {
-          "player_id": "13346",
-          "name": "Denzel Boston",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "CLE",
+          "team": "CIN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 1,
-          "search_rank": 153
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 2,
+          "search_rank": 36
         }
       },
       {
@@ -180,17 +180,17 @@
         "search_rank": 110
       },
       {
-        "player_id": "12495",
-        "name": "Ollie Gordon",
+        "player_id": "12507",
+        "name": "Omarion Hampton",
         "position": "RB",
-        "team": "MIA",
+        "team": "LAC",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 458
+        "search_rank": 12
       },
       {
         "player_id": "13298",
@@ -206,17 +206,17 @@
         "search_rank": 110
       },
       {
-        "player_id": "6801",
-        "name": "Tee Higgins",
+        "player_id": "13346",
+        "name": "Denzel Boston",
         "position": "WR",
-        "team": "CIN",
+        "team": "CLE",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 2,
-        "search_rank": 36
+        "depth_chart_position": "LWR",
+        "depth_chart_order": 1,
+        "search_rank": 153
       }
     ],
     "reserve": [
@@ -472,17 +472,17 @@
       {
         "slot": "RB1",
         "player": {
-          "player_id": "12507",
-          "name": "Omarion Hampton",
+          "player_id": "12495",
+          "name": "Ollie Gordon",
           "position": "RB",
-          "team": "LAC",
+          "team": "MIA",
           "status": "Active",
           "active": true,
-          "injury_status": null,
+          "injury_status": "Questionable",
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 12
+          "search_rank": 458
         }
       },
       {
@@ -520,17 +520,17 @@
       {
         "slot": "WR2",
         "player": {
-          "player_id": "13346",
-          "name": "Denzel Boston",
+          "player_id": "6801",
+          "name": "Tee Higgins",
           "position": "WR",
-          "team": "CLE",
+          "team": "CIN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 1,
-          "search_rank": 153
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 2,
+          "search_rank": 36
         }
       },
       {
@@ -3991,17 +3991,17 @@
         {
           "slot": "RB",
           "player": {
-            "player_id": "12507",
-            "name": "Omarion Hampton",
+            "player_id": "12495",
+            "name": "Ollie Gordon",
             "position": "RB",
-            "team": "LAC",
+            "team": "MIA",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 12
+            "search_rank": 458
           },
           "points": 0.0
         },
@@ -4042,17 +4042,17 @@
         {
           "slot": "WR",
           "player": {
-            "player_id": "13346",
-            "name": "Denzel Boston",
+            "player_id": "6801",
+            "name": "Tee Higgins",
             "position": "WR",
-            "team": "CLE",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 153
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 2,
+            "search_rank": 36
           },
           "points": 0.0
         },
@@ -4144,17 +4144,17 @@
         },
         {
           "player": {
-            "player_id": "12495",
-            "name": "Ollie Gordon",
+            "player_id": "12507",
+            "name": "Omarion Hampton",
             "position": "RB",
-            "team": "MIA",
+            "team": "LAC",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 458
+            "search_rank": 12
           },
           "points": 0.0
         },
@@ -4176,17 +4176,17 @@
         },
         {
           "player": {
-            "player_id": "6801",
-            "name": "Tee Higgins",
+            "player_id": "13346",
+            "name": "Denzel Boston",
             "position": "WR",
-            "team": "CIN",
+            "team": "CLE",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 2,
-            "search_rank": 36
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 153
           },
           "points": 0.0
         },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:29:32.065691+00:00",
+  "generated_at": "2026-10-20T16:57:42.779746+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -28,7 +28,7 @@
     ],
     "settings": {
       "best_ball": 0,
-      "last_report": 5,
+      "last_report": 6,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -864,17 +864,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "11435",
-            "name": "Emanuel Wilson",
+            "player_id": "4199",
+            "name": "Aaron Jones",
             "position": "RB",
-            "team": "SEA",
+            "team": "MIN",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 161
+            "search_rank": 85
           }
         },
         {
@@ -944,17 +944,17 @@
         {
           "slot": "K",
           "player": {
-            "player_id": "7042",
-            "name": "Tyler Bass",
+            "player_id": "7839",
+            "name": "Evan McPherson",
             "position": "K",
-            "team": "BUF",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 288
+            "search_rank": 155
           }
         },
         {
@@ -989,6 +989,19 @@
           "search_rank": 29
         },
         {
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 161
+        },
+        {
           "player_id": "11439",
           "name": "Jaleel McLaughlin",
           "position": "RB",
@@ -1015,30 +1028,17 @@
           "search_rank": 68
         },
         {
-          "player_id": "4199",
-          "name": "Aaron Jones",
-          "position": "RB",
-          "team": "MIN",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 85
-        },
-        {
-          "player_id": "7839",
-          "name": "Evan McPherson",
+          "player_id": "7042",
+          "name": "Tyler Bass",
           "position": "K",
-          "team": "CIN",
+          "team": "BUF",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "K",
           "depth_chart_order": 1,
-          "search_rank": 155
+          "search_rank": 288
         },
         {
           "player_id": "9511",
@@ -4575,17 +4575,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "12507",
-            "name": "Omarion Hampton",
+            "player_id": "12495",
+            "name": "Ollie Gordon",
             "position": "RB",
-            "team": "LAC",
+            "team": "MIA",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 12
+            "search_rank": 458
           }
         },
         {
@@ -4623,17 +4623,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "13346",
-            "name": "Denzel Boston",
+            "player_id": "6801",
+            "name": "Tee Higgins",
             "position": "WR",
-            "team": "CLE",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 153
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 2,
+            "search_rank": 36
           }
         },
         {
@@ -4716,17 +4716,17 @@
           "search_rank": 110
         },
         {
-          "player_id": "12495",
-          "name": "Ollie Gordon",
+          "player_id": "12507",
+          "name": "Omarion Hampton",
           "position": "RB",
-          "team": "MIA",
+          "team": "LAC",
           "status": "Active",
           "active": true,
-          "injury_status": "Questionable",
+          "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 458
+          "search_rank": 12
         },
         {
           "player_id": "13298",
@@ -4742,17 +4742,17 @@
           "search_rank": 110
         },
         {
-          "player_id": "6801",
-          "name": "Tee Higgins",
+          "player_id": "13346",
+          "name": "Denzel Boston",
           "position": "WR",
-          "team": "CIN",
+          "team": "CLE",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "RWR",
-          "depth_chart_order": 2,
-          "search_rank": 36
+          "depth_chart_position": "LWR",
+          "depth_chart_order": 1,
+          "search_rank": 153
         }
       ],
       "reserve": [
@@ -5513,17 +5513,17 @@
         {
           "slot": "WR1",
           "player": {
-            "player_id": "11635",
-            "name": "Ladd McConkey",
+            "player_id": "7547",
+            "name": "Amon-Ra St. Brown",
             "position": "WR",
-            "team": "LAC",
+            "team": "DET",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 35
+            "search_rank": 7
           }
         },
         {
@@ -5609,6 +5609,19 @@
       ],
       "bench": [
         {
+          "player_id": "11635",
+          "name": "Ladd McConkey",
+          "position": "WR",
+          "team": "LAC",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 1,
+          "search_rank": 35
+        },
+        {
           "player_id": "12518",
           "name": "Tyler Warren",
           "position": "TE",
@@ -5633,19 +5646,6 @@
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
           "search_rank": 109
-        },
-        {
-          "player_id": "7547",
-          "name": "Amon-Ra St. Brown",
-          "position": "WR",
-          "team": "DET",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 1,
-          "search_rank": 7
         },
         {
           "player_id": "9225",
@@ -37094,17 +37094,17 @@
           {
             "slot": "RB",
             "player": {
-              "player_id": "12507",
-              "name": "Omarion Hampton",
+              "player_id": "12495",
+              "name": "Ollie Gordon",
               "position": "RB",
-              "team": "LAC",
+              "team": "MIA",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Questionable",
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
-              "search_rank": 12
+              "search_rank": 458
             },
             "points": 0.0
           },
@@ -37145,17 +37145,17 @@
           {
             "slot": "WR",
             "player": {
-              "player_id": "13346",
-              "name": "Denzel Boston",
+              "player_id": "6801",
+              "name": "Tee Higgins",
               "position": "WR",
-              "team": "CLE",
+              "team": "CIN",
               "status": "Active",
               "active": true,
               "injury_status": null,
               "injury_notes": null,
-              "depth_chart_position": "LWR",
-              "depth_chart_order": 1,
-              "search_rank": 153
+              "depth_chart_position": "RWR",
+              "depth_chart_order": 2,
+              "search_rank": 36
             },
             "points": 0.0
           },
@@ -37247,17 +37247,17 @@
           },
           {
             "player": {
-              "player_id": "12495",
-              "name": "Ollie Gordon",
+              "player_id": "12507",
+              "name": "Omarion Hampton",
               "position": "RB",
-              "team": "MIA",
+              "team": "LAC",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
-              "search_rank": 458
+              "search_rank": 12
             },
             "points": 0.0
           },
@@ -37279,17 +37279,17 @@
           },
           {
             "player": {
-              "player_id": "6801",
-              "name": "Tee Higgins",
+              "player_id": "13346",
+              "name": "Denzel Boston",
               "position": "WR",
-              "team": "CIN",
+              "team": "CLE",
               "status": "Active",
               "active": true,
               "injury_status": null,
               "injury_notes": null,
-              "depth_chart_position": "RWR",
-              "depth_chart_order": 2,
-              "search_rank": 36
+              "depth_chart_position": "LWR",
+              "depth_chart_order": 1,
+              "search_rank": 153
             },
             "points": 0.0
           },
@@ -38172,17 +38172,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "11435",
-                    "name": "Emanuel Wilson",
+                    "player_id": "4199",
+                    "name": "Aaron Jones",
                     "position": "RB",
-                    "team": "SEA",
+                    "team": "MIN",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 161
+                    "search_rank": 85
                   },
                   "points": 0.0
                 },
@@ -38257,17 +38257,17 @@
                 {
                   "slot": "K",
                   "player": {
-                    "player_id": "7042",
-                    "name": "Tyler Bass",
+                    "player_id": "7839",
+                    "name": "Evan McPherson",
                     "position": "K",
-                    "team": "BUF",
+                    "team": "CIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "K",
                     "depth_chart_order": 1,
-                    "search_rank": 288
+                    "search_rank": 155
                   },
                   "points": 0.0
                 },
@@ -38308,6 +38308,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "11435",
+                    "name": "Emanuel Wilson",
+                    "position": "RB",
+                    "team": "SEA",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 161
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "11439",
                     "name": "Jaleel McLaughlin",
                     "position": "RB",
@@ -38340,17 +38356,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "4199",
-                    "name": "Aaron Jones",
-                    "position": "RB",
-                    "team": "MIN",
+                    "player_id": "7042",
+                    "name": "Tyler Bass",
+                    "position": "K",
+                    "team": "BUF",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
+                    "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
+                    "depth_chart_position": "K",
                     "depth_chart_order": 1,
-                    "search_rank": 85
+                    "search_rank": 288
                   },
                   "points": 0.0
                 },
@@ -38367,22 +38383,6 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 4,
                     "search_rank": 34
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "7839",
-                    "name": "Evan McPherson",
-                    "position": "K",
-                    "team": "CIN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "K",
-                    "depth_chart_order": 1,
-                    "search_rank": 155
                   },
                   "points": 0.0
                 },
@@ -40161,17 +40161,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "11635",
-                    "name": "Ladd McConkey",
+                    "player_id": "7547",
+                    "name": "Amon-Ra St. Brown",
                     "position": "WR",
-                    "team": "LAC",
+                    "team": "DET",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Out",
+                    "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 1,
-                    "search_rank": 35
+                    "search_rank": 7
                   },
                   "points": 0.0
                 },
@@ -40264,6 +40264,22 @@
               "bench": [
                 {
                   "player": {
+                    "player_id": "11635",
+                    "name": "Ladd McConkey",
+                    "position": "WR",
+                    "team": "LAC",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Out",
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 35
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "12518",
                     "name": "Tyler Warren",
                     "position": "TE",
@@ -40291,22 +40307,6 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 109
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "7547",
-                    "name": "Amon-Ra St. Brown",
-                    "position": "WR",
-                    "team": "DET",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 7
                   },
                   "points": 0.0
                 },
@@ -40666,17 +40666,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "12507",
-                    "name": "Omarion Hampton",
+                    "player_id": "12495",
+                    "name": "Ollie Gordon",
                     "position": "RB",
-                    "team": "LAC",
+                    "team": "MIA",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 12
+                    "search_rank": 458
                   },
                   "points": 0.0
                 },
@@ -40717,17 +40717,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "13346",
-                    "name": "Denzel Boston",
+                    "player_id": "6801",
+                    "name": "Tee Higgins",
                     "position": "WR",
-                    "team": "CLE",
+                    "team": "CIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 153
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 36
                   },
                   "points": 0.0
                 },
@@ -40819,17 +40819,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "12495",
-                    "name": "Ollie Gordon",
+                    "player_id": "12507",
+                    "name": "Omarion Hampton",
                     "position": "RB",
-                    "team": "MIA",
+                    "team": "LAC",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
+                    "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 458
+                    "search_rank": 12
                   },
                   "points": 0.0
                 },
@@ -40851,17 +40851,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "6801",
-                    "name": "Tee Higgins",
+                    "player_id": "13346",
+                    "name": "Denzel Boston",
                     "position": "WR",
-                    "team": "CIN",
+                    "team": "CLE",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 36
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 153
                   },
                   "points": 0.0
                 },
