@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:57:42.779746+00:00",
+  "generated_at": "2026-10-20T21:33:49.312901+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -3188,17 +3188,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "11560",
-            "name": "Caleb Williams",
+            "player_id": "3163",
+            "name": "Jared Goff",
             "position": "QB",
-            "team": "CHI",
+            "team": "DET",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 21
+            "search_rank": 62
           }
         },
         {
@@ -3268,17 +3268,17 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "2505",
-            "name": "Darren Waller",
+            "player_id": "5012",
+            "name": "Mark Andrews",
             "position": "TE",
-            "team": "CAR",
+            "team": "BAL",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 357
+            "search_rank": 96
           }
         },
         {
@@ -3316,12 +3316,12 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "JAX",
-            "name": "Jaguars",
-            "position": "DEF",
-            "team": "JAX",
+            "player_id": "0",
+            "name": "0",
+            "position": null,
+            "team": null,
             "status": null,
-            "active": true,
+            "active": null,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": null,
@@ -3332,17 +3332,17 @@
       ],
       "bench": [
         {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "JAX",
+          "player_id": "11560",
+          "name": "Caleb Williams",
+          "position": "QB",
+          "team": "CHI",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 126
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 21
         },
         {
           "player_id": "1479",
@@ -3358,43 +3358,17 @@
           "search_rank": 180
         },
         {
-          "player_id": "2197",
-          "name": "Brandin Cooks",
-          "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 3,
-          "search_rank": 529
-        },
-        {
-          "player_id": "3163",
-          "name": "Jared Goff",
-          "position": "QB",
-          "team": "DET",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 62
-        },
-        {
-          "player_id": "5012",
-          "name": "Mark Andrews",
+          "player_id": "2505",
+          "name": "Darren Waller",
           "position": "TE",
-          "team": "BAL",
+          "team": "CAR",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
-          "search_rank": 96
+          "search_rank": 357
         },
         {
           "player_id": "6806",
@@ -3427,19 +3401,6 @@
       ],
       "taxi": [],
       "all_players": [
-        {
-          "player_id": "10219",
-          "name": "Chris Rodriguez",
-          "position": "RB",
-          "team": "JAX",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 126
-        },
         {
           "player_id": "11533",
           "name": "Brandon Aubrey",
@@ -3491,19 +3452,6 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 2,
           "search_rank": 180
-        },
-        {
-          "player_id": "2197",
-          "name": "Brandin Cooks",
-          "position": "WR",
-          "team": "SF",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 3,
-          "search_rank": 529
         },
         {
           "player_id": "2216",
@@ -3621,19 +3569,6 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 2,
           "search_rank": 22
-        },
-        {
-          "player_id": "JAX",
-          "name": "Jaguars",
-          "position": "DEF",
-          "team": "JAX",
-          "status": null,
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": null
         }
       ]
     },
@@ -4168,33 +4103,33 @@
         {
           "slot": "WR1",
           "player": {
-            "player_id": "11834",
-            "name": "Devaughn Vele",
+            "player_id": "6794",
+            "name": "Justin Jefferson",
             "position": "WR",
-            "team": "NO",
+            "team": "MIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 2,
-            "search_rank": 209
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 12
           }
         },
         {
           "slot": "WR2",
           "player": {
-            "player_id": "2133",
-            "name": "Davante Adams",
+            "player_id": "5846",
+            "name": "DK Metcalf",
             "position": "WR",
-            "team": "LAR",
+            "team": "PIT",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
-            "injury_notes": "Ruptured",
+            "injury_status": null,
+            "injury_notes": null,
             "depth_chart_position": "LWR",
-            "depth_chart_order": 2,
-            "search_rank": 46
+            "depth_chart_order": 1,
+            "search_rank": 73
           }
         },
         {
@@ -4277,6 +4212,19 @@
           "search_rank": 58
         },
         {
+          "player_id": "11834",
+          "name": "Devaughn Vele",
+          "position": "WR",
+          "team": "NO",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 2,
+          "search_rank": 209
+        },
+        {
           "player_id": "2449",
           "name": "Stefon Diggs",
           "position": "WR",
@@ -4303,32 +4251,6 @@
           "search_rank": 645
         },
         {
-          "player_id": "5846",
-          "name": "DK Metcalf",
-          "position": "WR",
-          "team": "PIT",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 1,
-          "search_rank": 73
-        },
-        {
-          "player_id": "6794",
-          "name": "Justin Jefferson",
-          "position": "WR",
-          "team": "MIN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 1,
-          "search_rank": 12
-        },
-        {
           "player_id": "8183",
           "name": "Brock Purdy",
           "position": "QB",
@@ -4342,7 +4264,21 @@
           "search_rank": 55
         }
       ],
-      "reserve": [],
+      "reserve": [
+        {
+          "player_id": "2133",
+          "name": "Davante Adams",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": "Ruptured",
+          "depth_chart_position": "LWR",
+          "depth_chart_order": 2,
+          "search_rank": 46
+        }
+      ],
       "taxi": [],
       "all_players": [
         {
@@ -36212,6 +36148,99 @@
       ],
       "transactions": [
         {
+          "transaction_id": "1418332537612181504",
+          "week": 6,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792519337613,
+          "roster_ids": [
+            7
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "10219",
+                "name": "Chris Rodriguez",
+                "position": "RB",
+                "team": "JAX",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 126
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1418332474076897280",
+          "week": 6,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792519322465,
+          "roster_ids": [
+            7
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "2197",
+                "name": "Brandin Cooks",
+                "position": "WR",
+                "team": "SF",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 3,
+                "search_rank": 529
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1418331785242116096",
+          "week": 6,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792519158233,
+          "roster_ids": [
+            7
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "JAX",
+                "name": "Jaguars",
+                "position": "DEF",
+                "team": "JAX",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
           "transaction_id": "1418223558638796800",
           "week": 6,
           "type": "free_agent",
@@ -37925,34 +37954,34 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "11834",
-                    "name": "Devaughn Vele",
+                    "player_id": "6794",
+                    "name": "Justin Jefferson",
                     "position": "WR",
-                    "team": "NO",
+                    "team": "MIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 209
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 12
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "2133",
-                    "name": "Davante Adams",
+                    "player_id": "5846",
+                    "name": "DK Metcalf",
                     "position": "WR",
-                    "team": "LAR",
+                    "team": "PIT",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Out",
-                    "injury_notes": "Ruptured",
+                    "injury_status": null,
+                    "injury_notes": null,
                     "depth_chart_position": "LWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 46
+                    "depth_chart_order": 1,
+                    "search_rank": 73
                   },
                   "points": 0.0
                 },
@@ -38044,6 +38073,38 @@
                 },
                 {
                   "player": {
+                    "player_id": "11834",
+                    "name": "Devaughn Vele",
+                    "position": "WR",
+                    "team": "NO",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 209
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "2133",
+                    "name": "Davante Adams",
+                    "position": "WR",
+                    "team": "LAR",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Out",
+                    "injury_notes": "Ruptured",
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 46
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "2449",
                     "name": "Stefon Diggs",
                     "position": "WR",
@@ -38071,38 +38132,6 @@
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 3,
                     "search_rank": 645
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "5846",
-                    "name": "DK Metcalf",
-                    "position": "WR",
-                    "team": "PIT",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 73
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "6794",
-                    "name": "Justin Jefferson",
-                    "position": "WR",
-                    "team": "MIN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 12
                   },
                   "points": 0.0
                 },
@@ -39555,17 +39584,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "11560",
-                    "name": "Caleb Williams",
+                    "player_id": "3163",
+                    "name": "Jared Goff",
                     "position": "QB",
-                    "team": "CHI",
+                    "team": "DET",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 21
+                    "search_rank": 62
                   },
                   "points": 0.0
                 },
@@ -39640,17 +39669,17 @@
                 {
                   "slot": "TE",
                   "player": {
-                    "player_id": "2505",
-                    "name": "Darren Waller",
+                    "player_id": "5012",
+                    "name": "Mark Andrews",
                     "position": "TE",
-                    "team": "CAR",
+                    "team": "BAL",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 357
+                    "search_rank": 96
                   },
                   "points": 0.0
                 },
@@ -39709,17 +39738,17 @@
               "bench": [
                 {
                   "player": {
-                    "player_id": "10219",
-                    "name": "Chris Rodriguez",
-                    "position": "RB",
-                    "team": "JAX",
+                    "player_id": "11560",
+                    "name": "Caleb Williams",
+                    "position": "QB",
+                    "team": "CHI",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 126
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 21
                   },
                   "points": 0.0
                 },
@@ -39757,49 +39786,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "2197",
-                    "name": "Brandin Cooks",
-                    "position": "WR",
-                    "team": "SF",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 3,
-                    "search_rank": 529
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "3163",
-                    "name": "Jared Goff",
-                    "position": "QB",
-                    "team": "DET",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 62
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "5012",
-                    "name": "Mark Andrews",
+                    "player_id": "2505",
+                    "name": "Darren Waller",
                     "position": "TE",
-                    "team": "BAL",
+                    "team": "CAR",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 96
+                    "search_rank": 357
                   },
                   "points": 0.0
                 },

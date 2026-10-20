@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T16:57:42.779746+00:00",
+  "generated_at": "2026-10-20T21:33:49.312901+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -16,7 +16,7 @@
     "WR": 50,
     "TE": 50,
     "K": 22,
-    "DEF": 19
+    "DEF": 20
   },
   "players": {
     "QB": [
@@ -751,6 +751,19 @@
         "search_rank": 123
       },
       {
+        "player_id": "10219",
+        "name": "Chris Rodriguez",
+        "position": "RB",
+        "team": "JAX",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 126
+      },
+      {
         "player_id": "12469",
         "name": "Dylan Sampson",
         "position": "RB",
@@ -1308,19 +1321,6 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
         "search_rank": 518
-      },
-      {
-        "player_id": "7087",
-        "name": "Jonathan Ward",
-        "position": "RB",
-        "team": "BAL",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 524
       }
     ],
     "WR": [
@@ -3064,6 +3064,19 @@
         "name": "Giants",
         "position": "DEF",
         "team": "NYG",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
+        "player_id": "JAX",
+        "name": "Jaguars",
+        "position": "DEF",
+        "team": "JAX",
         "status": null,
         "active": true,
         "injury_status": null,
