@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-19T22:18:35.475577+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-20T04:42:58.800156+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
-  "current_week": 6,
+  "current_week": 7,
   "team_name": "FearNando Mendoza",
   "username": "Hyrum75",
   "roster_id": 10,
@@ -13,20 +13,20 @@
     "roster_id": 10,
     "team_name": "FearNando Mendoza",
     "username": "Hyrum75",
-    "wins": 2,
+    "wins": 3,
     "losses": 3,
     "ties": 0,
-    "points_for": 651.68,
-    "points_against": 683.52,
+    "points_for": 733.68,
+    "points_against": 761.96,
     "waiver_position": 7
   },
   "season_summary": {
-    "wins": 2,
+    "wins": 3,
     "losses": 3,
     "ties": 0,
-    "average_points": 130.34,
+    "average_points": 122.28,
     "highest_score": 177.42,
-    "lowest_score": 101.36
+    "lowest_score": 82.0
   },
   "waiver_position": 7,
   "roster_capacity": {
@@ -266,9 +266,9 @@
     }
   ],
   "current_matchup": {
-    "week": 6,
-    "matchup_id": 2,
-    "my_points": 55.0,
+    "week": 7,
+    "matchup_id": 3,
+    "my_points": 0.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -416,146 +416,146 @@
       }
     ],
     "opponent": {
-      "roster_id": 12,
-      "team_name": "Los Mapachitos",
-      "username": "Juanpmv",
-      "points": 78.44,
+      "roster_id": 8,
+      "team_name": "This Is Our Year",
+      "username": "juandelagarza",
+      "points": 0.0,
       "lineup": [
         {
           "slot": "QB",
           "player": {
-            "player_id": "6804",
-            "name": "Jordan Love",
+            "player_id": "421",
+            "name": "Matthew Stafford",
             "position": "QB",
-            "team": "GB",
+            "team": "LAR",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 69
+            "search_rank": 64
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "3198",
-            "name": "Derrick Henry",
+            "player_id": "7594",
+            "name": "Chuba Hubbard",
             "position": "RB",
-            "team": "BAL",
+            "team": "CAR",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 7
+            "search_rank": 66
           }
         },
         {
           "slot": "RB2",
           "player": {
-            "player_id": "12490",
-            "name": "Bhayshul Tuten",
+            "player_id": "12489",
+            "name": "RJ Harvey",
             "position": "RB",
-            "team": "JAX",
+            "team": "DEN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 44
+            "depth_chart_order": 2,
+            "search_rank": 56
           }
         },
         {
           "slot": "WR1",
           "player": {
-            "player_id": "11635",
-            "name": "Ladd McConkey",
+            "player_id": "8134",
+            "name": "Khalil Shakir",
             "position": "WR",
-            "team": "LAC",
+            "team": "BUF",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 35
+            "search_rank": 120
           }
         },
         {
           "slot": "WR2",
           "player": {
-            "player_id": "13150",
-            "name": "Darius Cooper",
+            "player_id": "12519",
+            "name": "Luther Burden",
             "position": "WR",
-            "team": "PHI",
+            "team": "CHI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 4,
-            "search_rank": 658
+            "depth_chart_order": 1,
+            "search_rank": 40
           }
         },
         {
           "slot": "TE",
           "player": {
-            "player_id": "8110",
-            "name": "Jake Ferguson",
+            "player_id": "9484",
+            "name": "Tucker Kraft",
             "position": "TE",
-            "team": "DAL",
+            "team": "GB",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 97
+            "search_rank": 64
           }
         },
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "5967",
-            "name": "Tony Pollard",
-            "position": "RB",
-            "team": "TEN",
+            "player_id": "5022",
+            "name": "Dallas Goedert",
+            "position": "TE",
+            "team": "PHI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
+            "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 63
+            "search_rank": 94
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "650",
-            "name": "Nick Folk",
+            "player_id": "13545",
+            "name": "Trey Smack",
             "position": "K",
-            "team": "ATL",
+            "team": "GB",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 249
+            "search_rank": 194
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "BAL",
-            "name": "Ravens",
+            "player_id": "DAL",
+            "name": "Cowboys",
             "position": "DEF",
-            "team": "BAL",
+            "team": "DAL",
             "status": null,
             "active": true,
             "injury_status": null,
