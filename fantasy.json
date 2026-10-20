@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:42:58.800156+00:00",
+  "generated_at": "2026-10-20T11:29:32.065691+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -1314,17 +1314,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "12481",
-            "name": "Cam Skattebo",
+            "player_id": "9224",
+            "name": "Chase Brown",
             "position": "RB",
-            "team": "NYG",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 36
+            "search_rank": 14
           }
         },
         {
@@ -1362,17 +1362,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "9500",
-            "name": "Josh Downs",
+            "player_id": "7564",
+            "name": "Ja'Marr Chase",
             "position": "WR",
-            "team": "IND",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
+            "depth_chart_position": "LWR",
             "depth_chart_order": 1,
-            "search_rank": 111
+            "search_rank": 3
           }
         },
         {
@@ -1394,17 +1394,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "8136",
-            "name": "Rachaad White",
-            "position": "RB",
-            "team": "WAS",
+            "player_id": "8148",
+            "name": "Jameson Williams",
+            "position": "WR",
+            "team": "DET",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 125
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 2,
+            "search_rank": 53
           }
         },
         {
@@ -1442,43 +1442,30 @@
       ],
       "bench": [
         {
-          "player_id": "7564",
-          "name": "Ja'Marr Chase",
-          "position": "WR",
-          "team": "CIN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 1,
-          "search_rank": 3
-        },
-        {
-          "player_id": "8148",
-          "name": "Jameson Williams",
-          "position": "WR",
-          "team": "DET",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RWR",
-          "depth_chart_order": 2,
-          "search_rank": 53
-        },
-        {
-          "player_id": "9224",
-          "name": "Chase Brown",
+          "player_id": "12481",
+          "name": "Cam Skattebo",
           "position": "RB",
-          "team": "CIN",
+          "team": "NYG",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 14
+          "search_rank": 36
+        },
+        {
+          "player_id": "8136",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 125
         },
         {
           "player_id": "9480",
@@ -1492,6 +1479,19 @@
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
           "search_rank": 104
+        },
+        {
+          "player_id": "9500",
+          "name": "Josh Downs",
+          "position": "WR",
+          "team": "IND",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 1,
+          "search_rank": 111
         },
         {
           "player_id": "9753",
@@ -4753,19 +4753,6 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 2,
           "search_rank": 36
-        },
-        {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
-          "status": "Inactive",
-          "active": true,
-          "injury_status": "IR",
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 2,
-          "search_rank": 26
         }
       ],
       "reserve": [
@@ -4927,19 +4914,6 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 2,
           "search_rank": 36
-        },
-        {
-          "player_id": "6904",
-          "name": "Jalen Hurts",
-          "position": "QB",
-          "team": "PHI",
-          "status": "Inactive",
-          "active": true,
-          "injury_status": "IR",
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 2,
-          "search_rank": 26
         },
         {
           "player_id": "8132",
@@ -36238,6 +36212,37 @@
       ],
       "transactions": [
         {
+          "transaction_id": "1418223558638796800",
+          "week": 6,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792493355000,
+          "roster_ids": [
+            10
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "6904",
+                "name": "Jalen Hurts",
+                "position": "QB",
+                "team": "PHI",
+                "status": "Inactive",
+                "active": true,
+                "injury_status": "IR",
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 2,
+                "search_rank": 26
+              },
+              "roster_id": 10,
+              "team_name": "FearNando Mendoza"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
           "transaction_id": "1417607370481082368",
           "week": 6,
           "type": "free_agent",
@@ -37285,22 +37290,6 @@
               "depth_chart_position": "RWR",
               "depth_chart_order": 2,
               "search_rank": 36
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
-              "player_id": "6904",
-              "name": "Jalen Hurts",
-              "position": "QB",
-              "team": "PHI",
-              "status": "Inactive",
-              "active": true,
-              "injury_status": "IR",
-              "injury_notes": null,
-              "depth_chart_position": "QB",
-              "depth_chart_order": 2,
-              "search_rank": 26
             },
             "points": 0.0
           },
@@ -38441,17 +38430,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "12481",
-                    "name": "Cam Skattebo",
+                    "player_id": "9224",
+                    "name": "Chase Brown",
                     "position": "RB",
-                    "team": "NYG",
+                    "team": "CIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 36
+                    "search_rank": 14
                   },
                   "points": 0.0
                 },
@@ -38492,17 +38481,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "9500",
-                    "name": "Josh Downs",
+                    "player_id": "7564",
+                    "name": "Ja'Marr Chase",
                     "position": "WR",
-                    "team": "IND",
+                    "team": "CIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
+                    "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
-                    "search_rank": 111
+                    "search_rank": 3
                   },
                   "points": 0.0
                 },
@@ -38526,17 +38515,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "8136",
-                    "name": "Rachaad White",
-                    "position": "RB",
-                    "team": "WAS",
+                    "player_id": "8148",
+                    "name": "Jameson Williams",
+                    "position": "WR",
+                    "team": "DET",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 125
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 53
                   },
                   "points": 0.0
                 },
@@ -38578,6 +38567,22 @@
               "bench": [
                 {
                   "player": {
+                    "player_id": "12481",
+                    "name": "Cam Skattebo",
+                    "position": "RB",
+                    "team": "NYG",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 36
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "13417",
                     "name": "De'Zhaun Stribling",
                     "position": "WR",
@@ -38594,33 +38599,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "7564",
-                    "name": "Ja'Marr Chase",
-                    "position": "WR",
-                    "team": "CIN",
+                    "player_id": "8136",
+                    "name": "Rachaad White",
+                    "position": "RB",
+                    "team": "WAS",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "LWR",
+                    "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 3
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8148",
-                    "name": "Jameson Williams",
-                    "position": "WR",
-                    "team": "DET",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 53
+                    "search_rank": 125
                   },
                   "points": 0.0
                 },
@@ -38642,22 +38631,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "9224",
-                    "name": "Chase Brown",
-                    "position": "RB",
-                    "team": "CIN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 14
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "9480",
                     "name": "Brenton Strange",
                     "position": "TE",
@@ -38669,6 +38642,22 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 104
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "9500",
+                    "name": "Josh Downs",
+                    "position": "WR",
+                    "team": "IND",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 111
                   },
                   "points": 0.0
                 },
@@ -40873,22 +40862,6 @@
                     "depth_chart_position": "RWR",
                     "depth_chart_order": 2,
                     "search_rank": 36
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "6904",
-                    "name": "Jalen Hurts",
-                    "position": "QB",
-                    "team": "PHI",
-                    "status": "Inactive",
-                    "active": true,
-                    "injury_status": "IR",
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 2,
-                    "search_rank": 26
                   },
                   "points": 0.0
                 },

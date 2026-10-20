@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T04:42:58.800156+00:00",
+  "generated_at": "2026-10-20T11:29:32.065691+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -217,19 +217,6 @@
         "depth_chart_position": "RWR",
         "depth_chart_order": 2,
         "search_rank": 36
-      },
-      {
-        "player_id": "6904",
-        "name": "Jalen Hurts",
-        "position": "QB",
-        "team": "PHI",
-        "status": "Inactive",
-        "active": true,
-        "injury_status": "IR",
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 2,
-        "search_rank": 26
       }
     ],
     "reserve": [
@@ -393,19 +380,6 @@
         "search_rank": 36
       },
       {
-        "player_id": "6904",
-        "name": "Jalen Hurts",
-        "position": "QB",
-        "team": "PHI",
-        "status": "Inactive",
-        "active": true,
-        "injury_status": "IR",
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 2,
-        "search_rank": 26
-      },
-      {
         "player_id": "8132",
         "name": "Tyler Allgeier",
         "position": "RB",
@@ -467,9 +441,9 @@
     "lowest_score": 82.0
   },
   "roster_capacity": {
-    "active_players": 14,
+    "active_players": 13,
     "active_capacity": 15,
-    "open_active_slots": 1,
+    "open_active_slots": 2,
     "reserve_used": 1,
     "reserve_capacity": 2,
     "reserve_available": 1
@@ -4218,22 +4192,6 @@
         },
         {
           "player": {
-            "player_id": "6904",
-            "name": "Jalen Hurts",
-            "position": "QB",
-            "team": "PHI",
-            "status": "Inactive",
-            "active": true,
-            "injury_status": "IR",
-            "injury_notes": null,
-            "depth_chart_position": "QB",
-            "depth_chart_order": 2,
-            "search_rank": 26
-          },
-          "points": 0.0
-        },
-        {
-          "player": {
             "player_id": "8155",
             "name": "Breece Hall",
             "position": "RB",
@@ -5150,6 +5108,37 @@
         }
       ],
       "drops": [],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1418223558638796800",
+      "week": 6,
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792493355000,
+      "roster_ids": [
+        10
+      ],
+      "adds": [],
+      "drops": [
+        {
+          "player": {
+            "player_id": "6904",
+            "name": "Jalen Hurts",
+            "position": "QB",
+            "team": "PHI",
+            "status": "Inactive",
+            "active": true,
+            "injury_status": "IR",
+            "injury_notes": null,
+            "depth_chart_position": "QB",
+            "depth_chart_order": 2,
+            "search_rank": 26
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
       "waiver_bid": null
     },
     {
