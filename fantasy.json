@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T11:41:54.810018+00:00",
+  "generated_at": "2026-10-21T17:07:03.033724+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -2854,17 +2854,17 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "10236",
-            "name": "Dalton Kincaid",
+            "player_id": "7553",
+            "name": "Kyle Pitts",
             "position": "TE",
-            "team": "BUF",
+            "team": "ATL",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 81
+            "search_rank": 68
           }
         },
         {
@@ -2886,26 +2886,26 @@
         {
           "slot": "K",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
-            "status": null,
-            "active": null,
+            "player_id": "6650",
+            "name": "Chase McLaughlin",
+            "position": "K",
+            "team": "TB",
+            "status": "Active",
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": null,
-            "depth_chart_order": null,
-            "search_rank": null
+            "depth_chart_position": "K",
+            "depth_chart_order": 1,
+            "search_rank": 199
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "CAR",
-            "name": "Panthers",
+            "player_id": "HOU",
+            "name": "Texans",
             "position": "DEF",
-            "team": "CAR",
+            "team": "HOU",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -2929,6 +2929,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 184
+        },
+        {
+          "player_id": "10236",
+          "name": "Dalton Kincaid",
+          "position": "TE",
+          "team": "BUF",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Questionable",
+          "injury_notes": null,
+          "depth_chart_position": "TE",
+          "depth_chart_order": 1,
+          "search_rank": 81
         },
         {
           "player_id": "12534",
@@ -2968,32 +2981,6 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 18
-        },
-        {
-          "player_id": "6650",
-          "name": "Chase McLaughlin",
-          "position": "K",
-          "team": "TB",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "K",
-          "depth_chart_order": 1,
-          "search_rank": 199
-        },
-        {
-          "player_id": "7553",
-          "name": "Kyle Pitts",
-          "position": "TE",
-          "team": "ATL",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 68
         },
         {
           "player_id": "8129",
@@ -3222,10 +3209,10 @@
           "search_rank": 5
         },
         {
-          "player_id": "CAR",
-          "name": "Panthers",
+          "player_id": "HOU",
+          "name": "Texans",
           "position": "DEF",
-          "team": "CAR",
+          "team": "HOU",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -3349,44 +3336,44 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "8126",
-            "name": "Wan'Dale Robinson",
-            "position": "WR",
-            "team": "TEN",
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "position": "RB",
+            "team": "DEN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 2,
-            "search_rank": 105
+            "depth_chart_position": "RB",
+            "depth_chart_order": 1,
+            "search_rank": 68
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
-            "status": null,
-            "active": null,
+            "player_id": "5189",
+            "name": "Eddy Pineiro",
+            "position": "K",
+            "team": "SF",
+            "status": "Active",
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": null,
-            "depth_chart_order": null,
-            "search_rank": null
+            "depth_chart_position": "K",
+            "depth_chart_order": 1,
+            "search_rank": 174
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
+            "player_id": "SF",
+            "name": "49ers",
+            "position": "DEF",
+            "team": "SF",
             "status": null,
-            "active": null,
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": null,
@@ -3410,6 +3397,32 @@
           "search_rank": 21
         },
         {
+          "player_id": "11610",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 1,
+          "search_rank": 176
+        },
+        {
+          "player_id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 7,
+          "search_rank": 15
+        },
+        {
           "player_id": "1479",
           "name": "Keenan Allen",
           "position": "WR",
@@ -3423,73 +3436,33 @@
           "search_rank": 180
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
+          "player_id": "4993",
+          "name": "Mike Gesicki",
           "position": "TE",
-          "team": "CAR",
+          "team": "CIN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
-          "search_rank": 357
+          "search_rank": 448
         },
         {
-          "player_id": "5189",
-          "name": "Eddy Pineiro",
-          "position": "K",
-          "team": "SF",
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "TEN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "K",
-          "depth_chart_order": 1,
-          "search_rank": 174
-        },
-        {
-          "player_id": "6806",
-          "name": "J.K. Dobbins",
-          "position": "RB",
-          "team": "DEN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 68
-        },
-        {
-          "player_id": "SF",
-          "name": "49ers",
-          "position": "DEF",
-          "team": "SF",
-          "status": null,
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": null
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 2,
+          "search_rank": 105
         }
       ],
-      "reserve": [
-        {
-          "player_id": "13287",
-          "name": "Jeremiyah Love",
-          "position": "RB",
-          "team": "ARI",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Out",
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 7,
-          "search_rank": 15
-        }
-      ],
+      "reserve": [],
       "taxi": [],
       "all_players": [
         {
@@ -3504,6 +3477,19 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
           "search_rank": 21
+        },
+        {
+          "player_id": "11610",
+          "name": "Malik Washington",
+          "position": "WR",
+          "team": "MIA",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 1,
+          "search_rank": 176
         },
         {
           "player_id": "13287",
@@ -3545,19 +3531,6 @@
           "search_rank": 60
         },
         {
-          "player_id": "2505",
-          "name": "Darren Waller",
-          "position": "TE",
-          "team": "CAR",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 357
-        },
-        {
           "player_id": "3163",
           "name": "Jared Goff",
           "position": "QB",
@@ -3582,6 +3555,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 4
+        },
+        {
+          "player_id": "4993",
+          "name": "Mike Gesicki",
+          "position": "TE",
+          "team": "CIN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "TE",
+          "depth_chart_order": 1,
+          "search_rank": 448
         },
         {
           "player_id": "5012",
@@ -4159,33 +4145,33 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "11564",
-            "name": "Drake Maye",
+            "player_id": "8183",
+            "name": "Brock Purdy",
             "position": "QB",
-            "team": "NE",
+            "team": "SF",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 10
+            "search_rank": 55
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "7611",
-            "name": "Rhamondre Stevenson",
+            "player_id": "12474",
+            "name": "Woody Marks",
             "position": "RB",
-            "team": "NE",
+            "team": "HOU",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 58
+            "search_rank": 105
           }
         },
         {
@@ -4239,33 +4225,33 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "3214",
-            "name": "Hunter Henry",
+            "player_id": "10859",
+            "name": "Sam LaPorta",
             "position": "TE",
-            "team": "NE",
+            "team": "DET",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 92
+            "search_rank": 58
           }
         },
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "12474",
-            "name": "Woody Marks",
-            "position": "RB",
-            "team": "HOU",
+            "player_id": "9501",
+            "name": "DeMario Douglas",
+            "position": "WR",
+            "team": "NE",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 105
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 2,
+            "search_rank": 492
           }
         },
         {
@@ -4303,17 +4289,17 @@
       ],
       "bench": [
         {
-          "player_id": "10859",
-          "name": "Sam LaPorta",
-          "position": "TE",
-          "team": "DET",
+          "player_id": "11564",
+          "name": "Drake Maye",
+          "position": "QB",
+          "team": "NE",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "TE",
+          "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 58
+          "search_rank": 10
         },
         {
           "player_id": "11834",
@@ -4342,30 +4328,30 @@
           "search_rank": 105
         },
         {
-          "player_id": "8183",
-          "name": "Brock Purdy",
-          "position": "QB",
-          "team": "SF",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 55
-        },
-        {
-          "player_id": "9501",
-          "name": "DeMario Douglas",
-          "position": "WR",
+          "player_id": "3214",
+          "name": "Hunter Henry",
+          "position": "TE",
           "team": "NE",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 2,
-          "search_rank": 492
+          "depth_chart_position": "TE",
+          "depth_chart_order": 1,
+          "search_rank": 92
+        },
+        {
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 58
         }
       ],
       "reserve": [
@@ -4599,17 +4585,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "11566",
-            "name": "Jayden Daniels",
+            "player_id": "9758",
+            "name": "C.J. Stroud",
             "position": "QB",
-            "team": "WAS",
+            "team": "HOU",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 23
+            "search_rank": 101
           }
         },
         {
@@ -4743,6 +4729,19 @@
       ],
       "bench": [
         {
+          "player_id": "11566",
+          "name": "Jayden Daniels",
+          "position": "QB",
+          "team": "WAS",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 23
+        },
+        {
           "player_id": "11655",
           "name": "Tyrone Tracy",
           "position": "RB",
@@ -4795,21 +4794,6 @@
           "search_rank": 153
         },
         {
-          "player_id": "9758",
-          "name": "C.J. Stroud",
-          "position": "QB",
-          "team": "HOU",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 101
-        }
-      ],
-      "reserve": [
-        {
           "player_id": "8155",
           "name": "Breece Hall",
           "position": "RB",
@@ -4823,6 +4807,7 @@
           "search_rank": 27
         }
       ],
+      "reserve": [],
       "taxi": [],
       "all_players": [
         {
@@ -5039,17 +5024,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "4984",
-            "name": "Josh Allen",
+            "player_id": "11563",
+            "name": "Bo Nix",
             "position": "QB",
-            "team": "BUF",
+            "team": "DEN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 4
+            "search_rank": 45
           }
         },
         {
@@ -5209,17 +5194,17 @@
           "search_rank": 39
         },
         {
-          "player_id": "3321",
-          "name": "Tyreek Hill",
-          "position": "WR",
-          "team": null,
+          "player_id": "4984",
+          "name": "Josh Allen",
+          "position": "QB",
+          "team": "BUF",
           "status": "Active",
           "active": true,
-          "injury_status": "",
-          "injury_notes": "Surgery",
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": 145
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 4
         },
         {
           "player_id": "5844",
@@ -5303,6 +5288,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 75
+        },
+        {
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 45
         },
         {
           "player_id": "11647",
@@ -5394,19 +5392,6 @@
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
           "search_rank": 647
-        },
-        {
-          "player_id": "3321",
-          "name": "Tyreek Hill",
-          "position": "WR",
-          "team": null,
-          "status": "Active",
-          "active": true,
-          "injury_status": "",
-          "injury_notes": "Surgery",
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": 145
         },
         {
           "player_id": "4984",
@@ -38096,17 +38081,17 @@
           {
             "slot": "QB",
             "player": {
-              "player_id": "11566",
-              "name": "Jayden Daniels",
+              "player_id": "9758",
+              "name": "C.J. Stroud",
               "position": "QB",
-              "team": "WAS",
+              "team": "HOU",
               "status": "Active",
               "active": true,
               "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 23
+              "search_rank": 101
             },
             "points": 0.0
           },
@@ -38250,6 +38235,22 @@
         "bench": [
           {
             "player": {
+              "player_id": "11566",
+              "name": "Jayden Daniels",
+              "position": "QB",
+              "team": "WAS",
+              "status": "Active",
+              "active": true,
+              "injury_status": null,
+              "injury_notes": null,
+              "depth_chart_position": "QB",
+              "depth_chart_order": 1,
+              "search_rank": 23
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
               "player_id": "11655",
               "name": "Tyrone Tracy",
               "position": "RB",
@@ -38325,22 +38326,6 @@
               "depth_chart_position": "RB",
               "depth_chart_order": 5,
               "search_rank": 27
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
-              "player_id": "9758",
-              "name": "C.J. Stroud",
-              "position": "QB",
-              "team": "HOU",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "QB",
-              "depth_chart_order": 1,
-              "search_rank": 101
             },
             "points": 0.0
           }
@@ -38925,34 +38910,34 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "11564",
-                    "name": "Drake Maye",
+                    "player_id": "8183",
+                    "name": "Brock Purdy",
                     "position": "QB",
-                    "team": "NE",
+                    "team": "SF",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 10
+                    "search_rank": 55
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "7611",
-                    "name": "Rhamondre Stevenson",
+                    "player_id": "12474",
+                    "name": "Woody Marks",
                     "position": "RB",
-                    "team": "NE",
+                    "team": "HOU",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 58
+                    "search_rank": 105
                   },
                   "points": 0.0
                 },
@@ -39010,34 +38995,34 @@
                 {
                   "slot": "TE",
                   "player": {
-                    "player_id": "3214",
-                    "name": "Hunter Henry",
+                    "player_id": "10859",
+                    "name": "Sam LaPorta",
                     "position": "TE",
-                    "team": "NE",
+                    "team": "DET",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 92
+                    "search_rank": 58
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "12474",
-                    "name": "Woody Marks",
-                    "position": "RB",
-                    "team": "HOU",
+                    "player_id": "9501",
+                    "name": "DeMario Douglas",
+                    "position": "WR",
+                    "team": "NE",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 105
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 492
                   },
                   "points": 0.0
                 },
@@ -39079,17 +39064,17 @@
               "bench": [
                 {
                   "player": {
-                    "player_id": "10859",
-                    "name": "Sam LaPorta",
-                    "position": "TE",
-                    "team": "DET",
+                    "player_id": "11564",
+                    "name": "Drake Maye",
+                    "position": "QB",
+                    "team": "NE",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
+                    "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 58
+                    "search_rank": 10
                   },
                   "points": 0.0
                 },
@@ -39143,33 +39128,33 @@
                 },
                 {
                   "player": {
-                    "player_id": "8183",
-                    "name": "Brock Purdy",
-                    "position": "QB",
-                    "team": "SF",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 55
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9501",
-                    "name": "DeMario Douglas",
-                    "position": "WR",
+                    "player_id": "3214",
+                    "name": "Hunter Henry",
+                    "position": "TE",
                     "team": "NE",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 492
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 1,
+                    "search_rank": 92
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "7611",
+                    "name": "Rhamondre Stevenson",
+                    "position": "RB",
+                    "team": "NE",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 58
                   },
                   "points": 0.0
                 }
@@ -40051,17 +40036,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "4984",
-                    "name": "Josh Allen",
+                    "player_id": "11563",
+                    "name": "Bo Nix",
                     "position": "QB",
-                    "team": "BUF",
+                    "team": "DEN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 4
+                    "search_rank": 45
                   },
                   "points": 0.0
                 },
@@ -40237,17 +40222,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "3321",
-                    "name": "Tyreek Hill",
-                    "position": "WR",
-                    "team": null,
+                    "player_id": "4984",
+                    "name": "Josh Allen",
+                    "position": "QB",
+                    "team": "BUF",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "",
-                    "injury_notes": "Surgery",
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": 145
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 4
                   },
                   "points": 0.0
                 },
@@ -40724,46 +40709,46 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "8126",
-                    "name": "Wan'Dale Robinson",
-                    "position": "WR",
-                    "team": "TEN",
+                    "player_id": "6806",
+                    "name": "J.K. Dobbins",
+                    "position": "RB",
+                    "team": "DEN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 105
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 68
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "K",
                   "player": {
-                    "player_id": "0",
-                    "name": "0",
-                    "position": null,
-                    "team": null,
-                    "status": null,
-                    "active": null,
+                    "player_id": "5189",
+                    "name": "Eddy Pineiro",
+                    "position": "K",
+                    "team": "SF",
+                    "status": "Active",
+                    "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
+                    "depth_chart_position": "K",
+                    "depth_chart_order": 1,
+                    "search_rank": 174
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "0",
-                    "name": "0",
-                    "position": null,
-                    "team": null,
+                    "player_id": "SF",
+                    "name": "49ers",
+                    "position": "DEF",
+                    "team": "SF",
                     "status": null,
-                    "active": null,
+                    "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": null,
@@ -40787,6 +40772,22 @@
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
                     "search_rank": 21
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "11610",
+                    "name": "Malik Washington",
+                    "position": "WR",
+                    "team": "MIA",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 176
                   },
                   "points": 0.0
                 },
@@ -40824,65 +40825,33 @@
                 },
                 {
                   "player": {
-                    "player_id": "2505",
-                    "name": "Darren Waller",
+                    "player_id": "4993",
+                    "name": "Mike Gesicki",
                     "position": "TE",
-                    "team": "CAR",
+                    "team": "CIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 357
+                    "search_rank": 448
                   },
                   "points": 0.0
                 },
                 {
                   "player": {
-                    "player_id": "5189",
-                    "name": "Eddy Pineiro",
-                    "position": "K",
-                    "team": "SF",
+                    "player_id": "8126",
+                    "name": "Wan'Dale Robinson",
+                    "position": "WR",
+                    "team": "TEN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "K",
-                    "depth_chart_order": 1,
-                    "search_rank": 174
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "6806",
-                    "name": "J.K. Dobbins",
-                    "position": "RB",
-                    "team": "DEN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 68
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "SF",
-                    "name": "49ers",
-                    "position": "DEF",
-                    "team": "SF",
-                    "status": null,
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 105
                   },
                   "points": 0.0
                 }
@@ -40987,17 +40956,17 @@
                 {
                   "slot": "TE",
                   "player": {
-                    "player_id": "10236",
-                    "name": "Dalton Kincaid",
+                    "player_id": "7553",
+                    "name": "Kyle Pitts",
                     "position": "TE",
-                    "team": "BUF",
+                    "team": "ATL",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
+                    "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 81
+                    "search_rank": 68
                   },
                   "points": 0.0
                 },
@@ -41021,27 +40990,27 @@
                 {
                   "slot": "K",
                   "player": {
-                    "player_id": "0",
-                    "name": "0",
-                    "position": null,
-                    "team": null,
-                    "status": null,
-                    "active": null,
+                    "player_id": "6650",
+                    "name": "Chase McLaughlin",
+                    "position": "K",
+                    "team": "TB",
+                    "status": "Active",
+                    "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
+                    "depth_chart_position": "K",
+                    "depth_chart_order": 1,
+                    "search_rank": 199
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "CAR",
-                    "name": "Panthers",
+                    "player_id": "HOU",
+                    "name": "Texans",
                     "position": "DEF",
-                    "team": "CAR",
+                    "team": "HOU",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -41067,6 +41036,22 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
                     "search_rank": 184
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "10236",
+                    "name": "Dalton Kincaid",
+                    "position": "TE",
+                    "team": "BUF",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Questionable",
+                    "injury_notes": null,
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 1,
+                    "search_rank": 81
                   },
                   "points": 0.0
                 },
@@ -41131,38 +41116,6 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
                     "search_rank": 18
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "6650",
-                    "name": "Chase McLaughlin",
-                    "position": "K",
-                    "team": "TB",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "K",
-                    "depth_chart_order": 1,
-                    "search_rank": 199
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "7553",
-                    "name": "Kyle Pitts",
-                    "position": "TE",
-                    "team": "ATL",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 68
                   },
                   "points": 0.0
                 },
@@ -41732,17 +41685,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "11566",
-                    "name": "Jayden Daniels",
+                    "player_id": "9758",
+                    "name": "C.J. Stroud",
                     "position": "QB",
-                    "team": "WAS",
+                    "team": "HOU",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 23
+                    "search_rank": 101
                   },
                   "points": 0.0
                 },
@@ -41886,6 +41839,22 @@
               "bench": [
                 {
                   "player": {
+                    "player_id": "11566",
+                    "name": "Jayden Daniels",
+                    "position": "QB",
+                    "team": "WAS",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 23
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "11655",
                     "name": "Tyrone Tracy",
                     "position": "RB",
@@ -41963,29 +41932,205 @@
                     "search_rank": 27
                   },
                   "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9758",
-                    "name": "C.J. Stroud",
-                    "position": "QB",
-                    "team": "HOU",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 101
-                  },
-                  "points": 0.0
                 }
               ]
             }
           ]
         }
       ],
-      "transactions": []
+      "transactions": [
+        {
+          "transaction_id": "1418645456761769984",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792593943351,
+          "roster_ids": [
+            11
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11563",
+                "name": "Bo Nix",
+                "position": "QB",
+                "team": "DEN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 1,
+                "search_rank": 45
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "3321",
+                "name": "Tyreek Hill",
+                "position": "WR",
+                "team": null,
+                "status": "Active",
+                "active": true,
+                "injury_status": "",
+                "injury_notes": "Surgery",
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": 145
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1418613506491555840",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792586325813,
+          "roster_ids": [
+            7
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "4993",
+                "name": "Mike Gesicki",
+                "position": "TE",
+                "team": "CIN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 1,
+                "search_rank": 448
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1418613350115409920",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792586288530,
+          "roster_ids": [
+            7
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11610",
+                "name": "Malik Washington",
+                "position": "WR",
+                "team": "MIA",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 1,
+                "search_rank": 176
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1418612965946482688",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792586196937,
+          "roster_ids": [
+            7
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "2505",
+                "name": "Darren Waller",
+                "position": "TE",
+                "team": "CAR",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 1,
+                "search_rank": 357
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1418610830886387712",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792585687900,
+          "roster_ids": [
+            6
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "HOU",
+                "name": "Texans",
+                "position": "DEF",
+                "team": "HOU",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "CAR",
+                "name": "Panthers",
+                "position": "DEF",
+                "team": "CAR",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "waiver_bid": null
+        }
+      ]
     }
   ]
 }
