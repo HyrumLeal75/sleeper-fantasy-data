@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:07:03.033724+00:00",
+  "generated_at": "2026-10-21T21:37:20.055118+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -1054,19 +1054,6 @@
           "search_rank": 68
         },
         {
-          "player_id": "7042",
-          "name": "Tyler Bass",
-          "position": "K",
-          "team": "BUF",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "K",
-          "depth_chart_order": 1,
-          "search_rank": 288
-        },
-        {
           "player_id": "8135",
           "name": "Treylon Burks",
           "position": "WR",
@@ -1078,6 +1065,19 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 4,
           "search_rank": 679
+        },
+        {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "TE",
+          "depth_chart_order": 2,
+          "search_rank": 464
         }
       ],
       "reserve": [
@@ -1189,19 +1189,6 @@
           "search_rank": 85
         },
         {
-          "player_id": "7042",
-          "name": "Tyler Bass",
-          "position": "K",
-          "team": "BUF",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "K",
-          "depth_chart_order": 1,
-          "search_rank": 288
-        },
-        {
           "player_id": "7543",
           "name": "Travis Etienne",
           "position": "RB",
@@ -1278,6 +1265,19 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
           "search_rank": 133
+        },
+        {
+          "player_id": "9482",
+          "name": "Michael Mayer",
+          "position": "TE",
+          "team": "LV",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "TE",
+          "depth_chart_order": 2,
+          "search_rank": 464
         },
         {
           "player_id": "9488",
@@ -2308,17 +2308,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "3257",
-            "name": "Jacoby Brissett",
+            "player_id": "1373",
+            "name": "Geno Smith",
             "position": "QB",
-            "team": "ARI",
+            "team": "NYJ",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 203
+            "search_rank": 211
           }
         },
         {
@@ -2340,17 +2340,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "9508",
-            "name": "Tyjae Spears",
+            "player_id": "9221",
+            "name": "Jahmyr Gibbs",
             "position": "RB",
-            "team": "TEN",
+            "team": "DET",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 122
+            "depth_chart_order": 1,
+            "search_rank": 1
           }
         },
         {
@@ -2436,10 +2436,10 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "KC",
-            "name": "Chiefs",
+            "player_id": "MIN",
+            "name": "Vikings",
             "position": "DEF",
-            "team": "KC",
+            "team": "MIN",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -2451,6 +2451,19 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "3257",
+          "name": "Jacoby Brissett",
+          "position": "QB",
+          "team": "ARI",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 203
+        },
         {
           "player_id": "4037",
           "name": "Chris Godwin",
@@ -2478,17 +2491,17 @@
           "search_rank": 34
         },
         {
-          "player_id": "9221",
-          "name": "Jahmyr Gibbs",
+          "player_id": "9508",
+          "name": "Tyjae Spears",
           "position": "RB",
-          "team": "DET",
+          "team": "TEN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 1
+          "depth_chart_order": 2,
+          "search_rank": 122
         },
         {
           "player_id": "9754",
@@ -2504,10 +2517,10 @@
           "search_rank": 103
         },
         {
-          "player_id": "MIN",
-          "name": "Vikings",
+          "player_id": "KC",
+          "name": "Chiefs",
           "position": "DEF",
-          "team": "MIN",
+          "team": "KC",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -2572,6 +2585,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 8,
           "search_rank": 53
+        },
+        {
+          "player_id": "1373",
+          "name": "Geno Smith",
+          "position": "QB",
+          "team": "NYJ",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 211
         },
         {
           "player_id": "3257",
@@ -4273,10 +4299,10 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "LAR",
-            "name": "Rams",
+            "player_id": "NYJ",
+            "name": "Jets",
             "position": "DEF",
-            "team": "LAR",
+            "team": "NYJ",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -4352,6 +4378,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 58
+        },
+        {
+          "player_id": "LAR",
+          "name": "Rams",
+          "position": "DEF",
+          "team": "LAR",
+          "status": null,
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": null,
+          "depth_chart_order": null,
+          "search_rank": null
         }
       ],
       "reserve": [
@@ -4558,6 +4597,19 @@
           "name": "Rams",
           "position": "DEF",
           "team": "LAR",
+          "status": null,
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": null,
+          "depth_chart_order": null,
+          "search_rank": null
+        },
+        {
+          "player_id": "NYJ",
+          "name": "Jets",
+          "position": "DEF",
+          "team": "NYJ",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -5548,17 +5600,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "12490",
-            "name": "Bhayshul Tuten",
+            "player_id": "8116",
+            "name": "Pierre Strong",
             "position": "RB",
-            "team": "JAX",
+            "team": "GB",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 44
+            "depth_chart_order": 2,
+            "search_rank": 631
           }
         },
         {
@@ -5580,17 +5632,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "13150",
-            "name": "Darius Cooper",
+            "player_id": "9486",
+            "name": "Dontayvion Wicks",
             "position": "WR",
             "team": "PHI",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 4,
-            "search_rank": 658
+            "depth_chart_order": 2,
+            "search_rank": 204
           }
         },
         {
@@ -5673,6 +5725,19 @@
           "search_rank": 35
         },
         {
+          "player_id": "12490",
+          "name": "Bhayshul Tuten",
+          "position": "RB",
+          "team": "JAX",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 44
+        },
+        {
           "player_id": "12518",
           "name": "Tyler Warren",
           "position": "TE",
@@ -5686,6 +5751,19 @@
           "search_rank": 48
         },
         {
+          "player_id": "13150",
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 4,
+          "search_rank": 658
+        },
+        {
           "player_id": "8110",
           "name": "Jake Ferguson",
           "position": "TE",
@@ -5697,32 +5775,6 @@
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
           "search_rank": 97
-        },
-        {
-          "player_id": "8116",
-          "name": "Pierre Strong",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 631
-        },
-        {
-          "player_id": "9486",
-          "name": "Dontayvion Wicks",
-          "position": "WR",
-          "team": "PHI",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": null,
-          "depth_chart_position": "RWR",
-          "depth_chart_order": 2,
-          "search_rank": 204
         },
         {
           "player_id": "96",
@@ -39046,10 +39098,10 @@
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "LAR",
-                    "name": "Rams",
+                    "player_id": "NYJ",
+                    "name": "Jets",
                     "position": "DEF",
-                    "team": "LAR",
+                    "team": "NYJ",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -39155,6 +39207,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
                     "search_rank": 58
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "LAR",
+                    "name": "Rams",
+                    "position": "DEF",
+                    "team": "LAR",
+                    "status": null,
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": null,
+                    "depth_chart_order": null,
+                    "search_rank": null
                   },
                   "points": 0.0
                 }
@@ -39392,22 +39460,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "7042",
-                    "name": "Tyler Bass",
-                    "position": "K",
-                    "team": "BUF",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "K",
-                    "depth_chart_order": 1,
-                    "search_rank": 288
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "7543",
                     "name": "Travis Etienne",
                     "position": "RB",
@@ -39435,6 +39487,22 @@
                     "depth_chart_position": "RWR",
                     "depth_chart_order": 4,
                     "search_rank": 679
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "9482",
+                    "name": "Michael Mayer",
+                    "position": "TE",
+                    "team": "LV",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 2,
+                    "search_rank": 464
                   },
                   "points": 0.0
                 }
@@ -40332,17 +40400,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "3257",
-                    "name": "Jacoby Brissett",
+                    "player_id": "1373",
+                    "name": "Geno Smith",
                     "position": "QB",
-                    "team": "ARI",
+                    "team": "NYJ",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 203
+                    "search_rank": 211
                   },
                   "points": 0.0
                 },
@@ -40366,17 +40434,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "9508",
-                    "name": "Tyjae Spears",
+                    "player_id": "9221",
+                    "name": "Jahmyr Gibbs",
                     "position": "RB",
-                    "team": "TEN",
+                    "team": "DET",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 122
+                    "depth_chart_order": 1,
+                    "search_rank": 1
                   },
                   "points": 0.0
                 },
@@ -40468,10 +40536,10 @@
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "KC",
-                    "name": "Chiefs",
+                    "player_id": "MIN",
+                    "name": "Vikings",
                     "position": "DEF",
-                    "team": "KC",
+                    "team": "MIN",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -40497,6 +40565,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 8,
                     "search_rank": 53
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "3257",
+                    "name": "Jacoby Brissett",
+                    "position": "QB",
+                    "team": "ARI",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 203
                   },
                   "points": 0.0
                 },
@@ -40550,17 +40634,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "9221",
-                    "name": "Jahmyr Gibbs",
+                    "player_id": "9508",
+                    "name": "Tyjae Spears",
                     "position": "RB",
-                    "team": "DET",
+                    "team": "TEN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 1
+                    "depth_chart_order": 2,
+                    "search_rank": 122
                   },
                   "points": 0.0
                 },
@@ -40582,10 +40666,10 @@
                 },
                 {
                   "player": {
-                    "player_id": "MIN",
-                    "name": "Vikings",
+                    "player_id": "KC",
+                    "name": "Chiefs",
                     "position": "DEF",
-                    "team": "MIN",
+                    "team": "KC",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -41180,17 +41264,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "12490",
-                    "name": "Bhayshul Tuten",
+                    "player_id": "8116",
+                    "name": "Pierre Strong",
                     "position": "RB",
-                    "team": "JAX",
+                    "team": "GB",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 44
+                    "depth_chart_order": 2,
+                    "search_rank": 631
                   },
                   "points": 0.0
                 },
@@ -41214,17 +41298,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "13150",
-                    "name": "Darius Cooper",
+                    "player_id": "9486",
+                    "name": "Dontayvion Wicks",
                     "position": "WR",
                     "team": "PHI",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
                     "depth_chart_position": "RWR",
-                    "depth_chart_order": 4,
-                    "search_rank": 658
+                    "depth_chart_order": 2,
+                    "search_rank": 204
                   },
                   "points": 0.0
                 },
@@ -41316,6 +41400,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "12490",
+                    "name": "Bhayshul Tuten",
+                    "position": "RB",
+                    "team": "JAX",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 44
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "12518",
                     "name": "Tyler Warren",
                     "position": "TE",
@@ -41332,6 +41432,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "13150",
+                    "name": "Darius Cooper",
+                    "position": "WR",
+                    "team": "PHI",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 4,
+                    "search_rank": 658
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "8110",
                     "name": "Jake Ferguson",
                     "position": "TE",
@@ -41343,38 +41459,6 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 97
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8116",
-                    "name": "Pierre Strong",
-                    "position": "RB",
-                    "team": "GB",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 631
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9486",
-                    "name": "Dontayvion Wicks",
-                    "position": "WR",
-                    "team": "PHI",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 204
                   },
                   "points": 0.0
                 },
@@ -41939,6 +42023,117 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1418747751230971904",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792618332253,
+          "roster_ids": [
+            9
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "NYJ",
+                "name": "Jets",
+                "position": "DEF",
+                "team": "NYJ",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 9,
+              "team_name": "Jsgzz18"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1418717524215742464",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792611125572,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "9482",
+                "name": "Michael Mayer",
+                "position": "TE",
+                "team": "LV",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 2,
+                "search_rank": 464
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "7042",
+                "name": "Tyler Bass",
+                "position": "K",
+                "team": "BUF",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 288
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1418685699883888640",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792603538060,
+          "roster_ids": [
+            5
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "1373",
+                "name": "Geno Smith",
+                "position": "QB",
+                "team": "NYJ",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 1,
+                "search_rank": 211
+              },
+              "roster_id": 5,
+              "team_name": "Burros Negros"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1418645456761769984",
           "week": 7,

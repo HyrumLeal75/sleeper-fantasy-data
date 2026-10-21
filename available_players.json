@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:07:03.033724+00:00",
+  "generated_at": "2026-10-21T21:37:20.055118+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -15,8 +15,8 @@
     "RB": 50,
     "WR": 50,
     "TE": 50,
-    "K": 24,
-    "DEF": 19
+    "K": 25,
+    "DEF": 18
   },
   "players": {
     "QB": [
@@ -136,19 +136,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 176
-      },
-      {
-        "player_id": "1373",
-        "name": "Geno Smith",
-        "position": "QB",
-        "team": "NYJ",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 211
       },
       {
         "player_id": "11565",
@@ -669,6 +656,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 601
+      },
+      {
+        "player_id": "6185",
+        "name": "Easton Stick",
+        "position": "QB",
+        "team": "TB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 602
       }
     ],
     "RB": [
@@ -2614,17 +2614,17 @@
         "search_rank": 462
       },
       {
-        "player_id": "9482",
-        "name": "Michael Mayer",
+        "player_id": "13308",
+        "name": "Bauer Sharp",
         "position": "TE",
-        "team": "LV",
+        "team": "TB",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 2,
-        "search_rank": 464
+        "depth_chart_order": 3,
+        "search_rank": 472
       }
     ],
     "K": [
@@ -2757,6 +2757,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 277
+      },
+      {
+        "player_id": "7042",
+        "name": "Tyler Bass",
+        "position": "K",
+        "team": "BUF",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 288
       },
       {
         "player_id": "4233",
@@ -3090,19 +3103,6 @@
         "name": "Jaguars",
         "position": "DEF",
         "team": "JAX",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
-        "player_id": "NYJ",
-        "name": "Jets",
-        "position": "DEF",
-        "team": "NYJ",
         "status": null,
         "active": true,
         "injury_status": null,
