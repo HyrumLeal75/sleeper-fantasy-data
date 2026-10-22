@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T17:06:33.223306+00:00",
+  "generated_at": "2026-10-22T21:31:05.451185+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -4171,17 +4171,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "8183",
-            "name": "Brock Purdy",
+            "player_id": "11564",
+            "name": "Drake Maye",
             "position": "QB",
-            "team": "SF",
+            "team": "NE",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 56
+            "search_rank": 11
           }
         },
         {
@@ -4219,6 +4219,22 @@
         {
           "slot": "WR1",
           "player": {
+            "player_id": "9501",
+            "name": "DeMario Douglas",
+            "position": "WR",
+            "team": "NE",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 2,
+            "search_rank": 490
+          }
+        },
+        {
+          "slot": "WR2",
+          "player": {
             "player_id": "6794",
             "name": "Justin Jefferson",
             "position": "WR",
@@ -4230,22 +4246,6 @@
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
             "search_rank": 12
-          }
-        },
-        {
-          "slot": "WR2",
-          "player": {
-            "player_id": "5846",
-            "name": "DK Metcalf",
-            "position": "WR",
-            "team": "PIT",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 73
           }
         },
         {
@@ -4267,17 +4267,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "9501",
-            "name": "DeMario Douglas",
+            "player_id": "5846",
+            "name": "DK Metcalf",
             "position": "WR",
-            "team": "NE",
+            "team": "PIT",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 2,
-            "search_rank": 490
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 73
           }
         },
         {
@@ -4314,19 +4314,6 @@
         }
       ],
       "bench": [
-        {
-          "player_id": "11564",
-          "name": "Drake Maye",
-          "position": "QB",
-          "team": "NE",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 11
-        },
         {
           "player_id": "11834",
           "name": "Devaughn Vele",
@@ -4378,6 +4365,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 58
+        },
+        {
+          "player_id": "8183",
+          "name": "Brock Purdy",
+          "position": "QB",
+          "team": "SF",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 56
         },
         {
           "player_id": "LAR",
@@ -38962,17 +38962,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "8183",
-                    "name": "Brock Purdy",
+                    "player_id": "11564",
+                    "name": "Drake Maye",
                     "position": "QB",
-                    "team": "SF",
+                    "team": "NE",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 56
+                    "search_rank": 11
                   },
                   "points": 0.0
                 },
@@ -39013,6 +39013,23 @@
                 {
                   "slot": "WR",
                   "player": {
+                    "player_id": "9501",
+                    "name": "DeMario Douglas",
+                    "position": "WR",
+                    "team": "NE",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 490
+                  },
+                  "points": 0.0
+                },
+                {
+                  "slot": "WR",
+                  "player": {
                     "player_id": "6794",
                     "name": "Justin Jefferson",
                     "position": "WR",
@@ -39024,23 +39041,6 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
                     "search_rank": 12
-                  },
-                  "points": 0.0
-                },
-                {
-                  "slot": "WR",
-                  "player": {
-                    "player_id": "5846",
-                    "name": "DK Metcalf",
-                    "position": "WR",
-                    "team": "PIT",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 73
                   },
                   "points": 0.0
                 },
@@ -39064,17 +39064,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "9501",
-                    "name": "DeMario Douglas",
+                    "player_id": "5846",
+                    "name": "DK Metcalf",
                     "position": "WR",
-                    "team": "NE",
+                    "team": "PIT",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 490
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 73
                   },
                   "points": 0.0
                 },
@@ -39114,22 +39114,6 @@
                 }
               ],
               "bench": [
-                {
-                  "player": {
-                    "player_id": "11564",
-                    "name": "Drake Maye",
-                    "position": "QB",
-                    "team": "NE",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 11
-                  },
-                  "points": 0.0
-                },
                 {
                   "player": {
                     "player_id": "11834",
@@ -39207,6 +39191,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
                     "search_rank": 58
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "8183",
+                    "name": "Brock Purdy",
+                    "position": "QB",
+                    "team": "SF",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 56
                   },
                   "points": 0.0
                 },
