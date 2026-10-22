@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T11:44:53.520443+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-22T17:06:33.223306+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -471,17 +471,17 @@
         {
           "slot": "WR1",
           "player": {
-            "player_id": "8134",
-            "name": "Khalil Shakir",
+            "player_id": "7525",
+            "name": "DeVonta Smith",
             "position": "WR",
-            "team": "BUF",
+            "team": "PHI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
+            "depth_chart_position": "LWR",
             "depth_chart_order": 1,
-            "search_rank": 120
+            "search_rank": 34
           }
         },
         {
@@ -551,10 +551,10 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "DAL",
-            "name": "Cowboys",
+            "player_id": "TEN",
+            "name": "Titans",
             "position": "DEF",
-            "team": "DAL",
+            "team": "TEN",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -1633,6 +1633,19 @@
         "search_rank": null
       },
       {
+        "player_id": "DAL",
+        "name": "Cowboys",
+        "position": "DEF",
+        "team": "DAL",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
         "player_id": "MIA",
         "name": "Dolphins",
         "position": "DEF",
@@ -1650,19 +1663,6 @@
         "name": "Eagles",
         "position": "DEF",
         "team": "PHI",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
-        "player_id": "ATL",
-        "name": "Falcons",
-        "position": "DEF",
-        "team": "ATL",
         "status": null,
         "active": true,
         "injury_status": null,
