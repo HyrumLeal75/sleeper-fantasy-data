@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:31:05.451185+00:00",
+  "generated_at": "2026-10-23T04:42:28.439167+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -1028,19 +1028,6 @@
           "search_rank": 681
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 161
-        },
-        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -1052,6 +1039,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 68
+        },
+        {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 2,
+          "search_rank": 678
         },
         {
           "player_id": "8135",
@@ -1124,19 +1124,6 @@
           "search_rank": 681
         },
         {
-          "player_id": "11435",
-          "name": "Emanuel Wilson",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 161
-        },
-        {
           "player_id": "11586",
           "name": "Blake Corum",
           "position": "RB",
@@ -1161,6 +1148,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 39
+        },
+        {
+          "player_id": "12718",
+          "name": "Konata Mumpfield",
+          "position": "WR",
+          "team": "LAR",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 2,
+          "search_rank": 678
         },
         {
           "player_id": "1466",
@@ -1436,17 +1436,17 @@
         {
           "slot": "K",
           "player": {
-            "player_id": "11786",
-            "name": "Cam Little",
+            "player_id": "12961",
+            "name": "Ryan Fitzgerald",
             "position": "K",
-            "team": "JAX",
+            "team": "CAR",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 133
+            "search_rank": 327
           }
         },
         {
@@ -1590,19 +1590,6 @@
           "search_rank": 28
         },
         {
-          "player_id": "11786",
-          "name": "Cam Little",
-          "position": "K",
-          "team": "JAX",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "K",
-          "depth_chart_order": 1,
-          "search_rank": 133
-        },
-        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -1614,6 +1601,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 36
+        },
+        {
+          "player_id": "12961",
+          "name": "Ryan Fitzgerald",
+          "position": "K",
+          "team": "CAR",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 327
         },
         {
           "player_id": "13417",
@@ -2832,17 +2832,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "5892",
-            "name": "David Montgomery",
+            "player_id": "8129",
+            "name": "Dameon Pierce",
             "position": "RB",
-            "team": "HOU",
+            "team": "PHI",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 3,
-            "search_rank": 43
+            "depth_chart_order": 1,
+            "search_rank": 627
           }
         },
         {
@@ -3009,17 +3009,17 @@
           "search_rank": 18
         },
         {
-          "player_id": "8129",
-          "name": "Dameon Pierce",
+          "player_id": "5892",
+          "name": "David Montgomery",
           "position": "RB",
-          "team": "PHI",
+          "team": "HOU",
           "status": "Active",
           "active": true,
-          "injury_status": null,
+          "injury_status": "Questionable",
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 627
+          "depth_chart_order": 3,
+          "search_rank": 43
         }
       ],
       "reserve": [
@@ -3314,17 +3314,17 @@
         {
           "slot": "WR1",
           "player": {
-            "player_id": "2216",
-            "name": "Mike Evans",
+            "player_id": "8126",
+            "name": "Wan'Dale Robinson",
             "position": "WR",
-            "team": "SF",
+            "team": "TEN",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
-            "injury_notes": "Tendinitis",
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 60
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 2,
+            "search_rank": 105
           }
         },
         {
@@ -3462,6 +3462,19 @@
           "search_rank": 180
         },
         {
+          "player_id": "2216",
+          "name": "Mike Evans",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Questionable",
+          "injury_notes": "Tendinitis",
+          "depth_chart_position": "LWR",
+          "depth_chart_order": 1,
+          "search_rank": 60
+        },
+        {
           "player_id": "4993",
           "name": "Mike Gesicki",
           "position": "TE",
@@ -3473,19 +3486,6 @@
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
           "search_rank": 448
-        },
-        {
-          "player_id": "8126",
-          "name": "Wan'Dale Robinson",
-          "position": "WR",
-          "team": "TEN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 2,
-          "search_rank": 105
         }
       ],
       "reserve": [],
@@ -38127,8 +38127,8 @@
       "week": 7,
       "my_result": {
         "week": 7,
-        "result": "T",
-        "points": 0.0,
+        "result": "L",
+        "points": 10.9,
         "lineup": [
           {
             "slot": "QB",
@@ -38196,7 +38196,7 @@
               "depth_chart_order": 2,
               "search_rank": 64
             },
-            "points": 0.0
+            "points": 10.9
           },
           {
             "slot": "WR",
@@ -38386,7 +38386,7 @@
           "roster_id": 8,
           "team_name": "This Is Our Year",
           "username": "juandelagarza",
-          "points": 0.0,
+          "points": 25.7,
           "lineup": [
             {
               "slot": "QB",
@@ -38471,7 +38471,7 @@
                 "depth_chart_order": 1,
                 "search_rank": 40
               },
-              "points": 0.0
+              "points": 25.7
             },
             {
               "slot": "TE",
@@ -38957,7 +38957,7 @@
               "roster_id": 9,
               "team_name": "Jsgzz18",
               "username": "Jsgzz18",
-              "points": 0.0,
+              "points": 44.74,
               "lineup": [
                 {
                   "slot": "QB",
@@ -38974,7 +38974,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 11
                   },
-                  "points": 0.0
+                  "points": 39.44
                 },
                 {
                   "slot": "RB",
@@ -39025,7 +39025,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 490
                   },
-                  "points": 0.0
+                  "points": 5.3
                 },
                 {
                   "slot": "WR",
@@ -39176,7 +39176,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 92
                   },
-                  "points": 0.0
+                  "points": 14.1
                 },
                 {
                   "player": {
@@ -39192,7 +39192,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 58
                   },
-                  "points": 0.0
+                  "points": 24.5
                 },
                 {
                   "player": {
@@ -39424,23 +39424,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 681
                   },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "11435",
-                    "name": "Emanuel Wilson",
-                    "position": "RB",
-                    "team": "SEA",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 161
-                  },
-                  "points": 0.0
+                  "points": 1.3
                 },
                 {
                   "player": {
@@ -39455,6 +39439,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 2,
                     "search_rank": 68
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "12718",
+                    "name": "Konata Mumpfield",
+                    "position": "WR",
+                    "team": "LAR",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 678
                   },
                   "points": 0.0
                 },
@@ -39636,17 +39636,17 @@
                 {
                   "slot": "K",
                   "player": {
-                    "player_id": "11786",
-                    "name": "Cam Little",
+                    "player_id": "12961",
+                    "name": "Ryan Fitzgerald",
                     "position": "K",
-                    "team": "JAX",
+                    "team": "CAR",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "K",
                     "depth_chart_order": 1,
-                    "search_rank": 133
+                    "search_rank": 327
                   },
                   "points": 0.0
                 },
@@ -39808,7 +39808,7 @@
               "roster_id": 4,
               "team_name": "ManuBro",
               "username": "ManuBro",
-              "points": 0.0,
+              "points": 4.0,
               "lineup": [
                 {
                   "slot": "QB",
@@ -39961,7 +39961,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 0.0
+                  "points": 4.0
                 }
               ],
               "bench": [
@@ -40059,7 +40059,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 37
                   },
-                  "points": 0.0
+                  "points": 19.9
                 },
                 {
                   "player": {
@@ -40099,7 +40099,7 @@
               "roster_id": 11,
               "team_name": "Makeroth",
               "username": "Makeroth",
-              "points": 0.0,
+              "points": 3.0,
               "lineup": [
                 {
                   "slot": "QB",
@@ -40252,7 +40252,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 0.0
+                  "points": 3.0
                 }
               ],
               "bench": [
@@ -40286,7 +40286,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 39
                   },
-                  "points": 0.0
+                  "points": 4.3
                 },
                 {
                   "player": {
@@ -40686,7 +40686,7 @@
               "roster_id": 7,
               "team_name": "Don Bitij",
               "username": "JorgeFdz",
-              "points": 0.0,
+              "points": 19.0,
               "lineup": [
                 {
                   "slot": "QB",
@@ -40737,22 +40737,22 @@
                     "depth_chart_order": 1,
                     "search_rank": 46
                   },
-                  "points": 0.0
+                  "points": 19.0
                 },
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "2216",
-                    "name": "Mike Evans",
+                    "player_id": "8126",
+                    "name": "Wan'Dale Robinson",
                     "position": "WR",
-                    "team": "SF",
+                    "team": "TEN",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": "Tendinitis",
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 60
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 105
                   },
                   "points": 0.0
                 },
@@ -40857,7 +40857,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 21
                   },
-                  "points": 0.0
+                  "points": 30.12
                 },
                 {
                   "player": {
@@ -40909,6 +40909,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "2216",
+                    "name": "Mike Evans",
+                    "position": "WR",
+                    "team": "SF",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Questionable",
+                    "injury_notes": "Tendinitis",
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 60
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "4993",
                     "name": "Mike Gesicki",
                     "position": "TE",
@@ -40920,22 +40936,6 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 448
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8126",
-                    "name": "Wan'Dale Robinson",
-                    "position": "WR",
-                    "team": "TEN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 105
                   },
                   "points": 0.0
                 }
@@ -40989,17 +40989,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "5892",
-                    "name": "David Montgomery",
+                    "player_id": "8129",
+                    "name": "Dameon Pierce",
                     "position": "RB",
-                    "team": "HOU",
+                    "team": "PHI",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
+                    "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 3,
-                    "search_rank": 43
+                    "depth_chart_order": 1,
+                    "search_rank": 627
                   },
                   "points": 0.0
                 },
@@ -41201,21 +41201,21 @@
                     "depth_chart_order": 1,
                     "search_rank": 18
                   },
-                  "points": 0.0
+                  "points": 7.8
                 },
                 {
                   "player": {
-                    "player_id": "8129",
-                    "name": "Dameon Pierce",
+                    "player_id": "5892",
+                    "name": "David Montgomery",
                     "position": "RB",
-                    "team": "PHI",
+                    "team": "HOU",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 627
+                    "depth_chart_order": 3,
+                    "search_rank": 43
                   },
                   "points": 0.0
                 }
@@ -41489,7 +41489,7 @@
               "roster_id": 8,
               "team_name": "This Is Our Year",
               "username": "juandelagarza",
-              "points": 0.0,
+              "points": 25.7,
               "lineup": [
                 {
                   "slot": "QB",
@@ -41574,7 +41574,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 40
                   },
-                  "points": 0.0
+                  "points": 25.7
                 },
                 {
                   "slot": "TE",
@@ -41764,7 +41764,7 @@
               "roster_id": 10,
               "team_name": "FearNando Mendoza",
               "username": "Hyrum75",
-              "points": 0.0,
+              "points": 10.9,
               "lineup": [
                 {
                   "slot": "QB",
@@ -41832,7 +41832,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 64
                   },
-                  "points": 0.0
+                  "points": 10.9
                 },
                 {
                   "slot": "WR",
@@ -42023,6 +42023,104 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1419197300680540160",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792725513195,
+          "roster_ids": [
+            3
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "12961",
+                "name": "Ryan Fitzgerald",
+                "position": "K",
+                "team": "CAR",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 327
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "11786",
+                "name": "Cam Little",
+                "position": "K",
+                "team": "JAX",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 133
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1419122993010851840",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792707796866,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "12718",
+                "name": "Konata Mumpfield",
+                "position": "WR",
+                "team": "LAR",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 2,
+                "search_rank": 678
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "11435",
+                "name": "Emanuel Wilson",
+                "position": "RB",
+                "team": "SEA",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 1,
+                "search_rank": 161
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1419039063322755072",
           "week": 7,

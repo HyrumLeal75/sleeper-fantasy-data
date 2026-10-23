@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:31:05.451185+00:00",
+  "generated_at": "2026-10-23T04:42:28.439167+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -829,6 +829,19 @@
         "search_rank": 157
       },
       {
+        "player_id": "11435",
+        "name": "Emanuel Wilson",
+        "position": "RB",
+        "team": "SEA",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 1,
+        "search_rank": 161
+      },
+      {
         "player_id": "13414",
         "name": "Kaelon Black",
         "position": "RB",
@@ -1308,19 +1321,6 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 3,
         "search_rank": 509
-      },
-      {
-        "player_id": "12969",
-        "name": "Lan Larison",
-        "position": "RB",
-        "team": "NE",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 512
       }
     ],
     "WR": [
@@ -2668,6 +2668,19 @@
         "search_rank": 125
       },
       {
+        "player_id": "11786",
+        "name": "Cam Little",
+        "position": "K",
+        "team": "JAX",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 133
+      },
+      {
         "player_id": "11539",
         "name": "Jake Bates",
         "position": "K",
@@ -2835,19 +2848,6 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 325
-      },
-      {
-        "player_id": "12961",
-        "name": "Ryan Fitzgerald",
-        "position": "K",
-        "team": "CAR",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 327
       },
       {
         "player_id": "13833",

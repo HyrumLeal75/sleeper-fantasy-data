@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T21:31:05.451185+00:00",
+  "generated_at": "2026-10-23T04:42:28.439167+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -476,7 +476,7 @@
   "current_matchup": {
     "week": 7,
     "matchup_id": 3,
-    "my_points": 0.0,
+    "my_points": 10.9,
     "my_lineup": [
       {
         "slot": "QB",
@@ -627,7 +627,7 @@
       "roster_id": 8,
       "team_name": "This Is Our Year",
       "username": "juandelagarza",
-      "points": 0.0,
+      "points": 25.7,
       "lineup": [
         {
           "slot": "QB",
@@ -3993,8 +3993,8 @@
     },
     {
       "week": 7,
-      "result": "T",
-      "points": 0.0,
+      "result": "L",
+      "points": 10.9,
       "lineup": [
         {
           "slot": "QB",
@@ -4062,7 +4062,7 @@
             "depth_chart_order": 2,
             "search_rank": 64
           },
-          "points": 0.0
+          "points": 10.9
         },
         {
           "slot": "WR",
@@ -4252,7 +4252,7 @@
         "roster_id": 8,
         "team_name": "This Is Our Year",
         "username": "juandelagarza",
-        "points": 0.0,
+        "points": 25.7,
         "lineup": [
           {
             "slot": "QB",
@@ -4337,7 +4337,7 @@
               "depth_chart_order": 1,
               "search_rank": 40
             },
-            "points": 0.0
+            "points": 25.7
           },
           {
             "slot": "TE",
