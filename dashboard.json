@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T17:01:48.376377+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-23T21:21:00.905365+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -1198,19 +1198,6 @@
         "search_rank": 99
       },
       {
-        "player_id": "9756",
-        "name": "Jordan Addison",
-        "position": "WR",
-        "team": "MIN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 6,
-        "search_rank": 99
-      },
-      {
         "player_id": "7049",
         "name": "Jauan Jennings",
         "position": "WR",
@@ -1274,6 +1261,19 @@
         "depth_chart_position": "RWR",
         "depth_chart_order": 2,
         "search_rank": 150
+      },
+      {
+        "player_id": "13301",
+        "name": "Antonio Williams",
+        "position": "WR",
+        "team": "WAS",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "LWR",
+        "depth_chart_order": 3,
+        "search_rank": 156
       }
     ],
     "TE": [

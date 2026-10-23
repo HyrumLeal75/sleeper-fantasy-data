@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T17:01:48.376377+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-23T21:21:00.905365+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -954,17 +954,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "7600",
-            "name": "Pat Freiermuth",
+            "player_id": "9482",
+            "name": "Michael Mayer",
             "position": "TE",
-            "team": "PIT",
+            "team": "LV",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 230
+            "depth_chart_order": 2,
+            "search_rank": 461
           }
         },
         {
@@ -1067,17 +1067,17 @@
           "search_rank": 679
         },
         {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 2,
-          "search_rank": 461
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 6,
+          "search_rank": 99
         }
       ],
       "reserve": [
@@ -1202,19 +1202,6 @@
           "search_rank": 34
         },
         {
-          "player_id": "7600",
-          "name": "Pat Freiermuth",
-          "position": "TE",
-          "team": "PIT",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 230
-        },
-        {
           "player_id": "7839",
           "name": "Evan McPherson",
           "position": "K",
@@ -1291,6 +1278,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 6
+        },
+        {
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 6,
+          "search_rank": 99
         },
         {
           "player_id": "CLE",
@@ -39344,17 +39344,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "7600",
-                    "name": "Pat Freiermuth",
+                    "player_id": "9482",
+                    "name": "Michael Mayer",
                     "position": "TE",
-                    "team": "PIT",
+                    "team": "LV",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 230
+                    "depth_chart_order": 2,
+                    "search_rank": 461
                   },
                   "points": 0.0
                 },
@@ -39492,17 +39492,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "9482",
-                    "name": "Michael Mayer",
-                    "position": "TE",
-                    "team": "LV",
+                    "player_id": "9756",
+                    "name": "Jordan Addison",
+                    "position": "WR",
+                    "team": "MIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 2,
-                    "search_rank": 461
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 6,
+                    "search_rank": 99
                   },
                   "points": 0.0
                 }
@@ -42023,6 +42023,55 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1419405648998719488",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792775187305,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "9756",
+                "name": "Jordan Addison",
+                "position": "WR",
+                "team": "MIN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RWR",
+                "depth_chart_order": 6,
+                "search_rank": 99
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "7600",
+                "name": "Pat Freiermuth",
+                "position": "TE",
+                "team": "PIT",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 1,
+                "search_rank": 230
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1419197300680540160",
           "week": 7,
