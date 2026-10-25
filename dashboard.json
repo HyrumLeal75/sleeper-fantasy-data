@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T16:09:39.678294+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-10-25T20:46:48.985870+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -33,9 +33,9 @@
     "active_players": 15,
     "active_capacity": 15,
     "open_active_slots": 0,
-    "reserve_used": 0,
+    "reserve_used": 1,
     "reserve_capacity": 2,
-    "reserve_available": 2
+    "reserve_available": 1
   },
   "lineup": [
     {
@@ -67,7 +67,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 451
+        "search_rank": 452
       }
     },
     {
@@ -185,6 +185,19 @@
   ],
   "bench": [
     {
+      "player_id": "11533",
+      "name": "Brandon Aubrey",
+      "position": "K",
+      "team": "DAL",
+      "status": "Active",
+      "active": true,
+      "injury_status": null,
+      "injury_notes": null,
+      "depth_chart_position": "K",
+      "depth_chart_order": 1,
+      "search_rank": 91
+    },
+    {
       "player_id": "11566",
       "name": "Jayden Daniels",
       "position": "QB",
@@ -204,7 +217,7 @@
       "team": "NYG",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "injury_notes": null,
       "depth_chart_position": "RB",
       "depth_chart_order": 2,
@@ -234,7 +247,7 @@
       "injury_notes": null,
       "depth_chart_position": "SWR",
       "depth_chart_order": 2,
-      "search_rank": 110
+      "search_rank": 111
     },
     {
       "player_id": "13346",
@@ -248,7 +261,9 @@
       "depth_chart_position": "LWR",
       "depth_chart_order": 1,
       "search_rank": 153
-    },
+    }
+  ],
+  "reserve": [
     {
       "player_id": "8155",
       "name": "Breece Hall",
@@ -256,18 +271,17 @@
       "team": "NYJ",
       "status": "Active",
       "active": true,
-      "injury_status": "Questionable",
+      "injury_status": "Out",
       "injury_notes": null,
       "depth_chart_position": "RB",
-      "depth_chart_order": 1,
+      "depth_chart_order": 4,
       "search_rank": 27
     }
   ],
-  "reserve": [],
   "current_matchup": {
     "week": 7,
     "matchup_id": 3,
-    "my_points": 10.9,
+    "my_points": 107.42,
     "my_lineup": [
       {
         "slot": "QB",
@@ -298,7 +312,7 @@
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 451
+          "search_rank": 452
         }
       },
       {
@@ -418,7 +432,7 @@
       "roster_id": 8,
       "team_name": "This Is Our Year",
       "username": "juandelagarza",
-      "points": 25.7,
+      "points": 44.94,
       "lineup": [
         {
           "slot": "QB",
@@ -433,7 +447,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 64
+            "search_rank": 65
           }
         },
         {
@@ -569,6 +583,37 @@
   },
   "recent_transactions": [
     {
+      "transaction_id": "1420116866046705664",
+      "week": 7,
+      "type": "free_agent",
+      "status": "complete",
+      "created": 1792944754662,
+      "roster_ids": [
+        10
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "11533",
+            "name": "Brandon Aubrey",
+            "position": "K",
+            "team": "DAL",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "K",
+            "depth_chart_order": 1,
+            "search_rank": 91
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "drops": [],
+      "waiver_bid": null
+    },
+    {
       "transaction_id": "1418256280518184960",
       "week": 6,
       "type": "waiver",
@@ -653,7 +698,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 28
+            "search_rank": 27
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -803,7 +848,7 @@
             "team": "NYG",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 2,
@@ -846,37 +891,6 @@
         }
       ],
       "waiver_bid": null
-    },
-    {
-      "transaction_id": "1414470206377467904",
-      "week": 5,
-      "type": "free_agent",
-      "status": "complete",
-      "created": 1791598486088,
-      "roster_ids": [
-        10
-      ],
-      "adds": [
-        {
-          "player": {
-            "player_id": "11566",
-            "name": "Jayden Daniels",
-            "position": "QB",
-            "team": "WAS",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "QB",
-            "depth_chart_order": 1,
-            "search_rank": 22
-          },
-          "roster_id": 10,
-          "team_name": "FearNando Mendoza"
-        }
-      ],
-      "drops": [],
-      "waiver_bid": null
     }
   ],
   "available_preview": {
@@ -892,7 +906,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 28
+        "search_rank": 27
       },
       {
         "player_id": "12508",
@@ -905,7 +919,7 @@
         "injury_notes": "Surgery",
         "depth_chart_position": "QB",
         "depth_chart_order": 4,
-        "search_rank": 43
+        "search_rank": 44
       },
       {
         "player_id": "4892",
@@ -914,11 +928,11 @@
         "team": "TB",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 74
+        "search_rank": 75
       },
       {
         "player_id": "4943",
@@ -931,7 +945,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 93
+        "search_rank": 92
       },
       {
         "player_id": "13269",
@@ -944,7 +958,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
-        "search_rank": 108
+        "search_rank": 109
       },
       {
         "player_id": "12522",
@@ -957,7 +971,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 116
+        "search_rank": 115
       },
       {
         "player_id": "8161",
@@ -970,7 +984,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 121
+        "search_rank": 122
       },
       {
         "player_id": "5870",
@@ -983,7 +997,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 131
+        "search_rank": 132
       },
       {
         "player_id": "138",
@@ -1033,7 +1047,7 @@
         "team": "TB",
         "status": "Active",
         "active": true,
-        "injury_status": null,
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
@@ -1085,7 +1099,7 @@
         "team": "LV",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
@@ -1168,8 +1182,8 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "SWR",
-        "depth_chart_order": 4,
-        "search_rank": 89
+        "depth_chart_order": 1,
+        "search_rank": 91
       },
       {
         "player_id": "10222",
@@ -1410,19 +1424,6 @@
     ],
     "K": [
       {
-        "player_id": "11533",
-        "name": "Brandon Aubrey",
-        "position": "K",
-        "team": "DAL",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 90
-      },
-      {
         "player_id": "8259",
         "name": "Cameron Dicker",
         "position": "K",
@@ -1459,7 +1460,7 @@
         "injury_notes": null,
         "depth_chart_position": "K",
         "depth_chart_order": 1,
-        "search_rank": 131
+        "search_rank": 133
       },
       {
         "player_id": "11539",
@@ -1538,6 +1539,19 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 214
+      },
+      {
+        "player_id": "11653",
+        "name": "Charlie Smyth",
+        "position": "K",
+        "team": "NO",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 242
       }
     ],
     "DEF": [
