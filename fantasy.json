@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T20:43:25.258391+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-25T04:34:54.925892+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -922,17 +922,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "12514",
-            "name": "Emeka Egbuka",
+            "player_id": "9756",
+            "name": "Jordan Addison",
             "position": "WR",
-            "team": "TB",
+            "team": "MIN",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 7,
-            "search_rank": 39
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 2,
+            "search_rank": 99
           }
         },
         {
@@ -954,17 +954,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "9482",
-            "name": "Michael Mayer",
-            "position": "TE",
-            "team": "LV",
+            "player_id": "11435",
+            "name": "Emanuel Wilson",
+            "position": "RB",
+            "team": "SEA",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 2,
-            "search_rank": 462
+            "depth_chart_position": "RB",
+            "depth_chart_order": 1,
+            "search_rank": 161
           }
         },
         {
@@ -1041,6 +1041,19 @@
           "search_rank": 68
         },
         {
+          "player_id": "12514",
+          "name": "Emeka Egbuka",
+          "position": "WR",
+          "team": "TB",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "LWR",
+          "depth_chart_order": 7,
+          "search_rank": 39
+        },
+        {
           "player_id": "12718",
           "name": "Konata Mumpfield",
           "position": "WR",
@@ -1065,19 +1078,6 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 4,
           "search_rank": 679
-        },
-        {
-          "player_id": "9756",
-          "name": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RWR",
-          "depth_chart_order": 2,
-          "search_rank": 99
         }
       ],
       "reserve": [
@@ -1122,6 +1122,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 681
+        },
+        {
+          "player_id": "11435",
+          "name": "Emanuel Wilson",
+          "position": "RB",
+          "team": "SEA",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 161
         },
         {
           "player_id": "11586",
@@ -1252,19 +1265,6 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
           "search_rank": 133
-        },
-        {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 2,
-          "search_rank": 462
         },
         {
           "player_id": "9488",
@@ -39310,17 +39310,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "12514",
-                    "name": "Emeka Egbuka",
+                    "player_id": "9756",
+                    "name": "Jordan Addison",
                     "position": "WR",
-                    "team": "TB",
+                    "team": "MIN",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Out",
+                    "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 7,
-                    "search_rank": 39
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 99
                   },
                   "points": 0.0
                 },
@@ -39344,17 +39344,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "9482",
-                    "name": "Michael Mayer",
-                    "position": "TE",
-                    "team": "LV",
+                    "player_id": "11435",
+                    "name": "Emanuel Wilson",
+                    "position": "RB",
+                    "team": "SEA",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 2,
-                    "search_rank": 462
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 161
                   },
                   "points": 0.0
                 },
@@ -39444,6 +39444,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "12514",
+                    "name": "Emeka Egbuka",
+                    "position": "WR",
+                    "team": "TB",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Out",
+                    "injury_notes": null,
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 7,
+                    "search_rank": 39
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "12718",
                     "name": "Konata Mumpfield",
                     "position": "WR",
@@ -39487,22 +39503,6 @@
                     "depth_chart_position": "RWR",
                     "depth_chart_order": 4,
                     "search_rank": 679
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9756",
-                    "name": "Jordan Addison",
-                    "position": "WR",
-                    "team": "MIN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 99
                   },
                   "points": 0.0
                 }
@@ -42023,6 +42023,55 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1419889104228827136",
+          "week": 7,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1792890452013,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11435",
+                "name": "Emanuel Wilson",
+                "position": "RB",
+                "team": "SEA",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 1,
+                "search_rank": 161
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "9482",
+                "name": "Michael Mayer",
+                "position": "TE",
+                "team": "LV",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 2,
+                "search_rank": 462
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1419405648998719488",
           "week": 7,

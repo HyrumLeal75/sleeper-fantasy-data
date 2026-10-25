@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T20:43:25.258391+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-25T04:34:54.925892+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -829,19 +829,6 @@
         "search_rank": 157
       },
       {
-        "player_id": "11435",
-        "name": "Emanuel Wilson",
-        "position": "RB",
-        "team": "SEA",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 1,
-        "search_rank": 161
-      },
-      {
         "player_id": "13414",
         "name": "Kaelon Black",
         "position": "RB",
@@ -1321,6 +1308,19 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 3,
         "search_rank": 503
+      },
+      {
+        "player_id": "12544",
+        "name": "LeQuint Allen Jr.",
+        "position": "RB",
+        "team": "JAX",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 3,
+        "search_rank": 510
       }
     ],
     "WR": [
@@ -2614,17 +2614,17 @@
         "search_rank": 462
       },
       {
-        "player_id": "4066",
-        "name": "Evan Engram",
+        "player_id": "9482",
+        "name": "Michael Mayer",
         "position": "TE",
-        "team": "DEN",
+        "team": "LV",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 1,
-        "search_rank": 465
+        "depth_chart_order": 2,
+        "search_rank": 462
       }
     ],
     "K": [
