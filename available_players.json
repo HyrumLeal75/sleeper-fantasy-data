@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T11:18:41.590609+00:00",
+  "generated_at": "2026-10-25T16:09:39.678294+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -15,7 +15,7 @@
     "RB": 50,
     "WR": 50,
     "TE": 50,
-    "K": 25,
+    "K": 26,
     "DEF": 18
   },
   "players": {
@@ -1325,19 +1325,6 @@
     ],
     "WR": [
       {
-        "player_id": "5045",
-        "name": "Courtland Sutton",
-        "position": "WR",
-        "team": "DEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "LWR",
-        "depth_chart_order": 2,
-        "search_rank": 72
-      },
-      {
         "player_id": "11628",
         "name": "Marvin Harrison Jr.",
         "position": "WR",
@@ -1973,6 +1960,19 @@
         "depth_chart_position": "RWR",
         "depth_chart_order": 5,
         "search_rank": 294
+      },
+      {
+        "player_id": "11311",
+        "name": "Jason Brownlee",
+        "position": "WR",
+        "team": "NYG",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 336
       }
     ],
     "TE": [
@@ -2705,6 +2705,19 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 157
+      },
+      {
+        "player_id": "11792",
+        "name": "Will Reichard",
+        "position": "K",
+        "team": "MIN",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 170
       },
       {
         "player_id": "3678",
