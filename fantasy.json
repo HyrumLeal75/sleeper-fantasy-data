@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T20:46:48.985870+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-26T04:39:56.586936+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -38155,7 +38155,7 @@
       "my_result": {
         "week": 7,
         "result": "W",
-        "points": 107.42,
+        "points": 124.52,
         "lineup": [
           {
             "slot": "QB",
@@ -38206,7 +38206,7 @@
               "depth_chart_order": 1,
               "search_rank": 89
             },
-            "points": 1.8
+            "points": 7.9
           },
           {
             "slot": "WR",
@@ -38308,7 +38308,7 @@
               "depth_chart_order": null,
               "search_rank": null
             },
-            "points": 0.0
+            "points": 11.0
           }
         ],
         "bench": [
@@ -38429,7 +38429,7 @@
           "roster_id": 8,
           "team_name": "This Is Our Year",
           "username": "juandelagarza",
-          "points": 44.94,
+          "points": 110.5,
           "lineup": [
             {
               "slot": "QB",
@@ -38446,7 +38446,7 @@
                 "depth_chart_order": 1,
                 "search_rank": 65
               },
-              "points": 1.04
+              "points": 24.5
             },
             {
               "slot": "RB",
@@ -38480,7 +38480,7 @@
                 "depth_chart_order": 2,
                 "search_rank": 56
               },
-              "points": 0.2
+              "points": 18.0
             },
             {
               "slot": "WR",
@@ -38497,7 +38497,7 @@
                 "depth_chart_order": 2,
                 "search_rank": 72
               },
-              "points": 3.0
+              "points": 7.5
             },
             {
               "slot": "WR",
@@ -38531,7 +38531,7 @@
                 "depth_chart_order": 1,
                 "search_rank": 64
               },
-              "points": 0.0
+              "points": 14.8
             },
             {
               "slot": "FLEX",
@@ -38565,7 +38565,7 @@
                 "depth_chart_order": 1,
                 "search_rank": 194
               },
-              "points": -1.0
+              "points": 4.0
             },
             {
               "slot": "DEF",
@@ -38709,7 +38709,7 @@
               "roster_id": 1,
               "team_name": "El Guajolote Macias",
               "username": "JerrysaurusRex",
-              "points": 98.4,
+              "points": 112.1,
               "lineup": [
                 {
                   "slot": "QB",
@@ -38777,7 +38777,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 64
                   },
-                  "points": 0.0
+                  "points": 10.7
                 },
                 {
                   "slot": "WR",
@@ -38845,7 +38845,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 155
                   },
-                  "points": 0.0
+                  "points": 3.0
                 },
                 {
                   "slot": "DEF",
@@ -38960,7 +38960,7 @@
                     "depth_chart_order": 3,
                     "search_rank": 118
                   },
-                  "points": 3.7
+                  "points": 8.9
                 },
                 {
                   "player": {
@@ -39000,7 +39000,7 @@
               "roster_id": 9,
               "team_name": "Jsgzz18",
               "username": "Jsgzz18",
-              "points": 78.84,
+              "points": 81.64,
               "lineup": [
                 {
                   "slot": "QB",
@@ -39102,7 +39102,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 58
                   },
-                  "points": 0.0
+                  "points": 2.8
                 },
                 {
                   "slot": "FLEX",
@@ -39251,7 +39251,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 56
                   },
-                  "points": 16.06
+                  "points": 16.02
                 },
                 {
                   "player": {
@@ -39267,7 +39267,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 10.0
+                  "points": 2.0
                 }
               ]
             }
@@ -39280,7 +39280,7 @@
               "roster_id": 2,
               "team_name": "Horsepower",
               "username": "MD1AZ",
-              "points": 37.32,
+              "points": 117.62,
               "lineup": [
                 {
                   "slot": "QB",
@@ -39314,7 +39314,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 13
                   },
-                  "points": 0.0
+                  "points": 18.1
                 },
                 {
                   "slot": "RB",
@@ -39348,7 +39348,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 6
                   },
-                  "points": 0.0
+                  "points": 33.3
                 },
                 {
                   "slot": "WR",
@@ -39382,7 +39382,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 90
                   },
-                  "points": 0.0
+                  "points": 8.4
                 },
                 {
                   "slot": "FLEX",
@@ -39399,7 +39399,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 161
                   },
-                  "points": 0.0
+                  "points": 20.5
                 },
                 {
                   "slot": "K",
@@ -39483,7 +39483,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 68
                   },
-                  "points": 3.1
+                  "points": 17.1
                 },
                 {
                   "player": {
@@ -39515,7 +39515,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 678
                   },
-                  "points": 0.0
+                  "points": 2.5
                 },
                 {
                   "player": {
@@ -39555,7 +39555,7 @@
               "roster_id": 3,
               "team_name": "Acaríciame El Lombardi",
               "username": "FCD123",
-              "points": 84.0,
+              "points": 108.7,
               "lineup": [
                 {
                   "slot": "QB",
@@ -39572,7 +39572,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 40
                   },
-                  "points": 0.0
+                  "points": 7.0
                 },
                 {
                   "slot": "RB",
@@ -39606,7 +39606,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 19
                   },
-                  "points": 0.0
+                  "points": 9.7
                 },
                 {
                   "slot": "WR",
@@ -39657,7 +39657,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 80
                   },
-                  "points": 14.9
+                  "points": 14.8
                 },
                 {
                   "slot": "FLEX",
@@ -39674,7 +39674,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 53
                   },
-                  "points": 12.0
+                  "points": 26.1
                 },
                 {
                   "slot": "K",
@@ -39708,7 +39708,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 10.0
+                  "points": 4.0
                 }
               ],
               "bench": [
@@ -40038,7 +40038,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 98
                   },
-                  "points": 0.0
+                  "points": 5.5
                 },
                 {
                   "player": {
@@ -40070,7 +40070,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 122
                   },
-                  "points": 0.0
+                  "points": 4.1
                 },
                 {
                   "player": {
@@ -40086,7 +40086,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 265
                   },
-                  "points": 0.2
+                  "points": 26.4
                 },
                 {
                   "player": {
@@ -40142,7 +40142,7 @@
               "roster_id": 11,
               "team_name": "Makeroth",
               "username": "Makeroth",
-              "points": 52.36,
+              "points": 132.98,
               "lineup": [
                 {
                   "slot": "QB",
@@ -40159,7 +40159,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 46
                   },
-                  "points": 2.16
+                  "points": 48.28
                 },
                 {
                   "slot": "RB",
@@ -40193,7 +40193,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 12
                   },
-                  "points": 1.1
+                  "points": 21.6
                 },
                 {
                   "slot": "WR",
@@ -40210,7 +40210,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 75
                   },
-                  "points": 0.0
+                  "points": 10.6
                 },
                 {
                   "slot": "WR",
@@ -40244,7 +40244,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 644
                   },
-                  "points": 0.0
+                  "points": 3.4
                 },
                 {
                   "slot": "FLEX",
@@ -40438,7 +40438,7 @@
               "roster_id": 5,
               "team_name": "Burros Negros",
               "username": "Duarfo02",
-              "points": 69.68,
+              "points": 142.78,
               "lineup": [
                 {
                   "slot": "QB",
@@ -40489,7 +40489,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 1
                   },
-                  "points": 1.2
+                  "points": 19.3
                 },
                 {
                   "slot": "WR",
@@ -40523,7 +40523,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 42
                   },
-                  "points": 3.7
+                  "points": 8.8
                 },
                 {
                   "slot": "TE",
@@ -40540,7 +40540,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 22
                   },
-                  "points": 1.5
+                  "points": 29.1
                 },
                 {
                   "slot": "FLEX",
@@ -40557,7 +40557,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 21
                   },
-                  "points": 0.0
+                  "points": 13.3
                 },
                 {
                   "slot": "K",
@@ -40574,7 +40574,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 239
                   },
-                  "points": -1.0
+                  "points": 8.0
                 },
                 {
                   "slot": "DEF",
@@ -40625,7 +40625,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 203
                   },
-                  "points": 0.32
+                  "points": 18.48
                 },
                 {
                   "player": {
@@ -40721,7 +40721,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 0.0
+                  "points": 3.0
                 }
               ]
             },
@@ -40729,7 +40729,7 @@
               "roster_id": 7,
               "team_name": "Don Bitij",
               "username": "JorgeFdz",
-              "points": 64.52,
+              "points": 88.62,
               "lineup": [
                 {
                   "slot": "QB",
@@ -40746,7 +40746,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 61
                   },
-                  "points": 8.72
+                  "points": 26.02
                 },
                 {
                   "slot": "RB",
@@ -40848,7 +40848,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 68
                   },
-                  "points": 1.5
+                  "points": 8.3
                 },
                 {
                   "slot": "K",
@@ -40993,7 +40993,7 @@
               "roster_id": 6,
               "team_name": "ivasol",
               "username": "ivasol",
-              "points": 81.48,
+              "points": 122.78,
               "lineup": [
                 {
                   "slot": "QB",
@@ -41027,7 +41027,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 20
                   },
-                  "points": 0.4
+                  "points": 20.1
                 },
                 {
                   "slot": "RB",
@@ -41061,7 +41061,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 5
                   },
-                  "points": 5.4
+                  "points": 21.8
                 },
                 {
                   "slot": "WR",
@@ -41078,7 +41078,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 118
                   },
-                  "points": 4.7
+                  "points": 9.9
                 },
                 {
                   "slot": "TE",
@@ -41164,7 +41164,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 184
                   },
-                  "points": 0.0
+                  "points": 23.3
                 },
                 {
                   "player": {
@@ -41268,7 +41268,7 @@
               "roster_id": 12,
               "team_name": "Los Mapachitos",
               "username": "Juanpmv",
-              "points": 64.12,
+              "points": 106.16,
               "lineup": [
                 {
                   "slot": "QB",
@@ -41285,7 +41285,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 69
                   },
-                  "points": 2.32
+                  "points": 21.96
                 },
                 {
                   "slot": "RB",
@@ -41336,7 +41336,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 6
                   },
-                  "points": 3.8
+                  "points": 26.2
                 },
                 {
                   "slot": "WR",
@@ -41532,7 +41532,7 @@
               "roster_id": 8,
               "team_name": "This Is Our Year",
               "username": "juandelagarza",
-              "points": 44.94,
+              "points": 110.5,
               "lineup": [
                 {
                   "slot": "QB",
@@ -41549,7 +41549,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 65
                   },
-                  "points": 1.04
+                  "points": 24.5
                 },
                 {
                   "slot": "RB",
@@ -41583,7 +41583,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 56
                   },
-                  "points": 0.2
+                  "points": 18.0
                 },
                 {
                   "slot": "WR",
@@ -41600,7 +41600,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 72
                   },
-                  "points": 3.0
+                  "points": 7.5
                 },
                 {
                   "slot": "WR",
@@ -41634,7 +41634,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 64
                   },
-                  "points": 0.0
+                  "points": 14.8
                 },
                 {
                   "slot": "FLEX",
@@ -41668,7 +41668,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 194
                   },
-                  "points": -1.0
+                  "points": 4.0
                 },
                 {
                   "slot": "DEF",
@@ -41807,7 +41807,7 @@
               "roster_id": 10,
               "team_name": "FearNando Mendoza",
               "username": "Hyrum75",
-              "points": 107.42,
+              "points": 124.52,
               "lineup": [
                 {
                   "slot": "QB",
@@ -41858,7 +41858,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 89
                   },
-                  "points": 1.8
+                  "points": 7.9
                 },
                 {
                   "slot": "WR",
@@ -41960,7 +41960,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 0.0
+                  "points": 11.0
                 }
               ],
               "bench": [

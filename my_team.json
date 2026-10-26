@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-25T20:46:48.985870+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-26T04:39:56.586936+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -503,7 +503,7 @@
   "current_matchup": {
     "week": 7,
     "matchup_id": 3,
-    "my_points": 107.42,
+    "my_points": 124.52,
     "my_lineup": [
       {
         "slot": "QB",
@@ -654,7 +654,7 @@
       "roster_id": 8,
       "team_name": "This Is Our Year",
       "username": "juandelagarza",
-      "points": 44.94,
+      "points": 110.5,
       "lineup": [
         {
           "slot": "QB",
@@ -4021,7 +4021,7 @@
     {
       "week": 7,
       "result": "W",
-      "points": 107.42,
+      "points": 124.52,
       "lineup": [
         {
           "slot": "QB",
@@ -4072,7 +4072,7 @@
             "depth_chart_order": 1,
             "search_rank": 89
           },
-          "points": 1.8
+          "points": 7.9
         },
         {
           "slot": "WR",
@@ -4174,7 +4174,7 @@
             "depth_chart_order": null,
             "search_rank": null
           },
-          "points": 0.0
+          "points": 11.0
         }
       ],
       "bench": [
@@ -4295,7 +4295,7 @@
         "roster_id": 8,
         "team_name": "This Is Our Year",
         "username": "juandelagarza",
-        "points": 44.94,
+        "points": 110.5,
         "lineup": [
           {
             "slot": "QB",
@@ -4312,7 +4312,7 @@
               "depth_chart_order": 1,
               "search_rank": 65
             },
-            "points": 1.04
+            "points": 24.5
           },
           {
             "slot": "RB",
@@ -4346,7 +4346,7 @@
               "depth_chart_order": 2,
               "search_rank": 56
             },
-            "points": 0.2
+            "points": 18.0
           },
           {
             "slot": "WR",
@@ -4363,7 +4363,7 @@
               "depth_chart_order": 2,
               "search_rank": 72
             },
-            "points": 3.0
+            "points": 7.5
           },
           {
             "slot": "WR",
@@ -4397,7 +4397,7 @@
               "depth_chart_order": 1,
               "search_rank": 64
             },
-            "points": 0.0
+            "points": 14.8
           },
           {
             "slot": "FLEX",
@@ -4431,7 +4431,7 @@
               "depth_chart_order": 1,
               "search_rank": 194
             },
-            "points": -1.0
+            "points": 4.0
           },
           {
             "slot": "DEF",
