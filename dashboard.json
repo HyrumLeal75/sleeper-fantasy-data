@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T12:52:35.004788+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-10-26T22:36:53.357588+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -67,7 +67,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 452
+        "search_rank": 451
       }
     },
     {
@@ -99,7 +99,7 @@
         "injury_notes": null,
         "depth_chart_position": "LWR",
         "depth_chart_order": 2,
-        "search_rank": 65
+        "search_rank": 64
       }
     },
     {
@@ -312,7 +312,7 @@
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 452
+          "search_rank": 451
         }
       },
       {
@@ -344,7 +344,7 @@
           "injury_notes": null,
           "depth_chart_position": "LWR",
           "depth_chart_order": 2,
-          "search_rank": 65
+          "search_rank": 64
         }
       },
       {
@@ -447,7 +447,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 65
+            "search_rank": 63
           }
         },
         {
@@ -697,8 +697,8 @@
             "injury_status": "IR",
             "injury_notes": null,
             "depth_chart_position": "QB",
-            "depth_chart_order": 2,
-            "search_rank": 27
+            "depth_chart_order": 3,
+            "search_rank": 28
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -905,8 +905,8 @@
         "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "QB",
-        "depth_chart_order": 2,
-        "search_rank": 27
+        "depth_chart_order": 3,
+        "search_rank": 28
       },
       {
         "player_id": "12508",
@@ -932,7 +932,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 75
+        "search_rank": 74
       },
       {
         "player_id": "4943",
@@ -945,7 +945,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 92
+        "search_rank": 93
       },
       {
         "player_id": "13269",
@@ -971,7 +971,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 115
+        "search_rank": 116
       },
       {
         "player_id": "8161",
@@ -984,7 +984,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 122
+        "search_rank": 123
       },
       {
         "player_id": "5870",
@@ -997,7 +997,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 132
+        "search_rank": 131
       },
       {
         "player_id": "138",
@@ -1116,7 +1116,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
-        "search_rank": 125
+        "search_rank": 127
       },
       {
         "player_id": "12469",
@@ -1182,7 +1182,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "SWR",
-        "depth_chart_order": 1,
+        "depth_chart_order": 2,
         "search_rank": 91
       },
       {
@@ -1235,7 +1235,7 @@
         "injury_notes": null,
         "depth_chart_position": "SWR",
         "depth_chart_order": 8,
-        "search_rank": 131
+        "search_rank": 130
       },
       {
         "player_id": "13293",
@@ -1257,7 +1257,7 @@
         "team": "SEA",
         "status": "Active",
         "active": true,
-        "injury_status": null,
+        "injury_status": "Out",
         "injury_notes": null,
         "depth_chart_position": "RWR",
         "depth_chart_order": 2,
@@ -1387,9 +1387,9 @@
         "name": "Eli Stowers",
         "position": "TE",
         "team": "PHI",
-        "status": "Inactive",
+        "status": "Active",
         "active": true,
-        "injury_status": "IR",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 5,
@@ -1405,7 +1405,7 @@
         "injury_status": "IR",
         "injury_notes": "Sprain",
         "depth_chart_position": "TE",
-        "depth_chart_order": 5,
+        "depth_chart_order": 4,
         "search_rank": 141
       },
       {
