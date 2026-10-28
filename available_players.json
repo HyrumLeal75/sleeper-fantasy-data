@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T12:45:04.050044+00:00",
+  "generated_at": "2026-10-28T22:30:41.495772+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -738,6 +738,19 @@
         "search_rank": 114
       },
       {
+        "player_id": "13305",
+        "name": "Mike Washington Jr.",
+        "position": "RB",
+        "team": "LV",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 123
+      },
+      {
         "player_id": "10219",
         "name": "Chris Rodriguez Jr.",
         "position": "RB",
@@ -1308,19 +1321,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 512
-      },
-      {
-        "player_id": "11571",
-        "name": "Isaiah Davis",
-        "position": "RB",
-        "team": "NYJ",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 3,
-        "search_rank": 518
       }
     ],
     "WR": [
