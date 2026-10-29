@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T05:41:05.059430+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-29T12:54:08.867752+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -34,6 +34,19 @@
         "search_rank": 27
       },
       {
+        "player_id": "6797",
+        "name": "Justin Herbert",
+        "position": "QB",
+        "team": "LAC",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 35
+      },
+      {
         "player_id": "12508",
         "name": "Jaxson Dart",
         "position": "QB",
@@ -45,19 +58,6 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 4,
         "search_rank": 44
-      },
-      {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "position": "QB",
-        "team": "DEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 46
       },
       {
         "player_id": "4892",
@@ -136,6 +136,19 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
         "search_rank": 132
+      },
+      {
+        "player_id": "9228",
+        "name": "Bryce Young",
+        "position": "QB",
+        "team": "CAR",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 133
       },
       {
         "player_id": "138",
@@ -656,19 +669,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 594
-      },
-      {
-        "player_id": "10866",
-        "name": "Aidan O'Connell",
-        "position": "QB",
-        "team": "LV",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 2,
-        "search_rank": 597
       }
     ],
     "RB": [

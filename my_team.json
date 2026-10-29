@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T05:41:05.059430+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-29T12:54:08.867752+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -18,7 +18,7 @@
       "points_for": 882.6,
       "points_against": 882.26
     },
-    "waiver_position": 12,
+    "waiver_position": 11,
     "lineup": [
       {
         "slot": "QB",
@@ -482,7 +482,7 @@
     "ties": 0,
     "points_for": 882.6,
     "points_against": 882.26,
-    "waiver_position": 12
+    "waiver_position": 11
   },
   "season_summary": {
     "wins": 4,

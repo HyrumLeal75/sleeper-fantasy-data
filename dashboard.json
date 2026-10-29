@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T05:41:05.059430+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-29T12:54:08.867752+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -18,7 +18,7 @@
     "ties": 0,
     "points_for": 882.6,
     "points_against": 882.26,
-    "waiver_position": 12
+    "waiver_position": 11
   },
   "season_summary": {
     "wins": 4,
@@ -28,7 +28,7 @@
     "highest_score": 177.42,
     "lowest_score": 82.0
   },
-  "waiver_position": 12,
+  "waiver_position": 11,
   "roster_capacity": {
     "active_players": 15,
     "active_capacity": 15,
@@ -927,6 +927,19 @@
         "search_rank": 27
       },
       {
+        "player_id": "6797",
+        "name": "Justin Herbert",
+        "position": "QB",
+        "team": "LAC",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 35
+      },
+      {
         "player_id": "12508",
         "name": "Jaxson Dart",
         "position": "QB",
@@ -938,19 +951,6 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 4,
         "search_rank": 44
-      },
-      {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "position": "QB",
-        "team": "DEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 46
       },
       {
         "player_id": "4892",
@@ -1031,17 +1031,17 @@
         "search_rank": 132
       },
       {
-        "player_id": "138",
-        "name": "Ben Roethlisberger",
+        "player_id": "9228",
+        "name": "Bryce Young",
         "position": "QB",
-        "team": "PIT",
+        "team": "CAR",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 176
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 133
       }
     ],
     "RB": [

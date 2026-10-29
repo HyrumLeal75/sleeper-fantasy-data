@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T05:41:05.059430+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-29T12:54:08.867752+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -151,7 +151,7 @@
       "ties": 0,
       "points_for": 940.92,
       "points_against": 744.6,
-      "waiver_position": 11
+      "waiver_position": 10
     },
     {
       "rank": 2,
@@ -175,7 +175,7 @@
       "ties": 0,
       "points_for": 945.42,
       "points_against": 894.28,
-      "waiver_position": 9
+      "waiver_position": 12
     },
     {
       "rank": 4,
@@ -211,7 +211,7 @@
       "ties": 0,
       "points_for": 882.6,
       "points_against": 882.26,
-      "waiver_position": 12
+      "waiver_position": 11
     },
     {
       "rank": 7,
@@ -247,7 +247,7 @@
       "ties": 0,
       "points_for": 787.42,
       "points_against": 847.68,
-      "waiver_position": 10
+      "waiver_position": 9
     },
     {
       "rank": 10,
@@ -329,23 +329,23 @@
     },
     {
       "waiver_position": 9,
-      "roster_id": 2,
-      "team_name": "Horsepower"
-    },
-    {
-      "waiver_position": 10,
       "roster_id": 6,
       "team_name": "ivasol"
     },
     {
-      "waiver_position": 11,
+      "waiver_position": 10,
       "roster_id": 11,
       "team_name": "Makeroth"
     },
     {
-      "waiver_position": 12,
+      "waiver_position": 11,
       "roster_id": 10,
       "team_name": "FearNando Mendoza"
+    },
+    {
+      "waiver_position": 12,
+      "roster_id": 2,
+      "team_name": "Horsepower"
     }
   ],
   "teams": [
@@ -853,22 +853,22 @@
         "points_for": 945.42,
         "points_against": 894.28
       },
-      "waiver_position": 9,
+      "waiver_position": 12,
       "lineup": [
         {
           "slot": "QB",
           "player": {
-            "player_id": "9228",
-            "name": "Bryce Young",
-            "position": "QB",
-            "team": "CAR",
-            "status": "Active",
-            "active": true,
+            "player_id": "0",
+            "name": "0",
+            "position": null,
+            "team": null,
+            "status": null,
+            "active": null,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "QB",
-            "depth_chart_order": 1,
-            "search_rank": 133
+            "depth_chart_position": null,
+            "depth_chart_order": null,
+            "search_rank": null
           }
         },
         {
@@ -1015,6 +1015,19 @@
           "search_rank": 29
         },
         {
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 46
+        },
+        {
           "player_id": "12514",
           "name": "Emeka Egbuka",
           "position": "WR",
@@ -1122,6 +1135,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 161
+        },
+        {
+          "player_id": "11563",
+          "name": "Bo Nix",
+          "position": "QB",
+          "team": "DEN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "QB",
+          "depth_chart_order": 1,
+          "search_rank": 46
         },
         {
           "player_id": "11586",
@@ -1252,19 +1278,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 13
-        },
-        {
-          "player_id": "9228",
-          "name": "Bryce Young",
-          "position": "QB",
-          "team": "CAR",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 133
         },
         {
           "player_id": "9488",
@@ -2308,33 +2321,33 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "1373",
-            "name": "Geno Smith",
+            "player_id": "3257",
+            "name": "Jacoby Brissett",
             "position": "QB",
-            "team": "NYJ",
+            "team": "ARI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 211
+            "search_rank": 203
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "4035",
-            "name": "Alvin Kamara",
+            "player_id": "8408",
+            "name": "Jordan Mason",
             "position": "RB",
-            "team": "NO",
+            "team": "MIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 2,
-            "search_rank": 119
+            "search_rank": 91
           }
         },
         {
@@ -2436,10 +2449,10 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "MIN",
-            "name": "Vikings",
+            "player_id": "KC",
+            "name": "Chiefs",
             "position": "DEF",
-            "team": "MIN",
+            "team": "KC",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -2452,17 +2465,30 @@
       ],
       "bench": [
         {
-          "player_id": "3257",
-          "name": "Jacoby Brissett",
+          "player_id": "1373",
+          "name": "Geno Smith",
           "position": "QB",
-          "team": "ARI",
+          "team": "NYJ",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 203
+          "search_rank": 211
+        },
+        {
+          "player_id": "4035",
+          "name": "Alvin Kamara",
+          "position": "RB",
+          "team": "NO",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 119
         },
         {
           "player_id": "4037",
@@ -2476,19 +2502,6 @@
           "depth_chart_position": "SWR",
           "depth_chart_order": 2,
           "search_rank": 88
-        },
-        {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 35
         },
         {
           "player_id": "9508",
@@ -2517,10 +2530,10 @@
           "search_rank": 103
         },
         {
-          "player_id": "KC",
-          "name": "Chiefs",
+          "player_id": "MIN",
+          "name": "Vikings",
           "position": "DEF",
-          "team": "KC",
+          "team": "MIN",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -2543,19 +2556,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 8,
           "search_rank": 52
-        },
-        {
-          "player_id": "8408",
-          "name": "Jordan Mason",
-          "position": "RB",
-          "team": "MIN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 91
         }
       ],
       "taxi": [],
@@ -2650,19 +2650,6 @@
           "depth_chart_position": "K",
           "depth_chart_order": 1,
           "search_rank": 239
-        },
-        {
-          "player_id": "6797",
-          "name": "Justin Herbert",
-          "position": "QB",
-          "team": "LAC",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 35
         },
         {
           "player_id": "7526",
@@ -2795,7 +2782,7 @@
         "points_for": 787.42,
         "points_against": 847.68
       },
-      "waiver_position": 10,
+      "waiver_position": 9,
       "lineup": [
         {
           "slot": "QB",
@@ -4632,7 +4619,7 @@
         "points_for": 882.6,
         "points_against": 882.26
       },
-      "waiver_position": 12,
+      "waiver_position": 11,
       "lineup": [
         {
           "slot": "QB",
@@ -5098,7 +5085,7 @@
         "points_for": 940.92,
         "points_against": 744.6
       },
-      "waiver_position": 11,
+      "waiver_position": 10,
       "lineup": [
         {
           "slot": "QB",
@@ -44128,17 +44115,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "9228",
-                    "name": "Bryce Young",
-                    "position": "QB",
-                    "team": "CAR",
-                    "status": "Active",
-                    "active": true,
+                    "player_id": "0",
+                    "name": "0",
+                    "position": null,
+                    "team": null,
+                    "status": null,
+                    "active": null,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 133
+                    "depth_chart_position": null,
+                    "depth_chart_order": null,
+                    "search_rank": null
                   },
                   "points": 0.0
                 },
@@ -44293,6 +44280,22 @@
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 1,
                     "search_rank": 29
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "11563",
+                    "name": "Bo Nix",
+                    "position": "QB",
+                    "team": "DEN",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 46
                   },
                   "points": 0.0
                 },
@@ -44974,34 +44977,34 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "1373",
-                    "name": "Geno Smith",
+                    "player_id": "3257",
+                    "name": "Jacoby Brissett",
                     "position": "QB",
-                    "team": "NYJ",
+                    "team": "ARI",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 211
+                    "search_rank": 203
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "4035",
-                    "name": "Alvin Kamara",
+                    "player_id": "8408",
+                    "name": "Jordan Mason",
                     "position": "RB",
-                    "team": "NO",
+                    "team": "MIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 2,
-                    "search_rank": 119
+                    "search_rank": 91
                   },
                   "points": 0.0
                 },
@@ -45110,10 +45113,10 @@
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "MIN",
-                    "name": "Vikings",
+                    "player_id": "KC",
+                    "name": "Chiefs",
                     "position": "DEF",
-                    "team": "MIN",
+                    "team": "KC",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -45144,17 +45147,33 @@
                 },
                 {
                   "player": {
-                    "player_id": "3257",
-                    "name": "Jacoby Brissett",
+                    "player_id": "1373",
+                    "name": "Geno Smith",
                     "position": "QB",
-                    "team": "ARI",
+                    "team": "NYJ",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
-                    "search_rank": 203
+                    "search_rank": 211
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "4035",
+                    "name": "Alvin Kamara",
+                    "position": "RB",
+                    "team": "NO",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 119
                   },
                   "points": 0.0
                 },
@@ -45171,38 +45190,6 @@
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 2,
                     "search_rank": 88
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "6797",
-                    "name": "Justin Herbert",
-                    "position": "QB",
-                    "team": "LAC",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 35
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8408",
-                    "name": "Jordan Mason",
-                    "position": "RB",
-                    "team": "MIN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 91
                   },
                   "points": 0.0
                 },
@@ -45240,10 +45227,10 @@
                 },
                 {
                   "player": {
-                    "player_id": "KC",
-                    "name": "Chiefs",
+                    "player_id": "MIN",
+                    "name": "Vikings",
                     "position": "DEF",
-                    "team": "KC",
+                    "team": "MIN",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -46926,6 +46913,37 @@
       ],
       "transactions": [
         {
+          "transaction_id": "1421416969315315712",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793254723436,
+          "roster_ids": [
+            5
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "6797",
+                "name": "Justin Herbert",
+                "position": "QB",
+                "team": "LAC",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 1,
+                "search_rank": 35
+              },
+              "roster_id": 5,
+              "team_name": "Burros Negros"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
           "transaction_id": "1421158460321464320",
           "week": 8,
           "type": "free_agent",
@@ -47047,6 +47065,55 @@
                 "depth_chart_position": "RB",
                 "depth_chart_order": 3,
                 "search_rank": 681
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1421073335218896896",
+          "week": 8,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1793172794683,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11563",
+                "name": "Bo Nix",
+                "position": "QB",
+                "team": "DEN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 1,
+                "search_rank": 46
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "9228",
+                "name": "Bryce Young",
+                "position": "QB",
+                "team": "CAR",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "QB",
+                "depth_chart_order": 1,
+                "search_rank": 133
               },
               "roster_id": 2,
               "team_name": "Horsepower"
