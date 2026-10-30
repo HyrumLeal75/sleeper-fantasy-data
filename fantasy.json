@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T12:47:10.324595+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-30T22:14:59.403999+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -2793,17 +2793,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "8129",
-            "name": "Dameon Pierce",
+            "player_id": "12534",
+            "name": "Kyle Monangai",
             "position": "RB",
-            "team": "PHI",
-            "status": "Inactive",
+            "team": "CHI",
+            "status": "Active",
             "active": true,
-            "injury_status": "IR",
-            "injury_notes": null,
+            "injury_status": "Questionable",
+            "injury_notes": "Sprain",
             "depth_chart_position": "RB",
-            "depth_chart_order": 5,
-            "search_rank": 627
+            "depth_chart_order": 2,
+            "search_rank": 61
           }
         },
         {
@@ -2889,10 +2889,10 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "HOU",
-            "name": "Texans",
+            "player_id": "WAS",
+            "name": "Commanders",
             "position": "DEF",
-            "team": "HOU",
+            "team": "WAS",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -2929,19 +2929,6 @@
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
           "search_rank": 81
-        },
-        {
-          "player_id": "12534",
-          "name": "Kyle Monangai",
-          "position": "RB",
-          "team": "CHI",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": "Sprain",
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 61
         },
         {
           "player_id": "13276",
@@ -2981,6 +2968,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 3,
           "search_rank": 43
+        },
+        {
+          "player_id": "7561",
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": null,
+          "depth_chart_order": null,
+          "search_rank": 532
         }
       ],
       "reserve": [
@@ -2996,6 +2996,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 9,
           "search_rank": 62
+        },
+        {
+          "player_id": "8129",
+          "name": "Dameon Pierce",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Inactive",
+          "active": true,
+          "injury_status": "IR",
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 5,
+          "search_rank": 627
         }
       ],
       "taxi": [],
@@ -3170,6 +3183,19 @@
           "search_rank": 68
         },
         {
+          "player_id": "7561",
+          "name": "Elijah Mitchell",
+          "position": "RB",
+          "team": "PHI",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": null,
+          "depth_chart_order": null,
+          "search_rank": 532
+        },
+        {
           "player_id": "8129",
           "name": "Dameon Pierce",
           "position": "RB",
@@ -3196,10 +3222,10 @@
           "search_rank": 4
         },
         {
-          "player_id": "HOU",
-          "name": "Texans",
+          "player_id": "WAS",
+          "name": "Commanders",
           "position": "DEF",
-          "team": "HOU",
+          "team": "WAS",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -3810,6 +3836,19 @@
       ],
       "bench": [
         {
+          "player_id": "4147",
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 459
+        },
+        {
           "player_id": "4866",
           "name": "Saquon Barkley",
           "position": "RB",
@@ -3860,19 +3899,6 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 34
-        },
-        {
-          "player_id": "7528",
-          "name": "Najee Harris",
-          "position": "RB",
-          "team": null,
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": 170
         },
         {
           "player_id": "8134",
@@ -3943,6 +3969,19 @@
           "depth_chart_position": "K",
           "depth_chart_order": 1,
           "search_rank": 194
+        },
+        {
+          "player_id": "4147",
+          "name": "Samaje Perine",
+          "position": "RB",
+          "team": "CIN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 459
         },
         {
           "player_id": "421",
@@ -4034,19 +4073,6 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 34
-        },
-        {
-          "player_id": "7528",
-          "name": "Najee Harris",
-          "position": "RB",
-          "team": null,
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": 170
         },
         {
           "player_id": "7594",
@@ -44385,17 +44411,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "8129",
-                    "name": "Dameon Pierce",
+                    "player_id": "12534",
+                    "name": "Kyle Monangai",
                     "position": "RB",
-                    "team": "PHI",
-                    "status": "Inactive",
+                    "team": "CHI",
+                    "status": "Active",
                     "active": true,
-                    "injury_status": "IR",
-                    "injury_notes": null,
+                    "injury_status": "Questionable",
+                    "injury_notes": "Sprain",
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 5,
-                    "search_rank": 627
+                    "depth_chart_order": 2,
+                    "search_rank": 61
                   },
                   "points": 0.0
                 },
@@ -44487,10 +44513,10 @@
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "HOU",
-                    "name": "Texans",
+                    "player_id": "WAS",
+                    "name": "Commanders",
                     "position": "DEF",
-                    "team": "HOU",
+                    "team": "WAS",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -44532,22 +44558,6 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 81
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "12534",
-                    "name": "Kyle Monangai",
-                    "position": "RB",
-                    "team": "CHI",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": "Sprain",
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 61
                   },
                   "points": 0.0
                 },
@@ -44612,6 +44622,38 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 3,
                     "search_rank": 43
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "7561",
+                    "name": "Elijah Mitchell",
+                    "position": "RB",
+                    "team": "PHI",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": null,
+                    "depth_chart_order": null,
+                    "search_rank": 532
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "8129",
+                    "name": "Dameon Pierce",
+                    "position": "RB",
+                    "team": "PHI",
+                    "status": "Inactive",
+                    "active": true,
+                    "injury_status": "IR",
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 5,
+                    "search_rank": 627
                   },
                   "points": 0.0
                 }
@@ -46482,6 +46524,22 @@
               "bench": [
                 {
                   "player": {
+                    "player_id": "4147",
+                    "name": "Samaje Perine",
+                    "position": "RB",
+                    "team": "CIN",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 459
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "4866",
                     "name": "Saquon Barkley",
                     "position": "RB",
@@ -46541,22 +46599,6 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
                     "search_rank": 34
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "7528",
-                    "name": "Najee Harris",
-                    "position": "RB",
-                    "team": null,
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": 170
                   },
                   "points": 0.0
                 },
@@ -46857,6 +46899,148 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1421972618449285120",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793387200513,
+          "roster_ids": [
+            8
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "4147",
+                "name": "Samaje Perine",
+                "position": "RB",
+                "team": "CIN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 459
+              },
+              "roster_id": 8,
+              "team_name": "This Is Our Year"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1421972510861164544",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793387174863,
+          "roster_ids": [
+            8
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "7528",
+                "name": "Najee Harris",
+                "position": "RB",
+                "team": null,
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": 170
+              },
+              "roster_id": 8,
+              "team_name": "This Is Our Year"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1421926627515904000",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793376235421,
+          "roster_ids": [
+            6
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "7561",
+                "name": "Elijah Mitchell",
+                "position": "RB",
+                "team": "PHI",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": 532
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1421926454664482816",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793376194210,
+          "roster_ids": [
+            6
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "WAS",
+                "name": "Commanders",
+                "position": "DEF",
+                "team": "WAS",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "HOU",
+                "name": "Texans",
+                "position": "DEF",
+                "team": "HOU",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1421824449690320896",
           "week": 8,

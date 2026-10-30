@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T12:47:10.324595+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-10-30T22:14:59.403999+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -1180,19 +1180,6 @@
         "search_rank": 457
       },
       {
-        "player_id": "4147",
-        "name": "Samaje Perine",
-        "position": "RB",
-        "team": "CIN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 459
-      },
-      {
         "player_id": "13277",
         "name": "CJ Donaldson",
         "position": "RB",
@@ -1321,6 +1308,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 512
+      },
+      {
+        "player_id": "11571",
+        "name": "Isaiah Davis",
+        "position": "RB",
+        "team": "NYJ",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 3,
+        "search_rank": 518
       }
     ],
     "WR": [
@@ -3073,19 +3073,6 @@
         "search_rank": null
       },
       {
-        "player_id": "WAS",
-        "name": "Commanders",
-        "position": "DEF",
-        "team": "WAS",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
         "player_id": "DAL",
         "name": "Cowboys",
         "position": "DEF",
@@ -3207,6 +3194,19 @@
         "name": "Saints",
         "position": "DEF",
         "team": "NO",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
+        "player_id": "HOU",
+        "name": "Texans",
+        "position": "DEF",
+        "team": "HOU",
         "status": null,
         "active": true,
         "injury_status": null,
