@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:41:58.729781+00:00",
+  "generated_at": "2026-10-30T05:40:09.317458+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -414,6 +414,22 @@
         {
           "slot": "WR1",
           "player": {
+            "player_id": "4983",
+            "name": "DJ Moore",
+            "position": "WR",
+            "team": "BUF",
+            "status": "Active",
+            "active": true,
+            "injury_status": "Questionable",
+            "injury_notes": "Sprain",
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 50
+          }
+        },
+        {
+          "slot": "WR2",
+          "player": {
             "player_id": "8167",
             "name": "Christian Watson",
             "position": "WR",
@@ -428,35 +444,19 @@
           }
         },
         {
-          "slot": "WR2",
-          "player": {
-            "player_id": "8144",
-            "name": "Chris Olave",
-            "position": "WR",
-            "team": "NO",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
-            "search_rank": 29
-          }
-        },
-        {
           "slot": "TE",
           "player": {
-            "player_id": "7002",
-            "name": "Juwan Johnson",
-            "position": "TE",
-            "team": "NO",
-            "status": "Active",
-            "active": true,
+            "player_id": "0",
+            "name": "0",
+            "position": null,
+            "team": null,
+            "status": null,
+            "active": null,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 103
+            "depth_chart_position": null,
+            "depth_chart_order": null,
+            "search_rank": null
           }
         },
         {
@@ -510,19 +510,6 @@
       ],
       "bench": [
         {
-          "player_id": "11631",
-          "name": "Brian Thomas Jr.",
-          "position": "WR",
-          "team": "JAX",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 3,
-          "search_rank": 74
-        },
-        {
           "player_id": "11637",
           "name": "Keon Coleman",
           "position": "WR",
@@ -575,17 +562,17 @@
           "search_rank": 118
         },
         {
-          "player_id": "4983",
-          "name": "DJ Moore",
-          "position": "WR",
-          "team": "BUF",
+          "player_id": "7002",
+          "name": "Juwan Johnson",
+          "position": "TE",
+          "team": "NO",
           "status": "Active",
           "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": "Sprain",
-          "depth_chart_position": "LWR",
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "TE",
           "depth_chart_order": 1,
-          "search_rank": 50
+          "search_rank": 103
         },
         {
           "player_id": "8138",
@@ -599,6 +586,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 5
+        },
+        {
+          "player_id": "8144",
+          "name": "Chris Olave",
+          "position": "WR",
+          "team": "NO",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 1,
+          "search_rank": 29
         }
       ],
       "reserve": [
@@ -630,19 +630,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 32
-        },
-        {
-          "player_id": "11631",
-          "name": "Brian Thomas Jr.",
-          "position": "WR",
-          "team": "JAX",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "LWR",
-          "depth_chart_order": 3,
-          "search_rank": 74
         },
         {
           "player_id": "11637",
@@ -858,17 +845,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
-            "status": null,
-            "active": null,
+            "player_id": "11563",
+            "name": "Bo Nix",
+            "position": "QB",
+            "team": "DEN",
+            "status": "Active",
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": null,
-            "depth_chart_order": null,
-            "search_rank": null
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 46
           }
         },
         {
@@ -1013,19 +1000,6 @@
           "depth_chart_position": "SWR",
           "depth_chart_order": 1,
           "search_rank": 29
-        },
-        {
-          "player_id": "11563",
-          "name": "Bo Nix",
-          "position": "QB",
-          "team": "DEN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 46
         },
         {
           "player_id": "12514",
@@ -4222,37 +4196,21 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "5846",
-            "name": "DK Metcalf",
+            "player_id": "2449",
+            "name": "Stefon Diggs",
             "position": "WR",
-            "team": "PIT",
+            "team": "WAS",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
-            "depth_chart_position": "LWR",
+            "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 73
+            "search_rank": 105
           }
         },
         {
           "slot": "TE",
-          "player": {
-            "player_id": "10859",
-            "name": "Sam LaPorta",
-            "position": "TE",
-            "team": "DET",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 58
-          }
-        },
-        {
-          "slot": "FLEX",
           "player": {
             "player_id": "3214",
             "name": "Hunter Henry",
@@ -4265,6 +4223,22 @@
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
             "search_rank": 92
+          }
+        },
+        {
+          "slot": "FLEX",
+          "player": {
+            "player_id": "5846",
+            "name": "DK Metcalf",
+            "position": "WR",
+            "team": "PIT",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 73
           }
         },
         {
@@ -4302,6 +4276,19 @@
       ],
       "bench": [
         {
+          "player_id": "10859",
+          "name": "Sam LaPorta",
+          "position": "TE",
+          "team": "DET",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "TE",
+          "depth_chart_order": 1,
+          "search_rank": 58
+        },
+        {
           "player_id": "11834",
           "name": "Devaughn Vele",
           "position": "WR",
@@ -4324,19 +4311,6 @@
           "injury_status": "Questionable",
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 105
-        },
-        {
-          "player_id": "2449",
-          "name": "Stefon Diggs",
-          "position": "WR",
-          "team": "WAS",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
           "depth_chart_order": 1,
           "search_rank": 105
         },
@@ -5090,17 +5064,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
-            "status": null,
-            "active": null,
+            "player_id": "4984",
+            "name": "Josh Allen",
+            "position": "QB",
+            "team": "BUF",
+            "status": "Active",
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": null,
-            "depth_chart_order": null,
-            "search_rank": null
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 3
           }
         },
         {
@@ -5170,17 +5144,17 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "3271",
-            "name": "Tyler Higbee",
+            "player_id": "5844",
+            "name": "T.J. Hockenson",
             "position": "TE",
-            "team": "LAR",
+            "team": "MIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
-            "depth_chart_order": 2,
-            "search_rank": 633
+            "depth_chart_order": 1,
+            "search_rank": 128
           }
         },
         {
@@ -5260,43 +5234,30 @@
           "search_rank": 39
         },
         {
-          "player_id": "4984",
-          "name": "Josh Allen",
-          "position": "QB",
-          "team": "BUF",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 3
-        },
-        {
-          "player_id": "5844",
-          "name": "T.J. Hockenson",
+          "player_id": "3271",
+          "name": "Tyler Higbee",
           "position": "TE",
-          "team": "MIN",
+          "team": "LAR",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 128
+          "depth_chart_order": 2,
+          "search_rank": 633
         },
         {
-          "player_id": "5927",
-          "name": "Terry McLaurin",
-          "position": "WR",
-          "team": "WAS",
-          "status": "Inactive",
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "status": "Active",
           "active": true,
-          "injury_status": "IR",
-          "injury_notes": "Surgery",
-          "depth_chart_position": null,
-          "depth_chart_order": 6,
-          "search_rank": 56
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 288
         },
         {
           "player_id": "7523",
@@ -5327,17 +5288,17 @@
       ],
       "reserve": [
         {
-          "player_id": "6819",
-          "name": "Michael Pittman Jr.",
+          "player_id": "5927",
+          "name": "Terry McLaurin",
           "position": "WR",
-          "team": "PIT",
+          "team": "WAS",
           "status": "Inactive",
           "active": true,
           "injury_status": "IR",
-          "injury_notes": "Plantar Fasciitis",
-          "depth_chart_position": "RWR",
+          "injury_notes": "Surgery",
+          "depth_chart_position": null,
           "depth_chart_order": 6,
-          "search_rank": 106
+          "search_rank": 56
         },
         {
           "player_id": "8142",
@@ -5499,17 +5460,17 @@
           "search_rank": 56
         },
         {
-          "player_id": "6819",
-          "name": "Michael Pittman Jr.",
-          "position": "WR",
-          "team": "PIT",
-          "status": "Inactive",
+          "player_id": "7042",
+          "name": "Tyler Bass",
+          "position": "K",
+          "team": "BUF",
+          "status": "Active",
           "active": true,
-          "injury_status": "IR",
-          "injury_notes": "Plantar Fasciitis",
-          "depth_chart_position": "RWR",
-          "depth_chart_order": 6,
-          "search_rank": 106
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 288
         },
         {
           "player_id": "7523",
@@ -42968,7 +42929,7 @@
       "week": 8,
       "my_result": {
         "week": 8,
-        "result": "T",
+        "result": "L",
         "points": 0.0,
         "lineup": [
           {
@@ -43243,7 +43204,7 @@
           "roster_id": 1,
           "team_name": "El Guajolote Macias",
           "username": "JerrysaurusRex",
-          "points": 0.0,
+          "points": 19.3,
           "lineup": [
             {
               "slot": "QB",
@@ -43299,6 +43260,23 @@
             {
               "slot": "WR",
               "player": {
+                "player_id": "4983",
+                "name": "DJ Moore",
+                "position": "WR",
+                "team": "BUF",
+                "status": "Active",
+                "active": true,
+                "injury_status": "Questionable",
+                "injury_notes": "Sprain",
+                "depth_chart_position": "LWR",
+                "depth_chart_order": 1,
+                "search_rank": 50
+              },
+              "points": 0.0
+            },
+            {
+              "slot": "WR",
+              "player": {
                 "player_id": "8167",
                 "name": "Christian Watson",
                 "position": "WR",
@@ -43311,39 +43289,22 @@
                 "depth_chart_order": 1,
                 "search_rank": 64
               },
-              "points": 0.0
-            },
-            {
-              "slot": "WR",
-              "player": {
-                "player_id": "8144",
-                "name": "Chris Olave",
-                "position": "WR",
-                "team": "NO",
-                "status": "Active",
-                "active": true,
-                "injury_status": null,
-                "injury_notes": null,
-                "depth_chart_position": "RWR",
-                "depth_chart_order": 1,
-                "search_rank": 29
-              },
-              "points": 0.0
+              "points": 19.3
             },
             {
               "slot": "TE",
               "player": {
-                "player_id": "7002",
-                "name": "Juwan Johnson",
-                "position": "TE",
-                "team": "NO",
-                "status": "Active",
-                "active": true,
+                "player_id": "0",
+                "name": "0",
+                "position": null,
+                "team": null,
+                "status": null,
+                "active": null,
                 "injury_status": null,
                 "injury_notes": null,
-                "depth_chart_position": "TE",
-                "depth_chart_order": 1,
-                "search_rank": 103
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
               },
               "points": 0.0
             },
@@ -43400,22 +43361,6 @@
             }
           ],
           "bench": [
-            {
-              "player": {
-                "player_id": "11631",
-                "name": "Brian Thomas Jr.",
-                "position": "WR",
-                "team": "JAX",
-                "status": "Active",
-                "active": true,
-                "injury_status": null,
-                "injury_notes": null,
-                "depth_chart_position": "LWR",
-                "depth_chart_order": 3,
-                "search_rank": 74
-              },
-              "points": 0.0
-            },
             {
               "player": {
                 "player_id": "11637",
@@ -43498,17 +43443,17 @@
             },
             {
               "player": {
-                "player_id": "4983",
-                "name": "DJ Moore",
-                "position": "WR",
-                "team": "BUF",
+                "player_id": "7002",
+                "name": "Juwan Johnson",
+                "position": "TE",
+                "team": "NO",
                 "status": "Active",
                 "active": true,
-                "injury_status": "Questionable",
-                "injury_notes": "Sprain",
-                "depth_chart_position": "LWR",
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
                 "depth_chart_order": 1,
-                "search_rank": 50
+                "search_rank": 103
               },
               "points": 0.0
             },
@@ -43527,6 +43472,22 @@
                 "search_rank": 5
               },
               "points": 0.0
+            },
+            {
+              "player": {
+                "player_id": "8144",
+                "name": "Chris Olave",
+                "position": "WR",
+                "team": "NO",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RWR",
+                "depth_chart_order": 1,
+                "search_rank": 29
+              },
+              "points": 0.0
             }
           ]
         }
@@ -43539,7 +43500,7 @@
               "roster_id": 1,
               "team_name": "El Guajolote Macias",
               "username": "JerrysaurusRex",
-              "points": 0.0,
+              "points": 19.3,
               "lineup": [
                 {
                   "slot": "QB",
@@ -43595,6 +43556,23 @@
                 {
                   "slot": "WR",
                   "player": {
+                    "player_id": "4983",
+                    "name": "DJ Moore",
+                    "position": "WR",
+                    "team": "BUF",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Questionable",
+                    "injury_notes": "Sprain",
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 50
+                  },
+                  "points": 0.0
+                },
+                {
+                  "slot": "WR",
+                  "player": {
                     "player_id": "8167",
                     "name": "Christian Watson",
                     "position": "WR",
@@ -43607,39 +43585,22 @@
                     "depth_chart_order": 1,
                     "search_rank": 64
                   },
-                  "points": 0.0
-                },
-                {
-                  "slot": "WR",
-                  "player": {
-                    "player_id": "8144",
-                    "name": "Chris Olave",
-                    "position": "WR",
-                    "team": "NO",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 29
-                  },
-                  "points": 0.0
+                  "points": 19.3
                 },
                 {
                   "slot": "TE",
                   "player": {
-                    "player_id": "7002",
-                    "name": "Juwan Johnson",
-                    "position": "TE",
-                    "team": "NO",
-                    "status": "Active",
-                    "active": true,
+                    "player_id": "0",
+                    "name": "0",
+                    "position": null,
+                    "team": null,
+                    "status": null,
+                    "active": null,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 103
+                    "depth_chart_position": null,
+                    "depth_chart_order": null,
+                    "search_rank": null
                   },
                   "points": 0.0
                 },
@@ -43696,22 +43657,6 @@
                 }
               ],
               "bench": [
-                {
-                  "player": {
-                    "player_id": "11631",
-                    "name": "Brian Thomas Jr.",
-                    "position": "WR",
-                    "team": "JAX",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 3,
-                    "search_rank": 74
-                  },
-                  "points": 0.0
-                },
                 {
                   "player": {
                     "player_id": "11637",
@@ -43794,17 +43739,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "4983",
-                    "name": "DJ Moore",
-                    "position": "WR",
-                    "team": "BUF",
+                    "player_id": "7002",
+                    "name": "Juwan Johnson",
+                    "position": "TE",
+                    "team": "NO",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": "Sprain",
-                    "depth_chart_position": "LWR",
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 50
+                    "search_rank": 103
                   },
                   "points": 0.0
                 },
@@ -43821,6 +43766,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
                     "search_rank": 5
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "8144",
+                    "name": "Chris Olave",
+                    "position": "WR",
+                    "team": "NO",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 29
                   },
                   "points": 0.0
                 }
@@ -44115,17 +44076,17 @@
                 {
                   "slot": "QB",
                   "player": {
-                    "player_id": "0",
-                    "name": "0",
-                    "position": null,
-                    "team": null,
-                    "status": null,
-                    "active": null,
+                    "player_id": "11563",
+                    "name": "Bo Nix",
+                    "position": "QB",
+                    "team": "DEN",
+                    "status": "Active",
+                    "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
+                    "depth_chart_position": "QB",
+                    "depth_chart_order": 1,
+                    "search_rank": 46
                   },
                   "points": 0.0
                 },
@@ -44285,22 +44246,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "11563",
-                    "name": "Bo Nix",
-                    "position": "QB",
-                    "team": "DEN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "QB",
-                    "depth_chart_order": 1,
-                    "search_rank": 46
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "12514",
                     "name": "Emeka Egbuka",
                     "position": "WR",
@@ -44401,7 +44346,7 @@
               "roster_id": 6,
               "team_name": "ivasol",
               "username": "ivasol",
-              "points": 0.0,
+              "points": 53.7,
               "lineup": [
                 {
                   "slot": "QB",
@@ -44435,7 +44380,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 20
                   },
-                  "points": 0.0
+                  "points": 23.2
                 },
                 {
                   "slot": "RB",
@@ -44486,7 +44431,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 118
                   },
-                  "points": 0.0
+                  "points": 20.9
                 },
                 {
                   "slot": "TE",
@@ -44520,7 +44465,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 132
                   },
-                  "points": 0.0
+                  "points": 9.6
                 },
                 {
                   "slot": "K",
@@ -45439,7 +45384,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 98
                   },
-                  "points": 0.0
+                  "points": 2.6
                 },
                 {
                   "player": {
@@ -45616,39 +45561,22 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "5846",
-                    "name": "DK Metcalf",
+                    "player_id": "2449",
+                    "name": "Stefon Diggs",
                     "position": "WR",
-                    "team": "PIT",
+                    "team": "WAS",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
-                    "depth_chart_position": "LWR",
+                    "depth_chart_position": "SWR",
                     "depth_chart_order": 1,
-                    "search_rank": 73
+                    "search_rank": 105
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "TE",
-                  "player": {
-                    "player_id": "10859",
-                    "name": "Sam LaPorta",
-                    "position": "TE",
-                    "team": "DET",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 58
-                  },
-                  "points": 0.0
-                },
-                {
-                  "slot": "FLEX",
                   "player": {
                     "player_id": "3214",
                     "name": "Hunter Henry",
@@ -45661,6 +45589,23 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 92
+                  },
+                  "points": 0.0
+                },
+                {
+                  "slot": "FLEX",
+                  "player": {
+                    "player_id": "5846",
+                    "name": "DK Metcalf",
+                    "position": "WR",
+                    "team": "PIT",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 73
                   },
                   "points": 0.0
                 },
@@ -45700,6 +45645,22 @@
                 }
               ],
               "bench": [
+                {
+                  "player": {
+                    "player_id": "10859",
+                    "name": "Sam LaPorta",
+                    "position": "TE",
+                    "team": "DET",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 1,
+                    "search_rank": 58
+                  },
+                  "points": 0.0
+                },
                 {
                   "player": {
                     "player_id": "11834",
@@ -45745,22 +45706,6 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 6,
                     "search_rank": 46
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "2449",
-                    "name": "Stefon Diggs",
-                    "position": "WR",
-                    "team": "WAS",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 105
                   },
                   "points": 0.0
                 },
@@ -46082,7 +46027,7 @@
               "roster_id": 11,
               "team_name": "Makeroth",
               "username": "Makeroth",
-              "points": 0.0,
+              "points": 11.8,
               "lineup": [
                 {
                   "slot": "QB",
@@ -46167,7 +46112,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 37
                   },
-                  "points": 0.0
+                  "points": 11.8
                 },
                 {
                   "slot": "TE",
@@ -46305,17 +46250,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "6819",
-                    "name": "Michael Pittman Jr.",
-                    "position": "WR",
-                    "team": "PIT",
-                    "status": "Inactive",
+                    "player_id": "7042",
+                    "name": "Tyler Bass",
+                    "position": "K",
+                    "team": "BUF",
+                    "status": "Active",
                     "active": true,
-                    "injury_status": "IR",
-                    "injury_notes": "Plantar Fasciitis",
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 6,
-                    "search_rank": 106
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "K",
+                    "depth_chart_order": 1,
+                    "search_rank": 288
                   },
                   "points": 0.0
                 },
@@ -46378,7 +46323,7 @@
               "roster_id": 8,
               "team_name": "This Is Our Year",
               "username": "juandelagarza",
-              "points": 0.0,
+              "points": 44.2,
               "lineup": [
                 {
                   "slot": "QB",
@@ -46412,7 +46357,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 66
                   },
-                  "points": 0.0
+                  "points": 24.9
                 },
                 {
                   "slot": "RB",
@@ -46480,7 +46425,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 64
                   },
-                  "points": 0.0
+                  "points": 17.3
                 },
                 {
                   "slot": "FLEX",
@@ -46514,7 +46459,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 194
                   },
-                  "points": 0.0
+                  "points": 2.0
                 },
                 {
                   "slot": "DEF",
@@ -46653,7 +46598,7 @@
               "roster_id": 12,
               "team_name": "Los Mapachitos",
               "username": "Juanpmv",
-              "points": 0.0,
+              "points": 30.52,
               "lineup": [
                 {
                   "slot": "QB",
@@ -46670,7 +46615,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 65
                   },
-                  "points": 0.0
+                  "points": 30.52
                 },
                 {
                   "slot": "RB",
@@ -46872,7 +46817,7 @@
                     "depth_chart_order": 3,
                     "search_rank": 631
                   },
-                  "points": 0.0
+                  "points": 0.2
                 },
                 {
                   "player": {
@@ -46912,6 +46857,99 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1421706153036886016",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793323670208,
+          "roster_ids": [
+            11
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "7042",
+                "name": "Tyler Bass",
+                "position": "K",
+                "team": "BUF",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 288
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1421706049408253952",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793323645502,
+          "roster_ids": [
+            11
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "6819",
+                "name": "Michael Pittman Jr.",
+                "position": "WR",
+                "team": "PIT",
+                "status": "Inactive",
+                "active": true,
+                "injury_status": "IR",
+                "injury_notes": "Plantar Fasciitis",
+                "depth_chart_position": "RWR",
+                "depth_chart_order": 6,
+                "search_rank": 106
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1421674314989666304",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793316079427,
+          "roster_ids": [
+            1
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "11631",
+                "name": "Brian Thomas Jr.",
+                "position": "WR",
+                "team": "JAX",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "LWR",
+                "depth_chart_order": 3,
+                "search_rank": 74
+              },
+              "roster_id": 1,
+              "team_name": "El Guajolote Macias"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1421416969315315712",
           "week": 8,

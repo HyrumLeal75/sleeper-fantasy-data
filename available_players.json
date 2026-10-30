@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:41:58.729781+00:00",
+  "generated_at": "2026-10-30T05:40:09.317458+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -15,7 +15,7 @@
     "RB": 50,
     "WR": 50,
     "TE": 50,
-    "K": 28,
+    "K": 27,
     "DEF": 18
   },
   "players": {
@@ -1325,6 +1325,19 @@
     ],
     "WR": [
       {
+        "player_id": "11631",
+        "name": "Brian Thomas Jr.",
+        "position": "WR",
+        "team": "JAX",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "LWR",
+        "depth_chart_order": 3,
+        "search_rank": 74
+      },
+      {
         "player_id": "11628",
         "name": "Marvin Harrison Jr.",
         "position": "WR",
@@ -1349,6 +1362,19 @@
         "depth_chart_position": null,
         "depth_chart_order": 7,
         "search_rank": 99
+      },
+      {
+        "player_id": "6819",
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "team": "PIT",
+        "status": "Inactive",
+        "active": true,
+        "injury_status": "IR",
+        "injury_notes": "Plantar Fasciitis",
+        "depth_chart_position": "RWR",
+        "depth_chart_order": 6,
+        "search_rank": 106
       },
       {
         "player_id": "7049",
@@ -1947,32 +1973,6 @@
         "depth_chart_position": "SWR",
         "depth_chart_order": 4,
         "search_rank": 367
-      },
-      {
-        "player_id": "12803",
-        "name": "Luke Grimm",
-        "position": "WR",
-        "team": "LAC",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 369
-      },
-      {
-        "player_id": "13343",
-        "name": "Vinny Anthony II",
-        "position": "WR",
-        "team": "ATL",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 377
       }
     ],
     "TE": [
@@ -2770,19 +2770,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 277
-      },
-      {
-        "player_id": "7042",
-        "name": "Tyler Bass",
-        "position": "K",
-        "team": "BUF",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 288
       },
       {
         "player_id": "4233",

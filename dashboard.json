@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:41:58.729781+00:00",
+  "generated_at": "2026-10-30T05:40:09.317458+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -432,7 +432,7 @@
       "roster_id": 1,
       "team_name": "El Guajolote Macias",
       "username": "JerrysaurusRex",
-      "points": 0.0,
+      "points": 19.3,
       "lineup": [
         {
           "slot": "QB",
@@ -485,6 +485,22 @@
         {
           "slot": "WR1",
           "player": {
+            "player_id": "4983",
+            "name": "DJ Moore",
+            "position": "WR",
+            "team": "BUF",
+            "status": "Active",
+            "active": true,
+            "injury_status": "Questionable",
+            "injury_notes": "Sprain",
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 50
+          }
+        },
+        {
+          "slot": "WR2",
+          "player": {
             "player_id": "8167",
             "name": "Christian Watson",
             "position": "WR",
@@ -499,35 +515,19 @@
           }
         },
         {
-          "slot": "WR2",
-          "player": {
-            "player_id": "8144",
-            "name": "Chris Olave",
-            "position": "WR",
-            "team": "NO",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
-            "search_rank": 29
-          }
-        },
-        {
           "slot": "TE",
           "player": {
-            "player_id": "7002",
-            "name": "Juwan Johnson",
-            "position": "TE",
-            "team": "NO",
-            "status": "Active",
-            "active": true,
+            "player_id": "0",
+            "name": "0",
+            "position": null,
+            "team": null,
+            "status": null,
+            "active": null,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 103
+            "depth_chart_position": null,
+            "depth_chart_order": null,
+            "search_rank": null
           }
         },
         {
@@ -1178,6 +1178,19 @@
     ],
     "WR": [
       {
+        "player_id": "11631",
+        "name": "Brian Thomas Jr.",
+        "position": "WR",
+        "team": "JAX",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "LWR",
+        "depth_chart_order": 3,
+        "search_rank": 74
+      },
+      {
         "player_id": "11628",
         "name": "Marvin Harrison Jr.",
         "position": "WR",
@@ -1202,6 +1215,19 @@
         "depth_chart_position": null,
         "depth_chart_order": 7,
         "search_rank": 99
+      },
+      {
+        "player_id": "6819",
+        "name": "Michael Pittman Jr.",
+        "position": "WR",
+        "team": "PIT",
+        "status": "Inactive",
+        "active": true,
+        "injury_status": "IR",
+        "injury_notes": "Plantar Fasciitis",
+        "depth_chart_position": "RWR",
+        "depth_chart_order": 6,
+        "search_rank": 106
       },
       {
         "player_id": "7049",
@@ -1280,32 +1306,6 @@
         "depth_chart_position": "LWR",
         "depth_chart_order": 2,
         "search_rank": 156
-      },
-      {
-        "player_id": "6783",
-        "name": "Jerry Jeudy",
-        "position": "WR",
-        "team": "CLE",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 3,
-        "search_rank": 160
-      },
-      {
-        "player_id": "11625",
-        "name": "Adonai Mitchell",
-        "position": "WR",
-        "team": "NYJ",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 3,
-        "search_rank": 162
       }
     ],
     "TE": [

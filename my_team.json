@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:41:58.729781+00:00",
+  "generated_at": "2026-10-30T05:40:09.317458+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -654,7 +654,7 @@
       "roster_id": 1,
       "team_name": "El Guajolote Macias",
       "username": "JerrysaurusRex",
-      "points": 0.0,
+      "points": 19.3,
       "lineup": [
         {
           "slot": "QB",
@@ -707,6 +707,22 @@
         {
           "slot": "WR1",
           "player": {
+            "player_id": "4983",
+            "name": "DJ Moore",
+            "position": "WR",
+            "team": "BUF",
+            "status": "Active",
+            "active": true,
+            "injury_status": "Questionable",
+            "injury_notes": "Sprain",
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 50
+          }
+        },
+        {
+          "slot": "WR2",
+          "player": {
             "player_id": "8167",
             "name": "Christian Watson",
             "position": "WR",
@@ -721,35 +737,19 @@
           }
         },
         {
-          "slot": "WR2",
-          "player": {
-            "player_id": "8144",
-            "name": "Chris Olave",
-            "position": "WR",
-            "team": "NO",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
-            "search_rank": 29
-          }
-        },
-        {
           "slot": "TE",
           "player": {
-            "player_id": "7002",
-            "name": "Juwan Johnson",
-            "position": "TE",
-            "team": "NO",
-            "status": "Active",
-            "active": true,
+            "player_id": "0",
+            "name": "0",
+            "position": null,
+            "team": null,
+            "status": null,
+            "active": null,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 103
+            "depth_chart_position": null,
+            "depth_chart_order": null,
+            "search_rank": null
           }
         },
         {
@@ -4569,7 +4569,7 @@
     },
     {
       "week": 8,
-      "result": "T",
+      "result": "L",
       "points": 0.0,
       "lineup": [
         {
@@ -4844,7 +4844,7 @@
         "roster_id": 1,
         "team_name": "El Guajolote Macias",
         "username": "JerrysaurusRex",
-        "points": 0.0,
+        "points": 19.3,
         "lineup": [
           {
             "slot": "QB",
@@ -4900,6 +4900,23 @@
           {
             "slot": "WR",
             "player": {
+              "player_id": "4983",
+              "name": "DJ Moore",
+              "position": "WR",
+              "team": "BUF",
+              "status": "Active",
+              "active": true,
+              "injury_status": "Questionable",
+              "injury_notes": "Sprain",
+              "depth_chart_position": "LWR",
+              "depth_chart_order": 1,
+              "search_rank": 50
+            },
+            "points": 0.0
+          },
+          {
+            "slot": "WR",
+            "player": {
               "player_id": "8167",
               "name": "Christian Watson",
               "position": "WR",
@@ -4912,39 +4929,22 @@
               "depth_chart_order": 1,
               "search_rank": 64
             },
-            "points": 0.0
-          },
-          {
-            "slot": "WR",
-            "player": {
-              "player_id": "8144",
-              "name": "Chris Olave",
-              "position": "WR",
-              "team": "NO",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "RWR",
-              "depth_chart_order": 1,
-              "search_rank": 29
-            },
-            "points": 0.0
+            "points": 19.3
           },
           {
             "slot": "TE",
             "player": {
-              "player_id": "7002",
-              "name": "Juwan Johnson",
-              "position": "TE",
-              "team": "NO",
-              "status": "Active",
-              "active": true,
+              "player_id": "0",
+              "name": "0",
+              "position": null,
+              "team": null,
+              "status": null,
+              "active": null,
               "injury_status": null,
               "injury_notes": null,
-              "depth_chart_position": "TE",
-              "depth_chart_order": 1,
-              "search_rank": 103
+              "depth_chart_position": null,
+              "depth_chart_order": null,
+              "search_rank": null
             },
             "points": 0.0
           },
@@ -5001,22 +5001,6 @@
           }
         ],
         "bench": [
-          {
-            "player": {
-              "player_id": "11631",
-              "name": "Brian Thomas Jr.",
-              "position": "WR",
-              "team": "JAX",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "LWR",
-              "depth_chart_order": 3,
-              "search_rank": 74
-            },
-            "points": 0.0
-          },
           {
             "player": {
               "player_id": "11637",
@@ -5099,17 +5083,17 @@
           },
           {
             "player": {
-              "player_id": "4983",
-              "name": "DJ Moore",
-              "position": "WR",
-              "team": "BUF",
+              "player_id": "7002",
+              "name": "Juwan Johnson",
+              "position": "TE",
+              "team": "NO",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
-              "injury_notes": "Sprain",
-              "depth_chart_position": "LWR",
+              "injury_status": null,
+              "injury_notes": null,
+              "depth_chart_position": "TE",
               "depth_chart_order": 1,
-              "search_rank": 50
+              "search_rank": 103
             },
             "points": 0.0
           },
@@ -5126,6 +5110,22 @@
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
               "search_rank": 5
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
+              "player_id": "8144",
+              "name": "Chris Olave",
+              "position": "WR",
+              "team": "NO",
+              "status": "Active",
+              "active": true,
+              "injury_status": null,
+              "injury_notes": null,
+              "depth_chart_position": "RWR",
+              "depth_chart_order": 1,
+              "search_rank": 29
             },
             "points": 0.0
           }
