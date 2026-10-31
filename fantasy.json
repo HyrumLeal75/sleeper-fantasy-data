@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T05:31:23.664991+00:00",
+  "generated_at": "2026-10-31T12:18:09.650149+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -909,17 +909,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "9756",
-            "name": "Jordan Addison",
+            "player_id": "10229",
+            "name": "Rashee Rice",
             "position": "WR",
-            "team": "MIN",
+            "team": "KC",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 2,
-            "search_rank": 99
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 1,
+            "search_rank": 29
           }
         },
         {
@@ -989,19 +989,6 @@
       ],
       "bench": [
         {
-          "player_id": "10229",
-          "name": "Rashee Rice",
-          "position": "WR",
-          "team": "KC",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 1,
-          "search_rank": 29
-        },
-        {
           "player_id": "12514",
           "name": "Emeka Egbuka",
           "position": "WR",
@@ -1065,6 +1052,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 3,
           "search_rank": 669
+        },
+        {
+          "player_id": "9756",
+          "name": "Jordan Addison",
+          "position": "WR",
+          "team": "MIN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 2,
+          "search_rank": 99
         }
       ],
       "reserve": [
@@ -44170,17 +44170,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "9756",
-                    "name": "Jordan Addison",
+                    "player_id": "10229",
+                    "name": "Rashee Rice",
                     "position": "WR",
-                    "team": "MIN",
+                    "team": "KC",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 99
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 29
                   },
                   "points": 0.0
                 },
@@ -44254,22 +44254,6 @@
                 }
               ],
               "bench": [
-                {
-                  "player": {
-                    "player_id": "10229",
-                    "name": "Rashee Rice",
-                    "position": "WR",
-                    "team": "KC",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 29
-                  },
-                  "points": 0.0
-                },
                 {
                   "player": {
                     "player_id": "12514",
@@ -44363,6 +44347,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 3,
                     "search_rank": 669
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "9756",
+                    "name": "Jordan Addison",
+                    "position": "WR",
+                    "team": "MIN",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 99
                   },
                   "points": 0.0
                 }
