@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T13:14:36.862231+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-11-01T21:58:13.041088+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -49,7 +49,7 @@
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 449
+          "search_rank": 451
         }
       },
       {
@@ -145,7 +145,7 @@
           "injury_notes": null,
           "depth_chart_position": "K",
           "depth_chart_order": 1,
-          "search_rank": 89
+          "search_rank": 91
         }
       },
       {
@@ -177,7 +177,7 @@
         "injury_notes": null,
         "depth_chart_position": "SWR",
         "depth_chart_order": 1,
-        "search_rank": 89
+        "search_rank": 91
       },
       {
         "player_id": "13298",
@@ -225,10 +225,10 @@
         "team": "NYJ",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 1,
+        "depth_chart_order": 5,
         "search_rank": 27
       },
       {
@@ -273,7 +273,7 @@
         "injury_notes": null,
         "depth_chart_position": "K",
         "depth_chart_order": 1,
-        "search_rank": 89
+        "search_rank": 91
       },
       {
         "player_id": "11566",
@@ -325,7 +325,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 449
+        "search_rank": 451
       },
       {
         "player_id": "12506",
@@ -364,7 +364,7 @@
         "injury_notes": null,
         "depth_chart_position": "SWR",
         "depth_chart_order": 1,
-        "search_rank": 89
+        "search_rank": 91
       },
       {
         "player_id": "13298",
@@ -438,10 +438,10 @@
         "team": "NYJ",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": "Out",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 1,
+        "depth_chart_order": 5,
         "search_rank": 27
       },
       {
@@ -503,7 +503,7 @@
   "current_matchup": {
     "week": 8,
     "matchup_id": 4,
-    "my_points": 0.0,
+    "my_points": 91.5,
     "my_lineup": [
       {
         "slot": "QB",
@@ -534,7 +534,7 @@
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 449
+          "search_rank": 451
         }
       },
       {
@@ -630,7 +630,7 @@
           "injury_notes": null,
           "depth_chart_position": "K",
           "depth_chart_order": 1,
-          "search_rank": 89
+          "search_rank": 91
         }
       },
       {
@@ -654,7 +654,7 @@
       "roster_id": 1,
       "team_name": "El Guajolote Macias",
       "username": "JerrysaurusRex",
-      "points": 19.3,
+      "points": 141.3,
       "lineup": [
         {
           "slot": "QB",
@@ -681,7 +681,7 @@
             "team": "BUF",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
@@ -714,10 +714,10 @@
             "status": "Active",
             "active": true,
             "injury_status": "Questionable",
-            "injury_notes": "Sprain",
+            "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
-            "search_rank": 50
+            "search_rank": 48
           }
         },
         {
@@ -761,7 +761,7 @@
             "team": "ATL",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
@@ -822,7 +822,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 26
+            "search_rank": 28
           },
           "points": 37.72
         },
@@ -852,10 +852,10 @@
             "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
+            "depth_chart_order": 5,
             "search_rank": 27
           },
           "points": 21.8
@@ -1080,7 +1080,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 22
+              "search_rank": 20
             },
             "points": 43.26
           },
@@ -1199,7 +1199,7 @@
               "injury_notes": null,
               "depth_chart_position": "K",
               "depth_chart_order": 1,
-              "search_rank": 155
+              "search_rank": 153
             },
             "points": 19.0
           },
@@ -1230,7 +1230,7 @@
               "team": "BUF",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "TE",
               "depth_chart_order": 1,
@@ -1339,7 +1339,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 26
+            "search_rank": 28
           },
           "points": 22.16
         },
@@ -1369,10 +1369,10 @@
             "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
+            "depth_chart_order": 5,
             "search_rank": 27
           },
           "points": 14.2
@@ -1597,7 +1597,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 34
+              "search_rank": 35
             },
             "points": 13.88
           },
@@ -1661,7 +1661,7 @@
               "team": "DEN",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RWR",
               "depth_chart_order": 1,
@@ -1799,7 +1799,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 74
+              "search_rank": 75
             },
             "points": 17.18
           },
@@ -1856,7 +1856,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 26
+            "search_rank": 28
           },
           "points": 13.62
         },
@@ -1886,10 +1886,10 @@
             "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
+            "depth_chart_order": 5,
             "search_rank": 27
           },
           "points": 8.5
@@ -2215,7 +2215,7 @@
               "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "RB",
-              "depth_chart_order": 4,
+              "depth_chart_order": 5,
               "search_rank": 39
             },
             "points": 3.9
@@ -2283,7 +2283,7 @@
               "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "RWR",
-              "depth_chart_order": 6,
+              "depth_chart_order": 7,
               "search_rank": 61
             },
             "points": 11.8
@@ -2405,7 +2405,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 26
+            "search_rank": 28
           },
           "points": 17.52
         },
@@ -2439,7 +2439,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 449
+            "search_rank": 451
           },
           "points": 22.0
         },
@@ -2635,10 +2635,10 @@
             "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
+            "depth_chart_order": 5,
             "search_rank": 27
           },
           "points": 0.0
@@ -2697,7 +2697,7 @@
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
-              "search_rank": 30
+              "search_rank": 31
             },
             "points": 31.3
           },
@@ -2972,7 +2972,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 449
+            "search_rank": 451
           },
           "points": 14.8
         },
@@ -3156,7 +3156,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 26
+            "search_rank": 28
           },
           "points": 24.0
         },
@@ -3200,10 +3200,10 @@
             "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
+            "depth_chart_order": 5,
             "search_rank": 27
           },
           "points": 0.0
@@ -3245,7 +3245,7 @@
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 3,
-              "search_rank": 43
+              "search_rank": 41
             },
             "points": 1.1
           },
@@ -3493,7 +3493,7 @@
               "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "LWR",
-              "depth_chart_order": 5,
+              "depth_chart_order": 6,
               "search_rank": 17
             },
             "points": 0.0
@@ -3689,7 +3689,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 449
+            "search_rank": 451
           },
           "points": 0.0
         },
@@ -3737,7 +3737,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 26
+            "search_rank": 28
           },
           "points": 0.0
         },
@@ -3749,10 +3749,10 @@
             "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
+            "depth_chart_order": 5,
             "search_rank": 27
           },
           "points": 0.0
@@ -3828,7 +3828,7 @@
               "injury_notes": null,
               "depth_chart_position": "SWR",
               "depth_chart_order": 1,
-              "search_rank": 35
+              "search_rank": 34
             },
             "points": 2.7
           },
@@ -3858,7 +3858,7 @@
               "team": "DAL",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "TE",
               "depth_chart_order": 1,
@@ -3959,7 +3959,7 @@
               "team": "DET",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Questionable",
               "injury_notes": null,
               "depth_chart_position": "SWR",
               "depth_chart_order": 1,
@@ -4011,7 +4011,7 @@
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
-              "search_rank": 186
+              "search_rank": 187
             },
             "points": 21.02
           }
@@ -4053,7 +4053,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 449
+            "search_rank": 451
           },
           "points": 19.3
         },
@@ -4190,7 +4190,7 @@
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 89
+            "search_rank": 91
           },
           "points": 14.0
         },
@@ -4282,10 +4282,10 @@
             "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
+            "depth_chart_order": 5,
             "search_rank": 27
           },
           "points": 0.0
@@ -4476,7 +4476,7 @@
               "team": "BAL",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Out",
               "injury_notes": null,
               "depth_chart_position": "QB",
               "depth_chart_order": 1,
@@ -4492,7 +4492,7 @@
               "team": "JAX",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RWR",
               "depth_chart_order": 2,
@@ -4570,7 +4570,7 @@
     {
       "week": 8,
       "result": "L",
-      "points": 0.0,
+      "points": 91.5,
       "lineup": [
         {
           "slot": "QB",
@@ -4602,9 +4602,9 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 449
+            "search_rank": 451
           },
-          "points": 0.0
+          "points": 0.3
         },
         {
           "slot": "RB",
@@ -4621,7 +4621,7 @@
             "depth_chart_order": 1,
             "search_rank": 12
           },
-          "points": 0.0
+          "points": 1.5
         },
         {
           "slot": "WR",
@@ -4655,7 +4655,7 @@
             "depth_chart_order": 2,
             "search_rank": 36
           },
-          "points": 0.0
+          "points": 39.5
         },
         {
           "slot": "TE",
@@ -4672,7 +4672,7 @@
             "depth_chart_order": 1,
             "search_rank": 63
           },
-          "points": 0.0
+          "points": 25.4
         },
         {
           "slot": "FLEX",
@@ -4689,7 +4689,7 @@
             "depth_chart_order": 1,
             "search_rank": 10
           },
-          "points": 0.0
+          "points": 12.8
         },
         {
           "slot": "K",
@@ -4704,9 +4704,9 @@
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 89
+            "search_rank": 91
           },
-          "points": 0.0
+          "points": 12.0
         },
         {
           "slot": "DEF",
@@ -4755,7 +4755,7 @@
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 89
+            "search_rank": 91
           },
           "points": 0.0
         },
@@ -4773,7 +4773,7 @@
             "depth_chart_order": 2,
             "search_rank": 111
           },
-          "points": 0.0
+          "points": 6.7
         },
         {
           "player": {
@@ -4789,7 +4789,7 @@
             "depth_chart_order": 1,
             "search_rank": 153
           },
-          "points": 0.0
+          "points": 9.7
         },
         {
           "player": {
@@ -4805,7 +4805,7 @@
             "depth_chart_order": 2,
             "search_rank": 89
           },
-          "points": 0.0
+          "points": 49.1
         },
         {
           "player": {
@@ -4815,10 +4815,10 @@
             "team": "NYJ",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": "Out",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
+            "depth_chart_order": 5,
             "search_rank": 27
           },
           "points": 0.0
@@ -4844,7 +4844,7 @@
         "roster_id": 1,
         "team_name": "El Guajolote Macias",
         "username": "JerrysaurusRex",
-        "points": 19.3,
+        "points": 141.3,
         "lineup": [
           {
             "slot": "QB",
@@ -4861,7 +4861,7 @@
               "depth_chart_order": 1,
               "search_rank": 88
             },
-            "points": 0.0
+            "points": 26.9
           },
           {
             "slot": "RB",
@@ -4872,13 +4872,13 @@
               "team": "BUF",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Questionable",
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
               "search_rank": 5
             },
-            "points": 0.0
+            "points": 18.1
           },
           {
             "slot": "RB",
@@ -4895,7 +4895,7 @@
               "depth_chart_order": 1,
               "search_rank": 32
             },
-            "points": 0.0
+            "points": 25.0
           },
           {
             "slot": "WR",
@@ -4907,12 +4907,12 @@
               "status": "Active",
               "active": true,
               "injury_status": "Questionable",
-              "injury_notes": "Sprain",
+              "injury_notes": null,
               "depth_chart_position": "LWR",
               "depth_chart_order": 1,
-              "search_rank": 50
+              "search_rank": 48
             },
-            "points": 0.0
+            "points": 16.6
           },
           {
             "slot": "WR",
@@ -4946,7 +4946,7 @@
               "depth_chart_order": 1,
               "search_rank": 230
             },
-            "points": 0.0
+            "points": 11.6
           },
           {
             "slot": "FLEX",
@@ -4957,13 +4957,13 @@
               "team": "ATL",
               "status": "Active",
               "active": true,
-              "injury_status": null,
+              "injury_status": "Questionable",
               "injury_notes": null,
               "depth_chart_position": "LWR",
               "depth_chart_order": 1,
               "search_rank": 19
             },
-            "points": 0.0
+            "points": 1.8
           },
           {
             "slot": "K",
@@ -4980,7 +4980,7 @@
               "depth_chart_order": 1,
               "search_rank": 155
             },
-            "points": 0.0
+            "points": 1.0
           },
           {
             "slot": "DEF",
@@ -4997,7 +4997,7 @@
               "depth_chart_order": null,
               "search_rank": null
             },
-            "points": 0.0
+            "points": 21.0
           }
         ],
         "bench": [
@@ -5015,7 +5015,7 @@
               "depth_chart_order": 3,
               "search_rank": 206
             },
-            "points": 0.0
+            "points": 1.4
           },
           {
             "player": {
@@ -5031,7 +5031,7 @@
               "depth_chart_order": 1,
               "search_rank": 45
             },
-            "points": 0.0
+            "points": 6.9
           },
           {
             "player": {
@@ -5079,7 +5079,7 @@
               "depth_chart_order": 2,
               "search_rank": 118
             },
-            "points": 0.0
+            "points": 3.1
           },
           {
             "player": {
@@ -5095,7 +5095,7 @@
               "depth_chart_order": 2,
               "search_rank": 65
             },
-            "points": 0.0
+            "points": 11.6
           },
           {
             "player": {
@@ -5393,7 +5393,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 449
+            "search_rank": 451
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -5424,7 +5424,7 @@
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 449
+            "search_rank": 451
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -5454,7 +5454,7 @@
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
+            "depth_chart_order": 1,
             "search_rank": 135
           },
           "roster_id": 10,
@@ -5547,7 +5547,7 @@
             "injury_status": "IR",
             "injury_notes": null,
             "depth_chart_position": "RWR",
-            "depth_chart_order": 6,
+            "depth_chart_order": 7,
             "search_rank": 117
           },
           "roster_id": 10,
@@ -5828,7 +5828,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 2,
-            "search_rank": 26
+            "search_rank": 28
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -6013,7 +6013,7 @@
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 89
+            "search_rank": 91
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -6062,7 +6062,7 @@
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 89
+            "search_rank": 91
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
