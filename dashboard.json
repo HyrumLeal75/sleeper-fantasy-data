@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T05:55:51.807127+00:00",
+  "generated_at": "2026-11-01T13:14:36.862231+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -453,17 +453,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "7021",
-            "name": "Rico Dowdle",
+            "player_id": "8138",
+            "name": "James Cook III",
             "position": "RB",
-            "team": "PIT",
+            "team": "BUF",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 65
+            "depth_chart_order": 1,
+            "search_rank": 5
           }
         },
         {
@@ -517,17 +517,17 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
-            "status": null,
-            "active": null,
+            "player_id": "7600",
+            "name": "Pat Freiermuth",
+            "position": "TE",
+            "team": "PIT",
+            "status": "Active",
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": null,
-            "depth_chart_order": null,
-            "search_rank": null
+            "depth_chart_position": "TE",
+            "depth_chart_order": 1,
+            "search_rank": 230
           }
         },
         {
@@ -1336,6 +1336,19 @@
         "search_rank": 98
       },
       {
+        "player_id": "7002",
+        "name": "Juwan Johnson",
+        "position": "TE",
+        "team": "NO",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "TE",
+        "depth_chart_order": 1,
+        "search_rank": 103
+      },
+      {
         "player_id": "11603",
         "name": "AJ Barner",
         "position": "TE",
@@ -1425,19 +1438,6 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
         "search_rank": 148
-      },
-      {
-        "player_id": "12502",
-        "name": "Gunnar Helm",
-        "position": "TE",
-        "team": "TEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 1,
-        "search_rank": 153
       }
     ],
     "K": [
