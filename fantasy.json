@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T21:28:58.590386+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-01T05:55:51.807127+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -1407,17 +1407,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "8136",
-            "name": "Rachaad White",
+            "player_id": "9753",
+            "name": "Zach Charbonnet",
             "position": "RB",
-            "team": "WAS",
+            "team": "SEA",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 125
+            "search_rank": 101
           }
         },
         {
@@ -1494,6 +1494,19 @@
           "search_rank": 80
         },
         {
+          "player_id": "8136",
+          "name": "Rachaad White",
+          "position": "RB",
+          "team": "WAS",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 125
+        },
+        {
           "player_id": "9500",
           "name": "Josh Downs",
           "position": "WR",
@@ -1505,19 +1518,6 @@
           "depth_chart_position": "SWR",
           "depth_chart_order": 1,
           "search_rank": 111
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 101
         },
         {
           "player_id": "9757",
@@ -5186,17 +5186,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "13279",
-            "name": "Carnell Tate",
+            "player_id": "11783",
+            "name": "Ryan Flournoy",
             "position": "WR",
-            "team": "TEN",
+            "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 6,
-            "search_rank": 61
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 3,
+            "search_rank": 199
           }
         },
         {
@@ -5260,17 +5260,30 @@
           "search_rank": 39
         },
         {
-          "player_id": "3271",
-          "name": "Tyler Higbee",
+          "player_id": "13279",
+          "name": "Carnell Tate",
+          "position": "WR",
+          "team": "TEN",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 6,
+          "search_rank": 61
+        },
+        {
+          "player_id": "6865",
+          "name": "Colby Parkinson",
           "position": "TE",
           "team": "LAR",
           "status": "Active",
           "active": true,
-          "injury_status": null,
+          "injury_status": "Questionable",
           "injury_notes": null,
           "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 636
+          "depth_chart_order": 2,
+          "search_rank": 136
         },
         {
           "player_id": "7042",
@@ -5297,19 +5310,6 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
           "search_rank": 42
-        },
-        {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 2,
-          "search_rank": 423
         }
       ],
       "reserve": [
@@ -5367,6 +5367,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 141
+        },
+        {
+          "player_id": "11783",
+          "name": "Ryan Flournoy",
+          "position": "WR",
+          "team": "DAL",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 3,
+          "search_rank": 199
         },
         {
           "player_id": "12526",
@@ -5434,19 +5447,6 @@
           "search_rank": 151
         },
         {
-          "player_id": "3271",
-          "name": "Tyler Higbee",
-          "position": "TE",
-          "team": "LAR",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 636
-        },
-        {
           "player_id": "4984",
           "name": "Josh Allen",
           "position": "QB",
@@ -5486,6 +5486,19 @@
           "search_rank": 56
         },
         {
+          "player_id": "6865",
+          "name": "Colby Parkinson",
+          "position": "TE",
+          "team": "LAR",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Questionable",
+          "injury_notes": null,
+          "depth_chart_position": "TE",
+          "depth_chart_order": 2,
+          "search_rank": 136
+        },
+        {
           "player_id": "7042",
           "name": "Tyler Bass",
           "position": "K",
@@ -5523,19 +5536,6 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 10,
           "search_rank": 94
-        },
-        {
-          "player_id": "9482",
-          "name": "Michael Mayer",
-          "position": "TE",
-          "team": "LV",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 2,
-          "search_rank": 423
         },
         {
           "player_id": "9509",
@@ -44775,17 +44775,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "8136",
-                    "name": "Rachaad White",
+                    "player_id": "9753",
+                    "name": "Zach Charbonnet",
                     "position": "RB",
-                    "team": "WAS",
+                    "team": "SEA",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 125
+                    "search_rank": 101
                   },
                   "points": 0.0
                 },
@@ -44891,6 +44891,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "8136",
+                    "name": "Rachaad White",
+                    "position": "RB",
+                    "team": "WAS",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 125
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "8205",
                     "name": "Isiah Pacheco",
                     "position": "RB",
@@ -44918,22 +44934,6 @@
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 1,
                     "search_rank": 111
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9753",
-                    "name": "Zach Charbonnet",
-                    "position": "RB",
-                    "team": "SEA",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 101
                   },
                   "points": 0.0
                 },
@@ -46176,17 +46176,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "13279",
-                    "name": "Carnell Tate",
+                    "player_id": "11783",
+                    "name": "Ryan Flournoy",
                     "position": "WR",
-                    "team": "TEN",
+                    "team": "DAL",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Out",
+                    "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 6,
-                    "search_rank": 61
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 3,
+                    "search_rank": 199
                   },
                   "points": 0.0
                 },
@@ -46260,17 +46260,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "3271",
-                    "name": "Tyler Higbee",
-                    "position": "TE",
-                    "team": "LAR",
+                    "player_id": "13279",
+                    "name": "Carnell Tate",
+                    "position": "WR",
+                    "team": "TEN",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Out",
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 636
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 6,
+                    "search_rank": 61
                   },
                   "points": 0.0
                 },
@@ -46287,6 +46287,22 @@
                     "depth_chart_position": null,
                     "depth_chart_order": 6,
                     "search_rank": 56
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "6865",
+                    "name": "Colby Parkinson",
+                    "position": "TE",
+                    "team": "LAR",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Questionable",
+                    "injury_notes": null,
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 2,
+                    "search_rank": 136
                   },
                   "points": 0.0
                 },
@@ -46335,22 +46351,6 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 10,
                     "search_rank": 94
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9482",
-                    "name": "Michael Mayer",
-                    "position": "TE",
-                    "team": "LV",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 2,
-                    "search_rank": 423
                   },
                   "points": 0.0
                 }
@@ -46899,6 +46899,104 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1422447212306124800",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793500352506,
+          "roster_ids": [
+            11
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11783",
+                "name": "Ryan Flournoy",
+                "position": "WR",
+                "team": "DAL",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 3,
+                "search_rank": 199
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "9482",
+                "name": "Michael Mayer",
+                "position": "TE",
+                "team": "LV",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 2,
+                "search_rank": 423
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1422445314131890176",
+          "week": 8,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1793499899947,
+          "roster_ids": [
+            11
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "6865",
+                "name": "Colby Parkinson",
+                "position": "TE",
+                "team": "LAR",
+                "status": "Active",
+                "active": true,
+                "injury_status": "Questionable",
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 2,
+                "search_rank": 136
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "3271",
+                "name": "Tyler Higbee",
+                "position": "TE",
+                "team": "LAR",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 1,
+                "search_rank": 636
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1422330488219021312",
           "week": 8,
