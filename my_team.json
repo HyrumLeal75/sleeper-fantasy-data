@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T21:58:13.041088+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-02T05:55:30.507983+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -503,7 +503,7 @@
   "current_matchup": {
     "week": 8,
     "matchup_id": 4,
-    "my_points": 91.5,
+    "my_points": 120.28,
     "my_lineup": [
       {
         "slot": "QB",
@@ -654,7 +654,7 @@
       "roster_id": 1,
       "team_name": "El Guajolote Macias",
       "username": "JerrysaurusRex",
-      "points": 141.3,
+      "points": 146.3,
       "lineup": [
         {
           "slot": "QB",
@@ -4570,7 +4570,7 @@
     {
       "week": 8,
       "result": "L",
-      "points": 91.5,
+      "points": 120.28,
       "lineup": [
         {
           "slot": "QB",
@@ -4587,7 +4587,7 @@
             "depth_chart_order": 1,
             "search_rank": 23
           },
-          "points": 0.0
+          "points": 18.98
         },
         {
           "slot": "RB",
@@ -4604,7 +4604,7 @@
             "depth_chart_order": 1,
             "search_rank": 451
           },
-          "points": 0.3
+          "points": 6.9
         },
         {
           "slot": "RB",
@@ -4621,7 +4621,7 @@
             "depth_chart_order": 1,
             "search_rank": 12
           },
-          "points": 1.5
+          "points": 4.7
         },
         {
           "slot": "WR",
@@ -4757,7 +4757,7 @@
             "depth_chart_order": 1,
             "search_rank": 91
           },
-          "points": 0.0
+          "points": 11.7
         },
         {
           "player": {
@@ -4844,7 +4844,7 @@
         "roster_id": 1,
         "team_name": "El Guajolote Macias",
         "username": "JerrysaurusRex",
-        "points": 141.3,
+        "points": 146.3,
         "lineup": [
           {
             "slot": "QB",
@@ -4980,7 +4980,7 @@
               "depth_chart_order": 1,
               "search_rank": 155
             },
-            "points": 1.0
+            "points": 6.0
           },
           {
             "slot": "DEF",
@@ -5079,7 +5079,7 @@
               "depth_chart_order": 2,
               "search_rank": 118
             },
-            "points": 3.1
+            "points": 20.4
           },
           {
             "player": {
