@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T14:04:19.899576+00:00",
+  "generated_at": "2026-11-03T23:16:15.755955+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -28,7 +28,7 @@
     ],
     "settings": {
       "best_ball": 0,
-      "last_report": 7,
+      "last_report": 8,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -3256,17 +3256,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "13287",
-            "name": "Jeremiyah Love",
+            "player_id": "4034",
+            "name": "Christian McCaffrey",
             "position": "RB",
-            "team": "ARI",
+            "team": "SF",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 15
+            "search_rank": 4
           }
         },
         {
@@ -3288,17 +3288,17 @@
         {
           "slot": "WR1",
           "player": {
-            "player_id": "8126",
-            "name": "Wan'Dale Robinson",
+            "player_id": "11610",
+            "name": "Malik Washington",
             "position": "WR",
-            "team": "TEN",
+            "team": "MIA",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 105
+            "search_rank": 176
           }
         },
         {
@@ -3320,17 +3320,17 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "5012",
-            "name": "Mark Andrews",
+            "player_id": "4993",
+            "name": "Mike Gesicki",
             "position": "TE",
-            "team": "BAL",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 96
+            "search_rank": 448
           }
         },
         {
@@ -3397,19 +3397,6 @@
           "search_rank": 22
         },
         {
-          "player_id": "11610",
-          "name": "Malik Washington",
-          "position": "WR",
-          "team": "MIA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "SWR",
-          "depth_chart_order": 1,
-          "search_rank": 176
-        },
-        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -3423,30 +3410,17 @@
           "search_rank": 60
         },
         {
-          "player_id": "4034",
-          "name": "Christian McCaffrey",
-          "position": "RB",
-          "team": "SF",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 4
-        },
-        {
-          "player_id": "4993",
-          "name": "Mike Gesicki",
+          "player_id": "5012",
+          "name": "Mark Andrews",
           "position": "TE",
-          "team": "CIN",
+          "team": "BAL",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "TE",
           "depth_chart_order": 1,
-          "search_rank": 448
+          "search_rank": 96
         },
         {
           "player_id": "6806",
@@ -3460,9 +3434,36 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 68
+        },
+        {
+          "player_id": "8126",
+          "name": "Wan'Dale Robinson",
+          "position": "WR",
+          "team": "TEN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 1,
+          "search_rank": 105
         }
       ],
-      "reserve": [],
+      "reserve": [
+        {
+          "player_id": "13287",
+          "name": "Jeremiyah Love",
+          "position": "RB",
+          "team": "ARI",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 15
+        }
+      ],
       "taxi": [],
       "all_players": [
         {
@@ -4643,17 +4644,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "12507",
-            "name": "Omarion Hampton",
+            "player_id": "8132",
+            "name": "Tyler Allgeier",
             "position": "RB",
-            "team": "LAC",
+            "team": "ARI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 12
+            "depth_chart_order": 2,
+            "search_rank": 89
           }
         },
         {
@@ -4755,6 +4756,19 @@
       ],
       "bench": [
         {
+          "player_id": "12507",
+          "name": "Omarion Hampton",
+          "position": "RB",
+          "team": "LAC",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 12
+        },
+        {
           "player_id": "13294",
           "name": "Makai Lemon",
           "position": "WR",
@@ -4794,32 +4808,6 @@
           "search_rank": 153
         },
         {
-          "player_id": "8132",
-          "name": "Tyler Allgeier",
-          "position": "RB",
-          "team": "ARI",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 89
-        },
-        {
-          "player_id": "8155",
-          "name": "Breece Hall",
-          "position": "RB",
-          "team": "NYJ",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Out",
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 5,
-          "search_rank": 27
-        },
-        {
           "player_id": "9758",
           "name": "C.J. Stroud",
           "position": "QB",
@@ -4846,6 +4834,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 110
+        },
+        {
+          "player_id": "8155",
+          "name": "Breece Hall",
+          "position": "RB",
+          "team": "NYJ",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 5,
+          "search_rank": 27
         }
       ],
       "taxi": [],
@@ -47883,17 +47884,17 @@
           {
             "slot": "RB",
             "player": {
-              "player_id": "12507",
-              "name": "Omarion Hampton",
+              "player_id": "8132",
+              "name": "Tyler Allgeier",
               "position": "RB",
-              "team": "LAC",
+              "team": "ARI",
               "status": "Active",
               "active": true,
               "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RB",
-              "depth_chart_order": 1,
-              "search_rank": 12
+              "depth_chart_order": 2,
+              "search_rank": 89
             },
             "points": 0.0
           },
@@ -48019,6 +48020,22 @@
           },
           {
             "player": {
+              "player_id": "12507",
+              "name": "Omarion Hampton",
+              "position": "RB",
+              "team": "LAC",
+              "status": "Active",
+              "active": true,
+              "injury_status": null,
+              "injury_notes": null,
+              "depth_chart_position": "RB",
+              "depth_chart_order": 1,
+              "search_rank": 12
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
               "player_id": "13294",
               "name": "Makai Lemon",
               "position": "WR",
@@ -48062,22 +48079,6 @@
               "depth_chart_position": "LWR",
               "depth_chart_order": 1,
               "search_rank": 153
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
-              "player_id": "8132",
-              "name": "Tyler Allgeier",
-              "position": "RB",
-              "team": "ARI",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "RB",
-              "depth_chart_order": 2,
-              "search_rank": 89
             },
             "points": 0.0
           },
@@ -50425,17 +50426,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "12507",
-                    "name": "Omarion Hampton",
+                    "player_id": "8132",
+                    "name": "Tyler Allgeier",
                     "position": "RB",
-                    "team": "LAC",
+                    "team": "ARI",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 12
+                    "depth_chart_order": 2,
+                    "search_rank": 89
                   },
                   "points": 0.0
                 },
@@ -50561,6 +50562,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "12507",
+                    "name": "Omarion Hampton",
+                    "position": "RB",
+                    "team": "LAC",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 12
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "13294",
                     "name": "Makai Lemon",
                     "position": "WR",
@@ -50604,22 +50621,6 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
                     "search_rank": 153
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8132",
-                    "name": "Tyler Allgeier",
-                    "position": "RB",
-                    "team": "ARI",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 89
                   },
                   "points": 0.0
                 },
@@ -51259,17 +51260,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "13287",
-                    "name": "Jeremiyah Love",
+                    "player_id": "4034",
+                    "name": "Christian McCaffrey",
                     "position": "RB",
-                    "team": "ARI",
+                    "team": "SF",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Out",
+                    "injury_status": "Questionable",
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 15
+                    "search_rank": 4
                   },
                   "points": 0.0
                 },
@@ -51293,17 +51294,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "8126",
-                    "name": "Wan'Dale Robinson",
+                    "player_id": "11610",
+                    "name": "Malik Washington",
                     "position": "WR",
-                    "team": "TEN",
+                    "team": "MIA",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 1,
-                    "search_rank": 105
+                    "search_rank": 176
                   },
                   "points": 0.0
                 },
@@ -51327,17 +51328,17 @@
                 {
                   "slot": "TE",
                   "player": {
-                    "player_id": "5012",
-                    "name": "Mark Andrews",
+                    "player_id": "4993",
+                    "name": "Mike Gesicki",
                     "position": "TE",
-                    "team": "BAL",
+                    "team": "CIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 96
+                    "search_rank": 448
                   },
                   "points": 0.0
                 },
@@ -51412,17 +51413,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "11610",
-                    "name": "Malik Washington",
-                    "position": "WR",
-                    "team": "MIA",
+                    "player_id": "13287",
+                    "name": "Jeremiyah Love",
+                    "position": "RB",
+                    "team": "ARI",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Out",
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
+                    "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 176
+                    "search_rank": 15
                   },
                   "points": 0.0
                 },
@@ -51444,33 +51445,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "4034",
-                    "name": "Christian McCaffrey",
-                    "position": "RB",
-                    "team": "SF",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 4
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "4993",
-                    "name": "Mike Gesicki",
+                    "player_id": "5012",
+                    "name": "Mark Andrews",
                     "position": "TE",
-                    "team": "CIN",
+                    "team": "BAL",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 448
+                    "search_rank": 96
                   },
                   "points": 0.0
                 },
@@ -51487,6 +51472,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
                     "search_rank": 68
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "8126",
+                    "name": "Wan'Dale Robinson",
+                    "position": "WR",
+                    "team": "TEN",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 105
                   },
                   "points": 0.0
                 }
