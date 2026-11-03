@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-03T00:54:57.132266+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-03T14:04:19.899576+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
-  "current_week": 8,
+  "current_week": 9,
   "team_name": "FearNando Mendoza",
   "username": "Hyrum75",
   "roster_id": 10,
@@ -14,17 +14,17 @@
     "team_name": "FearNando Mendoza",
     "username": "Hyrum75",
     "wins": 4,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "points_for": 882.6,
-    "points_against": 882.26,
+    "points_for": 1019.58,
+    "points_against": 1028.56,
     "waiver_position": 11
   },
   "season_summary": {
     "wins": 4,
-    "losses": 3,
+    "losses": 4,
     "ties": 0,
-    "average_points": 126.09,
+    "average_points": 127.45,
     "highest_score": 177.42,
     "lowest_score": 82.0
   },
@@ -279,9 +279,9 @@
     }
   ],
   "current_matchup": {
-    "week": 8,
-    "matchup_id": 4,
-    "my_points": 120.28,
+    "week": 9,
+    "matchup_id": 5,
+    "my_points": 0.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -429,146 +429,146 @@
       }
     ],
     "opponent": {
-      "roster_id": 1,
-      "team_name": "El Guajolote Macias",
-      "username": "JerrysaurusRex",
-      "points": 146.3,
+      "roster_id": 4,
+      "team_name": "ManuBro",
+      "username": "ManuBro",
+      "points": 0.0,
       "lineup": [
         {
           "slot": "QB",
           "player": {
-            "player_id": "5849",
-            "name": "Kyler Murray",
+            "player_id": "3294",
+            "name": "Dak Prescott",
             "position": "QB",
-            "team": "MIN",
+            "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 87
+            "search_rank": 39
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "8138",
-            "name": "James Cook III",
+            "player_id": "6813",
+            "name": "Jonathan Taylor",
             "position": "RB",
-            "team": "BUF",
-            "status": "Active",
-            "active": true,
-            "injury_status": "Questionable",
-            "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 5
-          }
-        },
-        {
-          "slot": "RB2",
-          "player": {
-            "player_id": "11584",
-            "name": "Bucky Irving",
-            "position": "RB",
-            "team": "TB",
+            "team": "IND",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 32
+            "search_rank": 4
+          }
+        },
+        {
+          "slot": "RB2",
+          "player": {
+            "player_id": "8228",
+            "name": "Jaylen Warren",
+            "position": "RB",
+            "team": "PIT",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "RB",
+            "depth_chart_order": 1,
+            "search_rank": 52
           }
         },
         {
           "slot": "WR1",
           "player": {
-            "player_id": "4983",
-            "name": "DJ Moore",
+            "player_id": "9997",
+            "name": "Zay Flowers",
             "position": "WR",
-            "team": "BUF",
+            "team": "BAL",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "LWR",
+            "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 50
+            "search_rank": 40
           }
         },
         {
           "slot": "WR2",
           "player": {
-            "player_id": "8167",
-            "name": "Christian Watson",
+            "player_id": "9487",
+            "name": "Parker Washington",
             "position": "WR",
-            "team": "GB",
+            "team": "JAX",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "LWR",
+            "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 64
+            "search_rank": 68
           }
         },
         {
           "slot": "TE",
           "player": {
-            "player_id": "7600",
-            "name": "Pat Freiermuth",
+            "player_id": "12517",
+            "name": "Colston Loveland",
             "position": "TE",
-            "team": "PIT",
+            "team": "CHI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 230
+            "search_rank": 36
           }
         },
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "8112",
-            "name": "Drake London",
+            "player_id": "13274",
+            "name": "Germie Bernard",
             "position": "WR",
-            "team": "ATL",
+            "team": "PIT",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 19
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 2,
+            "search_rank": 194
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "4227",
-            "name": "Harrison Butker",
+            "player_id": "12185",
+            "name": "Spencer Shrader",
             "position": "K",
-            "team": "KC",
+            "team": "IND",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 155
+            "search_rank": 355
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "PIT",
-            "name": "Steelers",
+            "player_id": "CHI",
+            "name": "Bears",
             "position": "DEF",
-            "team": "PIT",
+            "team": "CHI",
             "status": null,
             "active": true,
             "injury_status": null,
