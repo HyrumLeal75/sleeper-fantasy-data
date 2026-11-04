@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T06:08:45.343221+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-04T14:25:35.620303+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -16,7 +16,7 @@
     "WR": 50,
     "TE": 50,
     "K": 27,
-    "DEF": 18
+    "DEF": 19
   },
   "players": {
     "QB": [
@@ -712,19 +712,6 @@
         "search_rank": 92
       },
       {
-        "player_id": "13337",
-        "name": "Emmett Johnson",
-        "position": "RB",
-        "team": "KC",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 113
-      },
-      {
         "player_id": "11589",
         "name": "Trey Benson",
         "position": "RB",
@@ -738,19 +725,6 @@
         "search_rank": 114
       },
       {
-        "player_id": "13305",
-        "name": "Mike Washington Jr.",
-        "position": "RB",
-        "team": "LV",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 123
-      },
-      {
         "player_id": "10219",
         "name": "Chris Rodriguez Jr.",
         "position": "RB",
@@ -762,19 +736,6 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
         "search_rank": 125
-      },
-      {
-        "player_id": "12469",
-        "name": "Dylan Sampson",
-        "position": "RB",
-        "team": "CLE",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 129
       },
       {
         "player_id": "9225",
@@ -918,6 +879,19 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 3,
         "search_rank": 176
+      },
+      {
+        "player_id": "9757",
+        "name": "Kendre Miller",
+        "position": "RB",
+        "team": "NO",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 180
       },
       {
         "player_id": "12455",
@@ -1321,6 +1295,32 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 3,
         "search_rank": 512
+      },
+      {
+        "player_id": "11571",
+        "name": "Isaiah Davis",
+        "position": "RB",
+        "team": "NYJ",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 3,
+        "search_rank": 518
+      },
+      {
+        "player_id": "13419",
+        "name": "Jaydn Ott",
+        "position": "RB",
+        "team": "KC",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 3,
+        "search_rank": 527
       }
     ],
     "WR": [
@@ -1403,19 +1403,6 @@
         "search_rank": 126
       },
       {
-        "player_id": "5872",
-        "name": "Deebo Samuel Sr.",
-        "position": "WR",
-        "team": "SF",
-        "status": "Active",
-        "active": true,
-        "injury_status": "Out",
-        "injury_notes": null,
-        "depth_chart_position": "SWR",
-        "depth_chart_order": 8,
-        "search_rank": 130
-      },
-      {
         "player_id": "13293",
         "name": "Ja'Kobi Lane",
         "position": "WR",
@@ -1466,19 +1453,6 @@
         "depth_chart_position": "RWR",
         "depth_chart_order": 3,
         "search_rank": 160
-      },
-      {
-        "player_id": "11625",
-        "name": "Adonai Mitchell",
-        "position": "WR",
-        "team": "NYJ",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 3,
-        "search_rank": 162
       },
       {
         "player_id": "9504",
@@ -1973,6 +1947,32 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 369
+      },
+      {
+        "player_id": "13343",
+        "name": "Vinny Anthony II",
+        "position": "WR",
+        "team": "ATL",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 377
+      },
+      {
+        "player_id": "13402",
+        "name": "Skyler Bell",
+        "position": "WR",
+        "team": "BUF",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Out",
+        "injury_notes": null,
+        "depth_chart_position": "SWR",
+        "depth_chart_order": 6,
+        "search_rank": 389
       }
     ],
     "TE": [
@@ -2055,6 +2055,19 @@
         "search_rank": 131
       },
       {
+        "player_id": "6865",
+        "name": "Colby Parkinson",
+        "position": "TE",
+        "team": "LAR",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Out",
+        "injury_notes": null,
+        "depth_chart_position": "TE",
+        "depth_chart_order": 2,
+        "search_rank": 136
+      },
+      {
         "player_id": "8210",
         "name": "Chig Okonkwo",
         "position": "TE",
@@ -2066,6 +2079,19 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
         "search_rank": 137
+      },
+      {
+        "player_id": "12498",
+        "name": "Mason Taylor",
+        "position": "TE",
+        "team": "NYJ",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "TE",
+        "depth_chart_order": 1,
+        "search_rank": 138
       },
       {
         "player_id": "13349",
@@ -2599,32 +2625,6 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 5,
         "search_rank": 460
-      },
-      {
-        "player_id": "11371",
-        "name": "Julian Hill",
-        "position": "TE",
-        "team": "NE",
-        "status": "Inactive",
-        "active": true,
-        "injury_status": "IR",
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 5,
-        "search_rank": 462
-      },
-      {
-        "player_id": "4066",
-        "name": "Evan Engram",
-        "position": "TE",
-        "team": "DEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 1,
-        "search_rank": 464
       }
     ],
     "K": [
@@ -2681,17 +2681,17 @@
         "search_rank": 149
       },
       {
-        "player_id": "12713",
-        "name": "Andy Borregales",
+        "player_id": "12711",
+        "name": "Tyler Loop",
         "position": "K",
-        "team": "NE",
-        "status": "Active",
+        "team": "BAL",
+        "status": "Inactive",
         "active": true,
-        "injury_status": null,
+        "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "K",
         "depth_chart_order": 1,
-        "search_rank": 157
+        "search_rank": 150
       },
       {
         "player_id": "5189",
@@ -3138,6 +3138,32 @@
         "search_rank": null
       },
       {
+        "player_id": "JAX",
+        "name": "Jaguars",
+        "position": "DEF",
+        "team": "JAX",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
+        "player_id": "NYJ",
+        "name": "Jets",
+        "position": "DEF",
+        "team": "NYJ",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
         "player_id": "DET",
         "name": "Lions",
         "position": "DEF",
@@ -3194,19 +3220,6 @@
         "name": "Saints",
         "position": "DEF",
         "team": "NO",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
-        "player_id": "HOU",
-        "name": "Texans",
-        "position": "DEF",
-        "team": "HOU",
         "status": null,
         "active": true,
         "injury_status": null,

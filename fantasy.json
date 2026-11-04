@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T06:08:45.343221+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-04T14:25:35.620303+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -74,7 +74,7 @@
       "trade_review_days": 0,
       "bench_lock": 1,
       "offseason_adds": 0,
-      "leg": 8,
+      "leg": 9,
       "reserve_slots": 2,
       "reserve_allow_cov": 0,
       "daily_waivers_last_ran": 28
@@ -151,7 +151,7 @@
       "ties": 0,
       "points_for": 1079.88,
       "points_against": 840.44,
-      "waiver_position": 10
+      "waiver_position": 9
     },
     {
       "rank": 2,
@@ -175,7 +175,7 @@
       "ties": 0,
       "points_for": 1036.48,
       "points_against": 1026.8,
-      "waiver_position": 7
+      "waiver_position": 5
     },
     {
       "rank": 4,
@@ -187,7 +187,7 @@
       "ties": 0,
       "points_for": 1034.84,
       "points_against": 889.44,
-      "waiver_position": 6
+      "waiver_position": 4
     },
     {
       "rank": 5,
@@ -211,7 +211,7 @@
       "ties": 0,
       "points_for": 1019.58,
       "points_against": 1028.56,
-      "waiver_position": 11
+      "waiver_position": 10
     },
     {
       "rank": 7,
@@ -223,7 +223,7 @@
       "ties": 0,
       "points_for": 972.06,
       "points_against": 990.84,
-      "waiver_position": 5
+      "waiver_position": 11
     },
     {
       "rank": 8,
@@ -235,7 +235,7 @@
       "ties": 0,
       "points_for": 955.1,
       "points_against": 986.86,
-      "waiver_position": 9
+      "waiver_position": 7
     },
     {
       "rank": 9,
@@ -247,7 +247,7 @@
       "ties": 0,
       "points_for": 927.14,
       "points_against": 977.42,
-      "waiver_position": 8
+      "waiver_position": 6
     },
     {
       "rank": 10,
@@ -259,7 +259,7 @@
       "ties": 0,
       "points_for": 1080.8,
       "points_against": 1095.1,
-      "waiver_position": 2
+      "waiver_position": 8
     },
     {
       "rank": 11,
@@ -271,7 +271,7 @@
       "ties": 0,
       "points_for": 1014.38,
       "points_against": 1113.7,
-      "waiver_position": 4
+      "waiver_position": 3
     },
     {
       "rank": 12,
@@ -283,7 +283,7 @@
       "ties": 0,
       "points_for": 912.86,
       "points_against": 1088.48,
-      "waiver_position": 3
+      "waiver_position": 2
     }
   ],
   "waiver_order": [
@@ -294,53 +294,53 @@
     },
     {
       "waiver_position": 2,
-      "roster_id": 3,
-      "team_name": "Acaríciame El Lombardi"
-    },
-    {
-      "waiver_position": 3,
       "roster_id": 8,
       "team_name": "This Is Our Year"
     },
     {
-      "waiver_position": 4,
+      "waiver_position": 3,
       "roster_id": 12,
       "team_name": "Los Mapachitos"
     },
     {
-      "waiver_position": 5,
-      "roster_id": 9,
-      "team_name": "Jsgzz18"
-    },
-    {
-      "waiver_position": 6,
+      "waiver_position": 4,
       "roster_id": 4,
       "team_name": "ManuBro"
     },
     {
-      "waiver_position": 7,
+      "waiver_position": 5,
       "roster_id": 1,
       "team_name": "El Guajolote Macias"
     },
     {
-      "waiver_position": 8,
+      "waiver_position": 6,
       "roster_id": 7,
       "team_name": "Don Bitij"
     },
     {
-      "waiver_position": 9,
+      "waiver_position": 7,
       "roster_id": 6,
       "team_name": "ivasol"
     },
     {
-      "waiver_position": 10,
+      "waiver_position": 8,
+      "roster_id": 3,
+      "team_name": "Acaríciame El Lombardi"
+    },
+    {
+      "waiver_position": 9,
       "roster_id": 11,
       "team_name": "Makeroth"
     },
     {
-      "waiver_position": 11,
+      "waiver_position": 10,
       "roster_id": 10,
       "team_name": "FearNando Mendoza"
+    },
+    {
+      "waiver_position": 11,
+      "roster_id": 9,
+      "team_name": "Jsgzz18"
     },
     {
       "waiver_position": 12,
@@ -361,7 +361,7 @@
         "points_for": 1036.48,
         "points_against": 1026.8
       },
-      "waiver_position": 7,
+      "waiver_position": 5,
       "lineup": [
         {
           "slot": "QB",
@@ -928,17 +928,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "12498",
-            "name": "Mason Taylor",
-            "position": "TE",
-            "team": "NYJ",
+            "player_id": "9756",
+            "name": "Jordan Addison",
+            "position": "WR",
+            "team": "MIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 138
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 2,
+            "search_rank": 99
           }
         },
         {
@@ -960,10 +960,10 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "JAX",
-            "name": "Jaguars",
+            "player_id": "HOU",
+            "name": "Texans",
             "position": "DEF",
-            "team": "JAX",
+            "team": "HOU",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -1028,6 +1028,19 @@
           "search_rank": 85
         },
         {
+          "player_id": "5872",
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 8,
+          "search_rank": 130
+        },
+        {
           "player_id": "8122",
           "name": "Zonovan Knight",
           "position": "RB",
@@ -1039,19 +1052,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 669
-        },
-        {
-          "player_id": "9756",
-          "name": "Jordan Addison",
-          "position": "WR",
-          "team": "MIN",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RWR",
-          "depth_chart_order": 2,
-          "search_rank": 99
         }
       ],
       "reserve": [
@@ -1109,19 +1109,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 68
-        },
-        {
-          "player_id": "12498",
-          "name": "Mason Taylor",
-          "position": "TE",
-          "team": "NYJ",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 138
         },
         {
           "player_id": "12514",
@@ -1187,6 +1174,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 85
+        },
+        {
+          "player_id": "5872",
+          "name": "Deebo Samuel Sr.",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 8,
+          "search_rank": 130
         },
         {
           "player_id": "7543",
@@ -1267,10 +1267,10 @@
           "search_rank": 99
         },
         {
-          "player_id": "JAX",
-          "name": "Jaguars",
+          "player_id": "HOU",
+          "name": "Texans",
           "position": "DEF",
-          "team": "JAX",
+          "team": "HOU",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -1293,7 +1293,7 @@
         "points_for": 1080.8,
         "points_against": 1095.1
       },
-      "waiver_position": 2,
+      "waiver_position": 8,
       "lineup": [
         {
           "slot": "QB",
@@ -1442,6 +1442,19 @@
       ],
       "bench": [
         {
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 3,
+          "search_rank": 162
+        },
+        {
           "player_id": "12481",
           "name": "Cam Skattebo",
           "position": "RB",
@@ -1505,19 +1518,6 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
           "search_rank": 101
-        },
-        {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 180
         }
       ],
       "reserve": [
@@ -1550,6 +1550,19 @@
       ],
       "taxi": [],
       "all_players": [
+        {
+          "player_id": "11625",
+          "name": "Adonai Mitchell",
+          "position": "WR",
+          "team": "NYJ",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 3,
+          "search_rank": 162
+        },
         {
           "player_id": "11632",
           "name": "Malik Nabers",
@@ -1746,19 +1759,6 @@
           "search_rank": 101
         },
         {
-          "player_id": "9757",
-          "name": "Kendre Miller",
-          "position": "RB",
-          "team": "NO",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 180
-        },
-        {
           "player_id": "DEN",
           "name": "Broncos",
           "position": "DEF",
@@ -1785,7 +1785,7 @@
         "points_for": 1034.84,
         "points_against": 889.44
       },
-      "waiver_position": 6,
+      "waiver_position": 4,
       "lineup": [
         {
           "slot": "QB",
@@ -2743,7 +2743,7 @@
         "points_for": 955.1,
         "points_against": 986.86
       },
-      "waiver_position": 9,
+      "waiver_position": 7,
       "lineup": [
         {
           "slot": "QB",
@@ -3235,7 +3235,7 @@
         "points_for": 927.14,
         "points_against": 977.42
       },
-      "waiver_position": 8,
+      "waiver_position": 6,
       "lineup": [
         {
           "slot": "QB",
@@ -3675,7 +3675,7 @@
         "points_for": 912.86,
         "points_against": 1088.48
       },
-      "waiver_position": 3,
+      "waiver_position": 2,
       "lineup": [
         {
           "slot": "QB",
@@ -4141,7 +4141,7 @@
         "points_for": 972.06,
         "points_against": 990.84
       },
-      "waiver_position": 5,
+      "waiver_position": 11,
       "lineup": [
         {
           "slot": "QB",
@@ -4258,17 +4258,17 @@
         {
           "slot": "K",
           "player": {
-            "player_id": "12711",
-            "name": "Tyler Loop",
-            "position": "K",
-            "team": "BAL",
-            "status": "Inactive",
-            "active": true,
-            "injury_status": "IR",
+            "player_id": "0",
+            "name": "0",
+            "position": null,
+            "team": null,
+            "status": null,
+            "active": null,
+            "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "K",
-            "depth_chart_order": 1,
-            "search_rank": 150
+            "depth_chart_position": null,
+            "depth_chart_order": null,
+            "search_rank": null
           }
         },
         {
@@ -4303,6 +4303,19 @@
           "search_rank": 209
         },
         {
+          "player_id": "12469",
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 129
+        },
+        {
           "player_id": "12474",
           "name": "Woody Marks",
           "position": "RB",
@@ -4314,6 +4327,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 105
+        },
+        {
+          "player_id": "12713",
+          "name": "Andy Borregales",
+          "position": "K",
+          "team": "NE",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 157
         },
         {
           "player_id": "3214",
@@ -4353,19 +4379,6 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
           "search_rank": 55
-        },
-        {
-          "player_id": "NYJ",
-          "name": "Jets",
-          "position": "DEF",
-          "team": "NYJ",
-          "status": null,
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": null
         }
       ],
       "reserve": [
@@ -4425,6 +4438,19 @@
           "search_rank": 209
         },
         {
+          "player_id": "12469",
+          "name": "Dylan Sampson",
+          "position": "RB",
+          "team": "CLE",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 129
+        },
+        {
           "player_id": "12474",
           "name": "Woody Marks",
           "position": "RB",
@@ -4438,17 +4464,17 @@
           "search_rank": 105
         },
         {
-          "player_id": "12711",
-          "name": "Tyler Loop",
+          "player_id": "12713",
+          "name": "Andy Borregales",
           "position": "K",
-          "team": "BAL",
-          "status": "Inactive",
+          "team": "NE",
+          "status": "Active",
           "active": true,
-          "injury_status": "IR",
+          "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "K",
           "depth_chart_order": 1,
-          "search_rank": 150
+          "search_rank": 157
         },
         {
           "player_id": "2133",
@@ -4579,19 +4605,6 @@
           "depth_chart_position": null,
           "depth_chart_order": null,
           "search_rank": null
-        },
-        {
-          "player_id": "NYJ",
-          "name": "Jets",
-          "position": "DEF",
-          "team": "NYJ",
-          "status": null,
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": null
         }
       ]
     },
@@ -4607,7 +4620,7 @@
         "points_for": 1019.58,
         "points_against": 1028.56
       },
-      "waiver_position": 11,
+      "waiver_position": 10,
       "lineup": [
         {
           "slot": "QB",
@@ -4795,6 +4808,19 @@
           "search_rank": 111
         },
         {
+          "player_id": "13305",
+          "name": "Mike Washington Jr.",
+          "position": "RB",
+          "team": "LV",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 123
+        },
+        {
           "player_id": "13346",
           "name": "Denzel Boston",
           "position": "WR",
@@ -4969,6 +4995,19 @@
           "search_rank": 111
         },
         {
+          "player_id": "13305",
+          "name": "Mike Washington Jr.",
+          "position": "RB",
+          "team": "LV",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 123
+        },
+        {
           "player_id": "13346",
           "name": "Denzel Boston",
           "position": "WR",
@@ -5073,7 +5112,7 @@
         "points_for": 1079.88,
         "points_against": 840.44
       },
-      "waiver_position": 10,
+      "waiver_position": 9,
       "lineup": [
         {
           "slot": "QB",
@@ -5261,17 +5300,17 @@
           "search_rank": 61
         },
         {
-          "player_id": "6865",
-          "name": "Colby Parkinson",
-          "position": "TE",
-          "team": "LAR",
+          "player_id": "13337",
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC",
           "status": "Active",
           "active": true,
-          "injury_status": "Out",
+          "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "TE",
+          "depth_chart_position": "RB",
           "depth_chart_order": 2,
-          "search_rank": 136
+          "search_rank": 113
         },
         {
           "player_id": "7042",
@@ -5422,6 +5461,19 @@
           "search_rank": 61
         },
         {
+          "player_id": "13337",
+          "name": "Emmett Johnson",
+          "position": "RB",
+          "team": "KC",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 113
+        },
+        {
           "player_id": "1945",
           "name": "Chris Boswell",
           "position": "K",
@@ -5472,19 +5524,6 @@
           "depth_chart_position": null,
           "depth_chart_order": 7,
           "search_rank": 56
-        },
-        {
-          "player_id": "6865",
-          "name": "Colby Parkinson",
-          "position": "TE",
-          "team": "LAR",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Out",
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 2,
-          "search_rank": 136
         },
         {
           "player_id": "7042",
@@ -5565,7 +5604,7 @@
         "points_for": 1014.38,
         "points_against": 1113.7
       },
-      "waiver_position": 4,
+      "waiver_position": 3,
       "lineup": [
         {
           "slot": "QB",
@@ -44276,6 +44315,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "5872",
+                    "name": "Deebo Samuel Sr.",
+                    "position": "WR",
+                    "team": "SF",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Out",
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 8,
+                    "search_rank": 130
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "7543",
                     "name": "Travis Etienne Jr.",
                     "position": "RB",
@@ -44321,6 +44376,22 @@
                     "search_rank": 99
                   },
                   "points": 11.6
+                },
+                {
+                  "player": {
+                    "player_id": "HOU",
+                    "name": "Texans",
+                    "position": "DEF",
+                    "team": "HOU",
+                    "status": null,
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": null,
+                    "depth_chart_order": null,
+                    "search_rank": null
+                  },
+                  "points": 0.0
                 }
               ]
             },
@@ -44892,22 +44963,6 @@
                     "search_rank": 111
                   },
                   "points": 12.3
-                },
-                {
-                  "player": {
-                    "player_id": "9757",
-                    "name": "Kendre Miller",
-                    "position": "RB",
-                    "team": "NO",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 180
-                  },
-                  "points": 0.0
                 }
               ]
             },
@@ -46856,6 +46911,486 @@
       ],
       "transactions": [
         {
+          "transaction_id": "1423576382079868928",
+          "week": 8,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1793769567559,
+          "roster_ids": [
+            11
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "13337",
+                "name": "Emmett Johnson",
+                "position": "RB",
+                "team": "KC",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 113
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "6865",
+                "name": "Colby Parkinson",
+                "position": "TE",
+                "team": "LAR",
+                "status": "Active",
+                "active": true,
+                "injury_status": "Out",
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 2,
+                "search_rank": 136
+              },
+              "roster_id": 11,
+              "team_name": "Makeroth"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423575651637555200",
+          "week": 8,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1793769393408,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "HOU",
+                "name": "Texans",
+                "position": "DEF",
+                "team": "HOU",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "JAX",
+                "name": "Jaguars",
+                "position": "DEF",
+                "team": "JAX",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423575183561641984",
+          "week": 8,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1793769281810,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "5872",
+                "name": "Deebo Samuel Sr.",
+                "position": "WR",
+                "team": "SF",
+                "status": "Active",
+                "active": true,
+                "injury_status": "Out",
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 8,
+                "search_rank": 130
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "12498",
+                "name": "Mason Taylor",
+                "position": "TE",
+                "team": "NYJ",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 1,
+                "search_rank": 138
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423573633690882048",
+          "week": 8,
+          "type": "waiver",
+          "status": "failed",
+          "created": 1793768912293,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11625",
+                "name": "Adonai Mitchell",
+                "position": "WR",
+                "team": "NYJ",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RWR",
+                "depth_chart_order": 3,
+                "search_rank": 162
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423571556956700672",
+          "week": 8,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1793768417160,
+          "roster_ids": [
+            9
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "12713",
+                "name": "Andy Borregales",
+                "position": "K",
+                "team": "NE",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 157
+              },
+              "roster_id": 9,
+              "team_name": "Jsgzz18"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "12711",
+                "name": "Tyler Loop",
+                "position": "K",
+                "team": "BAL",
+                "status": "Inactive",
+                "active": true,
+                "injury_status": "IR",
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 150
+              },
+              "roster_id": 9,
+              "team_name": "Jsgzz18"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423571407924682752",
+          "week": 8,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1793768381628,
+          "roster_ids": [
+            9
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "12469",
+                "name": "Dylan Sampson",
+                "position": "RB",
+                "team": "CLE",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 129
+              },
+              "roster_id": 9,
+              "team_name": "Jsgzz18"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "NYJ",
+                "name": "Jets",
+                "position": "DEF",
+                "team": "NYJ",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 9,
+              "team_name": "Jsgzz18"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423571289582428160",
+          "week": 8,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1793768353414,
+          "roster_ids": [
+            3
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11625",
+                "name": "Adonai Mitchell",
+                "position": "WR",
+                "team": "NYJ",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RWR",
+                "depth_chart_order": 3,
+                "search_rank": 162
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "9757",
+                "name": "Kendre Miller",
+                "position": "RB",
+                "team": "NO",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 180
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423480950590877696",
+          "week": 8,
+          "type": "waiver",
+          "status": "failed",
+          "created": 1793746814920,
+          "roster_ids": [
+            6
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11625",
+                "name": "Adonai Mitchell",
+                "position": "WR",
+                "team": "NYJ",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RWR",
+                "depth_chart_order": 3,
+                "search_rank": 162
+              },
+              "roster_id": 6,
+              "team_name": "ivasol"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423366877270269952",
+          "week": 8,
+          "type": "waiver",
+          "status": "failed",
+          "created": 1793719617721,
+          "roster_ids": [
+            10
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "12469",
+                "name": "Dylan Sampson",
+                "position": "RB",
+                "team": "CLE",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 129
+              },
+              "roster_id": 10,
+              "team_name": "FearNando Mendoza"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423366811918802944",
+          "week": 8,
+          "type": "waiver",
+          "status": "failed",
+          "created": 1793719602139,
+          "roster_ids": [
+            10
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "7567",
+                "name": "Kenny Gainwell",
+                "position": "RB",
+                "team": "TB",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 86
+              },
+              "roster_id": 10,
+              "team_name": "FearNando Mendoza"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423365913524051968",
+          "week": 8,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1793719387946,
+          "roster_ids": [
+            10
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "13305",
+                "name": "Mike Washington Jr.",
+                "position": "RB",
+                "team": "LV",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 123
+              },
+              "roster_id": 10,
+              "team_name": "FearNando Mendoza"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1423163659139432448",
+          "week": 8,
+          "type": "waiver",
+          "status": "failed",
+          "created": 1793671166743,
+          "roster_ids": [
+            3
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "13305",
+                "name": "Mike Washington Jr.",
+                "position": "RB",
+                "team": "LV",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 123
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
           "transaction_id": "1422658468195614720",
           "week": 8,
           "type": "free_agent",
@@ -48068,6 +48603,22 @@
           },
           {
             "player": {
+              "player_id": "13305",
+              "name": "Mike Washington Jr.",
+              "position": "RB",
+              "team": "LV",
+              "status": "Active",
+              "active": true,
+              "injury_status": null,
+              "injury_notes": null,
+              "depth_chart_position": "RB",
+              "depth_chart_order": 2,
+              "search_rank": 123
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
               "player_id": "13346",
               "name": "Denzel Boston",
               "position": "WR",
@@ -49061,17 +49612,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "12498",
-                    "name": "Mason Taylor",
-                    "position": "TE",
-                    "team": "NYJ",
+                    "player_id": "9756",
+                    "name": "Jordan Addison",
+                    "position": "WR",
+                    "team": "MIN",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 138
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 99
                   },
                   "points": 0.0
                 },
@@ -49095,10 +49646,10 @@
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "JAX",
-                    "name": "Jaguars",
+                    "player_id": "HOU",
+                    "name": "Texans",
                     "position": "DEF",
-                    "team": "JAX",
+                    "team": "HOU",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -49177,6 +49728,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "5872",
+                    "name": "Deebo Samuel Sr.",
+                    "position": "WR",
+                    "team": "SF",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Out",
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 8,
+                    "search_rank": 130
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "7543",
                     "name": "Travis Etienne Jr.",
                     "position": "RB",
@@ -49204,22 +49771,6 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 2,
                     "search_rank": 669
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9756",
-                    "name": "Jordan Addison",
-                    "position": "WR",
-                    "team": "MIN",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 99
                   },
                   "points": 0.0
                 }
@@ -49668,6 +50219,22 @@
               "bench": [
                 {
                   "player": {
+                    "player_id": "11625",
+                    "name": "Adonai Mitchell",
+                    "position": "WR",
+                    "team": "NYJ",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 3,
+                    "search_rank": 162
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "12481",
                     "name": "Cam Skattebo",
                     "position": "RB",
@@ -49775,22 +50342,6 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
                     "search_rank": 101
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9757",
-                    "name": "Kendre Miller",
-                    "position": "RB",
-                    "team": "NO",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 180
                   },
                   "points": 0.0
                 }
@@ -50007,6 +50558,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "13337",
+                    "name": "Emmett Johnson",
+                    "position": "RB",
+                    "team": "KC",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 113
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "1945",
                     "name": "Chris Boswell",
                     "position": "K",
@@ -50034,22 +50601,6 @@
                     "depth_chart_position": null,
                     "depth_chart_order": 7,
                     "search_rank": 56
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "6865",
-                    "name": "Colby Parkinson",
-                    "position": "TE",
-                    "team": "LAR",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Out",
-                    "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 2,
-                    "search_rank": 136
                   },
                   "points": 0.0
                 },
@@ -50605,6 +51156,22 @@
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 2,
                     "search_rank": 111
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "13305",
+                    "name": "Mike Washington Jr.",
+                    "position": "RB",
+                    "team": "LV",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 123
                   },
                   "points": 0.0
                 },
@@ -51621,17 +52188,17 @@
                 {
                   "slot": "K",
                   "player": {
-                    "player_id": "12711",
-                    "name": "Tyler Loop",
-                    "position": "K",
-                    "team": "BAL",
-                    "status": "Inactive",
-                    "active": true,
-                    "injury_status": "IR",
+                    "player_id": "0",
+                    "name": "0",
+                    "position": null,
+                    "team": null,
+                    "status": null,
+                    "active": null,
+                    "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "K",
-                    "depth_chart_order": 1,
-                    "search_rank": 150
+                    "depth_chart_position": null,
+                    "depth_chart_order": null,
+                    "search_rank": null
                   },
                   "points": 0.0
                 },
@@ -51672,6 +52239,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "12469",
+                    "name": "Dylan Sampson",
+                    "position": "RB",
+                    "team": "CLE",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 129
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "12474",
                     "name": "Woody Marks",
                     "position": "RB",
@@ -51683,6 +52266,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 2,
                     "search_rank": 105
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "12713",
+                    "name": "Andy Borregales",
+                    "position": "K",
+                    "team": "NE",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "K",
+                    "depth_chart_order": 1,
+                    "search_rank": 157
                   },
                   "points": 0.0
                 },
@@ -51747,22 +52346,6 @@
                     "depth_chart_position": "QB",
                     "depth_chart_order": 1,
                     "search_rank": 55
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "NYJ",
-                    "name": "Jets",
-                    "position": "DEF",
-                    "team": "NYJ",
-                    "status": null,
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
                   },
                   "points": 0.0
                 }
