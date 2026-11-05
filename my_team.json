@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T06:37:58.205046+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-05T19:53:21.720868+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
