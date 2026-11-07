@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T19:19:25.283896+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-07T05:53:06.008282+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -1351,19 +1351,6 @@
         "search_rank": 75
       },
       {
-        "player_id": "13294",
-        "name": "Makai Lemon",
-        "position": "WR",
-        "team": "PHI",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "SWR",
-        "depth_chart_order": 2,
-        "search_rank": 91
-      },
-      {
         "player_id": "10222",
         "name": "Jayden Reed",
         "position": "WR",
@@ -1973,6 +1960,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 369
+      },
+      {
+        "player_id": "13343",
+        "name": "Vinny Anthony II",
+        "position": "WR",
+        "team": "ATL",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 377
       }
     ],
     "TE": [

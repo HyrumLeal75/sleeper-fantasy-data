@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T19:19:25.283896+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-07T05:53:06.008282+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -976,6 +976,19 @@
       ],
       "bench": [
         {
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 2,
+          "search_rank": 91
+        },
+        {
           "player_id": "13296",
           "name": "Caleb Douglas",
           "position": "WR",
@@ -1026,19 +1039,6 @@
           "depth_chart_position": "SWR",
           "depth_chart_order": 2,
           "search_rank": 130
-        },
-        {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
-          "position": "RB",
-          "team": "ARI",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Out",
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 669
         },
         {
           "player_id": "9756",
@@ -1122,6 +1122,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 39
+        },
+        {
+          "player_id": "13294",
+          "name": "Makai Lemon",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "SWR",
+          "depth_chart_order": 2,
+          "search_rank": 91
         },
         {
           "player_id": "13296",
@@ -1213,19 +1226,6 @@
           "depth_chart_position": "K",
           "depth_chart_order": 1,
           "search_rank": 155
-        },
-        {
-          "player_id": "8122",
-          "name": "Zonovan Knight",
-          "position": "RB",
-          "team": "ARI",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Out",
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 669
         },
         {
           "player_id": "8150",
@@ -49582,6 +49582,22 @@
               "bench": [
                 {
                   "player": {
+                    "player_id": "13294",
+                    "name": "Makai Lemon",
+                    "position": "WR",
+                    "team": "PHI",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 91
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "13296",
                     "name": "Caleb Douglas",
                     "position": "WR",
@@ -49657,22 +49673,6 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 5,
                     "search_rank": 34
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8122",
-                    "name": "Zonovan Knight",
-                    "position": "RB",
-                    "team": "ARI",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Out",
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 669
                   },
                   "points": 0.0
                 },
@@ -52225,6 +52225,55 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1424555369941704724",
+          "week": 9,
+          "type": "waiver",
+          "status": "complete",
+          "created": 1794002976455,
+          "roster_ids": [
+            2
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "13294",
+                "name": "Makai Lemon",
+                "position": "WR",
+                "team": "PHI",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 2,
+                "search_rank": 91
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "8122",
+                "name": "Zonovan Knight",
+                "position": "RB",
+                "team": "ARI",
+                "status": "Active",
+                "active": true,
+                "injury_status": "Out",
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 669
+              },
+              "roster_id": 2,
+              "team_name": "Horsepower"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1424405958683111424",
           "week": 9,
