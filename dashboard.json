@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T13:16:07.519885+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-11-08T21:58:49.237939+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -204,7 +204,7 @@
       "team": "CLE",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "injury_notes": null,
       "depth_chart_position": "SWR",
       "depth_chart_order": 2,
@@ -281,7 +281,7 @@
   "current_matchup": {
     "week": 9,
     "matchup_id": 5,
-    "my_points": 0.0,
+    "my_points": 117.56,
     "my_lineup": [
       {
         "slot": "QB",
@@ -432,7 +432,7 @@
       "roster_id": 4,
       "team_name": "ManuBro",
       "username": "ManuBro",
-      "points": 23.4,
+      "points": 93.5,
       "lineup": [
         {
           "slot": "QB",
@@ -906,7 +906,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 27
+        "search_rank": 28
       },
       {
         "player_id": "6797",
@@ -931,7 +931,7 @@
         "injury_status": "IR",
         "injury_notes": "Surgery",
         "depth_chart_position": "QB",
-        "depth_chart_order": 3,
+        "depth_chart_order": 4,
         "search_rank": 44
       },
       {
@@ -1045,7 +1045,7 @@
         "name": "Brian Robinson Jr.",
         "position": "RB",
         "team": "ATL",
-        "status": "Active",
+        "status": "Inactive",
         "active": true,
         "injury_status": "IR",
         "injury_notes": null,
@@ -1076,7 +1076,7 @@
         "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 3,
+        "depth_chart_order": 4,
         "search_rank": 92
       },
       {
@@ -1151,10 +1151,10 @@
         "team": "MIA",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 3,
+        "depth_chart_order": 2,
         "search_rank": 157
       }
     ],
@@ -1170,7 +1170,7 @@
         "injury_notes": null,
         "depth_chart_position": "RWR",
         "depth_chart_order": 2,
-        "search_rank": 74
+        "search_rank": 73
       },
       {
         "player_id": "11631",
@@ -1337,7 +1337,7 @@
         "team": "LAR",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 2,
@@ -1549,8 +1549,8 @@
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
         "search_rank": 242
       }
     ],
