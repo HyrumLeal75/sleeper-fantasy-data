@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-08T21:58:49.237939+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-09T06:15:26.274811+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -503,7 +503,7 @@
   "current_matchup": {
     "week": 9,
     "matchup_id": 5,
-    "my_points": 117.56,
+    "my_points": 141.46,
     "my_lineup": [
       {
         "slot": "QB",
@@ -654,7 +654,7 @@
       "roster_id": 4,
       "team_name": "ManuBro",
       "username": "ManuBro",
-      "points": 93.5,
+      "points": 128.6,
       "lineup": [
         {
           "slot": "QB",
@@ -5119,7 +5119,7 @@
     {
       "week": 9,
       "result": "W",
-      "points": 117.56,
+      "points": 141.46,
       "lineup": [
         {
           "slot": "QB",
@@ -5136,7 +5136,7 @@
             "depth_chart_order": 1,
             "search_rank": 23
           },
-          "points": 20.36
+          "points": 20.56
         },
         {
           "slot": "RB",
@@ -5170,7 +5170,7 @@
             "depth_chart_order": 1,
             "search_rank": 89
           },
-          "points": 3.9
+          "points": 6.6
         },
         {
           "slot": "WR",
@@ -5187,7 +5187,7 @@
             "depth_chart_order": 2,
             "search_rank": 65
           },
-          "points": 0.0
+          "points": 16.0
         },
         {
           "slot": "WR",
@@ -5272,7 +5272,7 @@
             "depth_chart_order": null,
             "search_rank": null
           },
-          "points": 7.0
+          "points": 12.0
         }
       ],
       "bench": [
@@ -5306,7 +5306,7 @@
             "depth_chart_order": 1,
             "search_rank": 12
           },
-          "points": 0.9
+          "points": 6.0
         },
         {
           "player": {
@@ -5338,7 +5338,7 @@
             "depth_chart_order": 2,
             "search_rank": 123
           },
-          "points": 0.5
+          "points": -0.3
         },
         {
           "player": {
@@ -5370,7 +5370,7 @@
             "depth_chart_order": 1,
             "search_rank": 98
           },
-          "points": 0.0
+          "points": 6.2
         },
         {
           "player": {
@@ -5393,7 +5393,7 @@
         "roster_id": 4,
         "team_name": "ManuBro",
         "username": "ManuBro",
-        "points": 93.5,
+        "points": 128.6,
         "lineup": [
           {
             "slot": "QB",
@@ -5495,7 +5495,7 @@
               "depth_chart_order": 1,
               "search_rank": 35
             },
-            "points": 0.0
+            "points": 9.4
           },
           {
             "slot": "FLEX",
@@ -5512,7 +5512,7 @@
               "depth_chart_order": 1,
               "search_rank": 23
             },
-            "points": 4.8
+            "points": 15.5
           },
           {
             "slot": "K",
@@ -5546,7 +5546,7 @@
               "depth_chart_order": null,
               "search_rank": null
             },
-            "points": 0.0
+            "points": 15.0
           }
         ],
         "bench": [
@@ -5612,7 +5612,7 @@
               "depth_chart_order": 1,
               "search_rank": 263
             },
-            "points": 0.0
+            "points": 17.64
           },
           {
             "player": {
