@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T07:10:22.325226+00:00",
+  "generated_at": "2026-11-10T19:40:31.251530+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -28,7 +28,7 @@
     ],
     "settings": {
       "best_ball": 0,
-      "last_report": 8,
+      "last_report": 9,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -4135,17 +4135,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "7611",
-            "name": "Rhamondre Stevenson",
+            "player_id": "12474",
+            "name": "Woody Marks",
             "position": "RB",
-            "team": "NE",
+            "team": "HOU",
             "status": "Active",
             "active": true,
-            "injury_status": "Out",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 58
+            "search_rank": 105
           }
         },
         {
@@ -4215,17 +4215,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "12474",
-            "name": "Woody Marks",
-            "position": "RB",
-            "team": "HOU",
+            "player_id": "3214",
+            "name": "Hunter Henry",
+            "position": "TE",
+            "team": "NE",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
+            "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 105
+            "search_rank": 92
           }
         },
         {
@@ -4302,19 +4302,6 @@
           "search_rank": 105
         },
         {
-          "player_id": "3214",
-          "name": "Hunter Henry",
-          "position": "TE",
-          "team": "NE",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "TE",
-          "depth_chart_order": 1,
-          "search_rank": 92
-        },
-        {
           "player_id": "5846",
           "name": "DK Metcalf",
           "position": "WR",
@@ -4326,6 +4313,19 @@
           "depth_chart_position": "LWR",
           "depth_chart_order": 1,
           "search_rank": 73
+        },
+        {
+          "player_id": "7611",
+          "name": "Rhamondre Stevenson",
+          "position": "RB",
+          "team": "NE",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Out",
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 58
         },
         {
           "player_id": "8183",
@@ -54696,17 +54696,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "7611",
-                    "name": "Rhamondre Stevenson",
+                    "player_id": "12474",
+                    "name": "Woody Marks",
                     "position": "RB",
-                    "team": "NE",
+                    "team": "HOU",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Out",
+                    "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 58
+                    "search_rank": 105
                   },
                   "points": 0.0
                 },
@@ -54781,17 +54781,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "12474",
-                    "name": "Woody Marks",
-                    "position": "RB",
-                    "team": "HOU",
+                    "player_id": "3214",
+                    "name": "Hunter Henry",
+                    "position": "TE",
+                    "team": "NE",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
+                    "depth_chart_position": "TE",
                     "depth_chart_order": 1,
-                    "search_rank": 105
+                    "search_rank": 92
                   },
                   "points": 0.0
                 },
@@ -54897,22 +54897,6 @@
                 },
                 {
                   "player": {
-                    "player_id": "3214",
-                    "name": "Hunter Henry",
-                    "position": "TE",
-                    "team": "NE",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 92
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "5846",
                     "name": "DK Metcalf",
                     "position": "WR",
@@ -54924,6 +54908,22 @@
                     "depth_chart_position": "LWR",
                     "depth_chart_order": 1,
                     "search_rank": 73
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "7611",
+                    "name": "Rhamondre Stevenson",
+                    "position": "RB",
+                    "team": "NE",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": "Out",
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 58
                   },
                   "points": 0.0
                 },
