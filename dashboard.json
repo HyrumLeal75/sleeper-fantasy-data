@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-09T22:16:38.469524+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-10T07:10:22.325226+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
-  "current_week": 9,
+  "current_week": 10,
   "team_name": "FearNando Mendoza",
   "username": "Hyrum75",
   "roster_id": 10,
   "standing": {
-    "rank": 6,
+    "rank": 5,
     "roster_id": 10,
     "team_name": "FearNando Mendoza",
     "username": "Hyrum75",
-    "wins": 4,
+    "wins": 5,
     "losses": 4,
     "ties": 0,
-    "points_for": 1019.58,
-    "points_against": 1028.56,
+    "points_for": 1161.04,
+    "points_against": 1157.16,
     "waiver_position": 10
   },
   "season_summary": {
-    "wins": 4,
+    "wins": 5,
     "losses": 4,
     "ties": 0,
-    "average_points": 127.45,
+    "average_points": 129.0,
     "highest_score": 177.42,
     "lowest_score": 82.0
   },
@@ -279,9 +279,9 @@
     }
   ],
   "current_matchup": {
-    "week": 9,
-    "matchup_id": 5,
-    "my_points": 141.46,
+    "week": 10,
+    "matchup_id": 6,
+    "my_points": 0.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -429,34 +429,34 @@
       }
     ],
     "opponent": {
-      "roster_id": 4,
-      "team_name": "ManuBro",
-      "username": "ManuBro",
-      "points": 128.6,
+      "roster_id": 7,
+      "team_name": "Don Bitij",
+      "username": "JorgeFdz",
+      "points": 0.0,
       "lineup": [
         {
           "slot": "QB",
           "player": {
-            "player_id": "3294",
-            "name": "Dak Prescott",
+            "player_id": "3163",
+            "name": "Jared Goff",
             "position": "QB",
-            "team": "DAL",
+            "team": "DET",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 38
+            "search_rank": 61
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "6813",
-            "name": "Jonathan Taylor",
+            "player_id": "4034",
+            "name": "Christian McCaffrey",
             "position": "RB",
-            "team": "IND",
+            "team": "SF",
             "status": "Active",
             "active": true,
             "injury_status": null,
@@ -469,106 +469,106 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "11576",
-            "name": "Braelon Allen",
+            "player_id": "6790",
+            "name": "D'Andre Swift",
             "position": "RB",
-            "team": "NYJ",
+            "team": "CHI",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 135
+            "depth_chart_order": 1,
+            "search_rank": 46
           }
         },
         {
           "slot": "WR1",
           "player": {
-            "player_id": "9997",
-            "name": "Zay Flowers",
+            "player_id": "11610",
+            "name": "Malik Washington",
             "position": "WR",
-            "team": "BAL",
+            "team": "MIA",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 40
+            "search_rank": 176
           }
         },
         {
           "slot": "WR2",
           "player": {
-            "player_id": "9487",
-            "name": "Parker Washington",
+            "player_id": "1479",
+            "name": "Keenan Allen",
             "position": "WR",
-            "team": "JAX",
+            "team": "IND",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 1,
-            "search_rank": 68
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 2,
+            "search_rank": 180
           }
         },
         {
           "slot": "TE",
           "player": {
-            "player_id": "12517",
-            "name": "Colston Loveland",
+            "player_id": "4993",
+            "name": "Mike Gesicki",
             "position": "TE",
-            "team": "CHI",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 37
+            "search_rank": 448
           }
         },
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "7569",
-            "name": "Nico Collins",
-            "position": "WR",
-            "team": "HOU",
+            "player_id": "6806",
+            "name": "J.K. Dobbins",
+            "position": "RB",
+            "team": "DEN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 23
+            "depth_chart_position": "RB",
+            "depth_chart_order": 2,
+            "search_rank": 68
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "12185",
-            "name": "Spencer Shrader",
+            "player_id": "11792",
+            "name": "Will Reichard",
             "position": "K",
-            "team": "IND",
+            "team": "MIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 355
+            "search_rank": 170
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "CHI",
-            "name": "Bears",
+            "player_id": "CIN",
+            "name": "Bengals",
             "position": "DEF",
-            "team": "CHI",
+            "team": "CIN",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -1186,6 +1186,19 @@
         "search_rank": 75
       },
       {
+        "player_id": "10232",
+        "name": "Michael Wilson",
+        "position": "WR",
+        "team": "ARI",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Out",
+        "injury_notes": "Fracture",
+        "depth_chart_position": "LWR",
+        "depth_chart_order": 1,
+        "search_rank": 75
+      },
+      {
         "player_id": "10222",
         "name": "Jayden Reed",
         "position": "WR",
@@ -1275,19 +1288,6 @@
         "depth_chart_position": "LWR",
         "depth_chart_order": 2,
         "search_rank": 156
-      },
-      {
-        "player_id": "6783",
-        "name": "Jerry Jeudy",
-        "position": "WR",
-        "team": "CLE",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 3,
-        "search_rank": 160
       }
     ],
     "TE": [
@@ -1489,6 +1489,19 @@
         "search_rank": 150
       },
       {
+        "player_id": "1945",
+        "name": "Chris Boswell",
+        "position": "K",
+        "team": "PIT",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 151
+      },
+      {
         "player_id": "5189",
         "name": "Eddy Pineiro",
         "position": "K",
@@ -1539,19 +1552,6 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 214
-      },
-      {
-        "player_id": "11653",
-        "name": "Charlie Smyth",
-        "position": "K",
-        "team": "NO",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 242
       }
     ],
     "DEF": [

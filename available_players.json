@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-09T22:16:38.469524+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-10T07:10:22.325226+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
-  "current_week": 9,
+  "current_week": 10,
   "methodology": {
     "availability": "Player does not appear on any current roster.",
     "ranking_warning": "Sleeper search_rank is used only for compact ordering and is not a weekly projection.",
@@ -15,7 +15,7 @@
     "RB": 50,
     "WR": 50,
     "TE": 50,
-    "K": 26,
+    "K": 27,
     "DEF": 19
   },
   "players": {
@@ -1351,6 +1351,19 @@
         "search_rank": 75
       },
       {
+        "player_id": "10232",
+        "name": "Michael Wilson",
+        "position": "WR",
+        "team": "ARI",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Out",
+        "injury_notes": "Fracture",
+        "depth_chart_position": "LWR",
+        "depth_chart_order": 1,
+        "search_rank": 75
+      },
+      {
         "player_id": "10222",
         "name": "Jayden Reed",
         "position": "WR",
@@ -1960,19 +1973,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 369
-      },
-      {
-        "player_id": "13343",
-        "name": "Vinny Anthony II",
-        "position": "WR",
-        "team": "ATL",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 377
       }
     ],
     "TE": [
@@ -2692,6 +2692,19 @@
         "depth_chart_position": "K",
         "depth_chart_order": 2,
         "search_rank": 150
+      },
+      {
+        "player_id": "1945",
+        "name": "Chris Boswell",
+        "position": "K",
+        "team": "PIT",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 151
       },
       {
         "player_id": "5189",
