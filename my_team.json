@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T06:05:18.426993+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-11T14:11:08.336254+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -18,7 +18,7 @@
       "points_for": 1161.04,
       "points_against": 1157.16
     },
-    "waiver_position": 10,
+    "waiver_position": 7,
     "lineup": [
       {
         "slot": "QB",
@@ -206,19 +206,6 @@
         "search_rank": 111
       },
       {
-        "player_id": "13305",
-        "name": "Mike Washington Jr.",
-        "position": "RB",
-        "team": "LV",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 123
-      },
-      {
         "player_id": "13346",
         "name": "Denzel Boston",
         "position": "WR",
@@ -243,6 +230,19 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
         "search_rank": 98
+      },
+      {
+        "player_id": "9758",
+        "name": "C.J. Stroud",
+        "position": "QB",
+        "team": "HOU",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 101
       }
     ],
     "reserve": [
@@ -367,19 +367,6 @@
         "search_rank": 111
       },
       {
-        "player_id": "13305",
-        "name": "Mike Washington Jr.",
-        "position": "RB",
-        "team": "LV",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 123
-      },
-      {
         "player_id": "13346",
         "name": "Denzel Boston",
         "position": "WR",
@@ -458,6 +445,19 @@
         "search_rank": 27
       },
       {
+        "player_id": "9758",
+        "name": "C.J. Stroud",
+        "position": "QB",
+        "team": "HOU",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 101
+      },
+      {
         "player_id": "SEA",
         "name": "Seahawks",
         "position": "DEF",
@@ -482,7 +482,7 @@
     "ties": 0,
     "points_for": 1161.04,
     "points_against": 1157.16,
-    "waiver_position": 10
+    "waiver_position": 7
   },
   "season_summary": {
     "wins": 5,
@@ -5907,22 +5907,6 @@
         },
         {
           "player": {
-            "player_id": "13305",
-            "name": "Mike Washington Jr.",
-            "position": "RB",
-            "team": "LV",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 123
-          },
-          "points": 0.0
-        },
-        {
-          "player": {
             "player_id": "13346",
             "name": "Denzel Boston",
             "position": "WR",
@@ -5950,6 +5934,22 @@
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
             "search_rank": 98
+          },
+          "points": 0.0
+        },
+        {
+          "player": {
+            "player_id": "9758",
+            "name": "C.J. Stroud",
+            "position": "QB",
+            "team": "HOU",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 101
           },
           "points": 0.0
         }
@@ -7291,6 +7291,86 @@
           "team_name": "FearNando Mendoza"
         }
       ],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1426011690100604928",
+      "week": 9,
+      "type": "waiver",
+      "status": "complete",
+      "created": 1794350190239,
+      "roster_ids": [
+        10
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9758",
+            "name": "C.J. Stroud",
+            "position": "QB",
+            "team": "HOU",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 101
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "drops": [
+        {
+          "player": {
+            "player_id": "13305",
+            "name": "Mike Washington Jr.",
+            "position": "RB",
+            "team": "LV",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "RB",
+            "depth_chart_order": 2,
+            "search_rank": 123
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "waiver_bid": null
+    },
+    {
+      "transaction_id": "1426011606264864768",
+      "week": 9,
+      "type": "waiver",
+      "status": "failed",
+      "created": 1794350170249,
+      "roster_ids": [
+        10
+      ],
+      "adds": [
+        {
+          "player": {
+            "player_id": "9228",
+            "name": "Bryce Young",
+            "position": "QB",
+            "team": "CAR",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "QB",
+            "depth_chart_order": 1,
+            "search_rank": 131
+          },
+          "roster_id": 10,
+          "team_name": "FearNando Mendoza"
+        }
+      ],
+      "drops": [],
       "waiver_bid": null
     },
     {
