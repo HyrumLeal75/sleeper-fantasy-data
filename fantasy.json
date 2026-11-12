@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T15:05:08.385960+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-12T23:33:17.489973+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -3245,17 +3245,17 @@
         {
           "slot": "RB2",
           "player": {
-            "player_id": "6790",
-            "name": "D'Andre Swift",
+            "player_id": "8122",
+            "name": "Zonovan Knight",
             "position": "RB",
-            "team": "CHI",
+            "team": "ARI",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 46
+            "depth_chart_order": 2,
+            "search_rank": 669
           }
         },
         {
@@ -3277,17 +3277,17 @@
         {
           "slot": "WR2",
           "player": {
-            "player_id": "1479",
-            "name": "Keenan Allen",
+            "player_id": "5846",
+            "name": "DK Metcalf",
             "position": "WR",
-            "team": "SF",
+            "team": "PIT",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 3,
-            "search_rank": 180
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 73
           }
         },
         {
@@ -3309,17 +3309,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "6806",
-            "name": "J.K. Dobbins",
-            "position": "RB",
-            "team": "DEN",
+            "player_id": "8137",
+            "name": "George Pickens",
+            "position": "WR",
+            "team": "DAL",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
-            "depth_chart_position": "RB",
+            "depth_chart_position": "RWR",
             "depth_chart_order": 2,
-            "search_rank": 68
+            "search_rank": 23
           }
         },
         {
@@ -3370,6 +3370,19 @@
           "search_rank": 22
         },
         {
+          "player_id": "1479",
+          "name": "Keenan Allen",
+          "position": "WR",
+          "team": "SF",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 3,
+          "search_rank": 180
+        },
+        {
           "player_id": "2216",
           "name": "Mike Evans",
           "position": "WR",
@@ -3383,17 +3396,30 @@
           "search_rank": 60
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
+          "player_id": "6790",
+          "name": "D'Andre Swift",
+          "position": "RB",
+          "team": "CHI",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "TE",
+          "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 96
+          "search_rank": 46
+        },
+        {
+          "player_id": "6806",
+          "name": "J.K. Dobbins",
+          "position": "RB",
+          "team": "DEN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 68
         },
         {
           "player_id": "8126",
@@ -3407,19 +3433,6 @@
           "depth_chart_position": "SWR",
           "depth_chart_order": 2,
           "search_rank": 105
-        },
-        {
-          "player_id": "8137",
-          "name": "George Pickens",
-          "position": "WR",
-          "team": "DAL",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": null,
-          "depth_chart_position": "RWR",
-          "depth_chart_order": 2,
-          "search_rank": 23
         }
       ],
       "reserve": [
@@ -3557,17 +3570,17 @@
           "search_rank": 399
         },
         {
-          "player_id": "5012",
-          "name": "Mark Andrews",
-          "position": "TE",
-          "team": "BAL",
+          "player_id": "5846",
+          "name": "DK Metcalf",
+          "position": "WR",
+          "team": "PIT",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "TE",
+          "depth_chart_position": "LWR",
           "depth_chart_order": 1,
-          "search_rank": 96
+          "search_rank": 73
         },
         {
           "player_id": "6790",
@@ -3594,6 +3607,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 68
+        },
+        {
+          "player_id": "8122",
+          "name": "Zonovan Knight",
+          "position": "RB",
+          "team": "ARI",
+          "status": "Active",
+          "active": true,
+          "injury_status": "Questionable",
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 669
         },
         {
           "player_id": "8126",
@@ -53858,17 +53884,17 @@
             {
               "slot": "RB",
               "player": {
-                "player_id": "6790",
-                "name": "D'Andre Swift",
+                "player_id": "8122",
+                "name": "Zonovan Knight",
                 "position": "RB",
-                "team": "CHI",
+                "team": "ARI",
                 "status": "Active",
                 "active": true,
-                "injury_status": null,
+                "injury_status": "Questionable",
                 "injury_notes": null,
                 "depth_chart_position": "RB",
-                "depth_chart_order": 1,
-                "search_rank": 46
+                "depth_chart_order": 2,
+                "search_rank": 669
               },
               "points": 0.0
             },
@@ -53892,17 +53918,17 @@
             {
               "slot": "WR",
               "player": {
-                "player_id": "1479",
-                "name": "Keenan Allen",
+                "player_id": "5846",
+                "name": "DK Metcalf",
                 "position": "WR",
-                "team": "SF",
+                "team": "PIT",
                 "status": "Active",
                 "active": true,
                 "injury_status": null,
                 "injury_notes": null,
-                "depth_chart_position": "RWR",
-                "depth_chart_order": 3,
-                "search_rank": 180
+                "depth_chart_position": "LWR",
+                "depth_chart_order": 1,
+                "search_rank": 73
               },
               "points": 0.0
             },
@@ -53926,17 +53952,17 @@
             {
               "slot": "FLEX",
               "player": {
-                "player_id": "6806",
-                "name": "J.K. Dobbins",
-                "position": "RB",
-                "team": "DEN",
+                "player_id": "8137",
+                "name": "George Pickens",
+                "position": "WR",
+                "team": "DAL",
                 "status": "Active",
                 "active": true,
-                "injury_status": null,
+                "injury_status": "Questionable",
                 "injury_notes": null,
-                "depth_chart_position": "RB",
+                "depth_chart_position": "RWR",
                 "depth_chart_order": 2,
-                "search_rank": 68
+                "search_rank": 23
               },
               "points": 0.0
             },
@@ -54010,6 +54036,22 @@
             },
             {
               "player": {
+                "player_id": "1479",
+                "name": "Keenan Allen",
+                "position": "WR",
+                "team": "SF",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RWR",
+                "depth_chart_order": 3,
+                "search_rank": 180
+              },
+              "points": 0.0
+            },
+            {
+              "player": {
                 "player_id": "2216",
                 "name": "Mike Evans",
                 "position": "WR",
@@ -54026,17 +54068,33 @@
             },
             {
               "player": {
-                "player_id": "5012",
-                "name": "Mark Andrews",
-                "position": "TE",
-                "team": "BAL",
+                "player_id": "6790",
+                "name": "D'Andre Swift",
+                "position": "RB",
+                "team": "CHI",
                 "status": "Active",
                 "active": true,
                 "injury_status": null,
                 "injury_notes": null,
-                "depth_chart_position": "TE",
+                "depth_chart_position": "RB",
                 "depth_chart_order": 1,
-                "search_rank": 96
+                "search_rank": 46
+              },
+              "points": 0.0
+            },
+            {
+              "player": {
+                "player_id": "6806",
+                "name": "J.K. Dobbins",
+                "position": "RB",
+                "team": "DEN",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 68
               },
               "points": 0.0
             },
@@ -54053,22 +54111,6 @@
                 "depth_chart_position": "SWR",
                 "depth_chart_order": 2,
                 "search_rank": 105
-              },
-              "points": 0.0
-            },
-            {
-              "player": {
-                "player_id": "8137",
-                "name": "George Pickens",
-                "position": "WR",
-                "team": "DAL",
-                "status": "Active",
-                "active": true,
-                "injury_status": "Questionable",
-                "injury_notes": null,
-                "depth_chart_position": "RWR",
-                "depth_chart_order": 2,
-                "search_rank": 23
               },
               "points": 0.0
             }
@@ -56945,17 +56987,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "6790",
-                    "name": "D'Andre Swift",
+                    "player_id": "8122",
+                    "name": "Zonovan Knight",
                     "position": "RB",
-                    "team": "CHI",
+                    "team": "ARI",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 46
+                    "depth_chart_order": 2,
+                    "search_rank": 669
                   },
                   "points": 0.0
                 },
@@ -56979,17 +57021,17 @@
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "1479",
-                    "name": "Keenan Allen",
+                    "player_id": "5846",
+                    "name": "DK Metcalf",
                     "position": "WR",
-                    "team": "SF",
+                    "team": "PIT",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 3,
-                    "search_rank": 180
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 73
                   },
                   "points": 0.0
                 },
@@ -57013,17 +57055,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "6806",
-                    "name": "J.K. Dobbins",
-                    "position": "RB",
-                    "team": "DEN",
+                    "player_id": "8137",
+                    "name": "George Pickens",
+                    "position": "WR",
+                    "team": "DAL",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
+                    "injury_status": "Questionable",
                     "injury_notes": null,
-                    "depth_chart_position": "RB",
+                    "depth_chart_position": "RWR",
                     "depth_chart_order": 2,
-                    "search_rank": 68
+                    "search_rank": 23
                   },
                   "points": 0.0
                 },
@@ -57097,6 +57139,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "1479",
+                    "name": "Keenan Allen",
+                    "position": "WR",
+                    "team": "SF",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 3,
+                    "search_rank": 180
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "2216",
                     "name": "Mike Evans",
                     "position": "WR",
@@ -57113,17 +57171,33 @@
                 },
                 {
                   "player": {
-                    "player_id": "5012",
-                    "name": "Mark Andrews",
-                    "position": "TE",
-                    "team": "BAL",
+                    "player_id": "6790",
+                    "name": "D'Andre Swift",
+                    "position": "RB",
+                    "team": "CHI",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "TE",
+                    "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 96
+                    "search_rank": 46
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "6806",
+                    "name": "J.K. Dobbins",
+                    "position": "RB",
+                    "team": "DEN",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 68
                   },
                   "points": 0.0
                 },
@@ -57140,22 +57214,6 @@
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 2,
                     "search_rank": 105
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8137",
-                    "name": "George Pickens",
-                    "position": "WR",
-                    "team": "DAL",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 23
                   },
                   "points": 0.0
                 }
@@ -57440,6 +57498,148 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1426737429364097024",
+          "week": 10,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1794523219961,
+          "roster_ids": [
+            7
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "5846",
+                "name": "DK Metcalf",
+                "position": "WR",
+                "team": "PIT",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "LWR",
+                "depth_chart_order": 1,
+                "search_rank": 73
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1426737077290029056",
+          "week": 10,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1794523136020,
+          "roster_ids": [
+            7
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "8122",
+                "name": "Zonovan Knight",
+                "position": "RB",
+                "team": "ARI",
+                "status": "Active",
+                "active": true,
+                "injury_status": "Questionable",
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 669
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "drops": [],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1426736979495641088",
+          "week": 10,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1794523112704,
+          "roster_ids": [
+            7
+          ],
+          "adds": [],
+          "drops": [
+            {
+              "player": {
+                "player_id": "7567",
+                "name": "Kenny Gainwell",
+                "position": "RB",
+                "team": "TB",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 86
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1426736760859131904",
+          "week": 10,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1794523060577,
+          "roster_ids": [
+            7
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "7567",
+                "name": "Kenny Gainwell",
+                "position": "RB",
+                "team": "TB",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 86
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "5012",
+                "name": "Mark Andrews",
+                "position": "TE",
+                "team": "BAL",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "TE",
+                "depth_chart_order": 1,
+                "search_rank": 96
+              },
+              "roster_id": 7,
+              "team_name": "Don Bitij"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1426407112346443780",
           "week": 10,
