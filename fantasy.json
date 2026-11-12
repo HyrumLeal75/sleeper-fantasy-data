@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:11:08.336254+00:00",
+  "generated_at": "2026-11-12T00:36:27.070971+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -1426,10 +1426,10 @@
         {
           "slot": "DEF",
           "player": {
-            "player_id": "DEN",
-            "name": "Broncos",
+            "player_id": "IND",
+            "name": "Colts",
             "position": "DEF",
-            "team": "DEN",
+            "team": "IND",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -1759,10 +1759,10 @@
           "search_rank": 101
         },
         {
-          "player_id": "DEN",
-          "name": "Broncos",
+          "player_id": "IND",
+          "name": "Colts",
           "position": "DEF",
-          "team": "DEN",
+          "team": "IND",
           "status": null,
           "active": true,
           "injury_status": null,
@@ -4148,17 +4148,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "12474",
-            "name": "Woody Marks",
+            "player_id": "12491",
+            "name": "Corey Kiner",
             "position": "RB",
-            "team": "HOU",
+            "team": "NE",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 105
+            "depth_chart_order": 2,
+            "search_rank": 487
           }
         },
         {
@@ -4212,22 +4212,6 @@
         {
           "slot": "TE",
           "player": {
-            "player_id": "10859",
-            "name": "Sam LaPorta",
-            "position": "TE",
-            "team": "DET",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 58
-          }
-        },
-        {
-          "slot": "FLEX",
-          "player": {
             "player_id": "3214",
             "name": "Hunter Henry",
             "position": "TE",
@@ -4239,6 +4223,22 @@
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
             "search_rank": 92
+          }
+        },
+        {
+          "slot": "FLEX",
+          "player": {
+            "player_id": "10859",
+            "name": "Sam LaPorta",
+            "position": "TE",
+            "team": "DET",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "TE",
+            "depth_chart_order": 1,
+            "search_rank": 58
           }
         },
         {
@@ -4302,17 +4302,17 @@
           "search_rank": 129
         },
         {
-          "player_id": "12491",
-          "name": "Corey Kiner",
+          "player_id": "12474",
+          "name": "Woody Marks",
           "position": "RB",
-          "team": "NE",
+          "team": "HOU",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
           "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 487
+          "depth_chart_order": 1,
+          "search_rank": 105
         },
         {
           "player_id": "2449",
@@ -55321,10 +55321,10 @@
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "DEN",
-                    "name": "Broncos",
+                    "player_id": "IND",
+                    "name": "Colts",
                     "position": "DEF",
-                    "team": "DEN",
+                    "team": "IND",
                     "status": null,
                     "active": true,
                     "injury_status": null,
@@ -55493,17 +55493,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "12474",
-                    "name": "Woody Marks",
+                    "player_id": "12491",
+                    "name": "Corey Kiner",
                     "position": "RB",
-                    "team": "HOU",
+                    "team": "NE",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 105
+                    "depth_chart_order": 2,
+                    "search_rank": 487
                   },
                   "points": 0.0
                 },
@@ -55561,23 +55561,6 @@
                 {
                   "slot": "TE",
                   "player": {
-                    "player_id": "10859",
-                    "name": "Sam LaPorta",
-                    "position": "TE",
-                    "team": "DET",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "TE",
-                    "depth_chart_order": 1,
-                    "search_rank": 58
-                  },
-                  "points": 0.0
-                },
-                {
-                  "slot": "FLEX",
-                  "player": {
                     "player_id": "3214",
                     "name": "Hunter Henry",
                     "position": "TE",
@@ -55589,6 +55572,23 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 92
+                  },
+                  "points": 0.0
+                },
+                {
+                  "slot": "FLEX",
+                  "player": {
+                    "player_id": "10859",
+                    "name": "Sam LaPorta",
+                    "position": "TE",
+                    "team": "DET",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "TE",
+                    "depth_chart_order": 1,
+                    "search_rank": 58
                   },
                   "points": 0.0
                 },
@@ -55662,17 +55662,17 @@
                 },
                 {
                   "player": {
-                    "player_id": "12491",
-                    "name": "Corey Kiner",
+                    "player_id": "12474",
+                    "name": "Woody Marks",
                     "position": "RB",
-                    "team": "NE",
+                    "team": "HOU",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 487
+                    "depth_chart_order": 1,
+                    "search_rank": 105
                   },
                   "points": 0.0
                 },
@@ -57427,6 +57427,55 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1426305904747229184",
+          "week": 10,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1794420336475,
+          "roster_ids": [
+            3
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "IND",
+                "name": "Colts",
+                "position": "DEF",
+                "team": "IND",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "DEN",
+                "name": "Broncos",
+                "position": "DEF",
+                "team": "DEN",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 3,
+              "team_name": "Acaríciame El Lombardi"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1426192174378123264",
           "week": 10,
