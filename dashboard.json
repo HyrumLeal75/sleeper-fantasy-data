@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:33:17.489973+00:00",
+  "generated_at": "2026-11-13T06:34:17.203320+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -281,7 +281,7 @@
   "current_matchup": {
     "week": 10,
     "matchup_id": 6,
-    "my_points": 0.0,
+    "my_points": 28.76,
     "my_lineup": [
       {
         "slot": "QB",
@@ -1481,19 +1481,6 @@
         "search_rank": 128
       },
       {
-        "player_id": "11539",
-        "name": "Jake Bates",
-        "position": "K",
-        "team": "DET",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 148
-      },
-      {
         "player_id": "12711",
         "name": "Tyler Loop",
         "position": "K",
@@ -1570,14 +1557,27 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 214
+      },
+      {
+        "player_id": "7922",
+        "name": "Riley Patterson",
+        "position": "K",
+        "team": "BAL",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 241
       }
     ],
     "DEF": [
       {
-        "player_id": "BUF",
-        "name": "Bills",
+        "player_id": "CHI",
+        "name": "Bears",
         "position": "DEF",
-        "team": "BUF",
+        "team": "CHI",
         "status": null,
         "active": true,
         "injury_status": null,

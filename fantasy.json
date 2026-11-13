@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:33:17.489973+00:00",
+  "generated_at": "2026-11-13T06:34:17.203320+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -1314,17 +1314,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "9224",
-            "name": "Chase Brown",
+            "player_id": "9753",
+            "name": "Zach Charbonnet",
             "position": "RB",
-            "team": "CIN",
+            "team": "SEA",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 14
+            "search_rank": 101
           }
         },
         {
@@ -1468,6 +1468,19 @@
           "search_rank": 65
         },
         {
+          "player_id": "9224",
+          "name": "Chase Brown",
+          "position": "RB",
+          "team": "CIN",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 14
+        },
+        {
           "player_id": "9480",
           "name": "Brenton Strange",
           "position": "TE",
@@ -1505,19 +1518,6 @@
           "depth_chart_position": "SWR",
           "depth_chart_order": 3,
           "search_rank": 187
-        },
-        {
-          "player_id": "9753",
-          "name": "Zach Charbonnet",
-          "position": "RB",
-          "team": "SEA",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 101
         }
       ],
       "reserve": [
@@ -1947,6 +1947,19 @@
           "search_rank": 135
         },
         {
+          "player_id": "11579",
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 190
+        },
+        {
           "player_id": "11624",
           "name": "Xavier Worthy",
           "position": "WR",
@@ -1997,19 +2010,6 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 2,
           "search_rank": 194
-        },
-        {
-          "player_id": "CHI",
-          "name": "Bears",
-          "position": "DEF",
-          "team": "CHI",
-          "status": null,
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": null
         }
       ],
       "reserve": [
@@ -2054,6 +2054,19 @@
           "depth_chart_position": "RB",
           "depth_chart_order": 2,
           "search_rank": 135
+        },
+        {
+          "player_id": "11579",
+          "name": "Audric Estime",
+          "position": "RB",
+          "team": "NO",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 1,
+          "search_rank": 190
         },
         {
           "player_id": "11583",
@@ -2236,19 +2249,6 @@
           "depth_chart_position": "SWR",
           "depth_chart_order": 1,
           "search_rank": 40
-        },
-        {
-          "player_id": "CHI",
-          "name": "Bears",
-          "position": "DEF",
-          "team": "CHI",
-          "status": null,
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": null
         },
         {
           "player_id": "DET",
@@ -5569,17 +5569,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "6804",
-            "name": "Jordan Love",
+            "player_id": "96",
+            "name": "Aaron Rodgers",
             "position": "QB",
-            "team": "GB",
+            "team": "PIT",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 66
+            "search_rank": 186
           }
         },
         {
@@ -5665,44 +5665,44 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "13150",
-            "name": "Darius Cooper",
-            "position": "WR",
-            "team": "PHI",
+            "player_id": "5967",
+            "name": "Tony Pollard",
+            "position": "RB",
+            "team": "TEN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 2,
-            "search_rank": 658
+            "depth_chart_position": "RB",
+            "depth_chart_order": 1,
+            "search_rank": 63
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "650",
-            "name": "Nick Folk",
+            "player_id": "11539",
+            "name": "Jake Bates",
             "position": "K",
-            "team": null,
+            "team": "DET",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": null,
-            "depth_chart_order": null,
-            "search_rank": 249
+            "depth_chart_position": "K",
+            "depth_chart_order": 1,
+            "search_rank": 148
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "0",
-            "name": "0",
-            "position": null,
-            "team": null,
+            "player_id": "BUF",
+            "name": "Bills",
+            "position": "DEF",
+            "team": "BUF",
             "status": null,
-            "active": null,
+            "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": null,
@@ -5712,6 +5712,19 @@
         }
       ],
       "bench": [
+        {
+          "player_id": "13150",
+          "name": "Darius Cooper",
+          "position": "WR",
+          "team": "PHI",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 2,
+          "search_rank": 658
+        },
         {
           "player_id": "13330",
           "name": "Kenyon Sadiq",
@@ -5726,17 +5739,17 @@
           "search_rank": 109
         },
         {
-          "player_id": "5967",
-          "name": "Tony Pollard",
-          "position": "RB",
-          "team": "TEN",
+          "player_id": "6804",
+          "name": "Jordan Love",
+          "position": "QB",
+          "team": "GB",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "RB",
+          "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 63
+          "search_rank": 66
         },
         {
           "player_id": "8110",
@@ -5752,19 +5765,6 @@
           "search_rank": 97
         },
         {
-          "player_id": "8116",
-          "name": "Pierre Strong Jr.",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 3,
-          "search_rank": 631
-        },
-        {
           "player_id": "9486",
           "name": "Dontayvion Wicks",
           "position": "WR",
@@ -5776,19 +5776,6 @@
           "depth_chart_position": "RWR",
           "depth_chart_order": 6,
           "search_rank": 203
-        },
-        {
-          "player_id": "96",
-          "name": "Aaron Rodgers",
-          "position": "QB",
-          "team": "PIT",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "QB",
-          "depth_chart_order": 1,
-          "search_rank": 186
         },
         {
           "player_id": "TB",
@@ -5807,6 +5794,19 @@
       "reserve": [],
       "taxi": [],
       "all_players": [
+        {
+          "player_id": "11539",
+          "name": "Jake Bates",
+          "position": "K",
+          "team": "DET",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "K",
+          "depth_chart_order": 1,
+          "search_rank": 148
+        },
         {
           "player_id": "11635",
           "name": "Ladd McConkey",
@@ -5899,19 +5899,6 @@
           "search_rank": 63
         },
         {
-          "player_id": "650",
-          "name": "Nick Folk",
-          "position": "K",
-          "team": null,
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": null,
-          "depth_chart_order": null,
-          "search_rank": 249
-        },
-        {
           "player_id": "6804",
           "name": "Jordan Love",
           "position": "QB",
@@ -5951,19 +5938,6 @@
           "search_rank": 97
         },
         {
-          "player_id": "8116",
-          "name": "Pierre Strong Jr.",
-          "position": "RB",
-          "team": "GB",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 3,
-          "search_rank": 631
-        },
-        {
           "player_id": "9486",
           "name": "Dontayvion Wicks",
           "position": "WR",
@@ -5988,6 +5962,19 @@
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
           "search_rank": 186
+        },
+        {
+          "player_id": "BUF",
+          "name": "Bills",
+          "position": "DEF",
+          "team": "BUF",
+          "status": null,
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": null,
+          "depth_chart_order": null,
+          "search_rank": null
         },
         {
           "player_id": "TB",
@@ -53570,8 +53557,8 @@
       "week": 10,
       "my_result": {
         "week": 10,
-        "result": "T",
-        "points": 0.0,
+        "result": "W",
+        "points": 28.76,
         "lineup": [
           {
             "slot": "QB",
@@ -53588,7 +53575,7 @@
               "depth_chart_order": 1,
               "search_rank": 22
             },
-            "points": 0.0
+            "points": 28.76
           },
           {
             "slot": "RB",
@@ -54947,7 +54934,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 125
                   },
-                  "points": 0.0
+                  "points": 6.2
                 }
               ]
             },
@@ -55251,7 +55238,7 @@
               "roster_id": 3,
               "team_name": "Acaríciame El Lombardi",
               "username": "FCD123",
-              "points": 0.0,
+              "points": 7.4,
               "lineup": [
                 {
                   "slot": "QB",
@@ -55273,17 +55260,17 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "9224",
-                    "name": "Chase Brown",
+                    "player_id": "9753",
+                    "name": "Zach Charbonnet",
                     "position": "RB",
-                    "team": "CIN",
+                    "team": "SEA",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 14
+                    "search_rank": 101
                   },
                   "points": 0.0
                 },
@@ -55319,7 +55306,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 28
                   },
-                  "points": 0.0
+                  "points": 7.4
                 },
                 {
                   "slot": "WR",
@@ -55422,7 +55409,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 36
                   },
-                  "points": 0.0
+                  "points": 27.2
                 },
                 {
                   "player": {
@@ -55474,6 +55461,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "9224",
+                    "name": "Chase Brown",
+                    "position": "RB",
+                    "team": "CIN",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 14
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "9480",
                     "name": "Brenton Strange",
                     "position": "TE",
@@ -55517,22 +55520,6 @@
                     "depth_chart_position": "SWR",
                     "depth_chart_order": 3,
                     "search_rank": 187
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "9753",
-                    "name": "Zach Charbonnet",
-                    "position": "RB",
-                    "team": "SEA",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 101
                   },
                   "points": 0.0
                 }
@@ -55777,7 +55764,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 105
                   },
-                  "points": 0.0
+                  "points": 20.3
                 },
                 {
                   "player": {
@@ -55822,7 +55809,7 @@
               "roster_id": 4,
               "team_name": "ManuBro",
               "username": "ManuBro",
-              "points": 0.0,
+              "points": 33.7,
               "lineup": [
                 {
                   "slot": "QB",
@@ -55924,7 +55911,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 105
                   },
-                  "points": 0.0
+                  "points": 33.7
                 },
                 {
                   "slot": "FLEX",
@@ -55992,6 +55979,22 @@
                     "depth_chart_position": "RB",
                     "depth_chart_order": 2,
                     "search_rank": 135
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
+                    "player_id": "11579",
+                    "name": "Audric Estime",
+                    "position": "RB",
+                    "team": "NO",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 1,
+                    "search_rank": 190
                   },
                   "points": 0.0
                 },
@@ -56088,22 +56091,6 @@
                     "depth_chart_position": "RWR",
                     "depth_chart_order": 6,
                     "search_rank": 117
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "CHI",
-                    "name": "Bears",
-                    "position": "DEF",
-                    "team": "CHI",
-                    "status": null,
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": null
                   },
                   "points": 0.0
                 }
@@ -56237,29 +56224,29 @@
                 {
                   "slot": "K",
                   "player": {
-                    "player_id": "650",
-                    "name": "Nick Folk",
+                    "player_id": "11539",
+                    "name": "Jake Bates",
                     "position": "K",
-                    "team": null,
+                    "team": "DET",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": null,
-                    "depth_chart_order": null,
-                    "search_rank": 249
+                    "depth_chart_position": "K",
+                    "depth_chart_order": 1,
+                    "search_rank": 148
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "DEF",
                   "player": {
-                    "player_id": "0",
-                    "name": "0",
-                    "position": null,
-                    "team": null,
+                    "player_id": "BUF",
+                    "name": "Bills",
+                    "position": "DEF",
+                    "team": "BUF",
                     "status": null,
-                    "active": null,
+                    "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": null,
@@ -56331,22 +56318,6 @@
                     "depth_chart_position": "TE",
                     "depth_chart_order": 1,
                     "search_rank": 97
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
-                    "player_id": "8116",
-                    "name": "Pierre Strong Jr.",
-                    "position": "RB",
-                    "team": "GB",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 3,
-                    "search_rank": 631
                   },
                   "points": 0.0
                 },
@@ -56652,7 +56623,7 @@
               "roster_id": 6,
               "team_name": "ivasol",
               "username": "ivasol",
-              "points": 0.0,
+              "points": 8.0,
               "lineup": [
                 {
                   "slot": "QB",
@@ -56805,7 +56776,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 0.0
+                  "points": 8.0
                 }
               ],
               "bench": [
@@ -56919,7 +56890,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 660
                   },
-                  "points": 0.0
+                  "points": 0.3
                 },
                 {
                   "player": {
@@ -57223,7 +57194,7 @@
               "roster_id": 10,
               "team_name": "FearNando Mendoza",
               "username": "Hyrum75",
-              "points": 0.0,
+              "points": 28.76,
               "lineup": [
                 {
                   "slot": "QB",
@@ -57240,7 +57211,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 22
                   },
-                  "points": 0.0
+                  "points": 28.76
                 },
                 {
                   "slot": "RB",
@@ -57498,6 +57469,153 @@
         }
       ],
       "transactions": [
+        {
+          "transaction_id": "1426782572460908544",
+          "week": 10,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1794533982914,
+          "roster_ids": [
+            12
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "BUF",
+                "name": "Bills",
+                "position": "DEF",
+                "team": "BUF",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 12,
+              "team_name": "Los Mapachitos"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "8116",
+                "name": "Pierre Strong Jr.",
+                "position": "RB",
+                "team": "GB",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 3,
+                "search_rank": 631
+              },
+              "roster_id": 12,
+              "team_name": "Los Mapachitos"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1426782135519318017",
+          "week": 10,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1794533878739,
+          "roster_ids": [
+            12
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11539",
+                "name": "Jake Bates",
+                "position": "K",
+                "team": "DET",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "K",
+                "depth_chart_order": 1,
+                "search_rank": 148
+              },
+              "roster_id": 12,
+              "team_name": "Los Mapachitos"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "650",
+                "name": "Nick Folk",
+                "position": "K",
+                "team": null,
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": 249
+              },
+              "roster_id": 12,
+              "team_name": "Los Mapachitos"
+            }
+          ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1426760054865952768",
+          "week": 10,
+          "type": "free_agent",
+          "status": "complete",
+          "created": 1794528614301,
+          "roster_ids": [
+            4
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "11579",
+                "name": "Audric Estime",
+                "position": "RB",
+                "team": "NO",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 1,
+                "search_rank": 190
+              },
+              "roster_id": 4,
+              "team_name": "ManuBro"
+            }
+          ],
+          "drops": [
+            {
+              "player": {
+                "player_id": "CHI",
+                "name": "Bears",
+                "position": "DEF",
+                "team": "CHI",
+                "status": null,
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": null,
+                "depth_chart_order": null,
+                "search_rank": null
+              },
+              "roster_id": 4,
+              "team_name": "ManuBro"
+            }
+          ],
+          "waiver_bid": null
+        },
         {
           "transaction_id": "1426737429364097024",
           "week": 10,

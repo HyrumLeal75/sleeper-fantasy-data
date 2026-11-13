@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T23:33:17.489973+00:00",
+  "generated_at": "2026-11-13T06:34:17.203320+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -15,7 +15,7 @@
     "RB": 50,
     "WR": 50,
     "TE": 50,
-    "K": 28,
+    "K": 27,
     "DEF": 18
   },
   "players": {
@@ -933,19 +933,6 @@
         "search_rank": 182
       },
       {
-        "player_id": "11579",
-        "name": "Audric Estime",
-        "position": "RB",
-        "team": "NO",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 1,
-        "search_rank": 190
-      },
-      {
         "player_id": "5995",
         "name": "Justice Hill",
         "position": "RB",
@@ -1321,6 +1308,19 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 2,
         "search_rank": 527
+      },
+      {
+        "player_id": "6918",
+        "name": "Salvon Ahmed",
+        "position": "RB",
+        "team": "CHI",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 528
       }
     ],
     "WR": [
@@ -2668,19 +2668,6 @@
         "search_rank": 128
       },
       {
-        "player_id": "11539",
-        "name": "Jake Bates",
-        "position": "K",
-        "team": "DET",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 148
-      },
-      {
         "player_id": "12711",
         "name": "Tyler Loop",
         "position": "K",
@@ -2995,10 +2982,10 @@
     ],
     "DEF": [
       {
-        "player_id": "BUF",
-        "name": "Bills",
+        "player_id": "CHI",
+        "name": "Bears",
         "position": "DEF",
-        "team": "BUF",
+        "team": "CHI",
         "status": null,
         "active": true,
         "injury_status": null,
