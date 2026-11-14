@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T19:36:23.872703+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-14T06:12:05.732434+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -20,6 +20,19 @@
   },
   "players": {
     "QB": [
+      {
+        "player_id": "4881",
+        "name": "Lamar Jackson",
+        "position": "QB",
+        "team": "BAL",
+        "status": "Inactive",
+        "active": true,
+        "injury_status": "IR",
+        "injury_notes": "Surgery",
+        "depth_chart_position": "QB",
+        "depth_chart_order": 2,
+        "search_rank": 11
+      },
       {
         "player_id": "6904",
         "name": "Jalen Hurts",
@@ -656,19 +669,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 570
-      },
-      {
-        "player_id": "13428",
-        "name": "Joey Aguilar",
-        "position": "QB",
-        "team": "ARI",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 4,
-        "search_rank": 577
       }
     ],
     "RB": [
@@ -1507,6 +1507,19 @@
         "search_rank": 160
       },
       {
+        "player_id": "11625",
+        "name": "Adonai Mitchell",
+        "position": "WR",
+        "team": "NYJ",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RWR",
+        "depth_chart_order": 3,
+        "search_rank": 162
+      },
+      {
         "player_id": "11618",
         "name": "Jalen McMillan",
         "position": "WR",
@@ -1960,19 +1973,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 353
-      },
-      {
-        "player_id": "13411",
-        "name": "Zavion Thomas",
-        "position": "WR",
-        "team": "CHI",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "SWR",
-        "depth_chart_order": 4,
-        "search_rank": 365
       }
     ],
     "TE": [
@@ -2198,19 +2198,6 @@
         "search_rank": 230
       },
       {
-        "player_id": "7600",
-        "name": "Pat Freiermuth",
-        "position": "TE",
-        "team": "PIT",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 1,
-        "search_rank": 230
-      },
-      {
         "player_id": "8219",
         "name": "Jelani Woods",
         "position": "TE",
@@ -2312,19 +2299,6 @@
         "injury_notes": null,
         "depth_chart_position": null,
         "depth_chart_order": null,
-        "search_rank": 355
-      },
-      {
-        "player_id": "2505",
-        "name": "Darren Waller",
-        "position": "TE",
-        "team": "CAR",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 1,
         "search_rank": 355
       },
       {
@@ -2625,6 +2599,32 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
         "search_rank": 464
+      },
+      {
+        "player_id": "9479",
+        "name": "Darnell Washington",
+        "position": "TE",
+        "team": "PIT",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "TE",
+        "depth_chart_order": 2,
+        "search_rank": 470
+      },
+      {
+        "player_id": "13308",
+        "name": "Bauer Sharp",
+        "position": "TE",
+        "team": "TB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "TE",
+        "depth_chart_order": 3,
+        "search_rank": 472
       }
     ],
     "K": [
@@ -3008,6 +3008,19 @@
         "search_rank": null
       },
       {
+        "player_id": "CIN",
+        "name": "Bengals",
+        "position": "DEF",
+        "team": "CIN",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
         "player_id": "DEN",
         "name": "Broncos",
         "position": "DEF",
@@ -3051,19 +3064,6 @@
         "name": "Chargers",
         "position": "DEF",
         "team": "LAC",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
-        "player_id": "KC",
-        "name": "Chiefs",
-        "position": "DEF",
-        "team": "KC",
         "status": null,
         "active": true,
         "injury_status": null,
