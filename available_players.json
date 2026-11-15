@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T06:19:56.497197+00:00",
+  "generated_at": "2026-11-15T18:47:09.934756+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -868,19 +868,6 @@
         "search_rank": 169
       },
       {
-        "player_id": "12504",
-        "name": "Kaleb Johnson",
-        "position": "RB",
-        "team": "GB",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 173
-      },
-      {
         "player_id": "11643",
         "name": "Jaylen Wright",
         "position": "RB",
@@ -931,19 +918,6 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 6,
         "search_rank": 182
-      },
-      {
-        "player_id": "5995",
-        "name": "Justice Hill",
-        "position": "RB",
-        "team": "BAL",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 220
       },
       {
         "player_id": "12467",
@@ -1048,6 +1022,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 356
+      },
+      {
+        "player_id": "13424",
+        "name": "Seth McGowan",
+        "position": "RB",
+        "team": "IND",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 379
       },
       {
         "player_id": "7103",
@@ -1321,6 +1308,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 528
+      },
+      {
+        "player_id": "7561",
+        "name": "Elijah Mitchell",
+        "position": "RB",
+        "team": "PHI",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 532
       }
     ],
     "WR": [
@@ -1650,6 +1650,19 @@
         "search_rank": 184
       },
       {
+        "player_id": "10213",
+        "name": "Tre Tucker",
+        "position": "WR",
+        "team": "LV",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "LWR",
+        "depth_chart_order": 1,
+        "search_rank": 184
+      },
+      {
         "player_id": "12499",
         "name": "Elic Ayomanor",
         "position": "WR",
@@ -1960,19 +1973,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 351
-      },
-      {
-        "player_id": "12884",
-        "name": "Quincy Skinner Jr.",
-        "position": "WR",
-        "team": "GB",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 353
       }
     ],
     "TE": [
@@ -2746,6 +2746,19 @@
         "search_rank": 190
       },
       {
+        "player_id": "6650",
+        "name": "Chase McLaughlin",
+        "position": "K",
+        "team": "TB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 199
+      },
+      {
         "player_id": "4195",
         "name": "Jake Elliott",
         "position": "K",
@@ -2900,19 +2913,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 396
-      },
-      {
-        "player_id": "5119",
-        "name": "Jason Sanders",
-        "position": "K",
-        "team": "NYJ",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 582
       },
       {
         "player_id": "13968",
