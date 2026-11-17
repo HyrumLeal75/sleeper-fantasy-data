@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-16T21:57:05.697664+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-11-17T07:49:21.866140+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
-  "current_week": 10,
+  "current_week": 11,
   "team_name": "FearNando Mendoza",
   "username": "Hyrum75",
   "roster_id": 10,
   "standing": {
-    "rank": 5,
+    "rank": 7,
     "roster_id": 10,
     "team_name": "FearNando Mendoza",
     "username": "Hyrum75",
     "wins": 5,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "points_for": 1161.04,
-    "points_against": 1157.16,
+    "points_for": 1290.4,
+    "points_against": 1347.58,
     "waiver_position": 7
   },
   "season_summary": {
     "wins": 5,
-    "losses": 4,
+    "losses": 5,
     "ties": 0,
-    "average_points": 129.0,
+    "average_points": 129.04,
     "highest_score": 177.42,
     "lowest_score": 82.0
   },
@@ -51,7 +51,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 22
+        "search_rank": 21
       }
     },
     {
@@ -67,7 +67,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 449
+        "search_rank": 448
       }
     },
     {
@@ -163,7 +163,7 @@
         "injury_notes": null,
         "depth_chart_position": "K",
         "depth_chart_order": 1,
-        "search_rank": 89
+        "search_rank": 91
       }
     },
     {
@@ -279,9 +279,9 @@
     }
   ],
   "current_matchup": {
-    "week": 10,
+    "week": 11,
     "matchup_id": 6,
-    "my_points": 129.36,
+    "my_points": 0.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -296,7 +296,7 @@
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 22
+          "search_rank": 21
         }
       },
       {
@@ -312,7 +312,7 @@
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 449
+          "search_rank": 448
         }
       },
       {
@@ -408,7 +408,7 @@
           "injury_notes": null,
           "depth_chart_position": "K",
           "depth_chart_order": 1,
-          "search_rank": 89
+          "search_rank": 91
         }
       },
       {
@@ -429,146 +429,146 @@
       }
     ],
     "opponent": {
-      "roster_id": 7,
-      "team_name": "Don Bitij",
-      "username": "JorgeFdz",
-      "points": 190.42,
+      "roster_id": 3,
+      "team_name": "Acaríciame El Lombardi",
+      "username": "FCD123",
+      "points": 0.0,
       "lineup": [
         {
           "slot": "QB",
           "player": {
-            "player_id": "3163",
-            "name": "Jared Goff",
+            "player_id": "4046",
+            "name": "Patrick Mahomes",
             "position": "QB",
-            "team": "DET",
+            "team": "KC",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 62
+            "search_rank": 40
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "4034",
-            "name": "Christian McCaffrey",
+            "player_id": "9753",
+            "name": "Zach Charbonnet",
             "position": "RB",
-            "team": "SF",
+            "team": "SEA",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 4
+            "search_rank": 101
           }
         },
         {
           "slot": "RB2",
           "player": {
-            "player_id": "8122",
-            "name": "Zonovan Knight",
+            "player_id": "9224",
+            "name": "Chase Brown",
             "position": "RB",
-            "team": "ARI",
+            "team": "CIN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 669
+            "depth_chart_order": 1,
+            "search_rank": 14
           }
         },
         {
           "slot": "WR1",
           "player": {
-            "player_id": "8126",
-            "name": "Wan'Dale Robinson",
+            "player_id": "11632",
+            "name": "Malik Nabers",
             "position": "WR",
-            "team": "TEN",
-            "status": "Active",
-            "active": true,
-            "injury_status": "Questionable",
-            "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 1,
-            "search_rank": 105
-          }
-        },
-        {
-          "slot": "WR2",
-          "player": {
-            "player_id": "5846",
-            "name": "DK Metcalf",
-            "position": "WR",
-            "team": "PIT",
+            "team": "NYG",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
-            "search_rank": 73
+            "search_rank": 28
+          }
+        },
+        {
+          "slot": "WR2",
+          "player": {
+            "player_id": "7564",
+            "name": "Ja'Marr Chase",
+            "position": "WR",
+            "team": "CIN",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 3
           }
         },
         {
           "slot": "TE",
           "player": {
-            "player_id": "4993",
-            "name": "Mike Gesicki",
+            "player_id": "4217",
+            "name": "George Kittle",
             "position": "TE",
-            "team": "CIN",
+            "team": "SF",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
-            "search_rank": 400
+            "search_rank": 80
           }
         },
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "8137",
-            "name": "George Pickens",
+            "player_id": "8148",
+            "name": "Jameson Williams",
             "position": "WR",
-            "team": "DAL",
+            "team": "DET",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RWR",
             "depth_chart_order": 2,
-            "search_rank": 23
+            "search_rank": 53
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "11792",
-            "name": "Will Reichard",
+            "player_id": "11786",
+            "name": "Cam Little",
             "position": "K",
-            "team": "MIN",
+            "team": "JAX",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 170
+            "search_rank": 133
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "KC",
-            "name": "Chiefs",
+            "player_id": "IND",
+            "name": "Colts",
             "position": "DEF",
-            "team": "KC",
+            "team": "IND",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -716,7 +716,7 @@
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 1,
-            "search_rank": 89
+            "search_rank": 91
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -897,7 +897,7 @@
             "team": "LAC",
             "status": "Active",
             "active": true,
-            "injury_status": null,
+            "injury_status": "Questionable",
             "injury_notes": null,
             "depth_chart_position": "TE",
             "depth_chart_order": 1,
@@ -937,7 +937,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 27
+        "search_rank": 28
       },
       {
         "player_id": "6797",
@@ -963,7 +963,7 @@
         "injury_notes": "Surgery",
         "depth_chart_position": "QB",
         "depth_chart_order": 4,
-        "search_rank": 43
+        "search_rank": 44
       },
       {
         "player_id": "11563",
@@ -1041,7 +1041,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 115
+        "search_rank": 116
       }
     ],
     "RB": [
@@ -1227,7 +1227,7 @@
         "injury_notes": null,
         "depth_chart_position": "SWR",
         "depth_chart_order": 1,
-        "search_rank": 89
+        "search_rank": 91
       },
       {
         "player_id": "10222",
@@ -1247,7 +1247,7 @@
         "name": "Jordan Addison",
         "position": "WR",
         "team": "MIN",
-        "status": "Active",
+        "status": "Inactive",
         "active": true,
         "injury_status": "Out",
         "injury_notes": null,
@@ -1316,7 +1316,7 @@
         "team": "LAC",
         "status": "Active",
         "active": true,
-        "injury_status": null,
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
@@ -1353,9 +1353,9 @@
         "name": "David Njoku",
         "position": "TE",
         "team": "LAC",
-        "status": "Inactive",
+        "status": "Active",
         "active": true,
-        "injury_status": "IR",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 3,
