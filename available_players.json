@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T07:18:35.269094+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-11-18T20:26:04.936887+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -15,8 +15,8 @@
     "RB": 50,
     "WR": 50,
     "TE": 50,
-    "K": 28,
-    "DEF": 18
+    "K": 26,
+    "DEF": 17
   },
   "players": {
     "QB": [
@@ -43,7 +43,7 @@
         "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "QB",
-        "depth_chart_order": 2,
+        "depth_chart_order": 3,
         "search_rank": 28
       },
       {
@@ -57,7 +57,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 34
+        "search_rank": 33
       },
       {
         "player_id": "12508",
@@ -73,19 +73,6 @@
         "search_rank": 44
       },
       {
-        "player_id": "11563",
-        "name": "Bo Nix",
-        "position": "QB",
-        "team": "DEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 1,
-        "search_rank": 45
-      },
-      {
         "player_id": "4892",
         "name": "Baker Mayfield",
         "position": "QB",
@@ -96,7 +83,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 77
+        "search_rank": 76
       },
       {
         "player_id": "5849",
@@ -122,7 +109,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 92
+        "search_rank": 93
       },
       {
         "player_id": "13269",
@@ -135,7 +122,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 110
+        "search_rank": 109
       },
       {
         "player_id": "12522",
@@ -196,11 +183,11 @@
         "team": "NYJ",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 209
+        "search_rank": 211
       },
       {
         "player_id": "11565",
@@ -225,7 +212,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
-        "depth_chart_order": 2,
+        "depth_chart_order": 3,
         "search_rank": 227
       },
       {
@@ -291,7 +278,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 286
+        "search_rank": 288
       },
       {
         "player_id": "4017",
@@ -317,7 +304,7 @@
         "injury_notes": null,
         "depth_chart_position": null,
         "depth_chart_order": null,
-        "search_rank": 301
+        "search_rank": 302
       },
       {
         "player_id": "6136",
@@ -352,11 +339,11 @@
         "team": "PIT",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 4,
-        "search_rank": 361
+        "search_rank": 362
       },
       {
         "player_id": "7583",
@@ -365,7 +352,7 @@
         "team": "DEN",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
@@ -382,7 +369,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
-        "search_rank": 394
+        "search_rank": 395
       },
       {
         "player_id": "7527",
@@ -395,7 +382,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 399
+        "search_rank": 400
       },
       {
         "player_id": "7591",
@@ -463,6 +450,19 @@
         "search_rank": 492
       },
       {
+        "player_id": "12510",
+        "name": "Jalen Milroe",
+        "position": "QB",
+        "team": "SEA",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 3,
+        "search_rank": 495
+      },
+      {
         "player_id": "12705",
         "name": "Graham Mertz",
         "position": "QB",
@@ -473,20 +473,7 @@
         "injury_notes": "Surgery",
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
-        "search_rank": 496
-      },
-      {
-        "player_id": "12510",
-        "name": "Jalen Milroe",
-        "position": "QB",
-        "team": "SEA",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "QB",
-        "depth_chart_order": 4,
-        "search_rank": 497
+        "search_rank": 498
       },
       {
         "player_id": "12511",
@@ -495,7 +482,7 @@
         "team": "PIT",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
@@ -521,7 +508,7 @@
         "team": "MIN",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 4,
@@ -547,7 +534,7 @@
         "team": "KC",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
@@ -638,7 +625,7 @@
         "team": "IND",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
@@ -651,7 +638,7 @@
         "team": "CHI",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
@@ -669,6 +656,19 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 570
+      },
+      {
+        "player_id": "13428",
+        "name": "Joey Aguilar",
+        "position": "QB",
+        "team": "ARI",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 4,
+        "search_rank": 577
       }
     ],
     "RB": [
@@ -723,6 +723,19 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
         "search_rank": 98
+      },
+      {
+        "player_id": "12474",
+        "name": "Woody Marks",
+        "position": "RB",
+        "team": "HOU",
+        "status": "Active",
+        "active": true,
+        "injury_status": "Doubtful",
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 105
       },
       {
         "player_id": "11589",
@@ -786,7 +799,7 @@
         "injury_status": "IR",
         "injury_notes": "Surgery",
         "depth_chart_position": "RB",
-        "depth_chart_order": 3,
+        "depth_chart_order": 4,
         "search_rank": 147
       },
       {
@@ -838,7 +851,7 @@
         "injury_status": "Out",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 5,
+        "depth_chart_order": 3,
         "search_rank": 161
       },
       {
@@ -848,10 +861,10 @@
         "team": "TEN",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 5,
+        "depth_chart_order": 3,
         "search_rank": 167
       },
       {
@@ -929,7 +942,7 @@
         "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 6,
+        "depth_chart_order": 5,
         "search_rank": 182
       },
       {
@@ -941,8 +954,8 @@
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
         "search_rank": 189
       },
       {
@@ -965,7 +978,7 @@
         "team": "KC",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 4,
@@ -1033,7 +1046,7 @@
         "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 4,
+        "depth_chart_order": 5,
         "search_rank": 347
       },
       {
@@ -1048,19 +1061,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 356
-      },
-      {
-        "player_id": "13424",
-        "name": "Seth McGowan",
-        "position": "RB",
-        "team": "IND",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
-        "search_rank": 377
       },
       {
         "player_id": "7103",
@@ -1082,11 +1082,11 @@
         "team": "BAL",
         "status": "Inactive",
         "active": true,
-        "injury_status": "IR",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 5,
-        "search_rank": 410
+        "search_rank": 411
       },
       {
         "player_id": "12171",
@@ -1111,7 +1111,7 @@
         "injury_status": "IR",
         "injury_notes": "Surgery",
         "depth_chart_position": "RB",
-        "depth_chart_order": 6,
+        "depth_chart_order": 5,
         "search_rank": 442
       },
       {
@@ -1124,7 +1124,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 4,
+        "depth_chart_order": 3,
         "search_rank": 452
       },
       {
@@ -1150,7 +1150,7 @@
         "injury_status": "Out",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 3,
+        "depth_chart_order": 4,
         "search_rank": 454
       },
       {
@@ -1173,10 +1173,10 @@
         "team": "NO",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 6,
+        "depth_chart_order": 4,
         "search_rank": 466
       },
       {
@@ -1189,8 +1189,21 @@
         "injury_status": "IR",
         "injury_notes": "Sprain",
         "depth_chart_position": "RB",
-        "depth_chart_order": 5,
+        "depth_chart_order": 4,
         "search_rank": 480
+      },
+      {
+        "player_id": "12491",
+        "name": "Corey Kiner",
+        "position": "RB",
+        "team": "NE",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 2,
+        "search_rank": 487
       },
       {
         "player_id": "13423",
@@ -1199,11 +1212,11 @@
         "team": "PIT",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 6,
-        "search_rank": 489
+        "search_rank": 487
       },
       {
         "player_id": "12356",
@@ -1241,7 +1254,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 2,
+        "depth_chart_order": 3,
         "search_rank": 502
       },
       {
@@ -1267,7 +1280,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 3,
+        "depth_chart_order": 4,
         "search_rank": 511
       },
       {
@@ -1280,7 +1293,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 2,
+        "depth_chart_order": 3,
         "search_rank": 512
       },
       {
@@ -1303,23 +1316,10 @@
         "team": "KC",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 5,
-        "search_rank": 527
-      },
-      {
-        "player_id": "11729",
-        "name": "Sione Vaki",
-        "position": "RB",
-        "team": "DET",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 2,
+        "depth_chart_order": 3,
         "search_rank": 527
       }
     ],
@@ -1331,10 +1331,10 @@
         "team": "HOU",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "RWR",
-        "depth_chart_order": 6,
+        "depth_chart_order": 5,
         "search_rank": 73
       },
       {
@@ -1360,7 +1360,7 @@
         "injury_status": "IR",
         "injury_notes": "Fracture",
         "depth_chart_position": null,
-        "depth_chart_order": 9,
+        "depth_chart_order": 10,
         "search_rank": 75
       },
       {
@@ -1373,7 +1373,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "SWR",
-        "depth_chart_order": 1,
+        "depth_chart_order": 3,
         "search_rank": 91
       },
       {
@@ -1412,7 +1412,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "LWR",
-        "depth_chart_order": 1,
+        "depth_chart_order": 2,
         "search_rank": 104
       },
       {
@@ -1429,16 +1429,29 @@
         "search_rank": 106
       },
       {
+        "player_id": "13298",
+        "name": "KC Concepcion Jr.",
+        "position": "WR",
+        "team": "CLE",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "SWR",
+        "depth_chart_order": 2,
+        "search_rank": 111
+      },
+      {
         "player_id": "7049",
         "name": "Jauan Jennings",
         "position": "WR",
         "team": "MIN",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "SWR",
-        "depth_chart_order": 5,
+        "depth_chart_order": 2,
         "search_rank": 123
       },
       {
@@ -1464,7 +1477,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RWR",
-        "depth_chart_order": 3,
+        "depth_chart_order": 2,
         "search_rank": 147
       },
       {
@@ -1516,7 +1529,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RWR",
-        "depth_chart_order": 3,
+        "depth_chart_order": 2,
         "search_rank": 162
       },
       {
@@ -1594,7 +1607,7 @@
         "injury_status": "DNR",
         "injury_notes": "Surgery",
         "depth_chart_position": null,
-        "depth_chart_order": 10,
+        "depth_chart_order": 9,
         "search_rank": 177
       },
       {
@@ -1607,7 +1620,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RWR",
-        "depth_chart_order": 2,
+        "depth_chart_order": 3,
         "search_rank": 179
       },
       {
@@ -1763,7 +1776,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RWR",
-        "depth_chart_order": 3,
+        "depth_chart_order": 4,
         "search_rank": 196
       },
       {
@@ -1773,11 +1786,24 @@
         "team": "MIA",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "LWR",
-        "depth_chart_order": 9,
+        "depth_chart_order": 3,
         "search_rank": 197
+      },
+      {
+        "player_id": "13285",
+        "name": "Malachi Fields",
+        "position": "WR",
+        "team": "NYG",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RWR",
+        "depth_chart_order": 2,
+        "search_rank": 199
       },
       {
         "player_id": "12497",
@@ -1799,23 +1825,10 @@
         "team": "BAL",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "LWR",
         "depth_chart_order": 7,
-        "search_rank": 201
-      },
-      {
-        "player_id": "13285",
-        "name": "Malachi Fields",
-        "position": "WR",
-        "team": "NYG",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 2,
         "search_rank": 201
       },
       {
@@ -1828,7 +1841,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "LWR",
-        "depth_chart_order": 2,
+        "depth_chart_order": 3,
         "search_rank": 203
       },
       {
@@ -1854,7 +1867,7 @@
         "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "SWR",
-        "depth_chart_order": 8,
+        "depth_chart_order": 7,
         "search_rank": 210
       },
       {
@@ -1871,6 +1884,19 @@
         "search_rank": 235
       },
       {
+        "player_id": "11633",
+        "name": "Jamari Thrash",
+        "position": "WR",
+        "team": "TEN",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 240
+      },
+      {
         "player_id": "11617",
         "name": "Malachi Corley",
         "position": "WR",
@@ -1882,6 +1908,19 @@
         "depth_chart_position": "SWR",
         "depth_chart_order": 6,
         "search_rank": 242
+      },
+      {
+        "player_id": "12829",
+        "name": "Coleman Owen",
+        "position": "WR",
+        "team": "GB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 244
       },
       {
         "player_id": "11638",
@@ -1934,45 +1973,6 @@
         "depth_chart_position": null,
         "depth_chart_order": null,
         "search_rank": 286
-      },
-      {
-        "player_id": "2750",
-        "name": "DeAndre Carter",
-        "position": "WR",
-        "team": "DET",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 5,
-        "search_rank": 293
-      },
-      {
-        "player_id": "11311",
-        "name": "Jason Brownlee",
-        "position": "WR",
-        "team": "TEN",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 336
-      },
-      {
-        "player_id": "13743",
-        "name": "Joseph Manjack IV",
-        "position": "WR",
-        "team": "NYJ",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 349
       }
     ],
     "TE": [
@@ -1983,7 +1983,7 @@
         "team": "LAC",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
@@ -2048,7 +2048,7 @@
         "team": "WAS",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
@@ -2204,7 +2204,7 @@
         "team": "NYJ",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 4,
@@ -2338,7 +2338,7 @@
         "injury_notes": null,
         "depth_chart_position": "TE",
         "depth_chart_order": 2,
-        "search_rank": 363
+        "search_rank": 364
       },
       {
         "player_id": "12735",
@@ -2362,8 +2362,8 @@
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 4,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
         "search_rank": 371
       },
       {
@@ -2393,6 +2393,19 @@
         "search_rank": 392
       },
       {
+        "player_id": "8500",
+        "name": "John FitzPatrick",
+        "position": "TE",
+        "team": "KC",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 392
+      },
+      {
         "player_id": "4443",
         "name": "Pharaoh Brown",
         "position": "TE",
@@ -2402,7 +2415,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 3,
+        "depth_chart_order": 5,
         "search_rank": 394
       },
       {
@@ -2458,19 +2471,6 @@
         "search_rank": 417
       },
       {
-        "player_id": "9482",
-        "name": "Michael Mayer",
-        "position": "TE",
-        "team": "LV",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 2,
-        "search_rank": 421
-      },
-      {
         "player_id": "11113",
         "name": "Joel Wilson",
         "position": "TE",
@@ -2506,7 +2506,7 @@
         "injury_status": "Out",
         "injury_notes": "Fracture",
         "depth_chart_position": "TE",
-        "depth_chart_order": 4,
+        "depth_chart_order": 6,
         "search_rank": 435
       },
       {
@@ -2542,11 +2542,11 @@
         "team": "HOU",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 5,
-        "search_rank": 454
+        "depth_chart_order": 4,
+        "search_rank": 456
       },
       {
         "player_id": "7535",
@@ -2558,7 +2558,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 4,
+        "depth_chart_order": 3,
         "search_rank": 459
       },
       {
@@ -2623,7 +2623,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 3,
+        "depth_chart_order": 5,
         "search_rank": 472
       }
     ],
@@ -2655,19 +2655,6 @@
         "search_rank": 125
       },
       {
-        "player_id": "3451",
-        "name": "Ka'imi Fairbairn",
-        "position": "K",
-        "team": "HOU",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 128
-      },
-      {
         "player_id": "12711",
         "name": "Tyler Loop",
         "position": "K",
@@ -2677,7 +2664,7 @@
         "injury_status": "IR",
         "injury_notes": null,
         "depth_chart_position": "K",
-        "depth_chart_order": 3,
+        "depth_chart_order": 2,
         "search_rank": 150
       },
       {
@@ -2694,17 +2681,17 @@
         "search_rank": 151
       },
       {
-        "player_id": "12015",
-        "name": "Harrison Mevis",
+        "player_id": "12713",
+        "name": "Andy Borregales",
         "position": "K",
-        "team": "BAL",
+        "team": "NE",
         "status": "Active",
         "active": true,
         "injury_status": null,
         "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 154
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 157
       },
       {
         "player_id": "5189",
@@ -2746,19 +2733,6 @@
         "search_rank": 190
       },
       {
-        "player_id": "6650",
-        "name": "Chase McLaughlin",
-        "position": "K",
-        "team": "TB",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 199
-      },
-      {
         "player_id": "4195",
         "name": "Jake Elliott",
         "position": "K",
@@ -2770,6 +2744,19 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 214
+      },
+      {
+        "player_id": "6083",
+        "name": "Matt Gay",
+        "position": "K",
+        "team": "LV",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 239
       },
       {
         "player_id": "7922",
@@ -2889,32 +2876,6 @@
         "search_rank": 330
       },
       {
-        "player_id": "4233",
-        "name": "Zane Gonzalez",
-        "position": "K",
-        "team": "MIA",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 362
-      },
-      {
-        "player_id": "12548",
-        "name": "Lenny Krieg",
-        "position": "K",
-        "team": "GB",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 396
-      },
-      {
         "player_id": "13968",
         "name": "Drew Stevens",
         "position": "K",
@@ -2938,7 +2899,20 @@
         "injury_notes": null,
         "depth_chart_position": null,
         "depth_chart_order": null,
-        "search_rank": 657
+        "search_rank": 658
+      },
+      {
+        "player_id": "5095",
+        "name": "Daniel Carlson",
+        "position": "K",
+        "team": "MIA",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": 663
       },
       {
         "player_id": "11789",
@@ -2995,36 +2969,10 @@
     ],
     "DEF": [
       {
-        "player_id": "CHI",
-        "name": "Bears",
-        "position": "DEF",
-        "team": "CHI",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
         "player_id": "CIN",
         "name": "Bengals",
         "position": "DEF",
         "team": "CIN",
-        "status": null,
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": null
-      },
-      {
-        "player_id": "DEN",
-        "name": "Broncos",
-        "position": "DEF",
-        "team": "DEN",
         "status": null,
         "active": true,
         "injury_status": null,
@@ -3073,10 +3021,10 @@
         "search_rank": null
       },
       {
-        "player_id": "DAL",
-        "name": "Cowboys",
+        "player_id": "IND",
+        "name": "Colts",
         "position": "DEF",
-        "team": "DAL",
+        "team": "IND",
         "status": null,
         "active": true,
         "injury_status": null,
@@ -3151,10 +3099,10 @@
         "search_rank": null
       },
       {
-        "player_id": "CAR",
-        "name": "Panthers",
+        "player_id": "GB",
+        "name": "Packers",
         "position": "DEF",
-        "team": "CAR",
+        "team": "GB",
         "status": null,
         "active": true,
         "injury_status": null,
@@ -3190,6 +3138,19 @@
         "search_rank": null
       },
       {
+        "player_id": "BAL",
+        "name": "Ravens",
+        "position": "DEF",
+        "team": "BAL",
+        "status": null,
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": null,
+        "depth_chart_order": null,
+        "search_rank": null
+      },
+      {
         "player_id": "NO",
         "name": "Saints",
         "position": "DEF",
@@ -3203,10 +3164,10 @@
         "search_rank": null
       },
       {
-        "player_id": "TEN",
-        "name": "Titans",
+        "player_id": "HOU",
+        "name": "Texans",
         "position": "DEF",
-        "team": "TEN",
+        "team": "HOU",
         "status": null,
         "active": true,
         "injury_status": null,
@@ -3216,10 +3177,10 @@
         "search_rank": null
       },
       {
-        "player_id": "MIN",
-        "name": "Vikings",
+        "player_id": "TEN",
+        "name": "Titans",
         "position": "DEF",
-        "team": "MIN",
+        "team": "TEN",
         "status": null,
         "active": true,
         "injury_status": null,
