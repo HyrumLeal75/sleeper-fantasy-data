@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T20:29:34.226302+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-20T07:05:39.294382+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -503,7 +503,7 @@
   "current_matchup": {
     "week": 11,
     "matchup_id": 6,
-    "my_points": 0.0,
+    "my_points": 34.56,
     "my_lineup": [
       {
         "slot": "QB",
@@ -675,17 +675,17 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "8151",
-            "name": "Kenneth Walker III",
+            "player_id": "12481",
+            "name": "Cam Skattebo",
             "position": "RB",
-            "team": "KC",
+            "team": "NYG",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 17
+            "search_rank": 36
           }
         },
         {
@@ -755,17 +755,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "12481",
-            "name": "Cam Skattebo",
-            "position": "RB",
-            "team": "NYG",
+            "player_id": "9500",
+            "name": "Josh Downs",
+            "position": "WR",
+            "team": "KC",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 36
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 2,
+            "search_rank": 111
           }
         },
         {
@@ -6232,8 +6232,8 @@
     },
     {
       "week": 11,
-      "result": "T",
-      "points": 0.0,
+      "result": "W",
+      "points": 34.56,
       "lineup": [
         {
           "slot": "QB",
@@ -6250,7 +6250,7 @@
             "depth_chart_order": 1,
             "search_rank": 101
           },
-          "points": 0.0
+          "points": 32.46
         },
         {
           "slot": "RB",
@@ -6335,7 +6335,7 @@
             "depth_chart_order": 1,
             "search_rank": 98
           },
-          "points": 0.0
+          "points": 2.1
         },
         {
           "slot": "FLEX",
@@ -6529,17 +6529,17 @@
           {
             "slot": "RB",
             "player": {
-              "player_id": "8151",
-              "name": "Kenneth Walker III",
+              "player_id": "12481",
+              "name": "Cam Skattebo",
               "position": "RB",
-              "team": "KC",
+              "team": "NYG",
               "status": "Active",
               "active": true,
-              "injury_status": "Questionable",
+              "injury_status": null,
               "injury_notes": null,
               "depth_chart_position": "RB",
               "depth_chart_order": 1,
-              "search_rank": 17
+              "search_rank": 36
             },
             "points": 0.0
           },
@@ -6614,17 +6614,17 @@
           {
             "slot": "FLEX",
             "player": {
-              "player_id": "12481",
-              "name": "Cam Skattebo",
-              "position": "RB",
-              "team": "NYG",
+              "player_id": "9500",
+              "name": "Josh Downs",
+              "position": "WR",
+              "team": "KC",
               "status": "Active",
               "active": true,
               "injury_status": null,
               "injury_notes": null,
-              "depth_chart_position": "RB",
-              "depth_chart_order": 1,
-              "search_rank": 36
+              "depth_chart_position": "LWR",
+              "depth_chart_order": 2,
+              "search_rank": 111
             },
             "points": 0.0
           },
@@ -6714,6 +6714,22 @@
           },
           {
             "player": {
+              "player_id": "8151",
+              "name": "Kenneth Walker III",
+              "position": "RB",
+              "team": "KC",
+              "status": "Active",
+              "active": true,
+              "injury_status": "Questionable",
+              "injury_notes": null,
+              "depth_chart_position": "RB",
+              "depth_chart_order": 1,
+              "search_rank": 17
+            },
+            "points": 0.0
+          },
+          {
+            "player": {
               "player_id": "8205",
               "name": "Isiah Pacheco",
               "position": "RB",
@@ -6746,22 +6762,6 @@
           },
           {
             "player": {
-              "player_id": "9500",
-              "name": "Josh Downs",
-              "position": "WR",
-              "team": "KC",
-              "status": "Active",
-              "active": true,
-              "injury_status": null,
-              "injury_notes": null,
-              "depth_chart_position": "LWR",
-              "depth_chart_order": 2,
-              "search_rank": 111
-            },
-            "points": 0.0
-          },
-          {
-            "player": {
               "player_id": "9502",
               "name": "Tank Dell",
               "position": "WR",
@@ -6774,7 +6774,7 @@
               "depth_chart_order": 3,
               "search_rank": 187
             },
-            "points": 0.0
+            "points": 5.7
           },
           {
             "player": {
