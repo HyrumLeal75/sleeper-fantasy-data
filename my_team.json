@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T19:30:56.193716+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-23T07:27:40.526384+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -503,7 +503,7 @@
   "current_matchup": {
     "week": 11,
     "matchup_id": 6,
-    "my_points": 74.86,
+    "my_points": 116.76,
     "my_lineup": [
       {
         "slot": "QB",
@@ -654,7 +654,7 @@
       "roster_id": 3,
       "team_name": "Acaríciame El Lombardi",
       "username": "FCD123",
-      "points": 28.92,
+      "points": 99.56,
       "lineup": [
         {
           "slot": "QB",
@@ -6233,7 +6233,7 @@
     {
       "week": 11,
       "result": "W",
-      "points": 74.86,
+      "points": 116.76,
       "lineup": [
         {
           "slot": "QB",
@@ -6267,7 +6267,7 @@
             "depth_chart_order": 1,
             "search_rank": 389
           },
-          "points": 1.7
+          "points": 8.7
         },
         {
           "slot": "RB",
@@ -6284,7 +6284,7 @@
             "depth_chart_order": 1,
             "search_rank": 89
           },
-          "points": 0.3
+          "points": 2.3
         },
         {
           "slot": "WR",
@@ -6301,7 +6301,7 @@
             "depth_chart_order": 1,
             "search_rank": 10
           },
-          "points": 27.3
+          "points": 32.2
         },
         {
           "slot": "WR",
@@ -6352,7 +6352,7 @@
             "depth_chart_order": 1,
             "search_rank": 27
           },
-          "points": 0.0
+          "points": 19.0
         },
         {
           "slot": "K",
@@ -6369,7 +6369,7 @@
             "depth_chart_order": 1,
             "search_rank": 91
           },
-          "points": 3.0
+          "points": 10.0
         },
         {
           "slot": "DEF",
@@ -6386,7 +6386,7 @@
             "depth_chart_order": null,
             "search_rank": null
           },
-          "points": 8.0
+          "points": 10.0
         }
       ],
       "bench": [
@@ -6420,7 +6420,7 @@
             "depth_chart_order": 2,
             "search_rank": 63
           },
-          "points": 5.5
+          "points": 8.5
         },
         {
           "player": {
@@ -6468,7 +6468,7 @@
             "depth_chart_order": 1,
             "search_rank": 12
           },
-          "points": 0.0
+          "points": 10.3
         },
         {
           "player": {
@@ -6507,7 +6507,7 @@
         "roster_id": 3,
         "team_name": "Acaríciame El Lombardi",
         "username": "FCD123",
-        "points": 28.92,
+        "points": 99.56,
         "lineup": [
           {
             "slot": "QB",
@@ -6524,7 +6524,7 @@
               "depth_chart_order": 1,
               "search_rank": 39
             },
-            "points": 21.32
+            "points": 32.96
           },
           {
             "slot": "RB",
@@ -6541,7 +6541,7 @@
               "depth_chart_order": 1,
               "search_rank": 37
             },
-            "points": 0.0
+            "points": 5.8
           },
           {
             "slot": "RB",
@@ -6575,7 +6575,7 @@
               "depth_chart_order": 1,
               "search_rank": 28
             },
-            "points": 0.0
+            "points": 18.5
           },
           {
             "slot": "WR",
@@ -6609,7 +6609,7 @@
               "depth_chart_order": 1,
               "search_rank": 80
             },
-            "points": 0.0
+            "points": 18.4
           },
           {
             "slot": "FLEX",
@@ -6626,7 +6626,7 @@
               "depth_chart_order": 2,
               "search_rank": 111
             },
-            "points": 7.6
+            "points": 9.9
           },
           {
             "slot": "K",
@@ -6643,7 +6643,7 @@
               "depth_chart_order": 1,
               "search_rank": 132
             },
-            "points": 0.0
+            "points": 13.0
           },
           {
             "slot": "DEF",
@@ -6660,7 +6660,7 @@
               "depth_chart_order": null,
               "search_rank": null
             },
-            "points": 0.0
+            "points": 1.0
           }
         ],
         "bench": [
@@ -6694,7 +6694,7 @@
               "depth_chart_order": 2,
               "search_rank": 65
             },
-            "points": 6.0
+            "points": 7.4
           },
           {
             "player": {
@@ -6710,7 +6710,7 @@
               "depth_chart_order": 2,
               "search_rank": 53
             },
-            "points": 5.3
+            "points": 23.3
           },
           {
             "player": {
@@ -6758,7 +6758,7 @@
               "depth_chart_order": 1,
               "search_rank": 104
             },
-            "points": 0.0
+            "points": 4.6
           },
           {
             "player": {
