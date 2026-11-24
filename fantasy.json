@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T09:47:30.807673+00:00",
+  "generated_at": "2026-11-24T22:20:52.673322+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -28,7 +28,7 @@
     ],
     "settings": {
       "best_ball": 0,
-      "last_report": 10,
+      "last_report": 11,
       "waiver_budget": 100,
       "disable_adds": 0,
       "capacity_override": 0,
@@ -848,49 +848,49 @@
         {
           "slot": "RB1",
           "player": {
-            "player_id": "7543",
-            "name": "Travis Etienne Jr.",
+            "player_id": "11586",
+            "name": "Blake Corum",
             "position": "RB",
-            "team": "NO",
+            "team": "LAR",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 34
+            "depth_chart_order": 2,
+            "search_rank": 68
           }
         },
         {
           "slot": "RB2",
           "player": {
-            "player_id": "7567",
-            "name": "Kenny Gainwell",
+            "player_id": "8150",
+            "name": "Kyren Williams",
             "position": "RB",
-            "team": "TB",
+            "team": "LAR",
             "status": "Active",
             "active": true,
-            "injury_status": null,
-            "injury_notes": null,
+            "injury_status": "Questionable",
+            "injury_notes": "Soreness",
             "depth_chart_position": "RB",
-            "depth_chart_order": 2,
-            "search_rank": 86
+            "depth_chart_order": 1,
+            "search_rank": 13
           }
         },
         {
           "slot": "WR1",
           "player": {
-            "player_id": "5872",
-            "name": "Deebo Samuel Sr.",
+            "player_id": "9488",
+            "name": "Jaxon Smith-Njigba",
             "position": "WR",
-            "team": "SF",
+            "team": "SEA",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "SWR",
-            "depth_chart_order": 2,
-            "search_rank": 130
+            "depth_chart_position": "LWR",
+            "depth_chart_order": 1,
+            "search_rank": 7
           }
         },
         {
@@ -928,17 +928,17 @@
         {
           "slot": "FLEX",
           "player": {
-            "player_id": "13296",
-            "name": "Caleb Douglas",
+            "player_id": "5872",
+            "name": "Deebo Samuel Sr.",
             "position": "WR",
-            "team": "MIA",
+            "team": "SF",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "RWR",
-            "depth_chart_order": 1,
-            "search_rank": 197
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 2,
+            "search_rank": 130
           }
         },
         {
@@ -976,19 +976,6 @@
       ],
       "bench": [
         {
-          "player_id": "11586",
-          "name": "Blake Corum",
-          "position": "RB",
-          "team": "LAR",
-          "status": "Active",
-          "active": true,
-          "injury_status": null,
-          "injury_notes": null,
-          "depth_chart_position": "RB",
-          "depth_chart_order": 2,
-          "search_rank": 68
-        },
-        {
           "player_id": "12514",
           "name": "Emeka Egbuka",
           "position": "WR",
@@ -1015,6 +1002,19 @@
           "search_rank": 678
         },
         {
+          "player_id": "13296",
+          "name": "Caleb Douglas",
+          "position": "WR",
+          "team": "MIA",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RWR",
+          "depth_chart_order": 1,
+          "search_rank": 197
+        },
+        {
           "player_id": "4199",
           "name": "Aaron Jones Sr.",
           "position": "RB",
@@ -1028,30 +1028,30 @@
           "search_rank": 85
         },
         {
-          "player_id": "8150",
-          "name": "Kyren Williams",
+          "player_id": "7543",
+          "name": "Travis Etienne Jr.",
           "position": "RB",
-          "team": "LAR",
-          "status": "Active",
-          "active": true,
-          "injury_status": "Questionable",
-          "injury_notes": "Soreness",
-          "depth_chart_position": "RB",
-          "depth_chart_order": 1,
-          "search_rank": 13
-        },
-        {
-          "player_id": "9488",
-          "name": "Jaxon Smith-Njigba",
-          "position": "WR",
-          "team": "SEA",
+          "team": "NO",
           "status": "Active",
           "active": true,
           "injury_status": null,
           "injury_notes": null,
-          "depth_chart_position": "LWR",
+          "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 7
+          "search_rank": 34
+        },
+        {
+          "player_id": "7567",
+          "name": "Kenny Gainwell",
+          "position": "RB",
+          "team": "TB",
+          "status": "Active",
+          "active": true,
+          "injury_status": null,
+          "injury_notes": null,
+          "depth_chart_position": "RB",
+          "depth_chart_order": 2,
+          "search_rank": 86
         }
       ],
       "reserve": [],
@@ -63536,51 +63536,51 @@
             {
               "slot": "RB",
               "player": {
-                "player_id": "7543",
-                "name": "Travis Etienne Jr.",
+                "player_id": "11586",
+                "name": "Blake Corum",
                 "position": "RB",
-                "team": "NO",
+                "team": "LAR",
                 "status": "Active",
                 "active": true,
                 "injury_status": null,
                 "injury_notes": null,
                 "depth_chart_position": "RB",
-                "depth_chart_order": 1,
-                "search_rank": 34
+                "depth_chart_order": 2,
+                "search_rank": 68
               },
               "points": 0.0
             },
             {
               "slot": "RB",
               "player": {
-                "player_id": "7567",
-                "name": "Kenny Gainwell",
+                "player_id": "8150",
+                "name": "Kyren Williams",
                 "position": "RB",
-                "team": "TB",
+                "team": "LAR",
                 "status": "Active",
                 "active": true,
-                "injury_status": null,
-                "injury_notes": null,
+                "injury_status": "Questionable",
+                "injury_notes": "Soreness",
                 "depth_chart_position": "RB",
-                "depth_chart_order": 2,
-                "search_rank": 86
+                "depth_chart_order": 1,
+                "search_rank": 13
               },
               "points": 0.0
             },
             {
               "slot": "WR",
               "player": {
-                "player_id": "5872",
-                "name": "Deebo Samuel Sr.",
+                "player_id": "9488",
+                "name": "Jaxon Smith-Njigba",
                 "position": "WR",
-                "team": "SF",
+                "team": "SEA",
                 "status": "Active",
                 "active": true,
                 "injury_status": null,
                 "injury_notes": null,
-                "depth_chart_position": "SWR",
-                "depth_chart_order": 2,
-                "search_rank": 130
+                "depth_chart_position": "LWR",
+                "depth_chart_order": 1,
+                "search_rank": 7
               },
               "points": 0.0
             },
@@ -63621,17 +63621,17 @@
             {
               "slot": "FLEX",
               "player": {
-                "player_id": "13296",
-                "name": "Caleb Douglas",
+                "player_id": "5872",
+                "name": "Deebo Samuel Sr.",
                 "position": "WR",
-                "team": "MIA",
+                "team": "SF",
                 "status": "Active",
                 "active": true,
                 "injury_status": null,
                 "injury_notes": null,
-                "depth_chart_position": "RWR",
-                "depth_chart_order": 1,
-                "search_rank": 197
+                "depth_chart_position": "SWR",
+                "depth_chart_order": 2,
+                "search_rank": 130
               },
               "points": 0.0
             },
@@ -63673,22 +63673,6 @@
           "bench": [
             {
               "player": {
-                "player_id": "11586",
-                "name": "Blake Corum",
-                "position": "RB",
-                "team": "LAR",
-                "status": "Active",
-                "active": true,
-                "injury_status": null,
-                "injury_notes": null,
-                "depth_chart_position": "RB",
-                "depth_chart_order": 2,
-                "search_rank": 68
-              },
-              "points": 0.0
-            },
-            {
-              "player": {
                 "player_id": "12514",
                 "name": "Emeka Egbuka",
                 "position": "WR",
@@ -63721,6 +63705,22 @@
             },
             {
               "player": {
+                "player_id": "13296",
+                "name": "Caleb Douglas",
+                "position": "WR",
+                "team": "MIA",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RWR",
+                "depth_chart_order": 1,
+                "search_rank": 197
+              },
+              "points": 0.0
+            },
+            {
+              "player": {
                 "player_id": "4199",
                 "name": "Aaron Jones Sr.",
                 "position": "RB",
@@ -63737,33 +63737,33 @@
             },
             {
               "player": {
-                "player_id": "8150",
-                "name": "Kyren Williams",
+                "player_id": "7543",
+                "name": "Travis Etienne Jr.",
                 "position": "RB",
-                "team": "LAR",
+                "team": "NO",
                 "status": "Active",
                 "active": true,
-                "injury_status": "Questionable",
-                "injury_notes": "Soreness",
+                "injury_status": null,
+                "injury_notes": null,
                 "depth_chart_position": "RB",
                 "depth_chart_order": 1,
-                "search_rank": 13
+                "search_rank": 34
               },
               "points": 0.0
             },
             {
               "player": {
-                "player_id": "9488",
-                "name": "Jaxon Smith-Njigba",
-                "position": "WR",
-                "team": "SEA",
+                "player_id": "7567",
+                "name": "Kenny Gainwell",
+                "position": "RB",
+                "team": "TB",
                 "status": "Active",
                 "active": true,
                 "injury_status": null,
                 "injury_notes": null,
-                "depth_chart_position": "LWR",
-                "depth_chart_order": 1,
-                "search_rank": 7
+                "depth_chart_position": "RB",
+                "depth_chart_order": 2,
+                "search_rank": 86
               },
               "points": 0.0
             }
@@ -64371,51 +64371,51 @@
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "7543",
-                    "name": "Travis Etienne Jr.",
+                    "player_id": "11586",
+                    "name": "Blake Corum",
                     "position": "RB",
-                    "team": "NO",
+                    "team": "LAR",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 1,
-                    "search_rank": 34
+                    "depth_chart_order": 2,
+                    "search_rank": 68
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "RB",
                   "player": {
-                    "player_id": "7567",
-                    "name": "Kenny Gainwell",
+                    "player_id": "8150",
+                    "name": "Kyren Williams",
                     "position": "RB",
-                    "team": "TB",
+                    "team": "LAR",
                     "status": "Active",
                     "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
+                    "injury_status": "Questionable",
+                    "injury_notes": "Soreness",
                     "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 86
+                    "depth_chart_order": 1,
+                    "search_rank": 13
                   },
                   "points": 0.0
                 },
                 {
                   "slot": "WR",
                   "player": {
-                    "player_id": "5872",
-                    "name": "Deebo Samuel Sr.",
+                    "player_id": "9488",
+                    "name": "Jaxon Smith-Njigba",
                     "position": "WR",
-                    "team": "SF",
+                    "team": "SEA",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "SWR",
-                    "depth_chart_order": 2,
-                    "search_rank": 130
+                    "depth_chart_position": "LWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 7
                   },
                   "points": 0.0
                 },
@@ -64456,17 +64456,17 @@
                 {
                   "slot": "FLEX",
                   "player": {
-                    "player_id": "13296",
-                    "name": "Caleb Douglas",
+                    "player_id": "5872",
+                    "name": "Deebo Samuel Sr.",
                     "position": "WR",
-                    "team": "MIA",
+                    "team": "SF",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "RWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 197
+                    "depth_chart_position": "SWR",
+                    "depth_chart_order": 2,
+                    "search_rank": 130
                   },
                   "points": 0.0
                 },
@@ -64508,22 +64508,6 @@
               "bench": [
                 {
                   "player": {
-                    "player_id": "11586",
-                    "name": "Blake Corum",
-                    "position": "RB",
-                    "team": "LAR",
-                    "status": "Active",
-                    "active": true,
-                    "injury_status": null,
-                    "injury_notes": null,
-                    "depth_chart_position": "RB",
-                    "depth_chart_order": 2,
-                    "search_rank": 68
-                  },
-                  "points": 0.0
-                },
-                {
-                  "player": {
                     "player_id": "12514",
                     "name": "Emeka Egbuka",
                     "position": "WR",
@@ -64556,6 +64540,22 @@
                 },
                 {
                   "player": {
+                    "player_id": "13296",
+                    "name": "Caleb Douglas",
+                    "position": "WR",
+                    "team": "MIA",
+                    "status": "Active",
+                    "active": true,
+                    "injury_status": null,
+                    "injury_notes": null,
+                    "depth_chart_position": "RWR",
+                    "depth_chart_order": 1,
+                    "search_rank": 197
+                  },
+                  "points": 0.0
+                },
+                {
+                  "player": {
                     "player_id": "4199",
                     "name": "Aaron Jones Sr.",
                     "position": "RB",
@@ -64572,33 +64572,33 @@
                 },
                 {
                   "player": {
-                    "player_id": "8150",
-                    "name": "Kyren Williams",
+                    "player_id": "7543",
+                    "name": "Travis Etienne Jr.",
                     "position": "RB",
-                    "team": "LAR",
+                    "team": "NO",
                     "status": "Active",
                     "active": true,
-                    "injury_status": "Questionable",
-                    "injury_notes": "Soreness",
+                    "injury_status": null,
+                    "injury_notes": null,
                     "depth_chart_position": "RB",
                     "depth_chart_order": 1,
-                    "search_rank": 13
+                    "search_rank": 34
                   },
                   "points": 0.0
                 },
                 {
                   "player": {
-                    "player_id": "9488",
-                    "name": "Jaxon Smith-Njigba",
-                    "position": "WR",
-                    "team": "SEA",
+                    "player_id": "7567",
+                    "name": "Kenny Gainwell",
+                    "position": "RB",
+                    "team": "TB",
                     "status": "Active",
                     "active": true,
                     "injury_status": null,
                     "injury_notes": null,
-                    "depth_chart_position": "LWR",
-                    "depth_chart_order": 1,
-                    "search_rank": 7
+                    "depth_chart_position": "RB",
+                    "depth_chart_order": 2,
+                    "search_rank": 86
                   },
                   "points": 0.0
                 }
