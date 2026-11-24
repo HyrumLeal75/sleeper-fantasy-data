@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-23T23:49:10.233416+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-24T09:47:30.807673+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
-  "current_week": 11,
+  "current_week": 12,
   "team_name": "FearNando Mendoza",
   "username": "Hyrum75",
   "roster_id": 10,
   "standing": {
-    "rank": 7,
+    "rank": 5,
     "roster_id": 10,
     "team_name": "FearNando Mendoza",
     "username": "Hyrum75",
-    "wins": 5,
+    "wins": 6,
     "losses": 5,
     "ties": 0,
-    "points_for": 1290.4,
-    "points_against": 1347.58,
+    "points_for": 1419.46,
+    "points_against": 1463.84,
     "waiver_position": 8
   },
   "season_summary": {
-    "wins": 5,
+    "wins": 6,
     "losses": 5,
     "ties": 0,
     "average_points": 129.04,
@@ -279,9 +279,9 @@
     }
   ],
   "current_matchup": {
-    "week": 11,
-    "matchup_id": 6,
-    "my_points": 116.76,
+    "week": 12,
+    "matchup_id": 5,
+    "my_points": 0.0,
     "my_lineup": [
       {
         "slot": "QB",
@@ -429,146 +429,146 @@
       }
     ],
     "opponent": {
-      "roster_id": 3,
-      "team_name": "Acaríciame El Lombardi",
-      "username": "FCD123",
-      "points": 99.56,
+      "roster_id": 2,
+      "team_name": "Horsepower",
+      "username": "MD1AZ",
+      "points": 0.0,
       "lineup": [
         {
           "slot": "QB",
           "player": {
-            "player_id": "4046",
-            "name": "Patrick Mahomes",
+            "player_id": "11563",
+            "name": "Bo Nix",
             "position": "QB",
-            "team": "KC",
+            "team": "DEN",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 39
+            "search_rank": 44
           }
         },
         {
           "slot": "RB1",
           "player": {
-            "player_id": "12481",
-            "name": "Cam Skattebo",
+            "player_id": "7543",
+            "name": "Travis Etienne Jr.",
             "position": "RB",
-            "team": "NYG",
+            "team": "NO",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
-            "search_rank": 36
+            "search_rank": 34
           }
         },
         {
           "slot": "RB2",
           "player": {
-            "player_id": "9224",
-            "name": "Chase Brown",
+            "player_id": "7567",
+            "name": "Kenny Gainwell",
             "position": "RB",
-            "team": "CIN",
+            "team": "TB",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "RB",
-            "depth_chart_order": 1,
-            "search_rank": 14
+            "depth_chart_order": 2,
+            "search_rank": 86
           }
         },
         {
           "slot": "WR1",
           "player": {
-            "player_id": "11632",
-            "name": "Malik Nabers",
+            "player_id": "5872",
+            "name": "Deebo Samuel Sr.",
             "position": "WR",
-            "team": "NYG",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 26
-          }
-        },
-        {
-          "slot": "WR2",
-          "player": {
-            "player_id": "7564",
-            "name": "Ja'Marr Chase",
-            "position": "WR",
-            "team": "CIN",
-            "status": "Active",
-            "active": true,
-            "injury_status": null,
-            "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 1,
-            "search_rank": 3
-          }
-        },
-        {
-          "slot": "TE",
-          "player": {
-            "player_id": "4217",
-            "name": "George Kittle",
-            "position": "TE",
             "team": "SF",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "TE",
-            "depth_chart_order": 1,
-            "search_rank": 80
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 2,
+            "search_rank": 130
           }
         },
         {
-          "slot": "FLEX",
+          "slot": "WR2",
           "player": {
-            "player_id": "9500",
-            "name": "Josh Downs",
+            "player_id": "10229",
+            "name": "Rashee Rice",
             "position": "WR",
             "team": "KC",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
-            "depth_chart_position": "LWR",
-            "depth_chart_order": 2,
-            "search_rank": 111
+            "depth_chart_position": "SWR",
+            "depth_chart_order": 1,
+            "search_rank": 30
+          }
+        },
+        {
+          "slot": "TE",
+          "player": {
+            "player_id": "1466",
+            "name": "Travis Kelce",
+            "position": "TE",
+            "team": "KC",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "TE",
+            "depth_chart_order": 1,
+            "search_rank": 89
+          }
+        },
+        {
+          "slot": "FLEX",
+          "player": {
+            "player_id": "13296",
+            "name": "Caleb Douglas",
+            "position": "WR",
+            "team": "MIA",
+            "status": "Active",
+            "active": true,
+            "injury_status": null,
+            "injury_notes": null,
+            "depth_chart_position": "RWR",
+            "depth_chart_order": 1,
+            "search_rank": 197
           }
         },
         {
           "slot": "K",
           "player": {
-            "player_id": "11786",
-            "name": "Cam Little",
+            "player_id": "7839",
+            "name": "Evan McPherson",
             "position": "K",
-            "team": "JAX",
+            "team": "CIN",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
+            "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 132
+            "search_rank": 155
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "MIN",
-            "name": "Vikings",
+            "player_id": "DEN",
+            "name": "Broncos",
             "position": "DEF",
-            "team": "MIN",
+            "team": "DEN",
             "status": null,
             "active": true,
             "injury_status": null,
