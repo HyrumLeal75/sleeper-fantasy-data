@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T22:20:52.673322+00:00",
-  "player_database_source": "cache",
+  "generated_at": "2026-11-25T08:22:45.558408+00:00",
+  "player_database_source": "sleeper_api",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -18,7 +18,7 @@
     "ties": 0,
     "points_for": 1419.46,
     "points_against": 1463.84,
-    "waiver_position": 8
+    "waiver_position": 7
   },
   "season_summary": {
     "wins": 6,
@@ -28,7 +28,7 @@
     "highest_score": 177.42,
     "lowest_score": 82.0
   },
-  "waiver_position": 8,
+  "waiver_position": 7,
   "roster_capacity": {
     "active_players": 15,
     "active_capacity": 15,
@@ -51,7 +51,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 102
+        "search_rank": 101
       }
     },
     {
@@ -67,7 +67,7 @@
         "injury_notes": null,
         "depth_chart_position": "RB",
         "depth_chart_order": 1,
-        "search_rank": 388
+        "search_rank": 387
       }
     },
     {
@@ -163,7 +163,7 @@
         "injury_notes": null,
         "depth_chart_position": "K",
         "depth_chart_order": 1,
-        "search_rank": 89
+        "search_rank": 91
       }
     },
     {
@@ -243,7 +243,7 @@
       "team": "CLE",
       "status": "Active",
       "active": true,
-      "injury_status": null,
+      "injury_status": "Questionable",
       "injury_notes": null,
       "depth_chart_position": "LWR",
       "depth_chart_order": 1,
@@ -274,7 +274,7 @@
       "injury_status": "IR",
       "injury_notes": "Strain",
       "depth_chart_position": "RB",
-      "depth_chart_order": 4,
+      "depth_chart_order": 5,
       "search_rank": 110
     }
   ],
@@ -296,7 +296,7 @@
           "injury_notes": null,
           "depth_chart_position": "QB",
           "depth_chart_order": 1,
-          "search_rank": 102
+          "search_rank": 101
         }
       },
       {
@@ -312,7 +312,7 @@
           "injury_notes": null,
           "depth_chart_position": "RB",
           "depth_chart_order": 1,
-          "search_rank": 388
+          "search_rank": 387
         }
       },
       {
@@ -408,7 +408,7 @@
           "injury_notes": null,
           "depth_chart_position": "K",
           "depth_chart_order": 1,
-          "search_rank": 89
+          "search_rank": 91
         }
       },
       {
@@ -437,17 +437,17 @@
         {
           "slot": "QB",
           "player": {
-            "player_id": "11563",
-            "name": "Bo Nix",
+            "player_id": "4017",
+            "name": "Deshaun Watson",
             "position": "QB",
-            "team": "DEN",
+            "team": "CLE",
             "status": "Active",
             "active": true,
             "injury_status": null,
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 44
+            "search_rank": 290
           }
         },
         {
@@ -475,8 +475,8 @@
             "team": "LAR",
             "status": "Active",
             "active": true,
-            "injury_status": "Questionable",
-            "injury_notes": "Soreness",
+            "injury_status": null,
+            "injury_notes": null,
             "depth_chart_position": "RB",
             "depth_chart_order": 1,
             "search_rank": 13
@@ -495,7 +495,7 @@
             "injury_notes": null,
             "depth_chart_position": "LWR",
             "depth_chart_order": 1,
-            "search_rank": 7
+            "search_rank": 6
           }
         },
         {
@@ -559,16 +559,16 @@
             "injury_notes": null,
             "depth_chart_position": "K",
             "depth_chart_order": 1,
-            "search_rank": 155
+            "search_rank": 153
           }
         },
         {
           "slot": "DEF",
           "player": {
-            "player_id": "DEN",
-            "name": "Broncos",
+            "player_id": "NYG",
+            "name": "Giants",
             "position": "DEF",
-            "team": "DEN",
+            "team": "NYG",
             "status": null,
             "active": true,
             "injury_status": null,
@@ -684,7 +684,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 102
+            "search_rank": 101
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -796,7 +796,7 @@
             "injury_notes": null,
             "depth_chart_position": "SWR",
             "depth_chart_order": 2,
-            "search_rank": 89
+            "search_rank": 91
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -827,7 +827,7 @@
             "injury_notes": null,
             "depth_chart_position": "QB",
             "depth_chart_order": 1,
-            "search_rank": 102
+            "search_rank": 101
           },
           "roster_id": 10,
           "team_name": "FearNando Mendoza"
@@ -942,7 +942,7 @@
         "injury_notes": "Surgery",
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
-        "search_rank": 9
+        "search_rank": 12
       },
       {
         "player_id": "6904",
@@ -968,7 +968,7 @@
         "injury_notes": null,
         "depth_chart_position": "QB",
         "depth_chart_order": 1,
-        "search_rank": 34
+        "search_rank": 33
       },
       {
         "player_id": "12508",
@@ -982,6 +982,19 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 4,
         "search_rank": 44
+      },
+      {
+        "player_id": "11563",
+        "name": "Bo Nix",
+        "position": "QB",
+        "team": "DEN",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "QB",
+        "depth_chart_order": 1,
+        "search_rank": 46
       },
       {
         "player_id": "4892",
@@ -1003,7 +1016,7 @@
         "team": "MIN",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": "Strain",
         "depth_chart_position": "QB",
         "depth_chart_order": 3,
@@ -1016,11 +1029,11 @@
         "team": "SEA",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "QB",
-        "depth_chart_order": 2,
-        "search_rank": 93
+        "depth_chart_order": 1,
+        "search_rank": 92
       },
       {
         "player_id": "13269",
@@ -1047,19 +1060,6 @@
         "depth_chart_position": "QB",
         "depth_chart_order": 2,
         "search_rank": 123
-      },
-      {
-        "player_id": "138",
-        "name": "Ben Roethlisberger",
-        "position": "QB",
-        "team": "PIT",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": null,
-        "depth_chart_order": null,
-        "search_rank": 176
       }
     ],
     "RB": [
@@ -1099,7 +1099,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 1,
+        "depth_chart_order": 3,
         "search_rank": 98
       },
       {
@@ -1109,10 +1109,10 @@
         "team": "HOU",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
+        "injury_status": "Questionable",
         "injury_notes": null,
         "depth_chart_position": "RB",
-        "depth_chart_order": 6,
+        "depth_chart_order": 2,
         "search_rank": 105
       },
       {
@@ -1164,7 +1164,7 @@
         "injury_status": "IR",
         "injury_notes": "Surgery",
         "depth_chart_position": "RB",
-        "depth_chart_order": 4,
+        "depth_chart_order": 5,
         "search_rank": 147
       },
       {
@@ -1196,16 +1196,29 @@
     ],
     "WR": [
       {
+        "player_id": "12514",
+        "name": "Emeka Egbuka",
+        "position": "WR",
+        "team": "TB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "LWR",
+        "depth_chart_order": 1,
+        "search_rank": 38
+      },
+      {
         "player_id": "11628",
         "name": "Marvin Harrison Jr.",
         "position": "WR",
         "team": "HOU",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
-        "injury_notes": null,
+        "injury_status": "Questionable",
+        "injury_notes": "Strain",
         "depth_chart_position": "RWR",
-        "depth_chart_order": 6,
+        "depth_chart_order": 5,
         "search_rank": 73
       },
       {
@@ -1245,7 +1258,7 @@
         "injury_notes": null,
         "depth_chart_position": "SWR",
         "depth_chart_order": 2,
-        "search_rank": 89
+        "search_rank": 91
       },
       {
         "player_id": "10222",
@@ -1267,10 +1280,10 @@
         "team": "MIN",
         "status": "Active",
         "active": true,
-        "injury_status": "Out",
-        "injury_notes": null,
+        "injury_status": "Doubtful",
+        "injury_notes": "Surgery",
         "depth_chart_position": "RWR",
-        "depth_chart_order": 7,
+        "depth_chart_order": 4,
         "search_rank": 99
       },
       {
@@ -1296,21 +1309,8 @@
         "injury_status": "IR",
         "injury_notes": "Plantar Fasciitis",
         "depth_chart_position": "RWR",
-        "depth_chart_order": 6,
+        "depth_chart_order": 7,
         "search_rank": 106
-      },
-      {
-        "player_id": "13298",
-        "name": "KC Concepcion Jr.",
-        "position": "WR",
-        "team": "CLE",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "SWR",
-        "depth_chart_order": 2,
-        "search_rank": 111
       },
       {
         "player_id": "7049",
@@ -1337,7 +1337,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 1,
+        "depth_chart_order": 2,
         "search_rank": 83
       },
       {
@@ -1373,10 +1373,10 @@
         "team": "LAC",
         "status": "Active",
         "active": true,
-        "injury_status": "Questionable",
+        "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 2,
+        "depth_chart_order": 1,
         "search_rank": 131
       },
       {
@@ -1428,7 +1428,7 @@
         "injury_status": null,
         "injury_notes": null,
         "depth_chart_position": "TE",
-        "depth_chart_order": 2,
+        "depth_chart_order": 3,
         "search_rank": 140
       },
       {
@@ -1592,10 +1592,10 @@
     ],
     "DEF": [
       {
-        "player_id": "CIN",
-        "name": "Bengals",
+        "player_id": "DEN",
+        "name": "Broncos",
         "position": "DEF",
-        "team": "CIN",
+        "team": "DEN",
         "status": null,
         "active": true,
         "injury_status": null,
@@ -1709,10 +1709,10 @@
         "search_rank": null
       },
       {
-        "player_id": "NYG",
-        "name": "Giants",
+        "player_id": "GB",
+        "name": "Packers",
         "position": "DEF",
-        "team": "NYG",
+        "team": "GB",
         "status": null,
         "active": true,
         "injury_status": null,
