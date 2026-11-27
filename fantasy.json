@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:18:06.036813+00:00",
+  "generated_at": "2026-11-27T21:09:41.122100+00:00",
   "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
@@ -64227,7 +64227,7 @@
               "roster_id": 1,
               "team_name": "El Guajolote Macias",
               "username": "JerrysaurusRex",
-              "points": 28.3,
+              "points": 33.4,
               "lineup": [
                 {
                   "slot": "QB",
@@ -64278,7 +64278,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 118
                   },
-                  "points": 0.0
+                  "points": 5.1
                 },
                 {
                   "slot": "WR",
@@ -64478,7 +64478,7 @@
                     "depth_chart_order": null,
                     "search_rank": null
                   },
-                  "points": 0.0
+                  "points": 18.0
                 }
               ]
             },
@@ -64486,7 +64486,7 @@
               "roster_id": 4,
               "team_name": "ManuBro",
               "username": "ManuBro",
-              "points": 40.54,
+              "points": 43.74,
               "lineup": [
                 {
                   "slot": "QB",
@@ -64537,7 +64537,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 52
                   },
-                  "points": 0.0
+                  "points": 3.2
                 },
                 {
                   "slot": "WR",
@@ -65492,7 +65492,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 194
                   },
-                  "points": 0.0
+                  "points": 6.8
                 },
                 {
                   "player": {
@@ -65524,7 +65524,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 65
                   },
-                  "points": 0.0
+                  "points": 1.6
                 },
                 {
                   "player": {
@@ -65876,7 +65876,7 @@
               "roster_id": 5,
               "team_name": "Burros Negros",
               "username": "Duarfo02",
-              "points": 62.2,
+              "points": 65.3,
               "lineup": [
                 {
                   "slot": "QB",
@@ -65961,7 +65961,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 42
                   },
-                  "points": 0.0
+                  "points": 3.1
                 },
                 {
                   "slot": "TE",
@@ -67221,7 +67221,7 @@
                     "depth_chart_order": 1,
                     "search_rank": 73
                   },
-                  "points": 0.0
+                  "points": 12.6
                 },
                 {
                   "player": {
@@ -67496,7 +67496,7 @@
                     "depth_chart_order": 2,
                     "search_rank": 72
                   },
-                  "points": 0.0
+                  "points": 1.4
                 },
                 {
                   "player": {
@@ -67615,6 +67615,37 @@
               "team_name": "ManuBro"
             }
           ],
+          "waiver_bid": null
+        },
+        {
+          "transaction_id": "1431803148334297088",
+          "week": 12,
+          "type": "waiver",
+          "status": "failed",
+          "created": 1795730981481,
+          "roster_ids": [
+            1
+          ],
+          "adds": [
+            {
+              "player": {
+                "player_id": "12533",
+                "name": "Jacory Croskey-Merritt",
+                "position": "RB",
+                "team": "WAS",
+                "status": "Active",
+                "active": true,
+                "injury_status": null,
+                "injury_notes": null,
+                "depth_chart_position": "RB",
+                "depth_chart_order": 1,
+                "search_rank": 95
+              },
+              "roster_id": 1,
+              "team_name": "El Guajolote Macias"
+            }
+          ],
+          "drops": [],
           "waiver_bid": null
         },
         {
