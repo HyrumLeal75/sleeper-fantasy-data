@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T21:26:35.919347+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-27T08:18:06.036813+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -972,6 +972,19 @@
         "search_rank": 189
       },
       {
+        "player_id": "11579",
+        "name": "Audric Estime",
+        "position": "RB",
+        "team": "NO",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RB",
+        "depth_chart_order": 4,
+        "search_rank": 190
+      },
+      {
         "player_id": "12467",
         "name": "Jordan James",
         "position": "RB",
@@ -1308,19 +1321,6 @@
         "depth_chart_position": "RB",
         "depth_chart_order": 3,
         "search_rank": 506
-      },
-      {
-        "player_id": "12544",
-        "name": "LeQuint Allen Jr.",
-        "position": "RB",
-        "team": "JAX",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RB",
-        "depth_chart_order": 3,
-        "search_rank": 512
       }
     ],
     "WR": [
@@ -1663,6 +1663,19 @@
         "search_rank": 185
       },
       {
+        "player_id": "9502",
+        "name": "Tank Dell",
+        "position": "WR",
+        "team": "HOU",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "RWR",
+        "depth_chart_order": 3,
+        "search_rank": 187
+      },
+      {
         "player_id": "12536",
         "name": "Jaylin Noel",
         "position": "WR",
@@ -1699,19 +1712,6 @@
         "injury_notes": null,
         "depth_chart_position": "SWR",
         "depth_chart_order": 3,
-        "search_rank": 194
-      },
-      {
-        "player_id": "13274",
-        "name": "Germie Bernard",
-        "position": "WR",
-        "team": "PIT",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "RWR",
-        "depth_chart_order": 2,
         "search_rank": 194
       },
       {
@@ -1988,19 +1988,6 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 1,
         "search_rank": 83
-      },
-      {
-        "player_id": "5012",
-        "name": "Mark Andrews",
-        "position": "TE",
-        "team": "BAL",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "TE",
-        "depth_chart_order": 1,
-        "search_rank": 96
       },
       {
         "player_id": "11603",
@@ -2625,6 +2612,19 @@
         "depth_chart_position": "TE",
         "depth_chart_order": 2,
         "search_rank": 471
+      },
+      {
+        "player_id": "13308",
+        "name": "Bauer Sharp",
+        "position": "TE",
+        "team": "TB",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "TE",
+        "depth_chart_order": 3,
+        "search_rank": 472
       }
     ],
     "K": [
@@ -2640,19 +2640,6 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 119
-      },
-      {
-        "player_id": "2747",
-        "name": "Jason Myers",
-        "position": "K",
-        "team": "SEA",
-        "status": "Active",
-        "active": true,
-        "injury_status": null,
-        "injury_notes": null,
-        "depth_chart_position": "K",
-        "depth_chart_order": 1,
-        "search_rank": 125
       },
       {
         "player_id": "12711",
@@ -2679,6 +2666,19 @@
         "depth_chart_position": "K",
         "depth_chart_order": 1,
         "search_rank": 151
+      },
+      {
+        "player_id": "4227",
+        "name": "Harrison Butker",
+        "position": "K",
+        "team": "KC",
+        "status": "Active",
+        "active": true,
+        "injury_status": null,
+        "injury_notes": null,
+        "depth_chart_position": "K",
+        "depth_chart_order": 1,
+        "search_rank": 155
       },
       {
         "player_id": "12713",

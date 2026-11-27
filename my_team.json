@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T21:26:35.919347+00:00",
-  "player_database_source": "sleeper_api",
+  "generated_at": "2026-11-27T08:18:06.036813+00:00",
+  "player_database_source": "cache",
   "schema_version": 4,
   "league_id": "1394662729981120512",
   "season": "2026",
@@ -503,7 +503,7 @@
   "current_matchup": {
     "week": 12,
     "matchup_id": 5,
-    "my_points": 21.1,
+    "my_points": 68.1,
     "my_lineup": [
       {
         "slot": "QB",
@@ -654,7 +654,7 @@
       "roster_id": 2,
       "team_name": "Horsepower",
       "username": "MD1AZ",
-      "points": 47.0,
+      "points": 62.0,
       "lineup": [
         {
           "slot": "QB",
@@ -6797,8 +6797,8 @@
     },
     {
       "week": 12,
-      "result": "L",
-      "points": 21.1,
+      "result": "W",
+      "points": 68.1,
       "lineup": [
         {
           "slot": "QB",
@@ -6866,7 +6866,7 @@
             "depth_chart_order": 1,
             "search_rank": 10
           },
-          "points": 0.0
+          "points": 22.4
         },
         {
           "slot": "WR",
@@ -6917,7 +6917,7 @@
             "depth_chart_order": 2,
             "search_rank": 63
           },
-          "points": 21.1
+          "points": 28.7
         },
         {
           "slot": "K",
@@ -6934,7 +6934,7 @@
             "depth_chart_order": 1,
             "search_rank": 91
           },
-          "points": 0.0
+          "points": 9.0
         },
         {
           "slot": "DEF",
@@ -6951,7 +6951,7 @@
             "depth_chart_order": null,
             "search_rank": null
           },
-          "points": 0.0
+          "points": 8.0
         }
       ],
       "bench": [
@@ -7072,7 +7072,7 @@
         "roster_id": 2,
         "team_name": "Horsepower",
         "username": "MD1AZ",
-        "points": 47.0,
+        "points": 62.0,
         "lineup": [
           {
             "slot": "QB",
@@ -7157,7 +7157,7 @@
               "depth_chart_order": 1,
               "search_rank": 30
             },
-            "points": 0.0
+            "points": 3.9
           },
           {
             "slot": "TE",
@@ -7174,7 +7174,7 @@
               "depth_chart_order": 1,
               "search_rank": 89
             },
-            "points": 0.0
+            "points": 11.1
           },
           {
             "slot": "FLEX",
